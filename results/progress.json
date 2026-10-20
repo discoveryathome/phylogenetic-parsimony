@@ -1,0 +1,103 @@
+{
+  "fixed_alignments": 17,
+  "empirical_studies": 3,
+  "settled": 8,
+  "open": 9,
+  "paired_panels": [
+    {
+      "dataset": "cetaceans-mt-12",
+      "seeds": 20,
+      "cap": 600,
+      "nni_mean": 519.6,
+      "two_nni_mean": 497,
+      "two_nni_wins": 9,
+      "ties": 11,
+      "two_nni_losses": 0,
+      "target": 493,
+      "target_proven": false,
+      "nni_hits": 11,
+      "two_nni_hits": 18
+    },
+    {
+      "dataset": "ferula-nrdna-12",
+      "seeds": 20,
+      "cap": 600,
+      "nni_mean": 118.55,
+      "two_nni_mean": 99.55,
+      "two_nni_wins": 13,
+      "ties": 7,
+      "two_nni_losses": 0,
+      "target": 82,
+      "target_proven": true,
+      "nni_hits": 2,
+      "two_nni_hits": 7
+    },
+    {
+      "dataset": "phylip-dnapenny",
+      "seeds": 20,
+      "cap": 600,
+      "nni_mean": 11.55,
+      "two_nni_mean": 8.65,
+      "two_nni_wins": 17,
+      "ties": 3,
+      "two_nni_losses": 0,
+      "target": 8,
+      "target_proven": true,
+      "nni_hits": 0,
+      "two_nni_hits": 11
+    },
+    {
+      "dataset": "pythonidae-cytb-12",
+      "seeds": 20,
+      "cap": 600,
+      "nni_mean": 591.35,
+      "two_nni_mean": 587.05,
+      "two_nni_wins": 11,
+      "ties": 9,
+      "two_nni_losses": 0,
+      "target": 575,
+      "target_proven": false,
+      "nni_hits": 0,
+      "two_nni_hits": 0
+    }
+  ],
+  "ferula_comparison": [
+    {
+      "ntax": 6,
+      "raw_rf_distance": 4,
+      "nuclear_alignment": {
+        "nuclear_tree": 61,
+        "plastid_tree": 70
+      },
+      "plastid_alignment": {
+        "nuclear_tree": 29,
+        "plastid_tree": 27
+      }
+    },
+    {
+      "ntax": 12,
+      "raw_rf_distance": 16,
+      "nuclear_alignment": {
+        "nuclear_tree": 82,
+        "plastid_tree": 113
+      },
+      "plastid_alignment": {
+        "nuclear_tree": 47,
+        "plastid_tree": 39
+      }
+    },
+    {
+      "ntax": 24,
+      "raw_rf_distance": 38,
+      "nuclear_alignment": {
+        "nuclear_tree": 141,
+        "plastid_tree": 208
+      },
+      "plastid_alignment": {
+        "nuclear_tree": 128,
+        "plastid_tree": 104
+      }
+    }
+  ],
+  "caution": "Scores are comparable only within one alignment. RF is descriptive, not support. Lower parsimony score does not prove true evolutionary history. These are automated probes, not observed donor-session success rates."
+}

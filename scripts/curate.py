@@ -42,6 +42,13 @@ def build():
         provenance = f'data/{ident}-selection.json'
         output[provenance] = json.dumps(dict(taxa=keep,source_labels={n:mapping[n] for n in raw if mapping[n] in keep},source_columns_1based=[i+1 for i in sites],source_interval_1based=[733,1846],removed_columns=1114-len(sites)),indent=2)+'\n'
         rows.append(dict(id=ident,path=path,alphabet='DNA',profile=PROFILE,ntax=size,nchar=len(sites),source='sources/pythonidae.fasta',source_sha256=sha256(ROOT/'sources/pythonidae.fasta'),source_url=f'https://github.com/jeetsukumaran/DendroPy/blob/{revision}/tests/unittests/data/chars/pythonidae.chars.fasta',license='BSD-3-Clause',study_doi='10.1111/j.1095-8312.2007.00904.x',baseline_tree=baseline,published_score=None,published_scope='No published MP score for this derived alignment; source MLE topology is only a documented comparator',transformation='Sorted taxa at floor(i*33/n); CYTB 733..1846; complete-case column filtering',selection=provenance,kind='empirical-derived'))
+    from curate_expansion import expand
+    expand(ROOT,output,rows,seqs,source_tree)
+    for row in rows:
+        if 'source_group' not in row:
+            row['source_group']='phylip-tutorials' if row['kind']=='published-synthetic' else 'pythonidae-2008'
+            row['marker']='synthetic' if row['kind']=='published-synthetic' else 'mitochondrial-CYTB'
+            row['baseline_method']='published-tutorial' if row['kind']=='published-synthetic' else 'pruned-source-ML'
     import hashlib
     for row in rows: row['sha256'] = hashlib.sha256(output[row['path']].encode()).hexdigest()
     output['data/manifest.json'] = json.dumps(dict(schema='phylo-data/v1',datasets=rows),indent=2)+'\n'

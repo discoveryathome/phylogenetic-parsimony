@@ -10,5 +10,15 @@ x=int(seed[:8],16)%100
 for track in c['tracks']:
     if x<track['weight']:break
     x-=track['weight']
-card=track['tasks'][int(seed[8:16],16)%len(track['tasks'])]
-print(json.dumps(dict(seed=seed,priority_revision=c['priority_revision'],track=track['id'],task=card['id'],first_step=card['first_step'],status='local suggestion only; review paused'),indent=2))
+group=None
+tasks=track['tasks']
+if track['id']=='improved-trees':
+    cases={r['id']:r for r in json.loads((root/'data/manifest.json').read_text())['datasets']}
+    grouped={}
+    for task in tasks:
+        family=cases[task['id'].removeprefix('improve-')]['source_group']
+        grouped.setdefault(family,[]).append(task)
+    group=sorted(grouped)[int(seed[8:16],16)%len(grouped)]
+    tasks=grouped[group]
+card=tasks[int(seed[16:24],16)%len(tasks)]
+print(json.dumps(dict(seed=seed,priority_revision=c['priority_revision'],track=track['id'],study_group=group,task=card['id'],first_step=card['first_step'],status='local suggestion only; review paused'),indent=2))

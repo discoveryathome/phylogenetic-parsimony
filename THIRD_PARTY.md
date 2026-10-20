@@ -27,3 +27,24 @@ own terms. No software implementation from these projects is used by the scorer.
 All sources were retrieved 2026-10-20. `data/manifest.json` binds each alignment to
 its source and hash. Selection JSON files identify all original columns and labels.
 No claims of endorsement by source authors are made.
+
+## Expansion sources
+
+- `sources/cetaceans.nex` and derivatives: same pinned DendroPy BSD-3-Clause
+  distribution and retained license. Its header attributes the adapted fixture to
+  Milinkovitch, Meyer & Powell (1994), *Phylogeny of all major groups of cetaceans
+  based on DNA sequences from three mitochondrial genes*,
+  [DOI 10.1093/oxfordjournals.molbev.a040164](https://doi.org/10.1093/oxfordjournals.molbev.a040164).
+  The distributed 1,365-character fixture is not asserted to be the paper's exact
+  1,352-base analysis matrix. Our comparator is a deterministic Hamming-distance
+  neighbor-joining tree, not a published parsimony tree.
+- `sources/ferula-*`: Piwczyński et al., *Conflicting phylogenetic signals obscure
+  taxonomic position of Ferula heuffelii*, [RePoD dataset
+  10.18150/UZC2YR](https://doi.org/10.18150/UZC2YR), version 1.0, released
+  2025-06-26. Every downloaded file is unrestricted and explicitly CC0-1.0 in
+  `sources/ferula-metadata.json`. Download MD5s were checked against metadata;
+  SHA-256s are in the source index. Included: nuclear ETS/ITS and plastid matrices,
+  ML trees, partitions and README. Cite the original study,
+  [DOI 10.1093/botlinnean/boaf050](https://doi.org/10.1093/botlinnean/boaf050),
+  alongside the dataset. Each source matrix has 46 terminals. Curated subsets
+  and pruned comparators are newly derived instances.

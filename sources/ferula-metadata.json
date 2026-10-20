@@ -1,0 +1,1018 @@
+{
+  "status": "OK",
+  "code": 200,
+  "data": {
+    "id": 45612,
+    "identifier": "UZC2YR",
+    "persistentUrl": "https://doi.org/10.18150/UZC2YR",
+    "protocol": "doi",
+    "authority": "10.18150",
+    "publisher": "RepOD",
+    "publicationDate": "2025-06-26",
+    "storageIdentifier": "s3://10.18150/UZC2YR",
+    "hasActiveGuestbook": false,
+    "embargoActive": false,
+    "latestVersion": {
+      "id": 2633,
+      "storageIdentifier": "s3://10.18150/UZC2YR",
+      "versionNumber": 1,
+      "versionMinorNumber": 0,
+      "versionState": "RELEASED",
+      "lastUpdateTime": "2025-06-26T12:23:55Z",
+      "releaseTime": "2025-06-26T12:23:55Z",
+      "createTime": "2024-07-23T18:20:12Z",
+      "metadataBlocks": {
+        "citation": {
+          "displayName": "Citation Metadata",
+          "fields": [
+            {
+              "typeName": "title",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Conflicting phylogenetic signals obscure the taxonomic position of Ferula heuffelii (Apiaceae), a rare Southeast European endemic."
+            },
+            {
+              "typeName": "author",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Piwczy\u0144ski, Marcin"
+                  },
+                  "authorIdentifierScheme": {
+                    "typeName": "authorIdentifierScheme",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "ORCID"
+                  },
+                  "authorIdentifier": {
+                    "typeName": "authorIdentifier",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "0000-0002-1756-5580"
+                  },
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Nicolaus Copernicus University in Toru\u0144"
+                  },
+                  "authorAffiliationIdentifier": {
+                    "typeName": "authorAffiliationIdentifier",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://ror.org/0102mm775"
+                  }
+                },
+                {
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Dinka, Mergi Daba"
+                  },
+                  "authorIdentifierScheme": {
+                    "typeName": "authorIdentifierScheme",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "ORCID"
+                  },
+                  "authorIdentifier": {
+                    "typeName": "authorIdentifier",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "0000-0001-5780-9773"
+                  },
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Nicolaus Copernicus University in Toru\u0144"
+                  },
+                  "authorAffiliationIdentifier": {
+                    "typeName": "authorAffiliationIdentifier",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://ror.org/0102mm775"
+                  }
+                },
+                {
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Trzeciak, Paulina"
+                  },
+                  "authorIdentifierScheme": {
+                    "typeName": "authorIdentifierScheme",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "ORCID"
+                  },
+                  "authorIdentifier": {
+                    "typeName": "authorIdentifier",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "0000-0003-4508-6584"
+                  },
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Nicolaus Copernicus University in Toru\u0144"
+                  },
+                  "authorAffiliationIdentifier": {
+                    "typeName": "authorAffiliationIdentifier",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://ror.org/0102mm775"
+                  }
+                },
+                {
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Walczak, Kinga"
+                  },
+                  "authorIdentifierScheme": {
+                    "typeName": "authorIdentifierScheme",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "ORCID"
+                  },
+                  "authorIdentifier": {
+                    "typeName": "authorIdentifier",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "0000-0002-7413-9828"
+                  },
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Nicolaus Copernicus University in Toru\u0144"
+                  },
+                  "authorAffiliationIdentifier": {
+                    "typeName": "authorAffiliationIdentifier",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://ror.org/0102mm775"
+                  }
+                },
+                {
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Pucha\u0142ka, Rados\u0142aw"
+                  },
+                  "authorIdentifierScheme": {
+                    "typeName": "authorIdentifierScheme",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "ORCID"
+                  },
+                  "authorIdentifier": {
+                    "typeName": "authorIdentifier",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "0000-0002-4764-0705"
+                  },
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Nicolaus Copernicus University in Toru\u0144"
+                  },
+                  "authorAffiliationIdentifier": {
+                    "typeName": "authorAffiliationIdentifier",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://ror.org/0102mm775"
+                  }
+                },
+                {
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Soghigian, John"
+                  },
+                  "authorIdentifierScheme": {
+                    "typeName": "authorIdentifierScheme",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "ORCID"
+                  },
+                  "authorIdentifier": {
+                    "typeName": "authorIdentifier",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "0000-0003-4469-2072"
+                  },
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "University of Calgary"
+                  },
+                  "authorAffiliationIdentifier": {
+                    "typeName": "authorAffiliationIdentifier",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://ror.org/03yjb2x39"
+                  }
+                },
+                {
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Spalik, Krzysztof"
+                  },
+                  "authorIdentifierScheme": {
+                    "typeName": "authorIdentifierScheme",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "ORCID"
+                  },
+                  "authorIdentifier": {
+                    "typeName": "authorIdentifier",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "0000-0001-9603-6793"
+                  },
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "University of Warsaw"
+                  },
+                  "authorAffiliationIdentifier": {
+                    "typeName": "authorAffiliationIdentifier",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://ror.org/039bjqg32"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "datasetContact",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "datasetContactName": {
+                    "typeName": "datasetContactName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Piwczy\u0144ski, Marcin"
+                  },
+                  "datasetContactAffiliation": {
+                    "typeName": "datasetContactAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Nicolaus Copernicus University in Toru\u0144"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "dsDescription",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "dsDescriptionValue": {
+                    "typeName": "dsDescriptionValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "<p><strong>Conflicting phylogenetic signals obscure the taxonomic position of <em>Ferula heuffelii</em> (Apiaceae), a rare Southeast European endemic.</strong></p><p><br /></p><p>Marcin Piwczy\u0144ski, Mergi Daba Dinka, Paulina Trzeciak, Kinga Walczak, Rados\u0142aw Pucha\u0142ka, John Soghigian and Krzysztof Spalik</p><p><strong><em>Description of the data and file structure</em></strong></p><p>We provide alignments and trees for three datasets that allow for the reproduction of all phylogenetic analyses described in the manuscript:</p><p>1. ETS_ITS: These files contain the alignment of 42 species of Ferula and an outgroup of ETS&#43;ITS markers in Phylip format, along with the partition file. Additionally, two phylogenetic trees from maximum likelihood (RAxML) and Bayesian analyses (MrBayes) of this dataset are provided in Newick and Nexus formats, respectively. Optimal partitioning schemes and substitution models for these analyses were inferred with PartitionFinder, and the results are provided in Supporting Information, Table S2.</p><p>2. rpoC1_rpoB_trnC_rps16: These files contain the alignment of 42 species of Ferula and an outgroup of three plastid markers (rps16 and rpoC1 introns and the rpoB-trnC intergenic spacer) in Phylip format, along with the partition file. Similar to the ITS and ETS case, maximum likelihood and Bayesian trees are also provided. Optimal partitioning schemes and substitution models for these analyses were inferred with PartitionFinder, and the results are provided in Supporting Information, Table S2.</p><p>3. Plastome: These files contains three alignments in Phylip format with respective partition files\u2014proteins (comprising CDS), introns, and intergenic spacers. The corresponding phylogenetic trees from the analysis of these alignments are included. Additionally, the BI and ML trees from analyses of combined datasets (proteins&#43;introns&#43;intergenic spacers) are also included. Optimal partitioning schemes and substitution models for these analyses were inferred with PartitionFinder, and the results are provided in Supporting Information, Table S2.</p>"
+                  },
+                  "dsDescriptionDate": {
+                    "typeName": "dsDescriptionDate",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "2024-07-23"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "subject",
+              "multiple": true,
+              "typeClass": "controlledVocabulary",
+              "value": [
+                "Medicine, Health and Life Sciences"
+              ]
+            },
+            {
+              "typeName": "keyword",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "keywordValue": {
+                    "typeName": "keywordValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "phylogenetic analysis"
+                  }
+                },
+                {
+                  "keywordValue": {
+                    "typeName": "keywordValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "maximum likelihood"
+                  }
+                },
+                {
+                  "keywordValue": {
+                    "typeName": "keywordValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Bayesian analysis"
+                  }
+                },
+                {
+                  "keywordValue": {
+                    "typeName": "keywordValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "alignments"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "publication",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "publicationCitation": {
+                    "typeName": "publicationCitation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Piwczy\u0144ski Marcin, Mergi Daba Dinka, Paulina Trzeciak, Kinga Walczak, Rados\u0142aw Pucha\u0142ka, John Soghigian and Krzysztof Spalik. 2025. Conflicting phylogenetic signals obscure the taxonomic position of Ferula heuffelii (Apiaceae), a rare Southeast European endemic. Botanical Journal of the Linnean Society,  https://doi.org/10.1093/botlinnean/boaf050"
+                  },
+                  "publicationRelationType": {
+                    "typeName": "publicationRelationType",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "IsCitedBy"
+                  },
+                  "publicationIDType": {
+                    "typeName": "publicationIDType",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "doi"
+                  },
+                  "publicationIDNumber": {
+                    "typeName": "publicationIDNumber",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "10.1093/botlinnean/boaf050"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "grantNumber",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "grantNumberAgency": {
+                    "typeName": "grantNumberAgency",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "National Science Centre (Poland)"
+                  },
+                  "grantNumberAgencyShortName": {
+                    "typeName": "grantNumberAgencyShortName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "NCN"
+                  },
+                  "grantNumberAgencyIdentifier": {
+                    "typeName": "grantNumberAgencyIdentifier",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://ror.org/03ha2q922"
+                  },
+                  "grantNumberProgram": {
+                    "typeName": "grantNumberProgram",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "SONATA BIS"
+                  },
+                  "grantNumberValue": {
+                    "typeName": "grantNumberValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "2015/18/E/NZ8/00716"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "depositor",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Piwczy\u0144ski, Marcin"
+            },
+            {
+              "typeName": "dateOfDeposit",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "2024-07-23"
+            }
+          ]
+        }
+      },
+      "files": [
+        {
+          "description": "Partition file",
+          "label": "ETS_ITS_1.partition",
+          "restricted": false,
+          "termsOfUseType": "LICENSE_BASED",
+          "licenseName": "CC0 Creative Commons Zero 1.0 Waiver",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "version": 2,
+          "datasetVersionId": 2633,
+          "dataFile": {
+            "id": 45629,
+            "filename": "ETS_ITS_1.partition",
+            "contentType": "text/plain",
+            "filesize": 29,
+            "description": "Partition file",
+            "storageIdentifier": "s3://drodb-repod-prod:190e0d28e61-ec858543f0ce",
+            "rootDataFileId": -1,
+            "md5": "07fdd7c20f5593acc1b8a838cb485658",
+            "checksum": {
+              "type": "MD5",
+              "value": "07fdd7c20f5593acc1b8a838cb485658"
+            },
+            "processingMethod": "NON"
+          }
+        },
+        {
+          "description": "Alignment in Phylip format",
+          "label": "ETS_ITS_1.phy",
+          "restricted": false,
+          "termsOfUseType": "LICENSE_BASED",
+          "licenseName": "CC0 Creative Commons Zero 1.0 Waiver",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "version": 2,
+          "datasetVersionId": 2633,
+          "dataFile": {
+            "id": 45634,
+            "filename": "ETS_ITS_1.phy",
+            "contentType": "text/plain",
+            "filesize": 51224,
+            "description": "Alignment in Phylip format",
+            "storageIdentifier": "s3://drodb-repod-prod:190e0d28f02-45dfd2df1736",
+            "rootDataFileId": -1,
+            "md5": "f1e2ba8e9ae70de4acae32ddb5b38f42",
+            "checksum": {
+              "type": "MD5",
+              "value": "f1e2ba8e9ae70de4acae32ddb5b38f42"
+            },
+            "processingMethod": "NON"
+          }
+        },
+        {
+          "description": "Bayesian 50% majority rule consensus tree",
+          "label": "ETS_ITS_MrBayes_consensus.tre",
+          "restricted": false,
+          "termsOfUseType": "LICENSE_BASED",
+          "licenseName": "CC0 Creative Commons Zero 1.0 Waiver",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "version": 2,
+          "datasetVersionId": 2633,
+          "dataFile": {
+            "id": 45626,
+            "filename": "ETS_ITS_MrBayes_consensus.tre",
+            "contentType": "text/plain",
+            "filesize": 19771,
+            "description": "Bayesian 50% majority rule consensus tree",
+            "storageIdentifier": "s3://drodb-repod-prod:190e0d28f6d-e5347510e685",
+            "rootDataFileId": -1,
+            "md5": "91277d2bb4b6bd283a94991cf2d4ac70",
+            "checksum": {
+              "type": "MD5",
+              "value": "91277d2bb4b6bd283a94991cf2d4ac70"
+            },
+            "processingMethod": "NON"
+          }
+        },
+        {
+          "description": "Maximum likelihood tree with bootstrap values",
+          "label": "ETS_ITS_RAxML_bootstrap_1.tre",
+          "restricted": false,
+          "termsOfUseType": "LICENSE_BASED",
+          "licenseName": "CC0 Creative Commons Zero 1.0 Waiver",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "version": 2,
+          "datasetVersionId": 2633,
+          "dataFile": {
+            "id": 45616,
+            "filename": "ETS_ITS_RAxML_bootstrap_1.tre",
+            "contentType": "text/plain",
+            "filesize": 3274,
+            "description": "Maximum likelihood tree with bootstrap values",
+            "storageIdentifier": "s3://drodb-repod-prod:190e0d28fdc-912b6aba392a",
+            "rootDataFileId": -1,
+            "md5": "c88fbf64658fa3c0c6f56ac94281343f",
+            "checksum": {
+              "type": "MD5",
+              "value": "c88fbf64658fa3c0c6f56ac94281343f"
+            },
+            "processingMethod": "NON"
+          }
+        },
+        {
+          "description": "Bayesian 50% majority rule consensus tree",
+          "label": "Plastome_intergenic_introns_proteins_MrBayes_consensus.tre",
+          "restricted": false,
+          "termsOfUseType": "LICENSE_BASED",
+          "licenseName": "CC0 Creative Commons Zero 1.0 Waiver",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "version": 2,
+          "datasetVersionId": 2633,
+          "dataFile": {
+            "id": 45618,
+            "filename": "Plastome_intergenic_introns_proteins_MrBayes_consensus.tre",
+            "contentType": "text/plain",
+            "filesize": 22379,
+            "description": "Bayesian 50% majority rule consensus tree",
+            "storageIdentifier": "s3://drodb-repod-prod:190e0d291db-70bfe66659a7",
+            "rootDataFileId": -1,
+            "md5": "4ecea247050e7307ab4a059eed554ddb",
+            "checksum": {
+              "type": "MD5",
+              "value": "4ecea247050e7307ab4a059eed554ddb"
+            },
+            "processingMethod": "NON"
+          }
+        },
+        {
+          "description": "Maximum likelihood tree with bootstrap values",
+          "label": "Plastome_intergenic_introns_proteins_RAxML_bootstrap.tre",
+          "restricted": false,
+          "termsOfUseType": "LICENSE_BASED",
+          "licenseName": "CC0 Creative Commons Zero 1.0 Waiver",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "version": 2,
+          "datasetVersionId": 2633,
+          "dataFile": {
+            "id": 45614,
+            "filename": "Plastome_intergenic_introns_proteins_RAxML_bootstrap.tre",
+            "contentType": "text/plain",
+            "filesize": 3181,
+            "description": "Maximum likelihood tree with bootstrap values",
+            "storageIdentifier": "s3://drodb-repod-prod:190e0d29223-78b97c0a7c73",
+            "rootDataFileId": -1,
+            "md5": "bc4906d5e08bad6c6e42c96de52842d8",
+            "checksum": {
+              "type": "MD5",
+              "value": "bc4906d5e08bad6c6e42c96de52842d8"
+            },
+            "processingMethod": "NON"
+          }
+        },
+        {
+          "description": "Bayesian 50% majority rule consensus tree",
+          "label": "Plastome_intergenic_MrBayes_consensus.tre",
+          "restricted": false,
+          "termsOfUseType": "LICENSE_BASED",
+          "licenseName": "CC0 Creative Commons Zero 1.0 Waiver",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "version": 2,
+          "datasetVersionId": 2633,
+          "dataFile": {
+            "id": 45623,
+            "filename": "Plastome_intergenic_MrBayes_consensus.tre",
+            "contentType": "text/plain",
+            "filesize": 20636,
+            "description": "Bayesian 50% majority rule consensus tree",
+            "storageIdentifier": "s3://drodb-repod-prod:190e0d29295-85120ab69326",
+            "rootDataFileId": -1,
+            "md5": "8eecc85f9d21b53a2845ca21290c58cb",
+            "checksum": {
+              "type": "MD5",
+              "value": "8eecc85f9d21b53a2845ca21290c58cb"
+            },
+            "processingMethod": "NON"
+          }
+        },
+        {
+          "description": "Alignment in Phylip format",
+          "label": "Plastome_intergenic.phy",
+          "restricted": false,
+          "termsOfUseType": "LICENSE_BASED",
+          "licenseName": "CC0 Creative Commons Zero 1.0 Waiver",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "version": 2,
+          "datasetVersionId": 2633,
+          "dataFile": {
+            "id": 45621,
+            "filename": "Plastome_intergenic.phy",
+            "contentType": "text/plain",
+            "filesize": 709866,
+            "description": "Alignment in Phylip format",
+            "storageIdentifier": "s3://drodb-repod-prod:190e0d2917d-302915229ffc",
+            "rootDataFileId": -1,
+            "md5": "b8ab5762fa979b4bdd20f5a46d5c633b",
+            "checksum": {
+              "type": "MD5",
+              "value": "b8ab5762fa979b4bdd20f5a46d5c633b"
+            },
+            "processingMethod": "NON"
+          }
+        },
+        {
+          "description": "Maximum likelihood tree with bootstrap values",
+          "label": "Plastome_intergenic_RAxML_bootstrap.tre",
+          "restricted": false,
+          "termsOfUseType": "LICENSE_BASED",
+          "licenseName": "CC0 Creative Commons Zero 1.0 Waiver",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "version": 2,
+          "datasetVersionId": 2633,
+          "dataFile": {
+            "id": 45633,
+            "filename": "Plastome_intergenic_RAxML_bootstrap.tre",
+            "contentType": "text/plain",
+            "filesize": 3180,
+            "description": "Maximum likelihood tree with bootstrap values",
+            "storageIdentifier": "s3://drodb-repod-prod:190e0d292ff-6973cd5c3df2",
+            "rootDataFileId": -1,
+            "md5": "7cef7bdd1fa0023c30657368113ba1d0",
+            "checksum": {
+              "type": "MD5",
+              "value": "7cef7bdd1fa0023c30657368113ba1d0"
+            },
+            "processingMethod": "NON"
+          }
+        },
+        {
+          "description": "Partition file",
+          "label": "Plastome_intergenic_spacers.partition",
+          "restricted": false,
+          "termsOfUseType": "LICENSE_BASED",
+          "licenseName": "CC0 Creative Commons Zero 1.0 Waiver",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "version": 2,
+          "datasetVersionId": 2633,
+          "dataFile": {
+            "id": 45632,
+            "filename": "Plastome_intergenic_spacers.partition",
+            "contentType": "text/plain",
+            "filesize": 384,
+            "description": "Partition file",
+            "storageIdentifier": "s3://drodb-repod-prod:190e0d29367-1802b054e526",
+            "rootDataFileId": -1,
+            "md5": "3384e7c92d2cfe7798f2555d8b1a5098",
+            "checksum": {
+              "type": "MD5",
+              "value": "3384e7c92d2cfe7798f2555d8b1a5098"
+            },
+            "processingMethod": "NON"
+          }
+        },
+        {
+          "description": "Bayesian 50% majority rule consensus tree",
+          "label": "Plastome_introns_MrBayes_consensus.tre",
+          "restricted": false,
+          "termsOfUseType": "LICENSE_BASED",
+          "licenseName": "CC0 Creative Commons Zero 1.0 Waiver",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "version": 2,
+          "datasetVersionId": 2633,
+          "dataFile": {
+            "id": 45630,
+            "filename": "Plastome_introns_MrBayes_consensus.tre",
+            "contentType": "text/plain",
+            "filesize": 20622,
+            "description": "Bayesian 50% majority rule consensus tree",
+            "storageIdentifier": "s3://drodb-repod-prod:190e0d2947c-204269821cdd",
+            "rootDataFileId": -1,
+            "md5": "d1835beb6ba0ece3eba48daada6ba177",
+            "checksum": {
+              "type": "MD5",
+              "value": "d1835beb6ba0ece3eba48daada6ba177"
+            },
+            "processingMethod": "NON"
+          }
+        },
+        {
+          "description": "Partition file",
+          "label": "Plastome_introns.partition",
+          "restricted": false,
+          "termsOfUseType": "LICENSE_BASED",
+          "licenseName": "CC0 Creative Commons Zero 1.0 Waiver",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "version": 2,
+          "datasetVersionId": 2633,
+          "dataFile": {
+            "id": 45622,
+            "filename": "Plastome_introns.partition",
+            "contentType": "text/plain",
+            "filesize": 302,
+            "description": "Partition file",
+            "storageIdentifier": "s3://drodb-repod-prod:190e0d293d7-76f5345eea91",
+            "rootDataFileId": -1,
+            "md5": "e1f5e6cebd04007dcc698590a9f593b8",
+            "checksum": {
+              "type": "MD5",
+              "value": "e1f5e6cebd04007dcc698590a9f593b8"
+            },
+            "processingMethod": "NON"
+          }
+        },
+        {
+          "description": "Alignment in Phylip format",
+          "label": "Plastome_introns.phy",
+          "restricted": false,
+          "termsOfUseType": "LICENSE_BASED",
+          "licenseName": "CC0 Creative Commons Zero 1.0 Waiver",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "version": 2,
+          "datasetVersionId": 2633,
+          "dataFile": {
+            "id": 45613,
+            "filename": "Plastome_introns.phy",
+            "contentType": "text/plain",
+            "filesize": 400703,
+            "description": "Alignment in Phylip format",
+            "storageIdentifier": "s3://drodb-repod-prod:190e0d29403-2dee3d4bb32e",
+            "rootDataFileId": -1,
+            "md5": "73a1178b3fe28e8215a28fc68a01b55b",
+            "checksum": {
+              "type": "MD5",
+              "value": "73a1178b3fe28e8215a28fc68a01b55b"
+            },
+            "processingMethod": "NON"
+          }
+        },
+        {
+          "description": "Maximum likelihood tree with bootstrap values",
+          "label": "Plastome_introns_RAxML_bootstrap.tre",
+          "restricted": false,
+          "termsOfUseType": "LICENSE_BASED",
+          "licenseName": "CC0 Creative Commons Zero 1.0 Waiver",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "version": 2,
+          "datasetVersionId": 2633,
+          "dataFile": {
+            "id": 45615,
+            "filename": "Plastome_introns_RAxML_bootstrap.tre",
+            "contentType": "text/plain",
+            "filesize": 3164,
+            "description": "Maximum likelihood tree with bootstrap values",
+            "storageIdentifier": "s3://drodb-repod-prod:190e0d294fb-de53d61c0b58",
+            "rootDataFileId": -1,
+            "md5": "85b880b3dedf1ade4dc30940b1a6710f",
+            "checksum": {
+              "type": "MD5",
+              "value": "85b880b3dedf1ade4dc30940b1a6710f"
+            },
+            "processingMethod": "NON"
+          }
+        },
+        {
+          "description": "Bayesian 50% majority rule consensus tree",
+          "label": "Plastome_proteins_MrBayes_consensus.tre",
+          "restricted": false,
+          "termsOfUseType": "LICENSE_BASED",
+          "licenseName": "CC0 Creative Commons Zero 1.0 Waiver",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "version": 2,
+          "datasetVersionId": 2633,
+          "dataFile": {
+            "id": 45628,
+            "filename": "Plastome_proteins_MrBayes_consensus.tre",
+            "contentType": "text/plain",
+            "filesize": 22130,
+            "description": "Bayesian 50% majority rule consensus tree",
+            "storageIdentifier": "s3://drodb-repod-prod:190e0d2966a-f0170f2dd4ec",
+            "rootDataFileId": -1,
+            "md5": "ef220defc6570c1445d638a5228e26b8",
+            "checksum": {
+              "type": "MD5",
+              "value": "ef220defc6570c1445d638a5228e26b8"
+            },
+            "processingMethod": "NON"
+          }
+        },
+        {
+          "description": "Partition file",
+          "label": "Plastome_proteins.partition",
+          "restricted": false,
+          "termsOfUseType": "LICENSE_BASED",
+          "licenseName": "CC0 Creative Commons Zero 1.0 Waiver",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "version": 2,
+          "datasetVersionId": 2633,
+          "dataFile": {
+            "id": 45617,
+            "filename": "Plastome_proteins.partition",
+            "contentType": "text/plain",
+            "filesize": 100,
+            "description": "Partition file",
+            "storageIdentifier": "s3://drodb-repod-prod:190e0d29551-655e577cee25",
+            "rootDataFileId": -1,
+            "md5": "7fef3e4da520aa5840d38190d8723119",
+            "checksum": {
+              "type": "MD5",
+              "value": "7fef3e4da520aa5840d38190d8723119"
+            },
+            "processingMethod": "NON"
+          }
+        },
+        {
+          "description": "Alignment in Phylip format",
+          "label": "Plastome_proteins.phy",
+          "restricted": false,
+          "termsOfUseType": "LICENSE_BASED",
+          "licenseName": "CC0 Creative Commons Zero 1.0 Waiver",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "version": 2,
+          "datasetVersionId": 2633,
+          "dataFile": {
+            "id": 45620,
+            "filename": "Plastome_proteins.phy",
+            "contentType": "text/plain",
+            "filesize": 2351058,
+            "description": "Alignment in Phylip format",
+            "storageIdentifier": "s3://drodb-repod-prod:190e0d295c7-a1a30d2cb6b2",
+            "rootDataFileId": -1,
+            "md5": "a5b1b99c7c10719edf08c8cf71560b91",
+            "checksum": {
+              "type": "MD5",
+              "value": "a5b1b99c7c10719edf08c8cf71560b91"
+            },
+            "processingMethod": "NON"
+          }
+        },
+        {
+          "description": "Maximum likelihood tree with bootstrap values",
+          "label": "Plastome_proteins_RAxML_bootstrap.tre",
+          "restricted": false,
+          "termsOfUseType": "LICENSE_BASED",
+          "licenseName": "CC0 Creative Commons Zero 1.0 Waiver",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "version": 2,
+          "datasetVersionId": 2633,
+          "dataFile": {
+            "id": 45625,
+            "filename": "Plastome_proteins_RAxML_bootstrap.tre",
+            "contentType": "text/plain",
+            "filesize": 3177,
+            "description": "Maximum likelihood tree with bootstrap values",
+            "storageIdentifier": "s3://drodb-repod-prod:190e0d296d2-c7391fe73027",
+            "rootDataFileId": -1,
+            "md5": "27ea6d9f654d857686c9a4708660c6b0",
+            "checksum": {
+              "type": "MD5",
+              "value": "27ea6d9f654d857686c9a4708660c6b0"
+            },
+            "processingMethod": "NON"
+          }
+        },
+        {
+          "label": "README.txt",
+          "restricted": false,
+          "termsOfUseType": "LICENSE_BASED",
+          "licenseName": "CC0 Creative Commons Zero 1.0 Waiver",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "version": 2,
+          "datasetVersionId": 2633,
+          "dataFile": {
+            "id": 75334,
+            "filename": "README.txt",
+            "contentType": "text/plain",
+            "filesize": 1740,
+            "storageIdentifier": "s3://drodb-repod-prod:197ac27029b-eb3d8542ce85",
+            "rootDataFileId": -1,
+            "md5": "9456e4317110d0a96aef79698d9631e0",
+            "checksum": {
+              "type": "MD5",
+              "value": "9456e4317110d0a96aef79698d9631e0"
+            },
+            "processingMethod": "NON"
+          }
+        },
+        {
+          "description": "Bayesian 50% majority rule consensus tree",
+          "label": "rpoC1_rpoB_trnC_rps16_MrBayes_consensus.tre",
+          "restricted": false,
+          "termsOfUseType": "LICENSE_BASED",
+          "licenseName": "CC0 Creative Commons Zero 1.0 Waiver",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "version": 2,
+          "datasetVersionId": 2633,
+          "dataFile": {
+            "id": 45631,
+            "filename": "rpoC1_rpoB_trnC_rps16_MrBayes_consensus.tre",
+            "contentType": "text/plain",
+            "filesize": 18759,
+            "description": "Bayesian 50% majority rule consensus tree",
+            "storageIdentifier": "s3://drodb-repod-prod:190e0d290b8-dc890d0a60f2",
+            "rootDataFileId": -1,
+            "md5": "cd806216d733faba71c0d3ece7d47cd3",
+            "checksum": {
+              "type": "MD5",
+              "value": "cd806216d733faba71c0d3ece7d47cd3"
+            },
+            "processingMethod": "NON"
+          }
+        },
+        {
+          "description": "Partition file",
+          "label": "rpoC1_rpoB_trnC_rps16.partition",
+          "restricted": false,
+          "termsOfUseType": "LICENSE_BASED",
+          "licenseName": "CC0 Creative Commons Zero 1.0 Waiver",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "version": 2,
+          "datasetVersionId": 2633,
+          "dataFile": {
+            "id": 45619,
+            "filename": "rpoC1_rpoB_trnC_rps16.partition",
+            "contentType": "text/plain",
+            "filesize": 52,
+            "description": "Partition file",
+            "storageIdentifier": "s3://drodb-repod-prod:190e0d29024-9b2c6b8331d7",
+            "rootDataFileId": -1,
+            "md5": "83cd45efacbd61bcfa00085d23f9a849",
+            "checksum": {
+              "type": "MD5",
+              "value": "83cd45efacbd61bcfa00085d23f9a849"
+            },
+            "processingMethod": "NON"
+          }
+        },
+        {
+          "description": "Alignment in Phylip format",
+          "label": "rpoC1_rpoB_trnC_rps16.phy",
+          "restricted": false,
+          "termsOfUseType": "LICENSE_BASED",
+          "licenseName": "CC0 Creative Commons Zero 1.0 Waiver",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "version": 2,
+          "datasetVersionId": 2633,
+          "dataFile": {
+            "id": 45627,
+            "filename": "rpoC1_rpoB_trnC_rps16.phy",
+            "contentType": "text/plain",
+            "filesize": 150952,
+            "description": "Alignment in Phylip format",
+            "storageIdentifier": "s3://drodb-repod-prod:190e0d29074-b5c8f29b98ba",
+            "rootDataFileId": -1,
+            "md5": "1e2f891c82bee75895525b4312901998",
+            "checksum": {
+              "type": "MD5",
+              "value": "1e2f891c82bee75895525b4312901998"
+            },
+            "processingMethod": "NON"
+          }
+        },
+        {
+          "description": "Maximum likelihood tree with bootstrap values",
+          "label": "rpoC1_rpoB_trnC_rps16_RAxML_bootstrap.tre",
+          "restricted": false,
+          "termsOfUseType": "LICENSE_BASED",
+          "licenseName": "CC0 Creative Commons Zero 1.0 Waiver",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "version": 2,
+          "datasetVersionId": 2633,
+          "dataFile": {
+            "id": 45624,
+            "filename": "rpoC1_rpoB_trnC_rps16_RAxML_bootstrap.tre",
+            "contentType": "text/plain",
+            "filesize": 3274,
+            "description": "Maximum likelihood tree with bootstrap values",
+            "storageIdentifier": "s3://drodb-repod-prod:190e0d2911d-94f357264dbf",
+            "rootDataFileId": -1,
+            "md5": "4c1f1a6a02f485fe0a128890cf4f217f",
+            "checksum": {
+              "type": "MD5",
+              "value": "4c1f1a6a02f485fe0a128890cf4f217f"
+            },
+            "processingMethod": "NON"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -28,5 +28,8 @@ def report(dataset):
     frontier=next(r for r in json.loads((ROOT/'discover/frontier-rows.json').read_text()) if r['dataset']==dataset)
     best=parse((ROOT/frontier['tree']).read_text(),a)
     b,s=sankoff(baseline,a),sankoff(best,a)
-    return dict(dataset=dataset,baseline_score=sum(b),best_score=sum(s),raw_rf_distance=len(splits(baseline)^splits(best)),sites_improved=sum(x<y for x,y in zip(s,b)),sites_worsened=sum(x>y for x,y in zip(s,b)),sites_tied=sum(x==y for x,y in zip(s,b)),caution='Lower parsimony score does not prove true evolutionary history. This is a filtered mitochondrial gene alignment; no support probabilities or species-tree inference follow.')
+    selection_path=ROOT/f'data/{dataset}-selection.json'
+    selection=json.loads(selection_path.read_text()) if selection_path.exists() else {}
+    coordinates=selection.get('source_columns_1based',list(range(1,len(b)+1)))
+    return dict(dataset=dataset,baseline_score=sum(b),best_score=sum(s),raw_rf_distance=len(splits(baseline)^splits(best)),sites_improved=sum(x<y for x,y in zip(s,b)),sites_worsened=sum(x>y for x,y in zip(s,b)),sites_tied=sum(x==y for x,y in zip(s,b)),changed_sites=[dict(alignment_column=i+1,source_column=coordinates[i],baseline=x,best=y) for i,(x,y) in enumerate(zip(b,s)) if x!=y],caution='Lower parsimony score does not prove true evolutionary history. These filtered characters do not establish species history, branch support, ancestral direction, or a unique optimum.')
 if __name__=='__main__':print(json.dumps(report(sys.argv[1]),indent=2))

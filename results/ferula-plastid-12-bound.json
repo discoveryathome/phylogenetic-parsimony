@@ -1,0 +1,15 @@
+{
+  "schema": "phylo-incompatible-pairs/v1",
+  "seed": 0,
+  "pairs_1based": [
+    [
+      1808,
+      2855
+    ]
+  ],
+  "base_bound": 38,
+  "bound": 39,
+  "dataset": "ferula-plastid-12",
+  "alignment_sha256": "2e993f5f0d11de98611cab432f7d990b88fcc00c82b05fb24a7031b5e44980bc",
+  "profile": "unordered-unit-strict-v1"
+}

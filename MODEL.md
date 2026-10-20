@@ -50,3 +50,37 @@ with matching counts can establish optima. Exhaustive CLI refuses n>8.
 A lower parsimony score does not prove that a tree reflects the true evolutionary
 history. Homoplasy, long-branch attraction, alignment uncertainty and model
 misspecification can matter; mitochondrial gene trees need not be species trees.
+
+## Independently checked pair bounds
+
+Two biallelic columns exhibiting all four combinations of their states cannot
+both have score one on a tree: score one induces an edge split, and two edge splits
+cannot cross in all four intersections. Each column costs at least one, so their
+joint score is at least three. Disjoint such pairs raise the sum-of-distinct-states
+lower bound by one per pair. Columns must not be reused. This argument is
+independent of how the pairs were found.
+
+`bounds.py` generates pairs using bit masks and greedy seeded matching. Its checker
+uses direct character sets and checks all four combinations, biallelic states,
+disjointness, indices and arithmetic. The CLI also checks dataset/hash/profile.
+The initial certificate is the best of seeds 0..19; no maximum-matching claim is
+made. Improving matching or proving stronger site-set bounds is useful progress.
+A bound meeting a witnessed score settles that row. A wide gap does not imply
+that a better tree exists.
+
+## Expansion curation
+
+The original five alignments remain byte-for-byte fixed. New alignments first
+exclude taxa with fewer than 80% fully specified nucleotides in the chosen source
+window (both source matrices for paired Ferula rows), select evenly spaced sorted
+eligible taxa, then retain complete-case
+columns. This is an engineering choice, not biological representativeness. The
+additional full eligible CYTB row has 29 taxa; four source taxa fail coverage.
+It is a different alignment from the old 24-taxon row, not an extension on which
+raw scores can be compared.
+
+Source lowercase is explicitly uppercased. NEXUS match characters are expanded
+relative to the first sequence only in the archival importer. Numeric support
+labels are stripped from source ML trees before pruning; candidate syntax remains
+unchanged. Every selected source column and excluded taxon is recorded. Source
+formats are narrowly parsed, not a general-purpose alignment importer.

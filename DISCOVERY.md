@@ -10,7 +10,7 @@ No donor launcher, public repository or hub application is authorized.
 Read MODEL.md for all character and tree semantics, LITERATURE.md for the evidence
 brief, and data/manifest.json plus THIRD_PARTY.md for provenance and redistribution.
 The literature audit verifies the tutorial scores 19 and 8. Our exhaustive controls
-also settle the six-taxon empirical subset. Larger incumbents are local upper
+also settle the six-taxon empirical subsets. Larger incumbents are local upper
 bounds, not literature records. `discover/frontier-rows.json` is authoritative.
 
 ## Bottleneck and research tracks
@@ -20,13 +20,14 @@ is the research bottleneck. Score ties can conceal very different trees. NNI mis
 the published eight-taxon optimum from the shipped random starts; more compute on
 the same strict-descent path is not a guarantee of improvement.
 
-- Improved trees (30%): search the open 12- and 24-taxon rows, keep exact witnesses.
-- Better heuristics (30%): add plateau handling, SPR or a ratchet; compare paired
-  seeds and equal evaluation budgets, report all runs and success rates.
-- Verifier audits (25%): attack parser and graph checks, independently cross-check
-  the scoring recurrence and exact enumeration; expand safe counterexample tests.
-- Biological interpretation (15%): explain alternative splits and site conflicts,
-  filtering and gene-tree limitations; do not equate a smaller score with truth.
+- Improved trees (30%): search open rows across three empirical studies; keep exact witnesses.
+- Better heuristics (25%): compare plateau handling, SPR or a ratchet with both NNI
+  baselines using paired seeds and equal caps; report failures as well as wins.
+- Stronger bounds (20%): improve disjoint incompatible-column pair certificates,
+  or propose stronger bounds with a proof and independently tested checker.
+- Verifier audits (15%): attack parser, graph, score and bound acceptance checks.
+- Biological interpretation (10%): compare matched-taxon nuclear/plastid trees,
+  source-coordinate site changes and ties without equating score with truth.
 
 The concrete cards, first-step commands and acceptance gates are in
 `discover/catalog.json`; weights and revision policy are in `discover/priority-log.md`.
@@ -76,3 +77,32 @@ yet endorsed this pilot.
 Lower parsimony score does not prove that a tree reflects the true evolutionary
 history. The fixed-alignment objective does not resolve alignment uncertainty,
 long-branch attraction, gene/species-tree differences or statistical support.
+
+## Launch progression and honest progress
+
+The collection has 17 immutable alignment rows across three empirical studies,
+plus published tutorial controls. Subsets from one study are not independent
+replicates. The picker balances studies within the improved-tree track; settled
+rows are reserved for verifier or heuristic controls, never advertised as beatable.
+
+A first session should reproduce a control, make one bounded experiment, verify
+its output, and leave an exact receipt. Useful accepted results include a better
+witness, a stronger bound, improved all-seed heuristic performance, a minimized
+verifier bug, or a careful mapped analysis. Merely rerunning a known result is
+onboarding evidence, not a new discovery. Raw scores cannot be summed across rows
+as a scientific measure; show row-specific changes, closed gaps, and accepted
+artifacts separately. No known improvements are withheld to manufacture wins.
+
+`results/expansion-benchmark.json` contains predeclared seeds 0..19 on four panels,
+plus smaller probes elsewhere, and source-start runs. These automated probes
+show attainable changes from the old baselines. They do not estimate the chance
+of improving the newly updated frontier in a donated 30–60 minute agent session.
+Before a public launch, run a small supervised contributor trial against a frozen
+commit and measure verified useful outcomes, time to first result, review effort,
+and failures. Do not promise every session a new lower tree score.
+
+To deepen the work: compare an established parsimony package on the same inputs;
+add SPR/plateau search and held-out seed/study evaluation; improve certified
+bounds; examine tied trees and partition-specific conflict. These are separate
+research claims with separate evidence gates. New ambiguity or gap semantics,
+or new column selections, require new profiles/rows, never a silent score change.

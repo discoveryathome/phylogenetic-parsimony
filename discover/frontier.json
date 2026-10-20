@@ -1,7 +1,7 @@
 {
   "schema": "discover-frontier/v0",
-  "statement": "Exact scores of witnessed binary unrooted trees for five fixed nucleotide alignments; global optimality only for exhaustively settled rows.",
-  "status": "LOCAL proposal; author-checked, review paused, two open empirical rows",
+  "statement": "Exact scores of witnessed binary unrooted trees for 17 fixed nucleotide alignments; eight optima certified by exhaustion or matching lower bounds.",
+  "status": "LOCAL proposal; author-checked, review paused, nine open empirical rows",
   "evidence_level": [
     "author-checked"
   ],
@@ -39,7 +39,10 @@
     "data/manifest.json",
     "results/benchmark.json",
     "https://phylipweb.github.io/phylip/doc/dnapars.html",
-    "https://phylipweb.github.io/phylip/doc/dnapenny.html"
+    "https://phylipweb.github.io/phylip/doc/dnapenny.html",
+    "results/expansion-benchmark.json",
+    "results/progress.json",
+    "https://doi.org/10.18150/UZC2YR"
   ],
   "assumptions": [
     {
@@ -51,7 +54,7 @@
   ],
   "reproduce": "python3 scripts/check.py",
   "reproduce_full": "python3 scripts/check.py && python3 scripts/replay_search.py",
-  "reproduce_minutes": 1,
+  "reproduce_minutes": 3,
   "prerequisites": [
     "Python 3.10+; standard library only"
   ]

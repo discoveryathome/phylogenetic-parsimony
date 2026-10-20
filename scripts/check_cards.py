@@ -13,12 +13,14 @@ for track in c['tracks']:
         if result.returncode:raise SystemExit('FAIL '+card['id'])
         if card['id'].startswith('improve-'):
             parsed=json.loads(result.stdout)
-            expected=579 if card['id']=='improve-12' else 990
+            expected=int(argv[argv.index('--claim')+1])
             if not parsed['valid'] or parsed['score']!=expected:raise SystemExit('Wrong positive control score')
-        elif card['id']=='escape-plateaus':
-            if json.loads(result.stdout)['score']!=9:raise SystemExit('Failure case changed')
-        elif card['id']=='interpret-12':
+        elif card['id']=='bound-pairs':
+            parsed=json.loads(result.stdout)
+            cert=json.loads((ROOT/argv[-1]).read_text())
+            if not parsed['valid'] or parsed['bound']!=cert['bound']:raise SystemExit('Wrong bound control')
+        elif card['id'] in ('paired-heuristics','interpret-ferula'):
             report=json.loads(result.stdout)
-            if (report['baseline_score'],report['best_score'])!=(591,579):raise SystemExit('Interpretation control changed')
+            if len(report['paired_panels'])!=4 or len(report['ferula_comparison'])!=3:raise SystemExit('Incomplete progress controls')
         print('PASS',card['id'],flush=True)
 print('PASS: every catalog first_step and expected positive control')

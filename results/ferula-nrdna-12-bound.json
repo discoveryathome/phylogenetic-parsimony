@@ -1,0 +1,31 @@
+{
+  "schema": "phylo-incompatible-pairs/v1",
+  "seed": 1,
+  "pairs_1based": [
+    [
+      303,
+      516
+    ],
+    [
+      175,
+      1032
+    ],
+    [
+      143,
+      221
+    ],
+    [
+      586,
+      31
+    ],
+    [
+      622,
+      255
+    ]
+  ],
+  "base_bound": 77,
+  "bound": 82,
+  "dataset": "ferula-nrdna-12",
+  "alignment_sha256": "7164789276ee0eb7c24c8a4a650f4ed29485220ab521e2d6e4e1b8631316f215",
+  "profile": "unordered-unit-strict-v1"
+}

@@ -5,6 +5,7 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'src'))
 from phylo.alignment import load_dataset,sha256,PROFILE
 from phylo.tree import parse,enumerate_trees,newick
 from phylo.scoring import sankoff,lower_bound
+from phylo.bounds import verify_paired_bound
 ROOT=Path(__file__).resolve().parents[1]
 
 def require(condition,message):
@@ -21,6 +22,7 @@ def main():
     keys=[(r['dataset'],r['alignment_sha256'],r['profile']) for r in rows]
     require(len(keys)==len(set(keys)),'duplicate frontier key')
     benchmarks=json.loads((ROOT/'results/benchmark.json').read_text())['records']
+    benchmarks+=json.loads((ROOT/'results/expansion-benchmark.json').read_text())['records']
     for r in rows:
         case,a=load_dataset(ROOT,r['dataset'])
         require(r['alignment_sha256']==case['sha256'] and r['profile']==PROFILE,'row identity mismatch')
@@ -43,6 +45,10 @@ def main():
                 record=json.loads((ROOT/r['bound_evidence']).read_text())
                 require(record['trees']==math.prod(range(1,2*len(a)-4,2)),'incomplete enumeration')
                 require(record['score']==case['published_score']==r['lower_bound'],'wrong tutorial bound')
+        elif r['bound_method']=='incompatible-pairs':
+            certificate=json.loads((ROOT/r['bound_evidence']).read_text())
+            require(certificate['dataset']==r['dataset'] and certificate['alignment_sha256']==case['sha256'] and certificate['profile']==PROFILE,'bound identity mismatch')
+            require(verify_paired_bound(a,certificate)==r['lower_bound'],'pair bound mismatch')
         else:require(r['lower_bound']==lower_bound(a),'lower bound mismatch')
         require(r['lower_bound']<=r['score'],'score below lower bound')
         for b in [b for b in benchmarks if b['dataset']==r['dataset']]:

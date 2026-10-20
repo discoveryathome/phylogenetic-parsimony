@@ -88,5 +88,59 @@
     "url": "https://discoveryathome.org/v0/start.md",
     "retrieved_on": "2026-10-20",
     "sha256": "82ea68344c7a03dab33d76264b16dacdc483924a8d7770461ce0873b116b4849"
+  },
+  {
+    "path": "sources/cetaceans.nex",
+    "url": "https://raw.githubusercontent.com/jeetsukumaran/DendroPy/b7fc4fd9c70c86a44e10650b3fb9b3be86e9dc77/tests/unittests/data/chars/cetaceans.nex",
+    "retrieved_on": "2026-10-20",
+    "sha256": "49ff61a5f0d3b5c171807b3e6bdd521e933b538d2120e22a4c8ca2e2ac5626ee"
+  },
+  {
+    "path": "sources/ferula-ETS_ITS.phy",
+    "url": "https://repod.icm.edu.pl/api/access/datafile/45634",
+    "retrieved_on": "2026-10-20",
+    "sha256": "a19ce80235a57285fca31e4dccafc26ebb1e11924ffbd61599cf8c14231e0ee0"
+  },
+  {
+    "path": "sources/ferula-ETS_ITS-ML.nwk",
+    "url": "https://repod.icm.edu.pl/api/access/datafile/45616",
+    "retrieved_on": "2026-10-20",
+    "sha256": "67c7348460377fe23a40c3e99b955d176a8044dfb9de63a80f3e777a18d04be8"
+  },
+  {
+    "path": "sources/ferula-ETS_ITS.partition",
+    "url": "https://repod.icm.edu.pl/api/access/datafile/45629",
+    "retrieved_on": "2026-10-20",
+    "sha256": "37d31078a916a0192a4f81a12ee94beeedb3a257cd5db8c7956cbc0f64d9cfcd"
+  },
+  {
+    "path": "sources/ferula-plastid.phy",
+    "url": "https://repod.icm.edu.pl/api/access/datafile/45627",
+    "retrieved_on": "2026-10-20",
+    "sha256": "6fa663b6405bffb9076cad1f0dfeb6e1f31d91624a55bbd121de717158f9bfe1"
+  },
+  {
+    "path": "sources/ferula-plastid-ML.nwk",
+    "url": "https://repod.icm.edu.pl/api/access/datafile/45624",
+    "retrieved_on": "2026-10-20",
+    "sha256": "d7bf4a0782f0a3f04c41b4210d6dd8412b83b894842f1de8850aebc73c0a7f9e"
+  },
+  {
+    "path": "sources/ferula-plastid.partition",
+    "url": "https://repod.icm.edu.pl/api/access/datafile/45619",
+    "retrieved_on": "2026-10-20",
+    "sha256": "d3e054aaee1d0b4ee046733c0e554c47cbae7a69f096699312845cc565807bfb"
+  },
+  {
+    "path": "sources/ferula-README.txt",
+    "url": "https://repod.icm.edu.pl/api/access/datafile/75334",
+    "retrieved_on": "2026-10-20",
+    "sha256": "b1af1421d08f1838c59fce2ed00b2ede6d56fc219b6e8f9de72f77402acd98e5"
+  },
+  {
+    "path": "sources/ferula-metadata.json",
+    "url": "https://repod.icm.edu.pl/api/datasets/:persistentId/?persistentId=doi:10.18150/UZC2YR",
+    "retrieved_on": "2026-10-20",
+    "sha256": "3bd73bf328951f37d922eb80489870e65b612587d43cdaf971ef6fef5d67323c"
   }
 ]

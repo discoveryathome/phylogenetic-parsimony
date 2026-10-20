@@ -20,8 +20,8 @@ are three separate claims.
 The strongest **established** values for the tutorial rows are the published optima
 above; those rows are validation controls, not improvement targets. For the new
 empirical rows, `discover/frontier-rows.json` contains local incumbents and safe
-lower bounds, never world-record claims. The six-taxon row is settled by complete
-enumeration; the 12- and 24-taxon rows need further search or stronger bounds.
+lower bounds, never world-record claims. The six-taxon rows are settled by complete
+enumeration; larger rows need further search or stronger bounds.
 
 ## Public resources considered
 
@@ -34,7 +34,7 @@ enumeration; the 12- and 24-taxon rows need further search or stronger bounds.
   admitted under its repository BSD-3-Clause license, retained locally. The fixture
   explicitly attributes the data to Rawlings, Rabosky, Donnellan & Hutchinson
   (2008), [Python phylogenetics](https://doi.org/10.1111/j.1095-8312.2007.00904.x).
-  Thirty-three snake taxa, 2,716 source characters. We use three modest CYTB
+  Thirty-three snake taxa, 2,716 source characters. We use four CYTB subsets plus 12S and 16S
   subsets, retain exact coordinates, and compare to the source MLE topology.
 - [BenchmarkAlignments](https://github.com/roblanf/BenchmarkAlignments): useful
   broader collection; the maintainers identify CC0 or CC BY data and provide
@@ -55,7 +55,7 @@ enumeration; the 12- and 24-taxon rows need further search or stronger bounds.
   sequences is outside this pilot's fixed-alignment objective.
 
 The initial collection excludes humans, clinical samples, pathogen surveillance,
-private data and locality metadata. Only tutorial sequences and public snake
+private data and locality metadata. Only tutorial sequences and public non-human animal/plant
 sequence fixtures are included. This is computational work with existing data.
 
 ## Supported research directions and settled scope
@@ -78,3 +78,36 @@ root location and does not supply bootstrap confidence.
 Research audit date: 2026-10-20. The cited literature establishes methods and
 specific tutorial scores; it is not an exhaustive survey proving no better
 heuristic exists in 2026.
+
+## Expansion audit and biological depth
+
+The expansion adds the BSD-licensed [DendroPy cetacean fixture](https://github.com/jeetsukumaran/DendroPy/blob/b7fc4fd9c70c86a44e10650b3fb9b3be86e9dc77/tests/unittests/data/chars/cetaceans.nex)
+and the per-file CC0 [Ferula repository](https://doi.org/10.18150/UZC2YR).
+Source snapshots, accession-independent hashes, exact column maps, license evidence
+and source-study DOIs are retained. See THIRD_PARTY.md for the adapted cetacean
+matrix caveat and Ferula release identity. No published MP record is claimed for
+these new derived matrices. Local neighbor joining follows the topology construction
+of [Saitou & Nei (1987)](https://doi.org/10.1093/oxfordjournals.molbev.a040454), using
+uncorrected Hamming distances, exact rational arithmetic and deterministic ties.
+
+Ferula provides nuclear ETS/ITS and plastid markers on the same selected taxa.
+Its [source study](https://doi.org/10.1093/botlinnean/boaf050) specifically examines
+conflicting phylogenetic signals. `scripts/progress.py` compares current tree splits
+and cross-scores both trees separately on each alignment; `scripts/interpret.py`
+identifies changed site costs and original column coordinates. Disagreement is a
+research observation, not evidence by itself of introgression, hybridization,
+incomplete lineage sorting, or which history is true. Tied optima and filtering
+sensitivity should be examined before interpreting mechanisms.
+
+The 17 rows cover three empirical studies and two tutorial controls, not 17
+independent biological replicates. Small/large subsets within a study share data;
+held-out studies matter when claiming algorithm generality. DendroPy avian
+ovomucoid and caenophidia MOS fixtures were inspected but rejected as proteins;
+the angiosperm fixture is morphological. The Actinopterygii fixture was not
+admitted because it included a human outgroup and would need a separate audited
+selection. No clinical, private or sensitive genomic data enter the collection.
+
+Next scientific comparisons should include a vetted established parsimony program
+on the identical frozen inputs, stronger search neighborhoods, and independent
+verification. The shipped heuristic probes cannot establish superiority over
+mature software or novelty relative to the literature.

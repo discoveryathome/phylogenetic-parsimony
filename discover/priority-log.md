@@ -11,3 +11,19 @@ particularly after complete-case filtering of one mitochondrial gene.
 Weights total 100. Review after the first five accepted contributions or on
 2026-11-03, whichever occurs first. This is a suggested review date, not a scheduled
 automation. No automatic reweighting; an accepting maintainer must decide.
+
+
+# Priority revision 2 — 2026-10-20
+
+Expanded to 17 fixed alignments from three empirical studies and two tutorials.
+30% improved trees; 25% heuristics; 20% certified bounds; 15% verifier audits;
+10% biological interpretation. Bounds provide a separate exact progress measure,
+and matched nuclear/plastid inputs add substantive interpretation work. All known
+improved trees are promoted; settled rows are removed from tree-improvement cards.
+Within the tree track the picker selects a study uniformly, then one open row,
+so multiple subsets do not monopolize the launch queue.
+
+Four predeclared 20-seed panels compare NNI and two-move NNI at equal 600-evaluation
+caps. This is computational calibration, not donor-session yield. Review after
+five accepted contributions or on 2026-11-03; assess useful verified outcomes,
+time to first result and reviewer load. No automation or public launch is enabled.

@@ -1,0 +1,55 @@
+{
+  "schema": "phylo-incompatible-pairs/v1",
+  "seed": 0,
+  "pairs_1based": [
+    [
+      3,
+      201
+    ],
+    [
+      161,
+      17
+    ],
+    [
+      300,
+      80
+    ],
+    [
+      298,
+      195
+    ],
+    [
+      209,
+      138
+    ],
+    [
+      10,
+      266
+    ],
+    [
+      9,
+      301
+    ],
+    [
+      299,
+      274
+    ],
+    [
+      243,
+      134
+    ],
+    [
+      5,
+      18
+    ],
+    [
+      8,
+      139
+    ]
+  ],
+  "base_bound": 71,
+  "bound": 82,
+  "dataset": "pythonidae-12s-12",
+  "alignment_sha256": "ff9aa2fde7b277795da3e8cf5da196ea36ca7bbdb05529abeec89440280c2364",
+  "profile": "unordered-unit-strict-v1"
+}
