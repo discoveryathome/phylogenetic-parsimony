@@ -1,7 +1,7 @@
 {
   "schema": "discover-frontier/v0",
   "statement": "Exact scores of witnessed binary unrooted trees for 17 fixed nucleotide alignments; eight optima certified by exhaustion or matching lower bounds.",
-  "status": "LOCAL proposal; author-checked, review paused, nine open empirical rows",
+  "status": "Public pilot; review paused pending hub assessment and research review. Nine open empirical rows.",
   "evidence_level": [
     "author-checked"
   ],
@@ -47,7 +47,7 @@
   "assumptions": [
     {
       "id": "maintainer",
-      "statement": "No maintainer or independent reviewer has accepted this pilot; closed to donors.",
+      "statement": "Independent scientific review and donor admission remain outstanding; publication is not frontier acceptance.",
       "status": "open",
       "link": "discover/review.md"
     }

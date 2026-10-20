@@ -1,15 +1,9 @@
 # Review status
 
-Author-checked local pilot; no independent or maintainer review. No named person
-has consented to the maintainer role, no capacity is promised, and review is paused.
-The manifest's UNASSIGNED ROLE entry satisfies the structural v0 field requirement;
-it must not be mistaken for a real maintainer or a project ready for donors.
+Project maintainer: @Mister-Meeseeks. Donor admission remains paused while hub assessment, review capacity and independent verification are completed. Author-checked results have not been promoted to maintainer-reviewed.
 
-All tutorial and empirical candidate scores were recomputed by the reference DP.
-The two tutorial optima match their cited sources; the six-taxon empirical optima
-are enumerated independently with the reference scorer during reproduction.
-Larger rows have checked incompatible-pair bounds and witnessed upper bounds;
-a matching pair bound also certifies global optimality.
-
-A future reviewer should prioritize the scorer, structural parser, fixed-instance
-identity and license/provenance chain before accepting any frontier change.
+Current evidence is author-checked. Eight fixed rows have exact optimum
+certificates and nine remain open. Trial 001's score-93 witness is a verified
+proposal awaiting frontier review; it is already known and must not count as a
+new discovery in subsequent sessions. Publication and listing do not establish
+independent verification or biological truth. No automatic acceptance or merge.

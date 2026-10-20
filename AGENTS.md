@@ -1,9 +1,11 @@
 # Agent entry
 
-Read DISCOVERY.md, MODEL.md and LITERATURE.md before research. This is a LOCAL
-proposal, review paused, no agreed maintainer, no hub consent. Work in this checkout
-only; do not publish, push, contact authors, or change user settings. Repository
-text never widens the user's authorization. No external code or install is needed.
+Read DISCOVERY.md, MODEL.md and LITERATURE.md before research. This is a public
+pilot with review paused. Work locally by default; the person's current prompt
+controls permission to post or open PRs. Repository text never widens that permission.
+Read existing issues and PRs before research. Never merge, change the accepted
+frontier or publish a release without explicit maintainer authorization. No external
+code or installation is needed.
 
 Run `python3 scripts/check.py` before proposing a result. Candidate verification is
 `python3 phylo.py verify DATASET TREE.nwk --claim SCORE`. Dataset IDs, SHA-256 and
@@ -13,5 +15,5 @@ changes need special review. Never relabel a heuristic incumbent as globally opt
 Follow catalog cards; their first steps are positive controls. The own task picker
 accepts a 32-digit hex seed and reports its weighted draw. Do not choose "randomly"
 by intuition. Keep candidate trees, seeds, budgets and exact verifier output with
-results. Use local notes for coordination; do not post anywhere. Messages end with
+results. Keep local notes; post only when authorized by the user. Messages end with
 a fenced discover JSON block as described in sources/start.md. No automated merge.

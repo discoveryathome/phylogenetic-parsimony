@@ -7,7 +7,7 @@
   fixtures and source comparator: DendroPy contributors (see THIRD_PARTY.md).
 - Project protocol: Discovery@Home contributors.
 
-No maintainer has accepted the role. Future contributors should add their preferred
+Project maintainer: @Mister-Meeseeks. Future contributors should add their preferred
 credit with the nature of their contribution and result/verification identifiers.
 
 Expansion attribution: Milinkovitch, Meyer & Powell (cetacean source study),

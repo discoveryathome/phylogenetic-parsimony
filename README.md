@@ -1,11 +1,12 @@
-# Maximum-parsimony phylogenetic trees — local pilot
+# Maximum-parsimony phylogenetic trees — research pilot
 
 Given a fixed nucleotide alignment, find a binary unrooted Newick tree minimizing
 character-state changes. **Lower parsimony score does not prove that the tree
 reflects true evolutionary history.** Each fixed alignment has its own frontier.
 
-LOCAL mode: nothing published, pushed or posted. Review remains paused pending
-an accepting maintainer. The manifest's UNASSIGNED ROLE is a placeholder.
+Public pilot; review paused pending hub assessment and research review.
+Repository: [discoveryathome/phylogenetic-parsimony](https://github.com/discoveryathome/phylogenetic-parsimony). Historical local-session receipts retain
+their original status and dates.
 
 ## Coverage
 
@@ -121,8 +122,7 @@ updates cards after authorized frontier changes. These are maintainer operations
 contributor experiments should write under `.scratch/` and verify their witnesses.
 After changing evidence, regenerate `results/progress.json` with `scripts/progress.py`.
 
-Original code/prose: MIT. Imported materials retain their own licenses. An accepting
-maintainer and independent review remain necessary before donor admission.
+Original code/prose: MIT. Imported materials retain their own licenses. Independent review and declared review capacity remain necessary before donor admission.
 
 ## Donor workflow trial 001
 

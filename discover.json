@@ -1,7 +1,7 @@
 {
   "schema": "discover/v0",
   "title": "Fixed-alignment maximum parsimony",
-  "summary": "Local pilot for exact scoring and reproducible search of nucleotide phylogenies. Separate immutable alignment frontiers; no biological truth claim.",
+  "summary": "Exact scoring and reproducible search for fixed-alignment nucleotide phylogenies. Seventeen alignment frontiers; source-backed public datasets; no biological truth claim.",
   "domains": [
     "phylogenetics",
     "combinatorial-optimization"
@@ -9,10 +9,11 @@
   "license": "MIT",
   "maintainers": [
     {
-      "name": "UNASSIGNED ROLE \u2014 local proposal; no consenting maintainer"
+      "name": "Mister-Meeseeks",
+      "github": "Mister-Meeseeks"
     }
   ],
-  "canonical_repo": "file:///Users/colkitt/discover-work/incubatedPilots/phylogenetic/start-phylogenetic",
+  "canonical_repo": "https://github.com/discoveryathome/phylogenetic-parsimony",
   "entry": {
     "agents": "AGENTS.md",
     "project": "DISCOVERY.md",
@@ -43,7 +44,7 @@
   },
   "review": {
     "paused": true,
-    "note": "No maintainer has agreed; local proposal only. Placeholder is a role, not a person; review capacity undeclared."
+    "note": "Project maintainer: @Mister-Meeseeks. Donor admission remains paused while hub assessment, review capacity and independent verification are completed. Author-checked results have not been promoted to maintainer-reviewed."
   },
   "requirements": {
     "note": "Python 3.10+ standard library only, no network needed to verify",
@@ -63,5 +64,16 @@
       "{seed}"
     ]
   },
-  "process_changed_on": "2026-10-20"
+  "process_changed_on": "2026-10-20",
+  "hubs": [
+    {
+      "hub": "discoveryathome/discover",
+      "list": true,
+      "push": []
+    }
+  ],
+  "coordination": {
+    "transport": "github-issues",
+    "claim_ttl_minutes": 120
+  }
 }

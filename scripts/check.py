@@ -60,7 +60,7 @@ def main():
             require(b['evaluations']<=b['max_evaluations'],'budget exceeded')
         print(r['dataset'],r['score'],r['status'],flush=True)
     manifest=json.loads((ROOT/'discover.json').read_text())
-    require(manifest['review']['paused'] and not manifest.get('hubs'),'pilot must remain local/closed')
+    require(type(manifest.get('review',{}).get('paused')) is bool,'review pause status must be explicit')
     catalog=json.loads((ROOT/'discover/catalog.json').read_text())
     require(sum(t['weight'] for t in catalog['tracks'])==100,'track weights must sum to 100')
     subprocess.run([sys.executable,'-m','unittest','discover','-s',str(ROOT/'tests'),'-v'],check=True)

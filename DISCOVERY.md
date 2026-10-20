@@ -5,7 +5,8 @@ for each fixed alignment. A contribution is a Newick witness with an exactly
 recomputed integer score. The primary measure is a smaller score on the identical
 alignment hash and scoring profile; each alignment is a separate frontier row.
 The objective, evidence profile and local build are authorized by the task request.
-No donor launcher, public repository or hub application is authorized.
+The public repository and hub registry PR were authorized by the project owner.
+Donor admission remains paused; donated-session permissions remain explicit.
 
 Read MODEL.md for all character and tree semantics, LITERATURE.md for the evidence
 brief, and data/manifest.json plus THIRD_PARTY.md for provenance and redistribution.
@@ -51,13 +52,12 @@ Heuristic comparisons must preserve inputs and report unsuccessful runs; timing
 claims require interleaved/A–A controls and a documented environment. Existing
 wall times are descriptive and may reflect other work on this machine.
 
-No person has agreed to maintain this project or supplied review capacity.
-`maintainers` contains an explicit unassigned-role placeholder because the v0
-manifest schema requires at least one entry. It is not a consenting person.
-Review is paused; no hubs consent record is present. Before inviting donors, appoint
-an accepting maintainer, set review capacity, review the verifier and licenses,
-replace the local URI with the approved repository and obtain explicit hub consent.
-Do not set evidence to maintainer-reviewed without that review.
+Project maintainer: [@Mister-Meeseeks](https://github.com/Mister-Meeseeks). The
+owner authorized repository publication and a hub registry PR. `discover.json`
+permits listing by `discoveryathome/discover`; no hub push permissions are granted.
+Review remains paused pending hub assessment, declared capacity and independent
+verification. Naming a maintainer is not acceptance of the scientific frontier;
+all present evidence remains author-checked.
 
 Review gates: reproduce identity and score; inspect structural validity; audit
 comparison scope and provenance; then have the maintainer decide acceptance. Do not
@@ -71,8 +71,7 @@ Original code and prose use MIT; third-party terms remain intact. Record human a
 agent contributions honestly in CONTRIBUTORS.md and result provenance. Credit data
 creators through the study and software citations. Acknowledge verification and
 negative findings. Authorship is by substantive contribution and agreement, never
-promised automatically for donated runtime. No maintainer or biological expert has
-yet endorsed this pilot.
+promised automatically for donated runtime. No independent reviewer or biological expert has endorsed the scientific claims.
 
 Lower parsimony score does not prove that a tree reflects the true evolutionary
 history. The fixed-alignment objective does not resolve alignment uncertainty,
@@ -115,3 +114,11 @@ minutes; the full session receipt and limitations are in
 [the trial report](results/donor-trial-001/REPORT.md). The recorded frontier remains
 frozen pending review. Score 93 is already known and must not be counted as a new
 discovery in subsequent trials.
+
+## Coordination while review is paused
+
+GitHub Issues and PRs are the public coordination record. Read them before starting
+work and check the known score-93 donor-trial proposal before claiming novelty.
+Prepare local receipts while donor admission is paused. Posting requires explicit
+authorization in the current session; the repository does not grant it by itself.
+Historical HANDOFF.md and verification records describe their original local runs.

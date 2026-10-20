@@ -50,6 +50,6 @@ def main():
              'Map differences to ETS/ITS and plastid partitions; characterize tied alternatives and filtering effects.',
              ['results/progress.json','data/ferula-nrdna-12-selection.json','sources/ferula-plastid.partition','LITERATURE.md'])]))
     catalog=dict(schema='discover-catalog/v0',priority_revision=2,assessed_on='2026-10-20',
-        priority_log='discover/priority-log.md',status='Local proposal; no live claims or donor admission',tracks=tracks)
+        priority_log='discover/priority-log.md',status='Public pilot; review paused pending hub assessment and research review.',tracks=tracks)
     (ROOT/'discover/catalog.json').write_text(json.dumps(catalog,indent=2)+'\n')
 if __name__=='__main__':main()
