@@ -1,0 +1,24 @@
+{
+  "command": [
+    "python3",
+    "phylo.py",
+    "search",
+    "pythonidae-16s-12",
+    "--method",
+    "two-nni",
+    "--seed",
+    "1729",
+    "--restarts",
+    "1",
+    "--budget",
+    "5000",
+    "--start",
+    "candidates/pythonidae-16s-12-best.nwk",
+    "--out",
+    "results/donor-trial-001/stock-two-nni.nwk"
+  ],
+  "started_at": "2026-10-20T06:27:09.965282+00:00",
+  "finished_at": "2026-10-20T06:27:15.957193+00:00",
+  "elapsed_seconds": 5.99181583407335,
+  "returncode": 0
+}

@@ -1,0 +1,53 @@
+{
+  "schema": "phylo-donor-trial/v1",
+  "status": "verified-proposal-pending-review",
+  "base": "91d7005f18e5d9a7eb508c6dfdc69bc874a8af59",
+  "task": "improve-pythonidae-16s-12",
+  "track": "improved-trees",
+  "picker_seed": "00147e30ac32b66f7660ac6ba94f2e78",
+  "dataset": "pythonidae-16s-12",
+  "alignment_sha256": "e8a029504a8a4fc2f843c84f743dc708ec17e502ca1c0488d79a6ce1e1c7fdc9",
+  "profile": "unordered-unit-strict-v1",
+  "previous_score": 95,
+  "candidate_score": 93,
+  "improvement": 2,
+  "lower_bound": 70,
+  "global_optimality_claim": false,
+  "tree": "results/donor-trial-001/spr-plateau.nwk",
+  "tree_sha256": "d76a35c78dc80d65f2e30b43f28941bc2281982c773a8af722c20a1f495c4a82",
+  "frozen_start": "results/donor-trial-001/start.nwk",
+  "seed": 1729,
+  "budget": 20000,
+  "evaluations": 8510,
+  "code_sha256": {
+    "experiments/donor_trial_001/spr.py": "22e85f8c0bf6ecd58cb9058518d214be51d243a87f42644585d3120e66a8ca15",
+    "experiments/donor_trial_001/run.py": "995a11adb663a187febc7c5854c422cc5d02aaf95939e7c7bf7f929958a08597",
+    "experiments/donor_trial_001/test_spr.py": "af4166a58ab8ad98ee237ad609e554648c4f936fe714189e83fa73d398b08a5b"
+  },
+  "python": "3.14.6",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "verify": [
+    "python3",
+    "phylo.py",
+    "verify",
+    "pythonidae-16s-12",
+    "results/donor-trial-001/spr-plateau.nwk",
+    "--claim",
+    "93"
+  ],
+  "reproduce": [
+    "python3",
+    "experiments/donor_trial_001/run.py",
+    "--budget",
+    "20000",
+    "--seed",
+    "1729",
+    "--plateau",
+    "--name",
+    "reproduction"
+  ],
+  "independent_human_review": false,
+  "public_actions": false,
+  "known_result_notice": "This score-93 candidate is already known from trial 001. Rediscovery in later sessions is not a novel result.",
+  "caution": "Lower parsimony score does not prove true evolutionary history."
+}

@@ -123,3 +123,12 @@ After changing evidence, regenerate `results/progress.json` with `scripts/progre
 
 Original code/prose: MIT. Imported materials retain their own licenses. An accepting
 maintainer and independent review remain necessary before donor admission.
+
+## Donor workflow trial 001
+
+A randomly selected, bounded contributor trial produced a verified proposal for
+`pythonidae-16s-12`: **95 → 93**. The first improvement appeared after about three
+minutes; the full session receipt and limitations are in
+[the trial report](results/donor-trial-001/REPORT.md). The recorded frontier remains
+frozen pending review. Score 93 is already known and must not be counted as a new
+discovery in subsequent trials.

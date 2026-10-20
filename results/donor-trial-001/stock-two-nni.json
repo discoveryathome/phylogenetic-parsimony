@@ -1,0 +1,27 @@
+{
+  "seed": 1729,
+  "restarts": 1,
+  "max_evaluations": 5000,
+  "evaluations": 207,
+  "score": 95,
+  "runs": [
+    {
+      "restart": 0,
+      "initial_score": 95,
+      "score": 95,
+      "evaluations": 207,
+      "history": [
+        95
+      ],
+      "certified_local_radius": 2
+    }
+  ],
+  "algorithm": "radius-two-NNI-v1",
+  "initialization": "supplied-first",
+  "tree": "results/donor-trial-001/stock-two-nni.nwk",
+  "verified_score": 95,
+  "tree_sha256": "debdf818724a0a017af155266f9a3766d979b223629a14d726c86d9633b16e67",
+  "dataset": "pythonidae-16s-12",
+  "alignment_sha256": "e8a029504a8a4fc2f843c84f743dc708ec17e502ca1c0488d79a6ce1e1c7fdc9",
+  "profile": "unordered-unit-strict-v1"
+}

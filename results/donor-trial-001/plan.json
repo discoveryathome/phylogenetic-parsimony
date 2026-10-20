@@ -1,0 +1,32 @@
+{
+  "started_at": "2026-10-20T06:25:59Z",
+  "deadline": "2026-10-20T06:55:59Z",
+  "research_cutoff": "2026-10-20T06:47:59Z",
+  "base": "91d7005f18e5d9a7eb508c6dfdc69bc874a8af59",
+  "picker_seed": "00147e30ac32b66f7660ac6ba94f2e78",
+  "pick": {
+    "seed": "00147e30ac32b66f7660ac6ba94f2e78",
+    "priority_revision": 2,
+    "track": "improved-trees",
+    "study_group": "pythonidae-2008",
+    "task": "improve-pythonidae-16s-12",
+    "first_step": {
+      "command": [
+        "python3",
+        "phylo.py",
+        "verify",
+        "pythonidae-16s-12",
+        "candidates/pythonidae-16s-12-best.nwk",
+        "--claim",
+        "95"
+      ],
+      "expected": "valid=true; score=95"
+    },
+    "status": "local suggestion only; review paused"
+  },
+  "limit_minutes": 30,
+  "prior_familiarity": true,
+  "subagents": 0,
+  "claim": "One maintainer-familiar workflow trial, not a population estimate of donor success",
+  "success": "New verified result meeting the picked card acceptance gate; reproducing controls alone does not count"
+}

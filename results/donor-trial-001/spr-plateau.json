@@ -1,0 +1,46 @@
+{
+  "algorithm": "experimental-SPR-plateau-v1",
+  "seed": 1729,
+  "budget": 20000,
+  "evaluations": 8510,
+  "initial_score": 95,
+  "score": 93,
+  "history": [
+    95,
+    94,
+    93
+  ],
+  "expanded_topologies": 33,
+  "completed_search_region": true,
+  "completion_scope": "reachable equal-score SPR component and outgoing SPR moves",
+  "dataset": "pythonidae-16s-12",
+  "alignment_sha256": "e8a029504a8a4fc2f843c84f743dc708ec17e502ca1c0488d79a6ce1e1c7fdc9",
+  "profile": "unordered-unit-strict-v1",
+  "start_tree_sha256": "debdf818724a0a017af155266f9a3766d979b223629a14d726c86d9633b16e67",
+  "verified_score": 93,
+  "tree": "results/donor-trial-001/spr-plateau.nwk",
+  "tree_sha256": "d76a35c78dc80d65f2e30b43f28941bc2281982c773a8af722c20a1f495c4a82",
+  "started_at": "2026-10-20T06:29:38.373804+00:00",
+  "finished_at": "2026-10-20T06:29:44.278305+00:00",
+  "elapsed_seconds": 5.904391749994829,
+  "events": [
+    {
+      "at": "2026-10-20T06:29:38.652826+00:00",
+      "elapsed_seconds": 0.27903600002173334,
+      "score": 94,
+      "evaluations": 307,
+      "verifier_seconds": 0.10813883296214044,
+      "tree": "results/donor-trial-001/spr-plateau-score-94.nwk",
+      "tree_sha256": "087b168047e592230723feeaf32d9d3361c1d044eeee4f24302d2aa48572fae1"
+    },
+    {
+      "at": "2026-10-20T06:29:39.041807+00:00",
+      "elapsed_seconds": 0.6680102089885622,
+      "score": 93,
+      "evaluations": 839,
+      "verifier_seconds": 0.08937912504188716,
+      "tree": "results/donor-trial-001/spr-plateau-score-93.nwk",
+      "tree_sha256": "d76a35c78dc80d65f2e30b43f28941bc2281982c773a8af722c20a1f495c4a82"
+    }
+  ]
+}

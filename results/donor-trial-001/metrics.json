@@ -1,0 +1,21 @@
+{
+  "started_at": "2026-10-20T06:25:59Z",
+  "research_ended_at": "2026-10-20T06:29:44.278305+00:00",
+  "submission_ready_at": "2026-10-20T06:37:02.584259+00:00",
+  "cap_seconds": 1800,
+  "elapsed_seconds": 663.584259,
+  "ended_early": true,
+  "first_control_seconds": 70.959799,
+  "first_verified_improvement_seconds": 186.065337,
+  "best_verified_improvement_seconds": 220.041807,
+  "candidate_cli_verification_seconds": 0.6002437920542434,
+  "full_check_seconds": 402.4846322090598,
+  "new_useful_proposals": 1,
+  "accepted_by_maintainer": 0,
+  "independent_human_review": false,
+  "prior_project_familiarity": true,
+  "task_draws": 1,
+  "setup_errors": 1,
+  "failed_research_attempts": 1,
+  "note": "Research, checks and packaging overlapped; phase times do not sum to total. One experienced-agent trial, not a success-rate estimate. No equal-cost algorithm comparison claimed."
+}

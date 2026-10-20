@@ -1,0 +1,11 @@
+[
+  {
+    "at": "2026-10-20T06:31:19.194143+00:00",
+    "elapsed_seconds": 0.6960130000952631,
+    "score": 94,
+    "evaluations": 307,
+    "verifier_seconds": 0.12973854108713567,
+    "tree": "results/donor-trial-001/replay-strict-score-94.nwk",
+    "tree_sha256": "087b168047e592230723feeaf32d9d3361c1d044eeee4f24302d2aa48572fae1"
+  }
+]

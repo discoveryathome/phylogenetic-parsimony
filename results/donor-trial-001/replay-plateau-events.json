@@ -1,0 +1,20 @@
+[
+  {
+    "at": "2026-10-20T06:31:20.291860+00:00",
+    "elapsed_seconds": 0.4752110830741003,
+    "score": 94,
+    "evaluations": 307,
+    "verifier_seconds": 0.13164249993860722,
+    "tree": "results/donor-trial-001/replay-plateau-score-94.nwk",
+    "tree_sha256": "087b168047e592230723feeaf32d9d3361c1d044eeee4f24302d2aa48572fae1"
+  },
+  {
+    "at": "2026-10-20T06:31:20.995966+00:00",
+    "elapsed_seconds": 1.1793006249936298,
+    "score": 93,
+    "evaluations": 839,
+    "verifier_seconds": 0.12507020798511803,
+    "tree": "results/donor-trial-001/replay-plateau-score-93.nwk",
+    "tree_sha256": "d76a35c78dc80d65f2e30b43f28941bc2281982c773a8af722c20a1f495c4a82"
+  }
+]

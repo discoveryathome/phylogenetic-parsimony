@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "phylo.py",
+    "verify",
+    "pythonidae-16s-12",
+    "candidates/pythonidae-16s-12-best.nwk",
+    "--claim",
+    "95"
+  ],
+  "started_at": "2026-10-20T06:27:05.338542+00:00",
+  "finished_at": "2026-10-20T06:27:09.959799+00:00",
+  "elapsed_seconds": 4.618191665969789,
+  "returncode": 0
+}

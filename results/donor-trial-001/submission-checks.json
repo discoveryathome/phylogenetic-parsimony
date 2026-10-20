@@ -1,0 +1,73 @@
+[
+  {
+    "name": "cli-verify-93",
+    "command": [
+      "python3",
+      "phylo.py",
+      "verify",
+      "pythonidae-16s-12",
+      "results/donor-trial-001/spr-plateau.nwk",
+      "--claim",
+      "93"
+    ],
+    "started_at": "2026-10-20T06:31:17.290050+00:00",
+    "finished_at": "2026-10-20T06:31:17.890256+00:00",
+    "elapsed_seconds": 0.6002437920542434,
+    "returncode": 0,
+    "expected_returncode": 0
+  },
+  {
+    "name": "cli-reject-92",
+    "command": [
+      "python3",
+      "phylo.py",
+      "verify",
+      "pythonidae-16s-12",
+      "results/donor-trial-001/spr-plateau.nwk",
+      "--claim",
+      "92"
+    ],
+    "started_at": "2026-10-20T06:31:17.890647+00:00",
+    "finished_at": "2026-10-20T06:31:18.295381+00:00",
+    "elapsed_seconds": 0.4047820830019191,
+    "returncode": 2,
+    "expected_returncode": 2
+  },
+  {
+    "name": "replay-strict",
+    "command": [
+      "python3",
+      "experiments/donor_trial_001/run.py",
+      "--budget",
+      "5000",
+      "--seed",
+      "1729",
+      "--name",
+      "replay-strict"
+    ],
+    "started_at": "2026-10-20T06:31:18.297359+00:00",
+    "finished_at": "2026-10-20T06:31:19.642055+00:00",
+    "elapsed_seconds": 1.3447762089781463,
+    "returncode": 0,
+    "expected_returncode": 0
+  },
+  {
+    "name": "replay-plateau",
+    "command": [
+      "python3",
+      "experiments/donor_trial_001/run.py",
+      "--budget",
+      "20000",
+      "--seed",
+      "1729",
+      "--plateau",
+      "--name",
+      "replay-plateau"
+    ],
+    "started_at": "2026-10-20T06:31:19.642570+00:00",
+    "finished_at": "2026-10-20T06:31:37.315758+00:00",
+    "elapsed_seconds": 17.672845416003838,
+    "returncode": 0,
+    "expected_returncode": 0
+  }
+]

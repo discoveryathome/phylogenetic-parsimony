@@ -106,3 +106,12 @@ add SPR/plateau search and held-out seed/study evaluation; improve certified
 bounds; examine tied trees and partition-specific conflict. These are separate
 research claims with separate evidence gates. New ambiguity or gap semantics,
 or new column selections, require new profiles/rows, never a silent score change.
+
+## Donor workflow trial 001
+
+A randomly selected, bounded contributor trial produced a verified proposal for
+`pythonidae-16s-12`: **95 → 93**. The first improvement appeared after about three
+minutes; the full session receipt and limitations are in
+[the trial report](results/donor-trial-001/REPORT.md). The recorded frontier remains
+frozen pending review. Score 93 is already known and must not be counted as a new
+discovery in subsequent trials.
