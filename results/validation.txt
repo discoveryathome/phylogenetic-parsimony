@@ -1,0 +1,97 @@
+Tested implementation commit: 769c4de1e142542c7e9a5addcbfc8b555ff23295
+
+=== validate ===
+start-phylogenetic: conformant: the required files are present and valid
+  frontier table: 5 cases, 2 open
+  conventions followed: weighted task catalogue, priority log, frontier `reproduce` check
+  convention not followed: coordination channel: manifest has no `coordination` channel
+  convention not followed: review ledger: manifest has no `ledger`
+  convention not followed: result packages: manifest has no `packages` location
+  Conventions are recommended, not required. The stage comes from a hub assessment of
+  the five properties (spec §3), not from this check.
+
+=== check ===
+Curation replay: all derived bytes match
+phylip-dnapars 19 settled
+phylip-dnapenny 8 settled
+pythonidae-cytb-6 343 settled
+pythonidae-cytb-12 579 open
+pythonidae-cytb-24 990 open
+test_cli_rejects_wrong_score_and_taxa (test_phylo.TestInputsAndSearch.test_cli_rejects_wrong_score_and_taxa) ... ok
+test_reproducible_search (test_phylo.TestInputsAndSearch.test_reproducible_search) ... ok
+test_strict_fasta (test_phylo.TestInputsAndSearch.test_strict_fasta) ... ok
+test_all_quartet_patterns_against_brute_ancestral_assignments (test_phylo.TestScoring.test_all_quartet_patterns_against_brute_ancestral_assignments) ... ok
+test_exhaustive_count_formula (test_phylo.TestScoring.test_exhaustive_count_formula) ... ok
+test_identical_constant_and_informative_sites (test_phylo.TestScoring.test_identical_constant_and_informative_sites) ... ok
+test_published_scores_and_exhaustive_optima (test_phylo.TestScoring.test_published_scores_and_exhaustive_optima) ... ok
+test_random_multistate_patterns (test_phylo.TestScoring.test_random_multistate_patterns) ... ok
+test_graph_rejection (test_phylo.TestStructure.test_graph_rejection) ... ok
+test_nni_degree_uniqueness_and_connectivity (test_phylo.TestStructure.test_nni_degree_uniqueness_and_connectivity) ... ok
+test_prune (test_phylo.TestStructure.test_prune) ... ok
+test_reject_newick (test_phylo.TestStructure.test_reject_newick) ... ok
+test_root_and_order_invariance (test_phylo.TestStructure.test_root_and_order_invariance) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 16.513s
+
+OK
+PASS: fixed data, baseline and candidate scores, exhaustive bounds, structural/negative tests
+
+=== replay ===
+phylip-dnapars 17 replayed
+phylip-dnapars 1729 replayed
+phylip-dnapars 20261020 replayed
+phylip-dnapars 0 replayed
+phylip-dnapenny 17 replayed
+phylip-dnapenny 1729 replayed
+phylip-dnapenny 20261020 replayed
+phylip-dnapenny 0 replayed
+pythonidae-cytb-6 17 replayed
+pythonidae-cytb-6 1729 replayed
+pythonidae-cytb-6 20261020 replayed
+pythonidae-cytb-6 0 replayed
+pythonidae-cytb-12 17 replayed
+pythonidae-cytb-12 1729 replayed
+pythonidae-cytb-12 20261020 replayed
+pythonidae-cytb-12 0 replayed
+pythonidae-cytb-24 17 replayed
+pythonidae-cytb-24 1729 replayed
+pythonidae-cytb-24 20261020 replayed
+pythonidae-cytb-24 0 replayed
+PASS: all seed runs reproduce trees, scores, traces and evaluation counts
+
+=== cards ===
+PASS improve-12
+PASS improve-24
+PASS escape-plateaus
+PASS audit-verifier
+PASS interpret-12
+PASS: every catalog first_step and expected positive control
+
+=== fresh-check ===
+Curation replay: all derived bytes match
+phylip-dnapars 19 settled
+phylip-dnapenny 8 settled
+pythonidae-cytb-6 343 settled
+pythonidae-cytb-12 579 open
+pythonidae-cytb-24 990 open
+test_cli_rejects_wrong_score_and_taxa (test_phylo.TestInputsAndSearch.test_cli_rejects_wrong_score_and_taxa) ... ok
+test_reproducible_search (test_phylo.TestInputsAndSearch.test_reproducible_search) ... ok
+test_strict_fasta (test_phylo.TestInputsAndSearch.test_strict_fasta) ... ok
+test_all_quartet_patterns_against_brute_ancestral_assignments (test_phylo.TestScoring.test_all_quartet_patterns_against_brute_ancestral_assignments) ... ok
+test_exhaustive_count_formula (test_phylo.TestScoring.test_exhaustive_count_formula) ... ok
+test_identical_constant_and_informative_sites (test_phylo.TestScoring.test_identical_constant_and_informative_sites) ... ok
+test_published_scores_and_exhaustive_optima (test_phylo.TestScoring.test_published_scores_and_exhaustive_optima) ... ok
+test_random_multistate_patterns (test_phylo.TestScoring.test_random_multistate_patterns) ... ok
+test_graph_rejection (test_phylo.TestStructure.test_graph_rejection) ... ok
+test_nni_degree_uniqueness_and_connectivity (test_phylo.TestStructure.test_nni_degree_uniqueness_and_connectivity) ... ok
+test_prune (test_phylo.TestStructure.test_prune) ... ok
+test_reject_newick (test_phylo.TestStructure.test_reject_newick) ... ok
+test_root_and_order_invariance (test_phylo.TestStructure.test_root_and_order_invariance) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 8.716s
+
+OK
+PASS: fixed data, baseline and candidate scores, exhaustive bounds, structural/negative tests
+
