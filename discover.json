@@ -1,0 +1,67 @@
+{
+  "schema": "discover/v0",
+  "title": "Fixed-alignment maximum parsimony",
+  "summary": "Local pilot for exact scoring and reproducible search of nucleotide phylogenies. Separate immutable alignment frontiers; no biological truth claim.",
+  "domains": [
+    "phylogenetics",
+    "combinatorial-optimization"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "UNASSIGNED ROLE \u2014 local proposal; no consenting maintainer"
+    }
+  ],
+  "canonical_repo": "file:///Users/colkitt/discover-work/incubatedPilots/phylogenetic/start-phylogenetic",
+  "entry": {
+    "agents": "AGENTS.md",
+    "project": "DISCOVERY.md",
+    "brief": "README.md",
+    "contributing": "DISCOVERY.md"
+  },
+  "frontier": "discover/frontier.json",
+  "catalog": "discover/catalog.json",
+  "priority_log": "discover/priority-log.md",
+  "verification_profile": "exact-certificate",
+  "permissions": {
+    "post_messages": false,
+    "open_prs": false,
+    "maintainer_only": [
+      "merge",
+      "change-frontier",
+      "change-verifier",
+      "publish"
+    ]
+  },
+  "credit": {
+    "policy": "CONTRIBUTORS.md and THIRD_PARTY.md; credit methods, data, verification and agent assistance; authorship by agreement.",
+    "kinds": [
+      "contributors-file",
+      "citation",
+      "acknowledgement"
+    ]
+  },
+  "review": {
+    "paused": true,
+    "note": "No maintainer has agreed; local proposal only. Placeholder is a role, not a person; review capacity undeclared."
+  },
+  "requirements": {
+    "note": "Python 3.10+ standard library only, no network needed to verify",
+    "ram_gb": 1,
+    "disk_gb": 1
+  },
+  "session": {
+    "default_minutes": 60,
+    "orient_fraction": 0.2,
+    "verify_fraction": 0.25
+  },
+  "picker": {
+    "command": [
+      "python3",
+      "scripts/pick.py",
+      "--seed",
+      "{seed}"
+    ]
+  },
+  "process_changed_on": "2026-10-20"
+}

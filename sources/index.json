@@ -1,0 +1,92 @@
+[
+  {
+    "path": "sources/DENDROPY-LICENSE.rst",
+    "url": "https://raw.githubusercontent.com/jeetsukumaran/DendroPy/b7fc4fd9c70c86a44e10650b3fb9b3be86e9dc77/LICENSE.rst",
+    "retrieved_on": "2026-10-20",
+    "sha256": "9f904247890a2d1625dda1030335827ad100f912d6785273103632b557108885"
+  },
+  {
+    "path": "sources/DISCOVER-LICENSE",
+    "url": "https://raw.githubusercontent.com/discoveryathome/discover/main/LICENSE",
+    "retrieved_on": "2026-10-20",
+    "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c"
+  },
+  {
+    "path": "sources/PHYLIP-LICENSE",
+    "url": "https://raw.githubusercontent.com/phylipweb/phylip/main/LICENSE",
+    "retrieved_on": "2026-10-20",
+    "sha256": "c0025e31ad3857e87ef1b1d97a11c37907979f6880a9a620f22cb60303e7c6fd"
+  },
+  {
+    "path": "sources/catalog.schema.json",
+    "url": "https://raw.githubusercontent.com/discoveryathome/discover/main/spec/schemas/catalog.schema.json",
+    "retrieved_on": "2026-10-20",
+    "sha256": "6d1ab7b1a06f0aa065a1c64eed0943b47c8b98978b5781957fb777cea7273549"
+  },
+  {
+    "path": "sources/dendropy-revision.txt",
+    "url": "https://api.github.com/repos/jeetsukumaran/DendroPy/commits/main",
+    "retrieved_on": "2026-10-20",
+    "sha256": "976ac71edede8c163d95bacb246c8715eaf6013b44b78dd77f66a2c2bcc933b5"
+  },
+  {
+    "path": "sources/dnapars.html",
+    "url": "https://phylipweb.github.io/phylip/doc/dnapars.html",
+    "retrieved_on": "2026-10-20",
+    "sha256": "a41b305a687e848c21efdc4736c36a54911b135721f2973070c899c454dc548f"
+  },
+  {
+    "path": "sources/dnapenny.html",
+    "url": "https://phylipweb.github.io/phylip/doc/dnapenny.html",
+    "retrieved_on": "2026-10-20",
+    "sha256": "798435ec4c730ca24381a1273955c3faf02643048ca8d8c150678564b1d113f5"
+  },
+  {
+    "path": "sources/frontier.schema.json",
+    "url": "https://raw.githubusercontent.com/discoveryathome/discover/main/spec/schemas/frontier.schema.json",
+    "retrieved_on": "2026-10-20",
+    "sha256": "e67df68d1dfee778e058f9294886f57e5bc6bd21811eca80324eb738b2c4b63a"
+  },
+  {
+    "path": "sources/manifest.schema.json",
+    "url": "https://raw.githubusercontent.com/discoveryathome/discover/main/spec/schemas/manifest.schema.json",
+    "retrieved_on": "2026-10-20",
+    "sha256": "6b4a2899489d17b9961533fc2eff5491ce547a5dbb15eeff8abd4664390ac007"
+  },
+  {
+    "path": "sources/message.schema.json",
+    "url": "https://raw.githubusercontent.com/discoveryathome/discover/main/spec/schemas/message.schema.json",
+    "retrieved_on": "2026-10-20",
+    "sha256": "fca2c6ea31368944816ab376abddae5cd11035084df5b22c4275d971df144944"
+  },
+  {
+    "path": "sources/protocol-v0.md",
+    "url": "https://raw.githubusercontent.com/discoveryathome/discover/main/spec/v0.md",
+    "retrieved_on": "2026-10-20",
+    "sha256": "ea00f614e18e6c08dc83675b118148fc2b485cc3d02030eb679d52fc83f2f49c"
+  },
+  {
+    "path": "sources/pythonidae-mle.nwk",
+    "url": "https://raw.githubusercontent.com/jeetsukumaran/DendroPy/b7fc4fd9c70c86a44e10650b3fb9b3be86e9dc77/tests/unittests/data/trees/pythonidae.mle.newick",
+    "retrieved_on": "2026-10-20",
+    "sha256": "faaca883a6d1f9ea0fa4c257bac92a62a1044b96a2cb54125f12d9862c3e07f8"
+  },
+  {
+    "path": "sources/pythonidae.fasta",
+    "url": "https://raw.githubusercontent.com/jeetsukumaran/DendroPy/b7fc4fd9c70c86a44e10650b3fb9b3be86e9dc77/tests/unittests/data/chars/pythonidae.chars.fasta",
+    "retrieved_on": "2026-10-20",
+    "sha256": "b9e7d564694923e518ed5ed3235119f6dfa7f07c88a1f576fc4666817ef14c15"
+  },
+  {
+    "path": "sources/pythonidae.nex",
+    "url": "https://raw.githubusercontent.com/jeetsukumaran/DendroPy/b7fc4fd9c70c86a44e10650b3fb9b3be86e9dc77/tests/unittests/data/chars/pythonidae.chars.nexus",
+    "retrieved_on": "2026-10-20",
+    "sha256": "11abc65fed248a4aebe89630cba548df6f7af4bde9caf10e74bd6685c302ae9d"
+  },
+  {
+    "path": "sources/start.md",
+    "url": "https://discoveryathome.org/v0/start.md",
+    "retrieved_on": "2026-10-20",
+    "sha256": "82ea68344c7a03dab33d76264b16dacdc483924a8d7770461ce0873b116b4849"
+  }
+]

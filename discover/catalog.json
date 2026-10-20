@@ -1,0 +1,211 @@
+{
+  "schema": "discover-catalog/v0",
+  "priority_revision": 1,
+  "assessed_on": "2026-10-20",
+  "priority_log": "discover/priority-log.md",
+  "status": "Local proposal; no live claims or donor admission",
+  "tracks": [
+    {
+      "id": "improved-trees",
+      "weight": 30,
+      "useful_outcome": "Smaller exact scores with fixed-alignment Newick witnesses",
+      "tasks": [
+        {
+          "id": "improve-12",
+          "question": "Can a tree beat 579 on pythonidae-cytb-12?",
+          "starting_points": [
+            "discover/frontier-rows.json",
+            "MODEL.md",
+            "results/benchmark.json"
+          ],
+          "methods": [
+            "NNI restarts",
+            "SPR or ratchet proposal"
+          ],
+          "acceptance_gate": "Same hash/profile, structural validator passes, independently recomputed score <579",
+          "first_step": {
+            "command": [
+              "python3",
+              "phylo.py",
+              "verify",
+              "pythonidae-cytb-12",
+              "candidates/pythonidae-cytb-12-best.nwk",
+              "--claim",
+              "579"
+            ],
+            "expected": "valid=true; score=579"
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck-and-research-tracks",
+          "first_experiment": "Try broader neighborhoods from the incumbent, record every seed and evaluation budget.",
+          "claim_kind": [
+            "exact"
+          ],
+          "scope_change_triggers": [
+            "Changing taxa, columns, alphabet semantics or weights requires a new dataset/profile row"
+          ]
+        },
+        {
+          "id": "improve-24",
+          "question": "Can a tree beat 990 on pythonidae-cytb-24?",
+          "starting_points": [
+            "discover/frontier-rows.json",
+            "LITERATURE.md"
+          ],
+          "methods": [
+            "Source/incumbent-start NNI",
+            "SPR/TBR"
+          ],
+          "acceptance_gate": "Same hash/profile, exact score <990; no claim of global optimality without a matching lower bound",
+          "first_step": {
+            "command": [
+              "python3",
+              "phylo.py",
+              "verify",
+              "pythonidae-cytb-24",
+              "candidates/pythonidae-cytb-24-best.nwk",
+              "--claim",
+              "990"
+            ],
+            "expected": "valid=true; score=990"
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck-and-research-tracks",
+          "first_experiment": "Start from the incumbent; compare additional restarts at a stated equal budget.",
+          "claim_kind": [
+            "exact"
+          ],
+          "scope_change_triggers": [
+            "Changing taxa, columns, alphabet semantics or weights requires a new dataset/profile row"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "better-heuristics",
+      "weight": 30,
+      "useful_outcome": "Reproducible improvements in success rate or score at equal evaluation cost",
+      "tasks": [
+        {
+          "id": "escape-plateaus",
+          "question": "Can plateau handling or SPR reliably recover the known eight-taxon optimum?",
+          "starting_points": [
+            "src/phylo/search.py",
+            "results/phylip-dnapenny-exhaustive.json",
+            "https://doi.org/10.1111/j.1096-0031.1999.tb00277.x"
+          ],
+          "methods": [
+            "Tie-aware NNI",
+            "SPR",
+            "Nixon ratchet"
+          ],
+          "acceptance_gate": "Predeclare at least 20 paired seeds, equal score-evaluation budget, report all runs and exact checks; do not change final weights",
+          "first_step": {
+            "command": [
+              "python3",
+              "phylo.py",
+              "search",
+              "phylip-dnapenny",
+              "--seed",
+              "17",
+              "--restarts",
+              "3",
+              "--budget",
+              "1800",
+              "--out",
+              ".scratch/plateau-control.nwk"
+            ],
+            "expected": "score=9 (known global optimum=8): reproduces a meaningful failure case"
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck-and-research-tracks",
+          "first_experiment": "Implement visited-topology plateau traversal; compare hit rate at score 8 and report tie-handling cost.",
+          "claim_kind": [
+            "exact"
+          ],
+          "scope_change_triggers": [
+            "Changing taxa, columns, alphabet semantics or weights requires a new dataset/profile row"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verifier-audits",
+      "weight": 25,
+      "useful_outcome": "Counterexamples or independent assurance of the acceptance boundary",
+      "tasks": [
+        {
+          "id": "audit-verifier",
+          "question": "Can an invalid topology or incorrect score be accepted?",
+          "starting_points": [
+            "src/phylo/scoring.py",
+            "src/phylo/tree.py",
+            "tests/test_phylo.py",
+            "MODEL.md"
+          ],
+          "methods": [
+            "Adversarial mutation",
+            "Brute internal-state assignment",
+            "Independent implementation"
+          ],
+          "acceptance_gate": "Supply minimized reproducer; add regression test; do not silently modify scoring profile",
+          "first_step": {
+            "command": [
+              "python3",
+              "-m",
+              "unittest",
+              "discover",
+              "-s",
+              "tests",
+              "-v"
+            ],
+            "expected": "All scoring, enumeration, structural and rejection tests pass"
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck-and-research-tracks",
+          "first_experiment": "Fuzz quoted names, tree degree constraints and rerootings; cross-check an independent library only in an approved sandbox.",
+          "claim_kind": [
+            "exact"
+          ],
+          "scope_change_triggers": [
+            "Changing taxa, columns, alphabet semantics or weights requires a new dataset/profile row"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biological-interpretation",
+      "weight": 15,
+      "useful_outcome": "Careful explanation of topology/site differences and model limitations",
+      "tasks": [
+        {
+          "id": "interpret-12",
+          "question": "Which splits and sites change between the source comparator and the best 12-taxon witness?",
+          "starting_points": [
+            "data/pythonidae-cytb-12-selection.json",
+            "LITERATURE.md",
+            "https://doi.org/10.1111/j.1095-8312.2007.00904.x"
+          ],
+          "methods": [
+            "Split comparison",
+            "Site score differences",
+            "Literature review"
+          ],
+          "acceptance_gate": "Use exact same filtered characters, original-column map and cited study; do not infer true history, support or direction from score alone",
+          "first_step": {
+            "command": [
+              "python3",
+              "scripts/interpret.py",
+              "pythonidae-cytb-12"
+            ],
+            "expected": "baseline_score=591; best_score=579; nonnegative RF and site counts; biological caveat printed"
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck-and-research-tracks",
+          "first_experiment": "Map changed characters to the source CYTB positions, discuss ties and filtering bias.",
+          "claim_kind": [
+            "exact"
+          ],
+          "scope_change_triggers": [
+            "Changing taxa, columns, alphabet semantics or weights requires a new dataset/profile row"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1188 @@
+{
+  "seeds": [
+    17,
+    1729,
+    20261020,
+    0
+  ],
+  "python": "3.14.6",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "timing_note": "Descriptive wall time only. No controlled speed comparison or quiet-machine assumption.",
+  "records": [
+    {
+      "seed": 17,
+      "restarts": 3,
+      "max_evaluations": 1800,
+      "evaluations": 35,
+      "score": 19,
+      "runs": [
+        {
+          "restart": 0,
+          "initial_score": 23,
+          "score": 19,
+          "evaluations": 9,
+          "history": [
+            23,
+            19
+          ],
+          "nni_local_optimum": true
+        },
+        {
+          "restart": 1,
+          "initial_score": 27,
+          "score": 19,
+          "evaluations": 17,
+          "history": [
+            27,
+            26,
+            23,
+            19
+          ],
+          "nni_local_optimum": true
+        },
+        {
+          "restart": 2,
+          "initial_score": 23,
+          "score": 19,
+          "evaluations": 9,
+          "history": [
+            23,
+            19
+          ],
+          "nni_local_optimum": true
+        }
+      ],
+      "algorithm": "random-addition-steepest-NNI-v1",
+      "initialization": "random",
+      "dataset": "phylip-dnapars",
+      "alignment_sha256": "f82346adfba3de6e695dc02b2bdd95a72a6ee2b90235727ed92da3fc3e272d9f",
+      "profile": "unordered-unit-strict-v1",
+      "baseline_score": 19,
+      "published_score": 19,
+      "tree": "candidates/phylip-dnapars-seed-17.nwk",
+      "tree_sha256": "43fdf39837818895b5cdc48d6c1ed4acd378b670a2bc49be11f531c2f9412b9c",
+      "verified_score": 19,
+      "elapsed_seconds": 0.001566
+    },
+    {
+      "seed": 1729,
+      "restarts": 3,
+      "max_evaluations": 1800,
+      "evaluations": 39,
+      "score": 19,
+      "runs": [
+        {
+          "restart": 0,
+          "initial_score": 27,
+          "score": 19,
+          "evaluations": 13,
+          "history": [
+            27,
+            20,
+            19
+          ],
+          "nni_local_optimum": true
+        },
+        {
+          "restart": 1,
+          "initial_score": 27,
+          "score": 19,
+          "evaluations": 13,
+          "history": [
+            27,
+            20,
+            19
+          ],
+          "nni_local_optimum": true
+        },
+        {
+          "restart": 2,
+          "initial_score": 26,
+          "score": 19,
+          "evaluations": 13,
+          "history": [
+            26,
+            24,
+            19
+          ],
+          "nni_local_optimum": true
+        }
+      ],
+      "algorithm": "random-addition-steepest-NNI-v1",
+      "initialization": "random",
+      "dataset": "phylip-dnapars",
+      "alignment_sha256": "f82346adfba3de6e695dc02b2bdd95a72a6ee2b90235727ed92da3fc3e272d9f",
+      "profile": "unordered-unit-strict-v1",
+      "baseline_score": 19,
+      "published_score": 19,
+      "tree": "candidates/phylip-dnapars-seed-1729.nwk",
+      "tree_sha256": "43fdf39837818895b5cdc48d6c1ed4acd378b670a2bc49be11f531c2f9412b9c",
+      "verified_score": 19,
+      "elapsed_seconds": 0.002112
+    },
+    {
+      "seed": 20261020,
+      "restarts": 3,
+      "max_evaluations": 1800,
+      "evaluations": 35,
+      "score": 19,
+      "runs": [
+        {
+          "restart": 0,
+          "initial_score": 23,
+          "score": 19,
+          "evaluations": 9,
+          "history": [
+            23,
+            19
+          ],
+          "nni_local_optimum": true
+        },
+        {
+          "restart": 1,
+          "initial_score": 27,
+          "score": 19,
+          "evaluations": 13,
+          "history": [
+            27,
+            20,
+            19
+          ],
+          "nni_local_optimum": true
+        },
+        {
+          "restart": 2,
+          "initial_score": 25,
+          "score": 19,
+          "evaluations": 13,
+          "history": [
+            25,
+            20,
+            19
+          ],
+          "nni_local_optimum": true
+        }
+      ],
+      "algorithm": "random-addition-steepest-NNI-v1",
+      "initialization": "random",
+      "dataset": "phylip-dnapars",
+      "alignment_sha256": "f82346adfba3de6e695dc02b2bdd95a72a6ee2b90235727ed92da3fc3e272d9f",
+      "profile": "unordered-unit-strict-v1",
+      "baseline_score": 19,
+      "published_score": 19,
+      "tree": "candidates/phylip-dnapars-seed-20261020.nwk",
+      "tree_sha256": "43fdf39837818895b5cdc48d6c1ed4acd378b670a2bc49be11f531c2f9412b9c",
+      "verified_score": 19,
+      "elapsed_seconds": 0.001617
+    },
+    {
+      "seed": 0,
+      "restarts": 1,
+      "max_evaluations": 1800,
+      "evaluations": 5,
+      "score": 19,
+      "runs": [
+        {
+          "restart": 0,
+          "initial_score": 19,
+          "score": 19,
+          "evaluations": 5,
+          "history": [
+            19
+          ],
+          "nni_local_optimum": true
+        }
+      ],
+      "algorithm": "random-addition-steepest-NNI-v1",
+      "initialization": "supplied-first",
+      "dataset": "phylip-dnapars",
+      "alignment_sha256": "f82346adfba3de6e695dc02b2bdd95a72a6ee2b90235727ed92da3fc3e272d9f",
+      "profile": "unordered-unit-strict-v1",
+      "baseline_score": 19,
+      "published_score": 19,
+      "tree": "candidates/phylip-dnapars-seed-0.nwk",
+      "tree_sha256": "43fdf39837818895b5cdc48d6c1ed4acd378b670a2bc49be11f531c2f9412b9c",
+      "verified_score": 19,
+      "elapsed_seconds": 0.000276
+    },
+    {
+      "seed": 17,
+      "restarts": 3,
+      "max_evaluations": 1800,
+      "evaluations": 53,
+      "score": 9,
+      "runs": [
+        {
+          "restart": 0,
+          "initial_score": 13,
+          "score": 13,
+          "evaluations": 11,
+          "history": [
+            13
+          ],
+          "nni_local_optimum": true
+        },
+        {
+          "restart": 1,
+          "initial_score": 12,
+          "score": 10,
+          "evaluations": 21,
+          "history": [
+            12,
+            10
+          ],
+          "nni_local_optimum": true
+        },
+        {
+          "restart": 2,
+          "initial_score": 11,
+          "score": 9,
+          "evaluations": 21,
+          "history": [
+            11,
+            9
+          ],
+          "nni_local_optimum": true
+        }
+      ],
+      "algorithm": "random-addition-steepest-NNI-v1",
+      "initialization": "random",
+      "dataset": "phylip-dnapenny",
+      "alignment_sha256": "adc27b586fcb80d40decf882e49ebaf62ef896855cfeea1a49bfa8a702a23d34",
+      "profile": "unordered-unit-strict-v1",
+      "baseline_score": 8,
+      "published_score": 8,
+      "tree": "candidates/phylip-dnapenny-seed-17.nwk",
+      "tree_sha256": "1012b84be5a141000425c26551c9340c305f586825e7cdebfc4c0665819f4b83",
+      "verified_score": 9,
+      "elapsed_seconds": 0.002691
+    },
+    {
+      "seed": 1729,
+      "restarts": 3,
+      "max_evaluations": 1800,
+      "evaluations": 73,
+      "score": 10,
+      "runs": [
+        {
+          "restart": 0,
+          "initial_score": 14,
+          "score": 12,
+          "evaluations": 21,
+          "history": [
+            14,
+            12
+          ],
+          "nni_local_optimum": true
+        },
+        {
+          "restart": 1,
+          "initial_score": 12,
+          "score": 10,
+          "evaluations": 21,
+          "history": [
+            12,
+            10
+          ],
+          "nni_local_optimum": true
+        },
+        {
+          "restart": 2,
+          "initial_score": 14,
+          "score": 11,
+          "evaluations": 31,
+          "history": [
+            14,
+            12,
+            11
+          ],
+          "nni_local_optimum": true
+        }
+      ],
+      "algorithm": "random-addition-steepest-NNI-v1",
+      "initialization": "random",
+      "dataset": "phylip-dnapenny",
+      "alignment_sha256": "adc27b586fcb80d40decf882e49ebaf62ef896855cfeea1a49bfa8a702a23d34",
+      "profile": "unordered-unit-strict-v1",
+      "baseline_score": 8,
+      "published_score": 8,
+      "tree": "candidates/phylip-dnapenny-seed-1729.nwk",
+      "tree_sha256": "667a205e24a4d5098e9c4c9178828207004c152503db4b6b6049accf0d1a9517",
+      "verified_score": 10,
+      "elapsed_seconds": 0.00391
+    },
+    {
+      "seed": 20261020,
+      "restarts": 3,
+      "max_evaluations": 1800,
+      "evaluations": 43,
+      "score": 11,
+      "runs": [
+        {
+          "restart": 0,
+          "initial_score": 13,
+          "score": 13,
+          "evaluations": 11,
+          "history": [
+            13
+          ],
+          "nni_local_optimum": true
+        },
+        {
+          "restart": 1,
+          "initial_score": 15,
+          "score": 14,
+          "evaluations": 21,
+          "history": [
+            15,
+            14
+          ],
+          "nni_local_optimum": true
+        },
+        {
+          "restart": 2,
+          "initial_score": 11,
+          "score": 11,
+          "evaluations": 11,
+          "history": [
+            11
+          ],
+          "nni_local_optimum": true
+        }
+      ],
+      "algorithm": "random-addition-steepest-NNI-v1",
+      "initialization": "random",
+      "dataset": "phylip-dnapenny",
+      "alignment_sha256": "adc27b586fcb80d40decf882e49ebaf62ef896855cfeea1a49bfa8a702a23d34",
+      "profile": "unordered-unit-strict-v1",
+      "baseline_score": 8,
+      "published_score": 8,
+      "tree": "candidates/phylip-dnapenny-seed-20261020.nwk",
+      "tree_sha256": "432e25ddf710afabbe84b309dac578232631b4ba15d030e7ee70f5ab183ce63e",
+      "verified_score": 11,
+      "elapsed_seconds": 0.003173
+    },
+    {
+      "seed": 0,
+      "restarts": 1,
+      "max_evaluations": 1800,
+      "evaluations": 11,
+      "score": 8,
+      "runs": [
+        {
+          "restart": 0,
+          "initial_score": 8,
+          "score": 8,
+          "evaluations": 11,
+          "history": [
+            8
+          ],
+          "nni_local_optimum": true
+        }
+      ],
+      "algorithm": "random-addition-steepest-NNI-v1",
+      "initialization": "supplied-first",
+      "dataset": "phylip-dnapenny",
+      "alignment_sha256": "adc27b586fcb80d40decf882e49ebaf62ef896855cfeea1a49bfa8a702a23d34",
+      "profile": "unordered-unit-strict-v1",
+      "baseline_score": 8,
+      "published_score": 8,
+      "tree": "candidates/phylip-dnapenny-seed-0.nwk",
+      "tree_sha256": "1da208d38fa7c1920a8e7f011c2afe51d8c32c3efd5a9a0e7fcc5e73234ac2f7",
+      "verified_score": 8,
+      "elapsed_seconds": 0.000564
+    },
+    {
+      "seed": 17,
+      "restarts": 3,
+      "max_evaluations": 1800,
+      "evaluations": 75,
+      "score": 343,
+      "runs": [
+        {
+          "restart": 0,
+          "initial_score": 404,
+          "score": 343,
+          "evaluations": 25,
+          "history": [
+            404,
+            372,
+            352,
+            343
+          ],
+          "nni_local_optimum": true
+        },
+        {
+          "restart": 1,
+          "initial_score": 410,
+          "score": 343,
+          "evaluations": 25,
+          "history": [
+            410,
+            380,
+            352,
+            343
+          ],
+          "nni_local_optimum": true
+        },
+        {
+          "restart": 2,
+          "initial_score": 416,
+          "score": 343,
+          "evaluations": 25,
+          "history": [
+            416,
+            385,
+            363,
+            343
+          ],
+          "nni_local_optimum": true
+        }
+      ],
+      "algorithm": "random-addition-steepest-NNI-v1",
+      "initialization": "random",
+      "dataset": "pythonidae-cytb-6",
+      "alignment_sha256": "d82b62246ccb270ed277da6dfb5358d1aa1e5c0b91af90bd2c5b827b485645fe",
+      "profile": "unordered-unit-strict-v1",
+      "baseline_score": 343,
+      "published_score": null,
+      "tree": "candidates/pythonidae-cytb-6-seed-17.nwk",
+      "tree_sha256": "77033a32510547f989272a9b8ddb8fbddd695f08db0fd2a52cc1def3b8896560",
+      "verified_score": 343,
+      "elapsed_seconds": 0.013332
+    },
+    {
+      "seed": 1729,
+      "restarts": 3,
+      "max_evaluations": 1800,
+      "evaluations": 81,
+      "score": 343,
+      "runs": [
+        {
+          "restart": 0,
+          "initial_score": 412,
+          "score": 343,
+          "evaluations": 25,
+          "history": [
+            412,
+            384,
+            366,
+            343
+          ],
+          "nni_local_optimum": true
+        },
+        {
+          "restart": 1,
+          "initial_score": 377,
+          "score": 343,
+          "evaluations": 19,
+          "history": [
+            377,
+            350,
+            343
+          ],
+          "nni_local_optimum": true
+        },
+        {
+          "restart": 2,
+          "initial_score": 419,
+          "score": 343,
+          "evaluations": 37,
+          "history": [
+            419,
+            411,
+            404,
+            372,
+            352,
+            343
+          ],
+          "nni_local_optimum": true
+        }
+      ],
+      "algorithm": "random-addition-steepest-NNI-v1",
+      "initialization": "random",
+      "dataset": "pythonidae-cytb-6",
+      "alignment_sha256": "d82b62246ccb270ed277da6dfb5358d1aa1e5c0b91af90bd2c5b827b485645fe",
+      "profile": "unordered-unit-strict-v1",
+      "baseline_score": 343,
+      "published_score": null,
+      "tree": "candidates/pythonidae-cytb-6-seed-1729.nwk",
+      "tree_sha256": "77033a32510547f989272a9b8ddb8fbddd695f08db0fd2a52cc1def3b8896560",
+      "verified_score": 343,
+      "elapsed_seconds": 0.013751
+    },
+    {
+      "seed": 20261020,
+      "restarts": 3,
+      "max_evaluations": 1800,
+      "evaluations": 57,
+      "score": 343,
+      "runs": [
+        {
+          "restart": 0,
+          "initial_score": 384,
+          "score": 343,
+          "evaluations": 19,
+          "history": [
+            384,
+            366,
+            343
+          ],
+          "nni_local_optimum": true
+        },
+        {
+          "restart": 1,
+          "initial_score": 402,
+          "score": 343,
+          "evaluations": 19,
+          "history": [
+            402,
+            366,
+            343
+          ],
+          "nni_local_optimum": true
+        },
+        {
+          "restart": 2,
+          "initial_score": 402,
+          "score": 343,
+          "evaluations": 19,
+          "history": [
+            402,
+            366,
+            343
+          ],
+          "nni_local_optimum": true
+        }
+      ],
+      "algorithm": "random-addition-steepest-NNI-v1",
+      "initialization": "random",
+      "dataset": "pythonidae-cytb-6",
+      "alignment_sha256": "d82b62246ccb270ed277da6dfb5358d1aa1e5c0b91af90bd2c5b827b485645fe",
+      "profile": "unordered-unit-strict-v1",
+      "baseline_score": 343,
+      "published_score": null,
+      "tree": "candidates/pythonidae-cytb-6-seed-20261020.nwk",
+      "tree_sha256": "77033a32510547f989272a9b8ddb8fbddd695f08db0fd2a52cc1def3b8896560",
+      "verified_score": 343,
+      "elapsed_seconds": 0.009442
+    },
+    {
+      "seed": 0,
+      "restarts": 1,
+      "max_evaluations": 1800,
+      "evaluations": 7,
+      "score": 343,
+      "runs": [
+        {
+          "restart": 0,
+          "initial_score": 343,
+          "score": 343,
+          "evaluations": 7,
+          "history": [
+            343
+          ],
+          "nni_local_optimum": true
+        }
+      ],
+      "algorithm": "random-addition-steepest-NNI-v1",
+      "initialization": "supplied-first",
+      "dataset": "pythonidae-cytb-6",
+      "alignment_sha256": "d82b62246ccb270ed277da6dfb5358d1aa1e5c0b91af90bd2c5b827b485645fe",
+      "profile": "unordered-unit-strict-v1",
+      "baseline_score": 343,
+      "published_score": null,
+      "tree": "candidates/pythonidae-cytb-6-seed-0.nwk",
+      "tree_sha256": "77033a32510547f989272a9b8ddb8fbddd695f08db0fd2a52cc1def3b8896560",
+      "verified_score": 343,
+      "elapsed_seconds": 0.00133
+    },
+    {
+      "seed": 17,
+      "restarts": 3,
+      "max_evaluations": 1800,
+      "evaluations": 687,
+      "score": 585,
+      "runs": [
+        {
+          "restart": 0,
+          "initial_score": 660,
+          "score": 606,
+          "evaluations": 163,
+          "history": [
+            660,
+            649,
+            641,
+            630,
+            621,
+            619,
+            611,
+            607,
+            606
+          ],
+          "nni_local_optimum": true
+        },
+        {
+          "restart": 1,
+          "initial_score": 660,
+          "score": 593,
+          "evaluations": 235,
+          "history": [
+            660,
+            652,
+            643,
+            630,
+            627,
+            623,
+            617,
+            614,
+            611,
+            610,
+            604,
+            599,
+            593
+          ],
+          "nni_local_optimum": true
+        },
+        {
+          "restart": 2,
+          "initial_score": 656,
+          "score": 585,
+          "evaluations": 289,
+          "history": [
+            656,
+            648,
+            644,
+            641,
+            637,
+            616,
+            614,
+            612,
+            609,
+            600,
+            595,
+            593,
+            592,
+            591,
+            588,
+            585
+          ],
+          "nni_local_optimum": true
+        }
+      ],
+      "algorithm": "random-addition-steepest-NNI-v1",
+      "initialization": "random",
+      "dataset": "pythonidae-cytb-12",
+      "alignment_sha256": "b5b57b5a2eec060601144a090d0f68c6ebaee9164089dfe6c518c0a6f43c891e",
+      "profile": "unordered-unit-strict-v1",
+      "baseline_score": 591,
+      "published_score": null,
+      "tree": "candidates/pythonidae-cytb-12-seed-17.nwk",
+      "tree_sha256": "f3ab4ef9c6419050b16f673ccd80479fde9735321c098b785f7e5236bda143e4",
+      "verified_score": 585,
+      "elapsed_seconds": 0.450736
+    },
+    {
+      "seed": 1729,
+      "restarts": 3,
+      "max_evaluations": 1800,
+      "evaluations": 561,
+      "score": 581,
+      "runs": [
+        {
+          "restart": 0,
+          "initial_score": 669,
+          "score": 601,
+          "evaluations": 199,
+          "history": [
+            669,
+            661,
+            656,
+            647,
+            643,
+            631,
+            625,
+            621,
+            617,
+            615,
+            601
+          ],
+          "nni_local_optimum": true
+        },
+        {
+          "restart": 1,
+          "initial_score": 642,
+          "score": 606,
+          "evaluations": 127,
+          "history": [
+            642,
+            626,
+            622,
+            620,
+            617,
+            608,
+            606
+          ],
+          "nni_local_optimum": true
+        },
+        {
+          "restart": 2,
+          "initial_score": 665,
+          "score": 581,
+          "evaluations": 235,
+          "history": [
+            665,
+            658,
+            651,
+            632,
+            630,
+            627,
+            625,
+            603,
+            598,
+            587,
+            584,
+            583,
+            581
+          ],
+          "nni_local_optimum": true
+        }
+      ],
+      "algorithm": "random-addition-steepest-NNI-v1",
+      "initialization": "random",
+      "dataset": "pythonidae-cytb-12",
+      "alignment_sha256": "b5b57b5a2eec060601144a090d0f68c6ebaee9164089dfe6c518c0a6f43c891e",
+      "profile": "unordered-unit-strict-v1",
+      "baseline_score": 591,
+      "published_score": null,
+      "tree": "candidates/pythonidae-cytb-12-seed-1729.nwk",
+      "tree_sha256": "3766a916cc9be0bcc397fc32c5a2ef4fb7c8f851d3fe141fce762bd45195e619",
+      "verified_score": 581,
+      "elapsed_seconds": 0.412766
+    },
+    {
+      "seed": 20261020,
+      "restarts": 3,
+      "max_evaluations": 1800,
+      "evaluations": 489,
+      "score": 592,
+      "runs": [
+        {
+          "restart": 0,
+          "initial_score": 620,
+          "score": 592,
+          "evaluations": 91,
+          "history": [
+            620,
+            610,
+            599,
+            597,
+            592
+          ],
+          "nni_local_optimum": true
+        },
+        {
+          "restart": 1,
+          "initial_score": 662,
+          "score": 594,
+          "evaluations": 199,
+          "history": [
+            662,
+            651,
+            645,
+            637,
+            626,
+            620,
+            615,
+            607,
+            601,
+            598,
+            594
+          ],
+          "nni_local_optimum": true
+        },
+        {
+          "restart": 2,
+          "initial_score": 667,
+          "score": 605,
+          "evaluations": 199,
+          "history": [
+            667,
+            662,
+            658,
+            649,
+            644,
+            637,
+            620,
+            615,
+            613,
+            608,
+            605
+          ],
+          "nni_local_optimum": true
+        }
+      ],
+      "algorithm": "random-addition-steepest-NNI-v1",
+      "initialization": "random",
+      "dataset": "pythonidae-cytb-12",
+      "alignment_sha256": "b5b57b5a2eec060601144a090d0f68c6ebaee9164089dfe6c518c0a6f43c891e",
+      "profile": "unordered-unit-strict-v1",
+      "baseline_score": 591,
+      "published_score": null,
+      "tree": "candidates/pythonidae-cytb-12-seed-20261020.nwk",
+      "tree_sha256": "f3f9e95333dfed859c465ac9a9a7956a0a0906ba5132ce46b380c41fe6908e59",
+      "verified_score": 592,
+      "elapsed_seconds": 0.331327
+    },
+    {
+      "seed": 0,
+      "restarts": 1,
+      "max_evaluations": 1800,
+      "evaluations": 55,
+      "score": 579,
+      "runs": [
+        {
+          "restart": 0,
+          "initial_score": 591,
+          "score": 579,
+          "evaluations": 55,
+          "history": [
+            591,
+            584,
+            579
+          ],
+          "nni_local_optimum": true
+        }
+      ],
+      "algorithm": "random-addition-steepest-NNI-v1",
+      "initialization": "supplied-first",
+      "dataset": "pythonidae-cytb-12",
+      "alignment_sha256": "b5b57b5a2eec060601144a090d0f68c6ebaee9164089dfe6c518c0a6f43c891e",
+      "profile": "unordered-unit-strict-v1",
+      "baseline_score": 591,
+      "published_score": null,
+      "tree": "candidates/pythonidae-cytb-12-seed-0.nwk",
+      "tree_sha256": "0c654b2df42f197a0547f4f88f96971abb02f8092e10de3d29c8a099d2263c1a",
+      "verified_score": 579,
+      "elapsed_seconds": 0.051238
+    },
+    {
+      "seed": 17,
+      "restarts": 3,
+      "max_evaluations": 1800,
+      "evaluations": 1800,
+      "score": 1093,
+      "runs": [
+        {
+          "restart": 0,
+          "initial_score": 1197,
+          "score": 1119,
+          "evaluations": 600,
+          "history": [
+            1197,
+            1191,
+            1187,
+            1183,
+            1180,
+            1175,
+            1172,
+            1170,
+            1162,
+            1154,
+            1151,
+            1144,
+            1124,
+            1122,
+            1120,
+            1119
+          ],
+          "nni_local_optimum": false
+        },
+        {
+          "restart": 1,
+          "initial_score": 1201,
+          "score": 1144,
+          "evaluations": 600,
+          "history": [
+            1201,
+            1195,
+            1190,
+            1184,
+            1175,
+            1172,
+            1166,
+            1161,
+            1158,
+            1156,
+            1153,
+            1150,
+            1148,
+            1146,
+            1144
+          ],
+          "nni_local_optimum": false
+        },
+        {
+          "restart": 2,
+          "initial_score": 1176,
+          "score": 1093,
+          "evaluations": 600,
+          "history": [
+            1176,
+            1164,
+            1153,
+            1145,
+            1138,
+            1130,
+            1124,
+            1118,
+            1114,
+            1106,
+            1103,
+            1100,
+            1098,
+            1096,
+            1095,
+            1093
+          ],
+          "nni_local_optimum": false
+        }
+      ],
+      "algorithm": "random-addition-steepest-NNI-v1",
+      "initialization": "random",
+      "dataset": "pythonidae-cytb-24",
+      "alignment_sha256": "df4044ec22a8f0b4ae44fc0a5ae51903ff2fff0eb53f8056ca988784ebc47a42",
+      "profile": "unordered-unit-strict-v1",
+      "baseline_score": 1013,
+      "published_score": null,
+      "tree": "candidates/pythonidae-cytb-24-seed-17.nwk",
+      "tree_sha256": "5908595ca0770387d66ae1fece83e664b28605ac91d8d5449265c175f03246a3",
+      "verified_score": 1093,
+      "elapsed_seconds": 3.174435
+    },
+    {
+      "seed": 1729,
+      "restarts": 3,
+      "max_evaluations": 1800,
+      "evaluations": 1800,
+      "score": 1085,
+      "runs": [
+        {
+          "restart": 0,
+          "initial_score": 1183,
+          "score": 1093,
+          "evaluations": 600,
+          "history": [
+            1183,
+            1177,
+            1172,
+            1168,
+            1165,
+            1159,
+            1135,
+            1130,
+            1121,
+            1117,
+            1114,
+            1108,
+            1104,
+            1099,
+            1094,
+            1093
+          ],
+          "nni_local_optimum": false
+        },
+        {
+          "restart": 1,
+          "initial_score": 1212,
+          "score": 1134,
+          "evaluations": 600,
+          "history": [
+            1212,
+            1203,
+            1200,
+            1196,
+            1183,
+            1179,
+            1160,
+            1156,
+            1149,
+            1145,
+            1141,
+            1138,
+            1137,
+            1136,
+            1134
+          ],
+          "nni_local_optimum": false
+        },
+        {
+          "restart": 2,
+          "initial_score": 1151,
+          "score": 1085,
+          "evaluations": 600,
+          "history": [
+            1151,
+            1144,
+            1139,
+            1135,
+            1130,
+            1128,
+            1126,
+            1124,
+            1116,
+            1114,
+            1091,
+            1090,
+            1088,
+            1086,
+            1085
+          ],
+          "nni_local_optimum": false
+        }
+      ],
+      "algorithm": "random-addition-steepest-NNI-v1",
+      "initialization": "random",
+      "dataset": "pythonidae-cytb-24",
+      "alignment_sha256": "df4044ec22a8f0b4ae44fc0a5ae51903ff2fff0eb53f8056ca988784ebc47a42",
+      "profile": "unordered-unit-strict-v1",
+      "baseline_score": 1013,
+      "published_score": null,
+      "tree": "candidates/pythonidae-cytb-24-seed-1729.nwk",
+      "tree_sha256": "126f2392fcc3e44ad35eed8f51e24219712c49999cf289bd48a13681282ca04b",
+      "verified_score": 1085,
+      "elapsed_seconds": 2.981081
+    },
+    {
+      "seed": 20261020,
+      "restarts": 3,
+      "max_evaluations": 1800,
+      "evaluations": 1800,
+      "score": 1071,
+      "runs": [
+        {
+          "restart": 0,
+          "initial_score": 1181,
+          "score": 1110,
+          "evaluations": 600,
+          "history": [
+            1181,
+            1169,
+            1160,
+            1154,
+            1150,
+            1147,
+            1143,
+            1138,
+            1133,
+            1129,
+            1126,
+            1123,
+            1117,
+            1116,
+            1111,
+            1110
+          ],
+          "nni_local_optimum": false
+        },
+        {
+          "restart": 1,
+          "initial_score": 1155,
+          "score": 1071,
+          "evaluations": 600,
+          "history": [
+            1155,
+            1149,
+            1143,
+            1124,
+            1120,
+            1115,
+            1111,
+            1108,
+            1089,
+            1086,
+            1083,
+            1080,
+            1078,
+            1074,
+            1071
+          ],
+          "nni_local_optimum": false
+        },
+        {
+          "restart": 2,
+          "initial_score": 1182,
+          "score": 1088,
+          "evaluations": 600,
+          "history": [
+            1182,
+            1173,
+            1157,
+            1153,
+            1150,
+            1147,
+            1144,
+            1126,
+            1108,
+            1103,
+            1100,
+            1097,
+            1092,
+            1090,
+            1089,
+            1088
+          ],
+          "nni_local_optimum": false
+        }
+      ],
+      "algorithm": "random-addition-steepest-NNI-v1",
+      "initialization": "random",
+      "dataset": "pythonidae-cytb-24",
+      "alignment_sha256": "df4044ec22a8f0b4ae44fc0a5ae51903ff2fff0eb53f8056ca988784ebc47a42",
+      "profile": "unordered-unit-strict-v1",
+      "baseline_score": 1013,
+      "published_score": null,
+      "tree": "candidates/pythonidae-cytb-24-seed-20261020.nwk",
+      "tree_sha256": "15b02364ae2a2a7334323691d71d0fccd02d8a18e426540bc4256633a5c67b3f",
+      "verified_score": 1071,
+      "elapsed_seconds": 3.299719
+    },
+    {
+      "seed": 0,
+      "restarts": 1,
+      "max_evaluations": 1800,
+      "evaluations": 337,
+      "score": 990,
+      "runs": [
+        {
+          "restart": 0,
+          "initial_score": 1013,
+          "score": 990,
+          "evaluations": 337,
+          "history": [
+            1013,
+            1008,
+            1003,
+            1000,
+            997,
+            994,
+            992,
+            990
+          ],
+          "nni_local_optimum": true
+        }
+      ],
+      "algorithm": "random-addition-steepest-NNI-v1",
+      "initialization": "supplied-first",
+      "dataset": "pythonidae-cytb-24",
+      "alignment_sha256": "df4044ec22a8f0b4ae44fc0a5ae51903ff2fff0eb53f8056ca988784ebc47a42",
+      "profile": "unordered-unit-strict-v1",
+      "baseline_score": 1013,
+      "published_score": null,
+      "tree": "candidates/pythonidae-cytb-24-seed-0.nwk",
+      "tree_sha256": "52da13becdc6481dae1a3871214f12613e46def65f6d4ccd11c76fd7fcad3688",
+      "verified_score": 990,
+      "elapsed_seconds": 0.704164
+    }
+  ]
+}

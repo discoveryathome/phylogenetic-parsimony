@@ -1,0 +1,97 @@
+[
+  {
+    "dataset": "phylip-dnapars",
+    "alignment_sha256": "f82346adfba3de6e695dc02b2bdd95a72a6ee2b90235727ed92da3fc3e272d9f",
+    "profile": "unordered-unit-strict-v1",
+    "score": 19,
+    "lower_bound": 19,
+    "tree": "candidates/phylip-dnapars-best.nwk",
+    "tree_sha256": "43fdf39837818895b5cdc48d6c1ed4acd378b670a2bc49be11f531c2f9412b9c",
+    "baseline_score": 19,
+    "published_score": 19,
+    "bound_method": "exhaustive",
+    "bound_evidence": "results/phylip-dnapars-exhaustive.json",
+    "status": "settled",
+    "evidence_level": [
+      "author-checked"
+    ],
+    "scope": "Only this fixed alignment and scoring profile; not a claim of biological truth",
+    "reproduce": "python3 phylo.py verify phylip-dnapars candidates/phylip-dnapars-best.nwk --claim 19"
+  },
+  {
+    "dataset": "phylip-dnapenny",
+    "alignment_sha256": "adc27b586fcb80d40decf882e49ebaf62ef896855cfeea1a49bfa8a702a23d34",
+    "profile": "unordered-unit-strict-v1",
+    "score": 8,
+    "lower_bound": 8,
+    "tree": "candidates/phylip-dnapenny-best.nwk",
+    "tree_sha256": "881ed8e5414329ff81bd685040259345f8253dd664cd9adb8bb6e814d5f88e7f",
+    "baseline_score": 8,
+    "published_score": 8,
+    "bound_method": "exhaustive",
+    "bound_evidence": "results/phylip-dnapenny-exhaustive.json",
+    "status": "settled",
+    "evidence_level": [
+      "author-checked"
+    ],
+    "scope": "Only this fixed alignment and scoring profile; not a claim of biological truth",
+    "reproduce": "python3 phylo.py verify phylip-dnapenny candidates/phylip-dnapenny-best.nwk --claim 8"
+  },
+  {
+    "dataset": "pythonidae-cytb-6",
+    "alignment_sha256": "d82b62246ccb270ed277da6dfb5358d1aa1e5c0b91af90bd2c5b827b485645fe",
+    "profile": "unordered-unit-strict-v1",
+    "score": 343,
+    "lower_bound": 343,
+    "tree": "candidates/pythonidae-cytb-6-best.nwk",
+    "tree_sha256": "77033a32510547f989272a9b8ddb8fbddd695f08db0fd2a52cc1def3b8896560",
+    "baseline_score": 343,
+    "published_score": null,
+    "bound_method": "exhaustive",
+    "bound_evidence": "results/pythonidae-cytb-6-exhaustive.json",
+    "status": "settled",
+    "evidence_level": [
+      "author-checked"
+    ],
+    "scope": "Only this fixed alignment and scoring profile; not a claim of biological truth",
+    "reproduce": "python3 phylo.py verify pythonidae-cytb-6 candidates/pythonidae-cytb-6-best.nwk --claim 343"
+  },
+  {
+    "dataset": "pythonidae-cytb-12",
+    "alignment_sha256": "b5b57b5a2eec060601144a090d0f68c6ebaee9164089dfe6c518c0a6f43c891e",
+    "profile": "unordered-unit-strict-v1",
+    "score": 579,
+    "lower_bound": 343,
+    "tree": "candidates/pythonidae-cytb-12-best.nwk",
+    "tree_sha256": "0c654b2df42f197a0547f4f88f96971abb02f8092e10de3d29c8a099d2263c1a",
+    "baseline_score": 591,
+    "published_score": null,
+    "bound_method": "sum-distinct-states-minus-one",
+    "bound_evidence": "src/phylo/scoring.py",
+    "status": "open",
+    "evidence_level": [
+      "author-checked"
+    ],
+    "scope": "Only this fixed alignment and scoring profile; not a claim of biological truth",
+    "reproduce": "python3 phylo.py verify pythonidae-cytb-12 candidates/pythonidae-cytb-12-best.nwk --claim 579"
+  },
+  {
+    "dataset": "pythonidae-cytb-24",
+    "alignment_sha256": "df4044ec22a8f0b4ae44fc0a5ae51903ff2fff0eb53f8056ca988784ebc47a42",
+    "profile": "unordered-unit-strict-v1",
+    "score": 990,
+    "lower_bound": 412,
+    "tree": "candidates/pythonidae-cytb-24-best.nwk",
+    "tree_sha256": "52da13becdc6481dae1a3871214f12613e46def65f6d4ccd11c76fd7fcad3688",
+    "baseline_score": 1013,
+    "published_score": null,
+    "bound_method": "sum-distinct-states-minus-one",
+    "bound_evidence": "src/phylo/scoring.py",
+    "status": "open",
+    "evidence_level": [
+      "author-checked"
+    ],
+    "scope": "Only this fixed alignment and scoring profile; not a claim of biological truth",
+    "reproduce": "python3 phylo.py verify pythonidae-cytb-24 candidates/pythonidae-cytb-24-best.nwk --claim 990"
+  }
+]
