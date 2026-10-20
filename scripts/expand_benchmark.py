@@ -11,7 +11,7 @@ from phylo.tree import parse,newick
 from phylo.scoring import sankoff
 from phylo.search import search,exhaustive
 from phylo.advanced import search_two
-from phylo.bounds import paired_bound
+from phylo.bounds import paired_bound,verify_paired_bound
 ROOT=Path(__file__).resolve().parents[1]
 PANELS={'phylip-dnapenny','pythonidae-cytb-12','cetaceans-mt-12','ferula-nrdna-12'}
 
@@ -23,11 +23,13 @@ def main():
     parser=argparse.ArgumentParser()
     parser.add_argument('--datasets',nargs='+',help='Recompute only these rows, preserving all other expansion evidence')
     args=parser.parse_args()
+    cases=json.loads((ROOT/'data/manifest.json').read_text())['datasets']
+    if args.datasets and not set(args.datasets)<={c['id'] for c in cases}:parser.error('unknown dataset')
     old={r['dataset']:r for r in json.loads((ROOT/'discover/frontier-rows.json').read_text())}
     records=[];rows=[]
     if args.datasets:
         records=[r for r in json.loads((ROOT/'results/expansion-benchmark.json').read_text())['records'] if r['dataset'] not in args.datasets]
-    for case in json.loads((ROOT/'data/manifest.json').read_text())['datasets']:
+    for case in cases:
         if args.datasets and case['id'] not in args.datasets:
             rows.append(old[case['id']]);continue
         ident=case['id'];_,a=load_dataset(ROOT,ident)
@@ -74,6 +76,12 @@ def main():
             evidence=f'results/{ident}-exhaustive.json';save(evidence,certificate)
         else:
             certificate=max((paired_bound(a,s) for s in range(20)),key=lambda c:c['bound'])
+            if ident in old and old[ident]['bound_method']=='incompatible-pairs':
+                previous=json.loads((ROOT/old[ident]['bound_evidence']).read_text())
+                if (previous.get('dataset'),previous.get('alignment_sha256'),previous.get('profile'))!=(ident,case['sha256'],PROFILE):
+                    raise ValueError('previous bound identity mismatch')
+                if verify_paired_bound(a,previous)!=old[ident]['lower_bound']:raise ValueError('invalid previous bound')
+                if previous['bound']>certificate['bound']:certificate=previous
             certificate.update(dataset=ident,alignment_sha256=case['sha256'],profile=PROFILE)
             bound=certificate['bound'];method='incompatible-pairs'
             evidence=f'results/{ident}-bound.json';save(evidence,certificate)

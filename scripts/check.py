@@ -51,6 +51,7 @@ def main():
             require(verify_paired_bound(a,certificate)==r['lower_bound'],'pair bound mismatch')
         else:require(r['lower_bound']==lower_bound(a),'lower bound mismatch')
         require(r['lower_bound']<=r['score'],'score below lower bound')
+        require(r['status']==('settled' if r['lower_bound']==r['score'] else 'open'),'incorrect optimum status')
         for b in [b for b in benchmarks if b['dataset']==r['dataset']]:
             require(b['alignment_sha256']==case['sha256'] and b['profile']==PROFILE,'benchmark identity mismatch')
             require(sha256(ROOT/b['tree'])==b['tree_sha256'],'benchmark tree hash mismatch')
