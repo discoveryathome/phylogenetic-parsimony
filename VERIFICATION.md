@@ -48,3 +48,11 @@ independent review, biological truth, or readiness to admit donors.
 Review remains paused with an explicitly unassigned maintainer role. Eight rows
 have proven optima; nine retain certified lower and witnessed upper bounds. No
 published MP record is claimed for the derived empirical matrices.
+
+The full fresh-clone check used implementation commit `2b2a8dd0d76cf7a59d1775e20c6b23fc405dbbf8`.
+Commit `180f6cbb222f5b022c88ae58d832034a4f704398` adds only maintainer-regeneration bound preservation
+and a status-consistency check. A focused experiment forced the generator to emit
+only trivial bounds and confirmed the previous checked bound 82 was preserved;
+all status labels were also checked against their certified lower/upper bounds.
+Scoring/search code, trajectories, inputs and witnesses are identical between
+these two commits. Receipts record this distinction explicitly.

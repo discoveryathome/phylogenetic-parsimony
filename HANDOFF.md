@@ -1,27 +1,38 @@
 # Local handoff — not posted
 
-Destination: the next authorized local contributor or future accepting maintainer.
-No GitHub repository, remote, issue, discussion, hub application or external message
-was created. The implementation commit below passed reproduction from a fresh local
-clone, including all 13 test methods and exhaustive controls. All 20 recorded seed
-runs replayed exactly. All five catalog first steps passed. Official protocol
-validation is conformant: five cases, two open. Raw receipts are in
-`results/validation.txt`; setup support and a fresh clone remain in `../.task-support/`.
+Expanded from five to 17 fixed alignments: two PHYLIP controls, six Pythonidae,
+three cetacean, and six matched nuclear/plastid Ferula subsets. Three empirical
+studies; eight proven optima and nine open rows. Source permissions, snapshots,
+hashes, taxon filters and original column coordinates are retained.
 
-Current best scores: PHYLIP RNA 19 (proven), PHYLIP DNA 8 (proven), Pythonidae six
-343 (proven), Pythonidae twelve 579 (upper bound), Pythonidae twenty-four 990
-(upper bound). The latter two improve the documented source comparators 591 and
-1013, respectively. No published record is claimed for these derived instances.
+Pythonidae CYTB 12 improved 579 → 575; CYTB 24 improved 990 → 982. Pair certificates
+raised their lower bounds to 392 and 466. Two 12-taxon Ferula rows are now proven
+optimal at 82 and 39 without exhaustive topology enumeration. No derived empirical
+score is claimed as a published record or proof of biological truth.
 
-Start with README.md and DISCOVERY.md. Recommended challenges are beating 579 or
-990, escaping the score-9 eight-taxon local minimum, auditing the verifier, and
-explaining changed splits/sites. The exact acceptance boundary is MODEL.md.
+The independent scorer, seeded two-move search, bound checker and study-balanced
+challenge picker are ready for local use. All 250 recorded searches replay exactly;
+all 16 tests, 13 card controls, source curation and independent score/bound checks
+passed. A fresh local clone passed full offline reproduction. Exact commits and
+focused follow-up guard checks are recorded in `results/validation-expansion.txt`.
+Official validation reports conformant, 17 cases and nine open; screen has no findings.
 
-An accepting maintainer, review capacity and independent review remain open.
-The placeholder maintainer entry is not consent; no donors should be launched yet.
-Changes to the verifier and frontier deserve the most care, and review capacity
-will set the pace. Lower parsimony score does not establish true evolutionary history.
+Start with README.md, RESULTS.md and DISCOVERY.md. Recommended first work: improve
+11/20 success on the eight-taxon optimum or 7/20 on Ferula nuclear 12; narrow the
+24-taxon Ferula gaps 138–141 and 102–104; audit certificate acceptance; or investigate
+matched-marker conflict and tied alternatives. Keep failed searches and fixed
+budget comparisons. No known improvement has been held back for donor optics.
+
+Next depth: established parsimony-software comparisons on identical inputs,
+held-out seed/study evaluation, stronger search/bounds, and supervised contributor
+sessions measuring useful verified outcomes and review cost. Automated probes
+are not an estimate of first-donor success rates.
+
+All work remains local. No remote, publication, hub application or external message
+was created. An accepting maintainer, review capacity and independent review are
+still outstanding before donor admission. Lower parsimony score does not establish
+true evolutionary history.
 
 ```discover
-{"v": 0, "kind": "handoff", "task": "improve-12", "scope": "Complete LOCAL parsimony pilot: five fixed alignments, exact verifier, three settled optima, two open empirical rows; no consenting maintainer", "base": "769c4de1e142542c7e9a5addcbfc8b555ff23295", "posted_at": "2026-10-20T05:02:20.662657Z", "evidence_level": "local-only", "request": {"question": "Can a verified tree beat 579 on the fixed pythonidae-cytb-12 alignment?", "first_step": "python3 phylo.py verify pythonidae-cytb-12 candidates/pythonidae-cytb-12-best.nwk --claim 579", "success_test": "Identical alignment SHA-256 and profile, structural validation passes, reference score below 579.", "track": "improved-trees", "est_minutes": 60}}
+{"v": 0, "kind": "handoff", "task": "paired-heuristics", "scope": "LOCAL pilot: 17 fixed alignments, three empirical studies, eight certified optima, nine open rows; no consenting maintainer", "base": "180f6cbb222f5b022c88ae58d832034a4f704398", "posted_at": "2026-10-20T05:31:48.567959Z", "evidence_level": "local-only", "request": {"question": "Can plateau handling or SPR improve success rates on the declared fixed-budget panels?", "first_step": "python3 scripts/progress.py", "success_test": "At least 20 declared paired seeds; fixed alignments and caps; independent exact scoring; retain failures and evaluate held-out seeds before generalizing.", "track": "better-heuristics", "est_minutes": 60}}
 ```

@@ -1,0 +1,371 @@
+Expansion implementation: 180f6cbb222f5b022c88ae58d832034a4f704398
+Fresh full reproduction: 2b2a8dd0d76cf7a59d1775e20c6b23fc405dbbf8
+The later guard-only commit preserves stronger bound certificates and checks optimum status.
+Focused guard validation: existing bound 82 survived a deliberately weakened trivial-bound generator; all 17 status labels match checked bounds.
+No scoring, search trajectories, datasets or witnesses changed after fresh reproduction base.
+
+=== validate ===
+start-phylogenetic: conformant: the required files are present and valid
+  frontier table: 17 cases, 9 open
+  conventions followed: weighted task catalogue, priority log, frontier `reproduce` check
+  convention not followed: coordination channel: manifest has no `coordination` channel
+  convention not followed: review ledger: manifest has no `ledger`
+  convention not followed: result packages: manifest has no `packages` location
+  Conventions are recommended, not required. The stage comes from a hub assessment of
+  the five properties (spec §3), not from this check.
+
+=== screen ===
+Screen of start-phylogenetic: no findings. That isn't a guarantee: read what you run, and run untrusted code in a sandbox.
+
+=== check ===
+Curation replay: all derived bytes match
+phylip-dnapars 19 settled
+phylip-dnapenny 8 settled
+pythonidae-cytb-6 343 settled
+pythonidae-cytb-12 575 open
+pythonidae-cytb-24 982 open
+cetaceans-mt-6 291 settled
+cetaceans-mt-12 493 open
+cetaceans-mt-22 1046 open
+ferula-nrdna-6 61 settled
+ferula-nrdna-12 82 settled
+ferula-nrdna-24 141 open
+ferula-plastid-6 27 settled
+ferula-plastid-12 39 settled
+ferula-plastid-24 104 open
+pythonidae-12s-12 112 open
+pythonidae-16s-12 95 open
+pythonidae-cytb-29 2005 open
+test_neighbor_joining_known_quartet_and_order (test_expansion.ExpansionTests.test_neighbor_joining_known_quartet_and_order) ... ok
+test_pair_bound_exhaustive_binary_columns (test_expansion.ExpansionTests.test_pair_bound_exhaustive_binary_columns) ... ok
+test_two_move_budget_determinism_and_local_certificate (test_expansion.ExpansionTests.test_two_move_budget_determinism_and_local_certificate) ... ok
+test_cli_rejects_wrong_score_and_taxa (test_phylo.TestInputsAndSearch.test_cli_rejects_wrong_score_and_taxa) ... ok
+test_reproducible_search (test_phylo.TestInputsAndSearch.test_reproducible_search) ... ok
+test_strict_fasta (test_phylo.TestInputsAndSearch.test_strict_fasta) ... ok
+test_all_quartet_patterns_against_brute_ancestral_assignments (test_phylo.TestScoring.test_all_quartet_patterns_against_brute_ancestral_assignments) ... ok
+test_exhaustive_count_formula (test_phylo.TestScoring.test_exhaustive_count_formula) ... ok
+test_identical_constant_and_informative_sites (test_phylo.TestScoring.test_identical_constant_and_informative_sites) ... ok
+test_published_scores_and_exhaustive_optima (test_phylo.TestScoring.test_published_scores_and_exhaustive_optima) ... ok
+test_random_multistate_patterns (test_phylo.TestScoring.test_random_multistate_patterns) ... ok
+test_graph_rejection (test_phylo.TestStructure.test_graph_rejection) ... ok
+test_nni_degree_uniqueness_and_connectivity (test_phylo.TestStructure.test_nni_degree_uniqueness_and_connectivity) ... ok
+test_prune (test_phylo.TestStructure.test_prune) ... ok
+test_reject_newick (test_phylo.TestStructure.test_reject_newick) ... ok
+test_root_and_order_invariance (test_phylo.TestStructure.test_root_and_order_invariance) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 8.060s
+
+OK
+PASS: fixed data, baseline and candidate scores, exhaustive bounds, structural/negative tests
+
+=== replay ===
+phylip-dnapars 17 replayed
+phylip-dnapars 1729 replayed
+phylip-dnapars 20261020 replayed
+phylip-dnapars 0 replayed
+phylip-dnapenny 17 replayed
+phylip-dnapenny 1729 replayed
+phylip-dnapenny 20261020 replayed
+phylip-dnapenny 0 replayed
+pythonidae-cytb-6 17 replayed
+pythonidae-cytb-6 1729 replayed
+pythonidae-cytb-6 20261020 replayed
+pythonidae-cytb-6 0 replayed
+pythonidae-cytb-12 17 replayed
+pythonidae-cytb-12 1729 replayed
+pythonidae-cytb-12 20261020 replayed
+pythonidae-cytb-12 0 replayed
+pythonidae-cytb-24 17 replayed
+pythonidae-cytb-24 1729 replayed
+pythonidae-cytb-24 20261020 replayed
+pythonidae-cytb-24 0 replayed
+phylip-dnapenny 0 replayed
+phylip-dnapenny 0 replayed
+phylip-dnapenny 1 replayed
+phylip-dnapenny 1 replayed
+phylip-dnapenny 2 replayed
+phylip-dnapenny 2 replayed
+phylip-dnapenny 3 replayed
+phylip-dnapenny 3 replayed
+phylip-dnapenny 4 replayed
+phylip-dnapenny 4 replayed
+phylip-dnapenny 5 replayed
+phylip-dnapenny 5 replayed
+phylip-dnapenny 6 replayed
+phylip-dnapenny 6 replayed
+phylip-dnapenny 7 replayed
+phylip-dnapenny 7 replayed
+phylip-dnapenny 8 replayed
+phylip-dnapenny 8 replayed
+phylip-dnapenny 9 replayed
+phylip-dnapenny 9 replayed
+phylip-dnapenny 10 replayed
+phylip-dnapenny 10 replayed
+phylip-dnapenny 11 replayed
+phylip-dnapenny 11 replayed
+phylip-dnapenny 12 replayed
+phylip-dnapenny 12 replayed
+phylip-dnapenny 13 replayed
+phylip-dnapenny 13 replayed
+phylip-dnapenny 14 replayed
+phylip-dnapenny 14 replayed
+phylip-dnapenny 15 replayed
+phylip-dnapenny 15 replayed
+phylip-dnapenny 16 replayed
+phylip-dnapenny 16 replayed
+phylip-dnapenny 17 replayed
+phylip-dnapenny 17 replayed
+phylip-dnapenny 18 replayed
+phylip-dnapenny 18 replayed
+phylip-dnapenny 19 replayed
+phylip-dnapenny 19 replayed
+pythonidae-cytb-12 0 replayed
+pythonidae-cytb-12 0 replayed
+pythonidae-cytb-12 1 replayed
+pythonidae-cytb-12 1 replayed
+pythonidae-cytb-12 2 replayed
+pythonidae-cytb-12 2 replayed
+pythonidae-cytb-12 3 replayed
+pythonidae-cytb-12 3 replayed
+pythonidae-cytb-12 4 replayed
+pythonidae-cytb-12 4 replayed
+pythonidae-cytb-12 5 replayed
+pythonidae-cytb-12 5 replayed
+pythonidae-cytb-12 6 replayed
+pythonidae-cytb-12 6 replayed
+pythonidae-cytb-12 7 replayed
+pythonidae-cytb-12 7 replayed
+pythonidae-cytb-12 8 replayed
+pythonidae-cytb-12 8 replayed
+pythonidae-cytb-12 9 replayed
+pythonidae-cytb-12 9 replayed
+pythonidae-cytb-12 10 replayed
+pythonidae-cytb-12 10 replayed
+pythonidae-cytb-12 11 replayed
+pythonidae-cytb-12 11 replayed
+pythonidae-cytb-12 12 replayed
+pythonidae-cytb-12 12 replayed
+pythonidae-cytb-12 13 replayed
+pythonidae-cytb-12 13 replayed
+pythonidae-cytb-12 14 replayed
+pythonidae-cytb-12 14 replayed
+pythonidae-cytb-12 15 replayed
+pythonidae-cytb-12 15 replayed
+pythonidae-cytb-12 16 replayed
+pythonidae-cytb-12 16 replayed
+pythonidae-cytb-12 17 replayed
+pythonidae-cytb-12 17 replayed
+pythonidae-cytb-12 18 replayed
+pythonidae-cytb-12 18 replayed
+pythonidae-cytb-12 19 replayed
+pythonidae-cytb-12 19 replayed
+pythonidae-cytb-12 0 replayed
+pythonidae-cytb-12 0 replayed
+pythonidae-cytb-24 0 replayed
+pythonidae-cytb-24 0 replayed
+pythonidae-cytb-24 1 replayed
+pythonidae-cytb-24 1 replayed
+pythonidae-cytb-24 2 replayed
+pythonidae-cytb-24 2 replayed
+pythonidae-cytb-24 0 replayed
+pythonidae-cytb-24 0 replayed
+cetaceans-mt-12 0 replayed
+cetaceans-mt-12 0 replayed
+cetaceans-mt-12 1 replayed
+cetaceans-mt-12 1 replayed
+cetaceans-mt-12 2 replayed
+cetaceans-mt-12 2 replayed
+cetaceans-mt-12 3 replayed
+cetaceans-mt-12 3 replayed
+cetaceans-mt-12 4 replayed
+cetaceans-mt-12 4 replayed
+cetaceans-mt-12 5 replayed
+cetaceans-mt-12 5 replayed
+cetaceans-mt-12 6 replayed
+cetaceans-mt-12 6 replayed
+cetaceans-mt-12 7 replayed
+cetaceans-mt-12 7 replayed
+cetaceans-mt-12 8 replayed
+cetaceans-mt-12 8 replayed
+cetaceans-mt-12 9 replayed
+cetaceans-mt-12 9 replayed
+cetaceans-mt-12 10 replayed
+cetaceans-mt-12 10 replayed
+cetaceans-mt-12 11 replayed
+cetaceans-mt-12 11 replayed
+cetaceans-mt-12 12 replayed
+cetaceans-mt-12 12 replayed
+cetaceans-mt-12 13 replayed
+cetaceans-mt-12 13 replayed
+cetaceans-mt-12 14 replayed
+cetaceans-mt-12 14 replayed
+cetaceans-mt-12 15 replayed
+cetaceans-mt-12 15 replayed
+cetaceans-mt-12 16 replayed
+cetaceans-mt-12 16 replayed
+cetaceans-mt-12 17 replayed
+cetaceans-mt-12 17 replayed
+cetaceans-mt-12 18 replayed
+cetaceans-mt-12 18 replayed
+cetaceans-mt-12 19 replayed
+cetaceans-mt-12 19 replayed
+cetaceans-mt-12 0 replayed
+cetaceans-mt-12 0 replayed
+cetaceans-mt-22 0 replayed
+cetaceans-mt-22 0 replayed
+cetaceans-mt-22 1 replayed
+cetaceans-mt-22 1 replayed
+cetaceans-mt-22 2 replayed
+cetaceans-mt-22 2 replayed
+cetaceans-mt-22 0 replayed
+cetaceans-mt-22 0 replayed
+ferula-plastid-12 0 replayed
+ferula-plastid-12 0 replayed
+ferula-plastid-12 1 replayed
+ferula-plastid-12 1 replayed
+ferula-plastid-12 2 replayed
+ferula-plastid-12 2 replayed
+ferula-plastid-12 0 replayed
+ferula-plastid-12 0 replayed
+ferula-plastid-24 0 replayed
+ferula-plastid-24 0 replayed
+ferula-plastid-24 1 replayed
+ferula-plastid-24 1 replayed
+ferula-plastid-24 2 replayed
+ferula-plastid-24 2 replayed
+ferula-plastid-24 0 replayed
+ferula-plastid-24 0 replayed
+pythonidae-12s-12 0 replayed
+pythonidae-12s-12 0 replayed
+pythonidae-12s-12 1 replayed
+pythonidae-12s-12 1 replayed
+pythonidae-12s-12 2 replayed
+pythonidae-12s-12 2 replayed
+pythonidae-12s-12 0 replayed
+pythonidae-12s-12 0 replayed
+pythonidae-16s-12 0 replayed
+pythonidae-16s-12 0 replayed
+pythonidae-16s-12 1 replayed
+pythonidae-16s-12 1 replayed
+pythonidae-16s-12 2 replayed
+pythonidae-16s-12 2 replayed
+pythonidae-16s-12 0 replayed
+pythonidae-16s-12 0 replayed
+pythonidae-cytb-29 0 replayed
+pythonidae-cytb-29 0 replayed
+pythonidae-cytb-29 1 replayed
+pythonidae-cytb-29 1 replayed
+pythonidae-cytb-29 2 replayed
+pythonidae-cytb-29 2 replayed
+pythonidae-cytb-29 0 replayed
+pythonidae-cytb-29 0 replayed
+ferula-nrdna-12 0 replayed
+ferula-nrdna-12 0 replayed
+ferula-nrdna-12 1 replayed
+ferula-nrdna-12 1 replayed
+ferula-nrdna-12 2 replayed
+ferula-nrdna-12 2 replayed
+ferula-nrdna-12 3 replayed
+ferula-nrdna-12 3 replayed
+ferula-nrdna-12 4 replayed
+ferula-nrdna-12 4 replayed
+ferula-nrdna-12 5 replayed
+ferula-nrdna-12 5 replayed
+ferula-nrdna-12 6 replayed
+ferula-nrdna-12 6 replayed
+ferula-nrdna-12 7 replayed
+ferula-nrdna-12 7 replayed
+ferula-nrdna-12 8 replayed
+ferula-nrdna-12 8 replayed
+ferula-nrdna-12 9 replayed
+ferula-nrdna-12 9 replayed
+ferula-nrdna-12 10 replayed
+ferula-nrdna-12 10 replayed
+ferula-nrdna-12 11 replayed
+ferula-nrdna-12 11 replayed
+ferula-nrdna-12 12 replayed
+ferula-nrdna-12 12 replayed
+ferula-nrdna-12 13 replayed
+ferula-nrdna-12 13 replayed
+ferula-nrdna-12 14 replayed
+ferula-nrdna-12 14 replayed
+ferula-nrdna-12 15 replayed
+ferula-nrdna-12 15 replayed
+ferula-nrdna-12 16 replayed
+ferula-nrdna-12 16 replayed
+ferula-nrdna-12 17 replayed
+ferula-nrdna-12 17 replayed
+ferula-nrdna-12 18 replayed
+ferula-nrdna-12 18 replayed
+ferula-nrdna-12 19 replayed
+ferula-nrdna-12 19 replayed
+ferula-nrdna-12 0 replayed
+ferula-nrdna-12 0 replayed
+ferula-nrdna-24 0 replayed
+ferula-nrdna-24 0 replayed
+ferula-nrdna-24 1 replayed
+ferula-nrdna-24 1 replayed
+ferula-nrdna-24 2 replayed
+ferula-nrdna-24 2 replayed
+ferula-nrdna-24 0 replayed
+ferula-nrdna-24 0 replayed
+PASS: all seed runs reproduce trees, scores, traces and evaluation counts
+
+=== cards ===
+PASS improve-pythonidae-cytb-12
+PASS improve-pythonidae-cytb-24
+PASS improve-cetaceans-mt-12
+PASS improve-cetaceans-mt-22
+PASS improve-ferula-nrdna-24
+PASS improve-ferula-plastid-24
+PASS improve-pythonidae-12s-12
+PASS improve-pythonidae-16s-12
+PASS improve-pythonidae-cytb-29
+PASS paired-heuristics
+PASS bound-pairs
+PASS audit-verifier
+PASS interpret-ferula
+PASS: every catalog first_step and expected positive control
+
+=== fresh-check ===
+Curation replay: all derived bytes match
+phylip-dnapars 19 settled
+phylip-dnapenny 8 settled
+pythonidae-cytb-6 343 settled
+pythonidae-cytb-12 575 open
+pythonidae-cytb-24 982 open
+cetaceans-mt-6 291 settled
+cetaceans-mt-12 493 open
+cetaceans-mt-22 1046 open
+ferula-nrdna-6 61 settled
+ferula-nrdna-12 82 settled
+ferula-nrdna-24 141 open
+ferula-plastid-6 27 settled
+ferula-plastid-12 39 settled
+ferula-plastid-24 104 open
+pythonidae-12s-12 112 open
+pythonidae-16s-12 95 open
+pythonidae-cytb-29 2005 open
+test_neighbor_joining_known_quartet_and_order (test_expansion.ExpansionTests.test_neighbor_joining_known_quartet_and_order) ... ok
+test_pair_bound_exhaustive_binary_columns (test_expansion.ExpansionTests.test_pair_bound_exhaustive_binary_columns) ... ok
+test_two_move_budget_determinism_and_local_certificate (test_expansion.ExpansionTests.test_two_move_budget_determinism_and_local_certificate) ... ok
+test_cli_rejects_wrong_score_and_taxa (test_phylo.TestInputsAndSearch.test_cli_rejects_wrong_score_and_taxa) ... ok
+test_reproducible_search (test_phylo.TestInputsAndSearch.test_reproducible_search) ... ok
+test_strict_fasta (test_phylo.TestInputsAndSearch.test_strict_fasta) ... ok
+test_all_quartet_patterns_against_brute_ancestral_assignments (test_phylo.TestScoring.test_all_quartet_patterns_against_brute_ancestral_assignments) ... ok
+test_exhaustive_count_formula (test_phylo.TestScoring.test_exhaustive_count_formula) ... ok
+test_identical_constant_and_informative_sites (test_phylo.TestScoring.test_identical_constant_and_informative_sites) ... ok
+test_published_scores_and_exhaustive_optima (test_phylo.TestScoring.test_published_scores_and_exhaustive_optima) ... ok
+test_random_multistate_patterns (test_phylo.TestScoring.test_random_multistate_patterns) ... ok
+test_graph_rejection (test_phylo.TestStructure.test_graph_rejection) ... ok
+test_nni_degree_uniqueness_and_connectivity (test_phylo.TestStructure.test_nni_degree_uniqueness_and_connectivity) ... ok
+test_prune (test_phylo.TestStructure.test_prune) ... ok
+test_reject_newick (test_phylo.TestStructure.test_reject_newick) ... ok
+test_root_and_order_invariance (test_phylo.TestStructure.test_root_and_order_invariance) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 14.143s
+
+OK
+PASS: fixed data, baseline and candidate scores, exhaustive bounds, structural/negative tests
