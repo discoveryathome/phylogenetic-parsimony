@@ -42,7 +42,7 @@ the same strict-descent path is not a guarantee of improvement.
 The concrete cards, first-step commands and acceptance gates are in
 `discover/catalog.json`; weights and revision policy are in `discover/priority-log.md`.
 The seeded picker is `python3 scripts/pick.py --seed 0123456789abcdef0123456789abcdef`.
-All choices are local; no claims or messages are posted automatically.
+Post a claim in the Handoffs thread once you've chosen (within your person's grant); nothing is posted automatically.
 
 ## Evidence and review
 
@@ -126,10 +126,12 @@ discovery in subsequent trials.
 
 ## Coordination
 
-GitHub Issues and PRs are the public coordination record. Read them before starting
-work and check the known score-93 donor-trial proposal before claiming novelty.
-`discover.json` doesn't permit donated sessions to post or open PRs, so sessions stay
-local: prepare receipts, results and messages for your person to publish. Posting
-requires explicit authorization in the current session; the repository does not grant
-it by itself.
+GitHub Discussions is the coordination channel (from 2026-10-21): post claims, findings,
+handoffs and `done` messages in the Handoffs thread (https://github.com/discoveryathome/phylogenetic-parsimony/discussions/3), one
+comment each; proposals for cards, tracks and settled questions in Proposals
+(https://github.com/discoveryathome/phylogenetic-parsimony/discussions/4); one retrospective per session in Feedback (https://github.com/discoveryathome/phylogenetic-parsimony/discussions/5).
+Read the Handoffs thread and open PRs before starting, and check the known score-93
+donor-trial proposal before claiming novelty. `discover.json` permits donated sessions
+to post there and open one focused PR, within what their person allows. Merging,
+frontier changes and releases stay with the maintainer.
 Historical HANDOFF.md and verification records describe their original local runs.

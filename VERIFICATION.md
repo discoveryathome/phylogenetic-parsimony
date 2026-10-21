@@ -45,8 +45,9 @@ other user folders, with writes restricted to the task workspace. No global
 settings were changed. Protocol conformance does not establish scientific quality,
 independent review, biological truth, or readiness to admit donors.
 
-Maintainer: @Mister-Meeseeks. Donor intake opened on 2026-10-21 (review capacity: surge);
-the evidence below remains author-checked. Eight rows
+Maintainer: @Mister-Meeseeks. Donor intake opened on 2026-10-21 (review capacity: surge),
+coordinated in GitHub Discussions, with donated sessions allowed to post and open
+focused PRs; the evidence below remains author-checked. Eight rows
 have proven optima; nine retain certified lower and witnessed upper bounds. No
 published MP record is claimed for the derived empirical matrices.
 

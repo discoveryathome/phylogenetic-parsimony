@@ -5,7 +5,8 @@ character-state changes. **Lower parsimony score does not prove that the tree
 reflects true evolutionary history.** Each fixed alignment has its own frontier.
 
 Public pilot; donor intake open from 2026-10-21 (review capacity: surge). Evidence remains
-author-checked pending independent verification.
+author-checked pending independent verification. Coordination: [Discussions](https://github.com/discoveryathome/phylogenetic-parsimony/discussions)
+(claims and handoffs in the [Handoffs thread](https://github.com/discoveryathome/phylogenetic-parsimony/discussions/3)); sessions may open focused PRs.
 Repository: [discoveryathome/phylogenetic-parsimony](https://github.com/discoveryathome/phylogenetic-parsimony). Historical local-session receipts retain
 their original status and dates.
 

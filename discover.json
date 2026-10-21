@@ -27,8 +27,8 @@
   "priority_log": "discover/priority-log.md",
   "verification_profile": "exact-certificate",
   "permissions": {
-    "post_messages": false,
-    "open_prs": false,
+    "post_messages": true,
+    "open_prs": true,
     "maintainer_only": [
       "merge",
       "change-frontier",
@@ -76,7 +76,13 @@
     }
   ],
   "coordination": {
-    "transport": "github-issues",
+    "transport": "github-discussions",
+    "threads": {
+      "start": 2,
+      "handoffs": 3,
+      "proposals": 4,
+      "feedback": 5
+    },
     "claim_ttl_minutes": 120
   }
 }
