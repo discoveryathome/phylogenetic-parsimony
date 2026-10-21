@@ -39,3 +39,11 @@ time to first result and reviewer load. No automation or public launch is enable
 Known results are inherited before new work; see CONTRIBUTOR_WORKFLOW.md and
 research/readiness-20261021/ASSESSMENT.md. Updated task selection, bounded work
 and review gates preserve scientific evidence status and the recorded launch decisions.
+
+## Revision 5 — 21 October 2026, established-software baseline
+
+PHYLIP 3.697 supplied four author-checked improvements: 982→980, 1046→1045,
+112→105 and 2005→1993 on their respective fixed rows. Working targets and
+positive controls inherit these witnesses; no accepted historical row changed.
+The mature-baselines card now requests a second implementation. Track weights
+remain unchanged pending actual donor outcomes. See research/scientific-audit-20261021/REPORT.md.

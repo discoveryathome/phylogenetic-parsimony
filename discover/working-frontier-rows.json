@@ -79,10 +79,10 @@
     "dataset": "pythonidae-cytb-24",
     "alignment_sha256": "df4044ec22a8f0b4ae44fc0a5ae51903ff2fff0eb53f8056ca988784ebc47a42",
     "profile": "unordered-unit-strict-v1",
-    "score": 982,
+    "score": 980,
     "lower_bound": 466,
-    "tree": "candidates/pythonidae-cytb-24-best.nwk",
-    "tree_sha256": "c0c319bd8d6c633385c756a094ef07e18d3d5d501562e2aa97902a96dab4cc5d",
+    "tree": "research/scientific-audit-20261021/runs/pythonidae-cytb-24/13/tree-000.nwk",
+    "tree_sha256": "ad41c8b808829a7fa59af41d90a2a8273ea2085c09eb79dc12c4b7767ae2c3fd",
     "baseline_score": 1013,
     "published_score": null,
     "bound_method": "incompatible-pairs",
@@ -92,7 +92,13 @@
       "author-checked"
     ],
     "scope": "Only this fixed alignment and scoring profile; not a claim of biological truth",
-    "reproduce": "python3 phylo.py verify pythonidae-cytb-24 candidates/pythonidae-cytb-24-best.nwk --claim 982"
+    "reproduce": "python3 phylo.py verify pythonidae-cytb-24 research/scientific-audit-20261021/runs/pythonidae-cytb-24/13/tree-000.nwk --claim 980",
+    "working_proposal": {
+      "source": "research/scientific-audit-20261021/results.json",
+      "previous_working_score": 982,
+      "method": "PHYLIP dnapars 3.697, 10 jumbles, 100 saved-tree cap",
+      "status": "author-checked; independent review and maintainer acceptance pending"
+    }
   },
   {
     "dataset": "cetaceans-mt-6",
@@ -136,10 +142,10 @@
     "dataset": "cetaceans-mt-22",
     "alignment_sha256": "38dfed59f4e72b2ca4bba24d76c8d457ed8d7fec7c317ed89424af2b25ec758b",
     "profile": "unordered-unit-strict-v1",
-    "score": 1046,
+    "score": 1045,
     "lower_bound": 595,
-    "tree": "candidates/cetaceans-mt-22-best.nwk",
-    "tree_sha256": "1f7588f013945e63fe1c383840b9c5b82b8c4596c926b0435cc6374dffe00570",
+    "tree": "research/scientific-audit-20261021/runs/cetaceans-mt-22/13/tree-000.nwk",
+    "tree_sha256": "63aeb73313b8fd591d6a6e038b4ff8e207936c421e221c2bfa48a6b484cbd455",
     "baseline_score": 1050,
     "published_score": null,
     "bound_method": "incompatible-pairs",
@@ -149,7 +155,13 @@
       "author-checked"
     ],
     "scope": "Only this fixed alignment and scoring profile; not a claim of biological truth",
-    "reproduce": "python3 phylo.py verify cetaceans-mt-22 candidates/cetaceans-mt-22-best.nwk --claim 1046"
+    "reproduce": "python3 phylo.py verify cetaceans-mt-22 research/scientific-audit-20261021/runs/cetaceans-mt-22/13/tree-000.nwk --claim 1045",
+    "working_proposal": {
+      "source": "research/scientific-audit-20261021/results.json",
+      "previous_working_score": 1046,
+      "method": "PHYLIP dnapars 3.697, 10 jumbles, 100 saved-tree cap",
+      "status": "author-checked; independent review and maintainer acceptance pending"
+    }
   },
   {
     "dataset": "ferula-nrdna-6",
@@ -269,10 +281,10 @@
     "dataset": "pythonidae-12s-12",
     "alignment_sha256": "ff9aa2fde7b277795da3e8cf5da196ea36ca7bbdb05529abeec89440280c2364",
     "profile": "unordered-unit-strict-v1",
-    "score": 112,
+    "score": 105,
     "lower_bound": 82,
-    "tree": "candidates/pythonidae-12s-12-best.nwk",
-    "tree_sha256": "cf08954eb7393188f4600bea5ce9890a92bddbf3628a8a1b69f4e1ab1daffe91",
+    "tree": "research/scientific-audit-20261021/runs/pythonidae-12s-12/13/tree-000.nwk",
+    "tree_sha256": "478fbc24a73852ac82d2b930bec8d41dc48eabd44967b8d8add5a0fdfba1a661",
     "baseline_score": 116,
     "published_score": null,
     "bound_method": "incompatible-pairs",
@@ -282,7 +294,13 @@
       "author-checked"
     ],
     "scope": "Only this fixed alignment and scoring profile; not a claim of biological truth",
-    "reproduce": "python3 phylo.py verify pythonidae-12s-12 candidates/pythonidae-12s-12-best.nwk --claim 112"
+    "reproduce": "python3 phylo.py verify pythonidae-12s-12 research/scientific-audit-20261021/runs/pythonidae-12s-12/13/tree-000.nwk --claim 105",
+    "working_proposal": {
+      "source": "research/scientific-audit-20261021/results.json",
+      "previous_working_score": 112,
+      "method": "PHYLIP dnapars 3.697, 10 jumbles, 100 saved-tree cap",
+      "status": "author-checked; independent review and maintainer acceptance pending"
+    }
   },
   {
     "dataset": "pythonidae-16s-12",
@@ -308,10 +326,10 @@
     "dataset": "pythonidae-cytb-29",
     "alignment_sha256": "a2b9ce35d41a6173020f3f0a03647a771ad7d5423e7a69182ac8cf1d15a21eca",
     "profile": "unordered-unit-strict-v1",
-    "score": 2005,
+    "score": 1993,
     "lower_bound": 799,
-    "tree": "candidates/pythonidae-cytb-29-best.nwk",
-    "tree_sha256": "fc91b38eabacc0e436adb08e4c2ce952416aa9f48ca2575b568011d05cfc0bd2",
+    "tree": "research/scientific-audit-20261021/runs/pythonidae-cytb-29/37/tree-000.nwk",
+    "tree_sha256": "b1a5c06f491c1387b2cf8e7d8ab4cf985d011454261b61aa737ba60d6e77b47e",
     "baseline_score": 2048,
     "published_score": null,
     "bound_method": "incompatible-pairs",
@@ -321,6 +339,12 @@
       "author-checked"
     ],
     "scope": "Only this fixed alignment and scoring profile; not a claim of biological truth",
-    "reproduce": "python3 phylo.py verify pythonidae-cytb-29 candidates/pythonidae-cytb-29-best.nwk --claim 2005"
+    "reproduce": "python3 phylo.py verify pythonidae-cytb-29 research/scientific-audit-20261021/runs/pythonidae-cytb-29/37/tree-000.nwk --claim 1993",
+    "working_proposal": {
+      "source": "research/scientific-audit-20261021/results.json",
+      "previous_working_score": 2005,
+      "method": "PHYLIP dnapars 3.697, 10 jumbles, 100 saved-tree cap",
+      "status": "author-checked; independent review and maintainer acceptance pending"
+    }
   }
 ]

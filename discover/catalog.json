@@ -1,6 +1,6 @@
 {
   "schema": "discover-catalog/v0",
-  "priority_revision": 4,
+  "priority_revision": 5,
   "assessed_on": "2026-10-21",
   "priority_log": "discover/priority-log.md",
   "status": "Public pilot; donor intake open from 2026-10-21 (review capacity: surge). Evidence remains author-checked pending independent verification.",
@@ -14,7 +14,7 @@
           "id": "improve-pythonidae-cytb-12",
           "question": "Can a tree beat 575 on pythonidae-cytb-12?",
           "starting_points": [
-            "discover/frontier-rows.json",
+            "discover/working-frontier-rows.json",
             "MODEL.md",
             "results/expansion-benchmark.json"
           ],
@@ -45,27 +45,27 @@
         },
         {
           "id": "improve-pythonidae-cytb-24",
-          "question": "Can a tree beat 982 on pythonidae-cytb-24?",
+          "question": "Can a tree beat 980 on pythonidae-cytb-24?",
           "starting_points": [
-            "discover/frontier-rows.json",
+            "discover/working-frontier-rows.json",
             "MODEL.md",
             "results/expansion-benchmark.json"
           ],
           "methods": [
             "Use phylo.py search --method spr-plateau with --start set to the strongest known tree, a recorded seed and a fixed evaluation budget."
           ],
-          "acceptance_gate": "Identical hash/profile; independent reference score below 982; keep seed, budget and witness.",
+          "acceptance_gate": "Identical hash/profile; independent reference score below 980; keep seed, budget and witness.",
           "first_step": {
             "command": [
               "python3",
               "phylo.py",
               "verify",
               "pythonidae-cytb-24",
-              "candidates/pythonidae-cytb-24-best.nwk",
+              "research/scientific-audit-20261021/runs/pythonidae-cytb-24/13/tree-000.nwk",
               "--claim",
-              "982"
+              "980"
             ],
-            "expected": "valid=true; score=982"
+            "expected": "valid=true; score=980"
           },
           "bottleneck_link": "DISCOVERY.md#bottleneck-and-research-tracks",
           "first_experiment": "Use phylo.py search --method spr-plateau with --start set to the strongest known tree, a recorded seed and a fixed evaluation budget.",
@@ -80,7 +80,7 @@
           "id": "improve-cetaceans-mt-12",
           "question": "Can a tree beat 493 on cetaceans-mt-12?",
           "starting_points": [
-            "discover/frontier-rows.json",
+            "discover/working-frontier-rows.json",
             "MODEL.md",
             "results/expansion-benchmark.json"
           ],
@@ -111,27 +111,27 @@
         },
         {
           "id": "improve-cetaceans-mt-22",
-          "question": "Can a tree beat 1046 on cetaceans-mt-22?",
+          "question": "Can a tree beat 1045 on cetaceans-mt-22?",
           "starting_points": [
-            "discover/frontier-rows.json",
+            "discover/working-frontier-rows.json",
             "MODEL.md",
             "results/expansion-benchmark.json"
           ],
           "methods": [
             "Use phylo.py search --method spr-plateau with --start set to the strongest known tree, a recorded seed and a fixed evaluation budget."
           ],
-          "acceptance_gate": "Identical hash/profile; independent reference score below 1046; keep seed, budget and witness.",
+          "acceptance_gate": "Identical hash/profile; independent reference score below 1045; keep seed, budget and witness.",
           "first_step": {
             "command": [
               "python3",
               "phylo.py",
               "verify",
               "cetaceans-mt-22",
-              "candidates/cetaceans-mt-22-best.nwk",
+              "research/scientific-audit-20261021/runs/cetaceans-mt-22/13/tree-000.nwk",
               "--claim",
-              "1046"
+              "1045"
             ],
-            "expected": "valid=true; score=1046"
+            "expected": "valid=true; score=1045"
           },
           "bottleneck_link": "DISCOVERY.md#bottleneck-and-research-tracks",
           "first_experiment": "Use phylo.py search --method spr-plateau with --start set to the strongest known tree, a recorded seed and a fixed evaluation budget.",
@@ -146,7 +146,7 @@
           "id": "improve-ferula-nrdna-24",
           "question": "Can a tree beat 141 on ferula-nrdna-24?",
           "starting_points": [
-            "discover/frontier-rows.json",
+            "discover/working-frontier-rows.json",
             "MODEL.md",
             "results/expansion-benchmark.json"
           ],
@@ -179,7 +179,7 @@
           "id": "improve-ferula-plastid-24",
           "question": "Can a tree beat 104 on ferula-plastid-24?",
           "starting_points": [
-            "discover/frontier-rows.json",
+            "discover/working-frontier-rows.json",
             "MODEL.md",
             "results/expansion-benchmark.json"
           ],
@@ -210,27 +210,27 @@
         },
         {
           "id": "improve-pythonidae-12s-12",
-          "question": "Can a tree beat 112 on pythonidae-12s-12?",
+          "question": "Can a tree beat 105 on pythonidae-12s-12?",
           "starting_points": [
-            "discover/frontier-rows.json",
+            "discover/working-frontier-rows.json",
             "MODEL.md",
             "results/expansion-benchmark.json"
           ],
           "methods": [
             "Use phylo.py search --method spr-plateau with --start set to the strongest known tree, a recorded seed and a fixed evaluation budget."
           ],
-          "acceptance_gate": "Identical hash/profile; independent reference score below 112; keep seed, budget and witness.",
+          "acceptance_gate": "Identical hash/profile; independent reference score below 105; keep seed, budget and witness.",
           "first_step": {
             "command": [
               "python3",
               "phylo.py",
               "verify",
               "pythonidae-12s-12",
-              "candidates/pythonidae-12s-12-best.nwk",
+              "research/scientific-audit-20261021/runs/pythonidae-12s-12/13/tree-000.nwk",
               "--claim",
-              "112"
+              "105"
             ],
-            "expected": "valid=true; score=112"
+            "expected": "valid=true; score=105"
           },
           "bottleneck_link": "DISCOVERY.md#bottleneck-and-research-tracks",
           "first_experiment": "Use phylo.py search --method spr-plateau with --start set to the strongest known tree, a recorded seed and a fixed evaluation budget.",
@@ -243,17 +243,16 @@
         },
         {
           "id": "improve-pythonidae-16s-12",
-          "question": "Can a tree beat the known score 93 on pythonidae-16s-12?",
+          "question": "Can a tree beat 93 on pythonidae-16s-12?",
           "starting_points": [
-            "discover/frontier-rows.json",
+            "discover/working-frontier-rows.json",
             "MODEL.md",
-            "results/expansion-benchmark.json",
-            "results/donor-trial-001/submission.json"
+            "results/expansion-benchmark.json"
           ],
           "methods": [
             "Use phylo.py search --method spr-plateau with --start set to the strongest known tree, a recorded seed and a fixed evaluation budget."
           ],
-          "acceptance_gate": "Identical hash/profile; independently recomputed score below 93. Score 93 is already known, pending maintainer review.",
+          "acceptance_gate": "Identical hash/profile; independent reference score below 93; keep seed, budget and witness.",
           "first_step": {
             "command": [
               "python3",
@@ -264,7 +263,7 @@
               "--claim",
               "93"
             ],
-            "expected": "\"score\": 93"
+            "expected": "valid=true; score=93"
           },
           "bottleneck_link": "DISCOVERY.md#bottleneck-and-research-tracks",
           "first_experiment": "Use phylo.py search --method spr-plateau with --start set to the strongest known tree, a recorded seed and a fixed evaluation budget.",
@@ -277,27 +276,27 @@
         },
         {
           "id": "improve-pythonidae-cytb-29",
-          "question": "Can a tree beat 2005 on pythonidae-cytb-29?",
+          "question": "Can a tree beat 1993 on pythonidae-cytb-29?",
           "starting_points": [
-            "discover/frontier-rows.json",
+            "discover/working-frontier-rows.json",
             "MODEL.md",
             "results/expansion-benchmark.json"
           ],
           "methods": [
             "Use phylo.py search --method spr-plateau with --start set to the strongest known tree, a recorded seed and a fixed evaluation budget."
           ],
-          "acceptance_gate": "Identical hash/profile; independent reference score below 2005; keep seed, budget and witness.",
+          "acceptance_gate": "Identical hash/profile; independent reference score below 1993; keep seed, budget and witness.",
           "first_step": {
             "command": [
               "python3",
               "phylo.py",
               "verify",
               "pythonidae-cytb-29",
-              "candidates/pythonidae-cytb-29-best.nwk",
+              "research/scientific-audit-20261021/runs/pythonidae-cytb-29/37/tree-000.nwk",
               "--claim",
-              "2005"
+              "1993"
             ],
-            "expected": "valid=true; score=2005"
+            "expected": "valid=true; score=1993"
           },
           "bottleneck_link": "DISCOVERY.md#bottleneck-and-research-tracks",
           "first_experiment": "Use phylo.py search --method spr-plateau with --start set to the strongest known tree, a recorded seed and a fixed evaluation budget.",
@@ -345,15 +344,15 @@
         },
         {
           "id": "mature-baselines",
-          "question": "What do mature parsimony programs (TNT, PAUP*, MPBoot) score on each identical fixed row?",
+          "question": "Can an additional established program improve or independently confirm the PHYLIP baselines?",
           "starting_points": [
-            "discover/frontier-rows.json",
+            "discover/working-frontier-rows.json",
             "data/manifest.json",
             "MODEL.md",
             "LITERATURE.md"
           ],
           "methods": [
-            "Run a mature program on every open row with stated settings, export its best tree, verify it, and record the scores as row baselines."
+            "Read research/scientific-audit-20261021/REPORT.md; compare another established program on the fixed rows against the inherited PHYLIP targets. Retain every run and rescore exported trees."
           ],
           "acceptance_gate": "Every reported score is phylo.py verify on the exported Newick, on the identical alignment hash and profile; program, version, settings, budget and runtime recorded. A lower score is a frontier proposal for review, not an acceptance.",
           "first_step": {
@@ -366,10 +365,10 @@
               "--claim",
               "93"
             ],
-            "expected": "\"score\": 93"
+            "expected": "valid=true; score=93"
           },
           "bottleneck_link": "DISCOVERY.md#bottleneck-and-research-tracks",
-          "first_experiment": "Run a mature program on every open row with stated settings, export its best tree, verify it, and record the scores as row baselines.",
+          "first_experiment": "Read research/scientific-audit-20261021/REPORT.md; compare another established program on the fixed rows against the inherited PHYLIP targets. Retain every run and rescore exported trees.",
           "claim_kind": [
             "exact"
           ],

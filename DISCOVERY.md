@@ -19,12 +19,16 @@ bounds, not literature records. `discover/working-frontier-rows.json` supplies c
 
 ## First priority: mature baselines (2026-10-21)
 
-No mature parsimony program (TNT, PAUP*, MPBoot) has been run on the identical inputs.
-At 12–29 taxa such programs may close or settle the open rows within seconds, so a
-search session could chase a gap a standard tool closes at once. Before investing in
-new heuristics, run a mature program on every open row with stated settings, verify
-its exported tree with `phylo.py verify`, and record the scores as row baselines
-(card `mature-baselines`). A lower score is a frontier proposal, not an acceptance.
+PHYLIP Dnapars 3.697 has now been run on every fixed row with three seeds and ten
+jumbles per seed. All 251 exported trees were independently rescored; four of the
+nine open targets improved. The working table and task cards inherit 980 for
+pythonidae-cytb-24, 1045 for cetaceans-mt-22, 105 for pythonidae-12s-12, and 1993
+for pythonidae-cytb-29. Historical accepted rows remain frozen. See
+[the full comparison](research/scientific-audit-20261021/REPORT.md).
+
+Next compare a second established implementation under identical semantics and
+measure donor outcomes against these stronger targets before expanding the data.
+A lower score remains a frontier proposal pending review, not scientific acceptance.
 
 ## Bottleneck and research tracks
 

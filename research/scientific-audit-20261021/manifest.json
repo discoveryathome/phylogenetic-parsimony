@@ -1,0 +1,2861 @@
+{
+  "schema": "research-evidence-manifest/v1",
+  "files": [
+    {
+      "path": "research/scientific-audit-20261021/REPORT.md",
+      "sha256": "23d4022139380b52a913f2d9bc6a738730870f98b6d23cb7aa6888b219f28db7",
+      "bytes": 5404
+    },
+    {
+      "path": "research/scientific-audit-20261021/adapter-tests.log",
+      "sha256": "b5e877bc59804af2788b9ad0943591ede79d3716baf8ddf3901a0d7a1ec77780",
+      "bytes": 492
+    },
+    {
+      "path": "research/scientific-audit-20261021/build.log",
+      "sha256": "2700b8ddf726b1c77753c2e8730f667a15676db2f452ded2278d8c2a68ad9619",
+      "bytes": 318
+    },
+    {
+      "path": "research/scientific-audit-20261021/card-checks.log",
+      "sha256": "5d6c79bc5528439114840108968d20f3e509a5e104676cb51cdc9028fdb7a09e",
+      "bytes": 441
+    },
+    {
+      "path": "research/scientific-audit-20261021/phylip_baseline.py",
+      "sha256": "692c4918350cd316f2d83cbe567237bc81b1b8cf456d107c2bda17edc0d05051",
+      "bytes": 4854
+    },
+    {
+      "path": "research/scientific-audit-20261021/project-checks.log",
+      "sha256": "042fc7bc553e1b73e624126bc637c37d3266cc6ab34bc4b6f14a914fa3e3f760",
+      "bytes": 2632
+    },
+    {
+      "path": "research/scientific-audit-20261021/proposals.json",
+      "sha256": "80d0c0d4559d2af847dd7ed2967cbaf99b1c6ba91eb6c3b7e0c4a5449cea5977",
+      "bytes": 1158
+    },
+    {
+      "path": "research/scientific-audit-20261021/results.json",
+      "sha256": "0d1d4a86409b1ce867b526a2c4f5359825dc46f499dabf33740a6e4406337f2f",
+      "bytes": 42726
+    },
+    {
+      "path": "research/scientific-audit-20261021/run.log",
+      "sha256": "fbc5c9f76ba01f998c54ca42da82f587df965194bc2d3655badee71f0510cc6b",
+      "bytes": 2133
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-12/101/console.txt",
+      "sha256": "da2cc56de50fa33512ff1fd6e2dc8e90ad97ac2e246313baf3fd11ca5f94975f",
+      "bytes": 4246
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-12/101/infile",
+      "sha256": "a2e95d66d7ee1c3a04ce27e4568d7d5e5cfe7147dcfa148212dc33983fe62dd4",
+      "bytes": 15728
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-12/101/labels.json",
+      "sha256": "0b899ea8812513338c9605732649e17d817a8460e27789a99badb70ac1be6972",
+      "bytes": 474
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-12/101/menu.txt",
+      "sha256": "559f5fb5142a31acd6750c6cc737e1763ce053643340cb1a58c3085f30671c8e",
+      "bytes": 19
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-12/101/outfile",
+      "sha256": "4f647f3b6ecd7d98c186f08773a1f6d8cacf4d4df436cc42c73b9afb86b944b7",
+      "bytes": 1374
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-12/101/outtree",
+      "sha256": "72d3e64ea634e66bdc3a6bb0b61eb8c2077e143703f7e5b33f146110550b1130",
+      "bytes": 312
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-12/101/tree-000.nwk",
+      "sha256": "0ab1121f1f9a571883c0d3e10e7738215fec9e820caff7d77f9e3fa7e5007f2f",
+      "bytes": 276
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-12/13/console.txt",
+      "sha256": "293d4005eaac00aa42a65fcb5f8dd4db7d682daffeae6daba466bff59c8d848e",
+      "bytes": 4246
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-12/13/infile",
+      "sha256": "a2e95d66d7ee1c3a04ce27e4568d7d5e5cfe7147dcfa148212dc33983fe62dd4",
+      "bytes": 15728
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-12/13/labels.json",
+      "sha256": "0b899ea8812513338c9605732649e17d817a8460e27789a99badb70ac1be6972",
+      "bytes": 474
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-12/13/menu.txt",
+      "sha256": "c72f1cc3e9bde6c95c530578fd9ea79fd78a1614e207c059cbbceda758a33eec",
+      "bytes": 18
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-12/13/outfile",
+      "sha256": "4f647f3b6ecd7d98c186f08773a1f6d8cacf4d4df436cc42c73b9afb86b944b7",
+      "bytes": 1374
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-12/13/outtree",
+      "sha256": "72d3e64ea634e66bdc3a6bb0b61eb8c2077e143703f7e5b33f146110550b1130",
+      "bytes": 312
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-12/13/tree-000.nwk",
+      "sha256": "0ab1121f1f9a571883c0d3e10e7738215fec9e820caff7d77f9e3fa7e5007f2f",
+      "bytes": 276
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-12/37/console.txt",
+      "sha256": "2f0b5f22c856e5ad4c9050fdd451be2b33f6fe8914da433bd4203c8ff62266c4",
+      "bytes": 4246
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-12/37/infile",
+      "sha256": "a2e95d66d7ee1c3a04ce27e4568d7d5e5cfe7147dcfa148212dc33983fe62dd4",
+      "bytes": 15728
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-12/37/labels.json",
+      "sha256": "0b899ea8812513338c9605732649e17d817a8460e27789a99badb70ac1be6972",
+      "bytes": 474
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-12/37/menu.txt",
+      "sha256": "4ec710ade24e41e74f69002e47082add1e541f7087949f5ef60e7d28ef1cdaa5",
+      "bytes": 18
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-12/37/outfile",
+      "sha256": "4f647f3b6ecd7d98c186f08773a1f6d8cacf4d4df436cc42c73b9afb86b944b7",
+      "bytes": 1374
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-12/37/outtree",
+      "sha256": "72d3e64ea634e66bdc3a6bb0b61eb8c2077e143703f7e5b33f146110550b1130",
+      "bytes": 312
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-12/37/tree-000.nwk",
+      "sha256": "0ab1121f1f9a571883c0d3e10e7738215fec9e820caff7d77f9e3fa7e5007f2f",
+      "bytes": 276
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/101/console.txt",
+      "sha256": "9e0474cd9a24d723a8f1207932ca99aa0ec742ded40eafc3c1ac9d60d77bc7ab",
+      "bytes": 4288
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/101/infile",
+      "sha256": "f721da5edefd7e055e345394930e9dbf713f23492c0467a34e8ec69fa5841ab9",
+      "bytes": 28344
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/101/labels.json",
+      "sha256": "b4c430e148d016dc8dd0a5e09617bc7874045d77a9adfed2306a213f71c73865",
+      "bytes": 835
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/101/menu.txt",
+      "sha256": "559f5fb5142a31acd6750c6cc737e1763ce053643340cb1a58c3085f30671c8e",
+      "bytes": 19
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/101/outfile",
+      "sha256": "fac68d68e66a1b8f4ba2eafe61bf81a48312e561a64be300705444cbbf95f092",
+      "bytes": 35019
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/101/outtree",
+      "sha256": "b400577c7a7164639f281a0041e1a8ea27627a953f584b9aa39c28af53c30c98",
+      "bytes": 8456
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/101/tree-000.nwk",
+      "sha256": "63aeb73313b8fd591d6a6e038b4ff8e207936c421e221c2bfa48a6b484cbd455",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/101/tree-001.nwk",
+      "sha256": "f633f71b5df24f6182cfe70cc249b73ac761b87f36a92e3ca7fe315e27704dbf",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/101/tree-002.nwk",
+      "sha256": "385b81565e662ef2bc3b5ea3b74d0a2e880a5946f39943f38a014b703695c128",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/101/tree-003.nwk",
+      "sha256": "0928edb75e9ca22aebeda794636bebc70d3fd7375e43ddeddf3099e0ec7ebaf7",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/101/tree-004.nwk",
+      "sha256": "8f156a8a0076c165e3df996e79f35711cda1ddc939ab6fd418b206e89b91f0f2",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/101/tree-005.nwk",
+      "sha256": "5e9549bbfc763830a39bb5ed51aa0c9ea2a8a7d5312c51173e50517635a0c29d",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/101/tree-006.nwk",
+      "sha256": "579496e11a18bada7e141d3272efd68a792de27c61781d6e59d1883f9117c009",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/101/tree-007.nwk",
+      "sha256": "99409e93cadae09385761ec5ab61dc398ced29405b815374d47293e6aabe8266",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/101/tree-008.nwk",
+      "sha256": "9761267368efe77bbfe68ca1418f3f13e13eddb54af2af55d2441121300586f7",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/101/tree-009.nwk",
+      "sha256": "1a3a773d37c14ddbbcf0ff7a5fb072fe9b0dafbab7a82b96785e216fffd643c2",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/101/tree-010.nwk",
+      "sha256": "7bbc9531c78cb85c80c2d9b2f01e09fe7b02bbdddee91e6f0b9ec0817d04c6aa",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/101/tree-011.nwk",
+      "sha256": "d44f794724b5bc063eacda3191dcd908302022e5852e09e14d5755c06abf0b79",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/101/tree-012.nwk",
+      "sha256": "44f73ee23f7f3ed2d0af948296bd8df0d93cbe191ca88c0f260b01233b2432e9",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/101/tree-013.nwk",
+      "sha256": "8be1276093ad248ac425a187f665c74466f23b62369a49670bfc8e1e4fcc0fa1",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/13/console.txt",
+      "sha256": "d2daa4e3c4103a1e02a79e963cb7b12fde8b0442636d5a6b070bae6d4b81ed2a",
+      "bytes": 4288
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/13/infile",
+      "sha256": "f721da5edefd7e055e345394930e9dbf713f23492c0467a34e8ec69fa5841ab9",
+      "bytes": 28344
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/13/labels.json",
+      "sha256": "b4c430e148d016dc8dd0a5e09617bc7874045d77a9adfed2306a213f71c73865",
+      "bytes": 835
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/13/menu.txt",
+      "sha256": "c72f1cc3e9bde6c95c530578fd9ea79fd78a1614e207c059cbbceda758a33eec",
+      "bytes": 18
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/13/outfile",
+      "sha256": "dea0c49c7db6a28d44269cf94dc40017cba684b95cb6c401d5e78cc55fb82ce0",
+      "bytes": 37571
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/13/outtree",
+      "sha256": "808e59d00345490f5dfcb16c5c3fced837a511f2ca46625815cf1964ff01e2d5",
+      "bytes": 9060
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/13/tree-000.nwk",
+      "sha256": "63aeb73313b8fd591d6a6e038b4ff8e207936c421e221c2bfa48a6b484cbd455",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/13/tree-001.nwk",
+      "sha256": "f633f71b5df24f6182cfe70cc249b73ac761b87f36a92e3ca7fe315e27704dbf",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/13/tree-002.nwk",
+      "sha256": "385b81565e662ef2bc3b5ea3b74d0a2e880a5946f39943f38a014b703695c128",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/13/tree-003.nwk",
+      "sha256": "0928edb75e9ca22aebeda794636bebc70d3fd7375e43ddeddf3099e0ec7ebaf7",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/13/tree-004.nwk",
+      "sha256": "8f156a8a0076c165e3df996e79f35711cda1ddc939ab6fd418b206e89b91f0f2",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/13/tree-005.nwk",
+      "sha256": "5e9549bbfc763830a39bb5ed51aa0c9ea2a8a7d5312c51173e50517635a0c29d",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/13/tree-006.nwk",
+      "sha256": "579496e11a18bada7e141d3272efd68a792de27c61781d6e59d1883f9117c009",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/13/tree-007.nwk",
+      "sha256": "99409e93cadae09385761ec5ab61dc398ced29405b815374d47293e6aabe8266",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/13/tree-008.nwk",
+      "sha256": "9761267368efe77bbfe68ca1418f3f13e13eddb54af2af55d2441121300586f7",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/13/tree-009.nwk",
+      "sha256": "1a3a773d37c14ddbbcf0ff7a5fb072fe9b0dafbab7a82b96785e216fffd643c2",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/13/tree-010.nwk",
+      "sha256": "7bbc9531c78cb85c80c2d9b2f01e09fe7b02bbdddee91e6f0b9ec0817d04c6aa",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/13/tree-011.nwk",
+      "sha256": "d44f794724b5bc063eacda3191dcd908302022e5852e09e14d5755c06abf0b79",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/13/tree-012.nwk",
+      "sha256": "44f73ee23f7f3ed2d0af948296bd8df0d93cbe191ca88c0f260b01233b2432e9",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/13/tree-013.nwk",
+      "sha256": "fc45b42b3355c57f102dba4b9648bb6215444a86620d088fb7d1e0b72a459f0a",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/13/tree-014.nwk",
+      "sha256": "8be1276093ad248ac425a187f665c74466f23b62369a49670bfc8e1e4fcc0fa1",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/37/console.txt",
+      "sha256": "c2bb233f48a7ec878c0aef44bad54cca7cdece7a504e06b93f47bce2b08fc544",
+      "bytes": 4321
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/37/infile",
+      "sha256": "f721da5edefd7e055e345394930e9dbf713f23492c0467a34e8ec69fa5841ab9",
+      "bytes": 28344
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/37/labels.json",
+      "sha256": "b4c430e148d016dc8dd0a5e09617bc7874045d77a9adfed2306a213f71c73865",
+      "bytes": 835
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/37/menu.txt",
+      "sha256": "4ec710ade24e41e74f69002e47082add1e541f7087949f5ef60e7d28ef1cdaa5",
+      "bytes": 18
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/37/outfile",
+      "sha256": "dea0c49c7db6a28d44269cf94dc40017cba684b95cb6c401d5e78cc55fb82ce0",
+      "bytes": 37571
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/37/outtree",
+      "sha256": "808e59d00345490f5dfcb16c5c3fced837a511f2ca46625815cf1964ff01e2d5",
+      "bytes": 9060
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/37/tree-000.nwk",
+      "sha256": "63aeb73313b8fd591d6a6e038b4ff8e207936c421e221c2bfa48a6b484cbd455",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/37/tree-001.nwk",
+      "sha256": "f633f71b5df24f6182cfe70cc249b73ac761b87f36a92e3ca7fe315e27704dbf",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/37/tree-002.nwk",
+      "sha256": "385b81565e662ef2bc3b5ea3b74d0a2e880a5946f39943f38a014b703695c128",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/37/tree-003.nwk",
+      "sha256": "0928edb75e9ca22aebeda794636bebc70d3fd7375e43ddeddf3099e0ec7ebaf7",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/37/tree-004.nwk",
+      "sha256": "8f156a8a0076c165e3df996e79f35711cda1ddc939ab6fd418b206e89b91f0f2",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/37/tree-005.nwk",
+      "sha256": "5e9549bbfc763830a39bb5ed51aa0c9ea2a8a7d5312c51173e50517635a0c29d",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/37/tree-006.nwk",
+      "sha256": "579496e11a18bada7e141d3272efd68a792de27c61781d6e59d1883f9117c009",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/37/tree-007.nwk",
+      "sha256": "99409e93cadae09385761ec5ab61dc398ced29405b815374d47293e6aabe8266",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/37/tree-008.nwk",
+      "sha256": "9761267368efe77bbfe68ca1418f3f13e13eddb54af2af55d2441121300586f7",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/37/tree-009.nwk",
+      "sha256": "1a3a773d37c14ddbbcf0ff7a5fb072fe9b0dafbab7a82b96785e216fffd643c2",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/37/tree-010.nwk",
+      "sha256": "7bbc9531c78cb85c80c2d9b2f01e09fe7b02bbdddee91e6f0b9ec0817d04c6aa",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/37/tree-011.nwk",
+      "sha256": "d44f794724b5bc063eacda3191dcd908302022e5852e09e14d5755c06abf0b79",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/37/tree-012.nwk",
+      "sha256": "44f73ee23f7f3ed2d0af948296bd8df0d93cbe191ca88c0f260b01233b2432e9",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/37/tree-013.nwk",
+      "sha256": "fc45b42b3355c57f102dba4b9648bb6215444a86620d088fb7d1e0b72a459f0a",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-22/37/tree-014.nwk",
+      "sha256": "8be1276093ad248ac425a187f665c74466f23b62369a49670bfc8e1e4fcc0fa1",
+      "bytes": 477
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-6/101/console.txt",
+      "sha256": "da2cc56de50fa33512ff1fd6e2dc8e90ad97ac2e246313baf3fd11ca5f94975f",
+      "bytes": 4246
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-6/101/infile",
+      "sha256": "20f5423c5ac4a05d8e39defa15cadaa909b007203d8630549ab63d703667080a",
+      "bytes": 8017
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-6/101/labels.json",
+      "sha256": "3988e56367fc967a69592caed6898d90027de9ae1c0628a3b3b29d8e31987910",
+      "bytes": 245
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-6/101/menu.txt",
+      "sha256": "559f5fb5142a31acd6750c6cc737e1763ce053643340cb1a58c3085f30671c8e",
+      "bytes": 19
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-6/101/outfile",
+      "sha256": "ff6c0ceb2dae2c56219d54544dbfd0ad27f7e9b670faa71b34b805104721787b",
+      "bytes": 645
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-6/101/outtree",
+      "sha256": "1499042cc474cf6e9e8e3bdf0fc5ea232472c49a5e1fca40eeeb932c45e1c14e",
+      "bytes": 142
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-6/101/tree-000.nwk",
+      "sha256": "54e045509ce15642c43bdb58a804e9a5c15f7d426198a8305a1dd56ccb3a33ac",
+      "bytes": 143
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-6/13/console.txt",
+      "sha256": "293d4005eaac00aa42a65fcb5f8dd4db7d682daffeae6daba466bff59c8d848e",
+      "bytes": 4246
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-6/13/infile",
+      "sha256": "20f5423c5ac4a05d8e39defa15cadaa909b007203d8630549ab63d703667080a",
+      "bytes": 8017
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-6/13/labels.json",
+      "sha256": "3988e56367fc967a69592caed6898d90027de9ae1c0628a3b3b29d8e31987910",
+      "bytes": 245
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-6/13/menu.txt",
+      "sha256": "c72f1cc3e9bde6c95c530578fd9ea79fd78a1614e207c059cbbceda758a33eec",
+      "bytes": 18
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-6/13/outfile",
+      "sha256": "ff6c0ceb2dae2c56219d54544dbfd0ad27f7e9b670faa71b34b805104721787b",
+      "bytes": 645
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-6/13/outtree",
+      "sha256": "1499042cc474cf6e9e8e3bdf0fc5ea232472c49a5e1fca40eeeb932c45e1c14e",
+      "bytes": 142
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-6/13/tree-000.nwk",
+      "sha256": "54e045509ce15642c43bdb58a804e9a5c15f7d426198a8305a1dd56ccb3a33ac",
+      "bytes": 143
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-6/37/console.txt",
+      "sha256": "2f0b5f22c856e5ad4c9050fdd451be2b33f6fe8914da433bd4203c8ff62266c4",
+      "bytes": 4246
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-6/37/infile",
+      "sha256": "20f5423c5ac4a05d8e39defa15cadaa909b007203d8630549ab63d703667080a",
+      "bytes": 8017
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-6/37/labels.json",
+      "sha256": "3988e56367fc967a69592caed6898d90027de9ae1c0628a3b3b29d8e31987910",
+      "bytes": 245
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-6/37/menu.txt",
+      "sha256": "4ec710ade24e41e74f69002e47082add1e541f7087949f5ef60e7d28ef1cdaa5",
+      "bytes": 18
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-6/37/outfile",
+      "sha256": "ff6c0ceb2dae2c56219d54544dbfd0ad27f7e9b670faa71b34b805104721787b",
+      "bytes": 645
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-6/37/outtree",
+      "sha256": "1499042cc474cf6e9e8e3bdf0fc5ea232472c49a5e1fca40eeeb932c45e1c14e",
+      "bytes": 142
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/cetaceans-mt-6/37/tree-000.nwk",
+      "sha256": "54e045509ce15642c43bdb58a804e9a5c15f7d426198a8305a1dd56ccb3a33ac",
+      "bytes": 143
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-12/101/console.txt",
+      "sha256": "da2cc56de50fa33512ff1fd6e2dc8e90ad97ac2e246313baf3fd11ca5f94975f",
+      "bytes": 4246
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-12/101/infile",
+      "sha256": "2fd810e540286aa22aa560c3554bbe6d01f07956876d59b98f2c827356350419",
+      "bytes": 12740
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-12/101/labels.json",
+      "sha256": "c2850fa3be72bcec050233876162ce226b96b8725970c6b4c21c60e5cd418330",
+      "bytes": 487
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-12/101/menu.txt",
+      "sha256": "559f5fb5142a31acd6750c6cc737e1763ce053643340cb1a58c3085f30671c8e",
+      "bytes": 19
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-12/101/outfile",
+      "sha256": "98bba5c2d34a22cf86efa1edd6914710e22a91aeef1c661a6409f8f040cdfb94",
+      "bytes": 1132
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-12/101/outtree",
+      "sha256": "9dd5360d16d2c3d4da37e1d364ff1de5717921f89ada416b3d41f47e6958f440",
+      "bytes": 282
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-12/101/tree-000.nwk",
+      "sha256": "e3e087e8bb5e7b5dfa22da5cc7aa3fafd1dd7d8240332990952ac5332992f9d1",
+      "bytes": 289
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-12/13/console.txt",
+      "sha256": "feee8596565f91aaf69948c5954b756c0442cca65001cb8a766779681ad591ec",
+      "bytes": 4312
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-12/13/infile",
+      "sha256": "2fd810e540286aa22aa560c3554bbe6d01f07956876d59b98f2c827356350419",
+      "bytes": 12740
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-12/13/labels.json",
+      "sha256": "c2850fa3be72bcec050233876162ce226b96b8725970c6b4c21c60e5cd418330",
+      "bytes": 487
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-12/13/menu.txt",
+      "sha256": "c72f1cc3e9bde6c95c530578fd9ea79fd78a1614e207c059cbbceda758a33eec",
+      "bytes": 18
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-12/13/outfile",
+      "sha256": "98bba5c2d34a22cf86efa1edd6914710e22a91aeef1c661a6409f8f040cdfb94",
+      "bytes": 1132
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-12/13/outtree",
+      "sha256": "9dd5360d16d2c3d4da37e1d364ff1de5717921f89ada416b3d41f47e6958f440",
+      "bytes": 282
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-12/13/tree-000.nwk",
+      "sha256": "e3e087e8bb5e7b5dfa22da5cc7aa3fafd1dd7d8240332990952ac5332992f9d1",
+      "bytes": 289
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-12/37/console.txt",
+      "sha256": "07ae4c68b2d1168240cfa6babcf28cf532d3daa956f68296674c33f6aac97443",
+      "bytes": 4270
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-12/37/infile",
+      "sha256": "2fd810e540286aa22aa560c3554bbe6d01f07956876d59b98f2c827356350419",
+      "bytes": 12740
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-12/37/labels.json",
+      "sha256": "c2850fa3be72bcec050233876162ce226b96b8725970c6b4c21c60e5cd418330",
+      "bytes": 487
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-12/37/menu.txt",
+      "sha256": "4ec710ade24e41e74f69002e47082add1e541f7087949f5ef60e7d28ef1cdaa5",
+      "bytes": 18
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-12/37/outfile",
+      "sha256": "98bba5c2d34a22cf86efa1edd6914710e22a91aeef1c661a6409f8f040cdfb94",
+      "bytes": 1132
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-12/37/outtree",
+      "sha256": "9dd5360d16d2c3d4da37e1d364ff1de5717921f89ada416b3d41f47e6958f440",
+      "bytes": 282
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-12/37/tree-000.nwk",
+      "sha256": "e3e087e8bb5e7b5dfa22da5cc7aa3fafd1dd7d8240332990952ac5332992f9d1",
+      "bytes": 289
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-24/101/console.txt",
+      "sha256": "2c03c1371df942ab573d77ec6df37f95f2703d43d3327379f20cd45ae8f2019f",
+      "bytes": 4543
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-24/101/infile",
+      "sha256": "ddaffd77bb7400335d18482bdf9ee8f8a7f28cbecdec40c4eccb6d010ece30f9",
+      "bytes": 25352
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-24/101/labels.json",
+      "sha256": "be2879586d5ddcd1d35b876719c6e72ab322927942bd6467e05b272ac075555c",
+      "bytes": 971
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-24/101/menu.txt",
+      "sha256": "559f5fb5142a31acd6750c6cc737e1763ce053643340cb1a58c3085f30671c8e",
+      "bytes": 19
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-24/101/outfile",
+      "sha256": "bb5bd6a6394cd22f341d9f322e9a6039533bad58a7ef145ef38f6982a08e8b2d",
+      "bytes": 16871
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-24/101/outtree",
+      "sha256": "18d78ff93ef73fe4852f4fac20aa5557c32e70ab099831f5ae1ec7055dbc956e",
+      "bytes": 4518
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-24/101/tree-000.nwk",
+      "sha256": "c032c4bcaca88e8a0b05d8b174e1c5ff50847f646ca5d4e5111093b5ffe62cf0",
+      "bytes": 581
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-24/101/tree-001.nwk",
+      "sha256": "b27adc6a86aa9b541fee9eff2839aaafd9c441e13230040f9a6349ff190f5e1e",
+      "bytes": 581
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-24/101/tree-002.nwk",
+      "sha256": "7103d28836cdc35e236c09e22e29f98289849bffa383e09f1d44b40d9c7375e9",
+      "bytes": 581
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-24/101/tree-003.nwk",
+      "sha256": "f27152bd35fde5445656c23e60f1a917c4ab3f13785200e0aa56800ea07e9376",
+      "bytes": 581
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-24/101/tree-004.nwk",
+      "sha256": "8714d6653c1051bf1d4edba599e630230654655b2e46624218961371c9f15186",
+      "bytes": 581
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-24/101/tree-005.nwk",
+      "sha256": "08ec2cb3eb6750e5a29fae039d6bc110a1f6122860dd228326e3d89d4d083688",
+      "bytes": 581
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-24/101/tree-006.nwk",
+      "sha256": "953f5ff7f9aedb098806c451c10ef308277397bf9d8008dc66d5a6d7f978adcf",
+      "bytes": 581
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-24/101/tree-007.nwk",
+      "sha256": "b503007c8319774a62b4ee336d294b642f189f27e9c793b176bf80aa68e1e7c6",
+      "bytes": 581
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-24/13/console.txt",
+      "sha256": "1e238b70d0c4b3f3dc689d27abd29413e2ff5e1c419e1812f4a673e3a19821d5",
+      "bytes": 4543
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-24/13/infile",
+      "sha256": "ddaffd77bb7400335d18482bdf9ee8f8a7f28cbecdec40c4eccb6d010ece30f9",
+      "bytes": 25352
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-24/13/labels.json",
+      "sha256": "be2879586d5ddcd1d35b876719c6e72ab322927942bd6467e05b272ac075555c",
+      "bytes": 971
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-24/13/menu.txt",
+      "sha256": "c72f1cc3e9bde6c95c530578fd9ea79fd78a1614e207c059cbbceda758a33eec",
+      "bytes": 18
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-24/13/outfile",
+      "sha256": "bb5bd6a6394cd22f341d9f322e9a6039533bad58a7ef145ef38f6982a08e8b2d",
+      "bytes": 16871
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-24/13/outtree",
+      "sha256": "18d78ff93ef73fe4852f4fac20aa5557c32e70ab099831f5ae1ec7055dbc956e",
+      "bytes": 4518
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-24/13/tree-000.nwk",
+      "sha256": "c032c4bcaca88e8a0b05d8b174e1c5ff50847f646ca5d4e5111093b5ffe62cf0",
+      "bytes": 581
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-24/13/tree-001.nwk",
+      "sha256": "b27adc6a86aa9b541fee9eff2839aaafd9c441e13230040f9a6349ff190f5e1e",
+      "bytes": 581
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-24/13/tree-002.nwk",
+      "sha256": "7103d28836cdc35e236c09e22e29f98289849bffa383e09f1d44b40d9c7375e9",
+      "bytes": 581
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-24/13/tree-003.nwk",
+      "sha256": "f27152bd35fde5445656c23e60f1a917c4ab3f13785200e0aa56800ea07e9376",
+      "bytes": 581
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-24/13/tree-004.nwk",
+      "sha256": "8714d6653c1051bf1d4edba599e630230654655b2e46624218961371c9f15186",
+      "bytes": 581
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-24/13/tree-005.nwk",
+      "sha256": "08ec2cb3eb6750e5a29fae039d6bc110a1f6122860dd228326e3d89d4d083688",
+      "bytes": 581
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-24/13/tree-006.nwk",
+      "sha256": "953f5ff7f9aedb098806c451c10ef308277397bf9d8008dc66d5a6d7f978adcf",
+      "bytes": 581
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-24/13/tree-007.nwk",
+      "sha256": "b503007c8319774a62b4ee336d294b642f189f27e9c793b176bf80aa68e1e7c6",
+      "bytes": 581
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-24/37/console.txt",
+      "sha256": "f2dc15a93c774165f1c84d08bbcb5a4d0dbee4679ce01ef6c25de934a6564731",
+      "bytes": 4543
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-24/37/infile",
+      "sha256": "ddaffd77bb7400335d18482bdf9ee8f8a7f28cbecdec40c4eccb6d010ece30f9",
+      "bytes": 25352
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-24/37/labels.json",
+      "sha256": "be2879586d5ddcd1d35b876719c6e72ab322927942bd6467e05b272ac075555c",
+      "bytes": 971
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-24/37/menu.txt",
+      "sha256": "4ec710ade24e41e74f69002e47082add1e541f7087949f5ef60e7d28ef1cdaa5",
+      "bytes": 18
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-24/37/outfile",
+      "sha256": "bb5bd6a6394cd22f341d9f322e9a6039533bad58a7ef145ef38f6982a08e8b2d",
+      "bytes": 16871
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-24/37/outtree",
+      "sha256": "18d78ff93ef73fe4852f4fac20aa5557c32e70ab099831f5ae1ec7055dbc956e",
+      "bytes": 4518
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-24/37/tree-000.nwk",
+      "sha256": "c032c4bcaca88e8a0b05d8b174e1c5ff50847f646ca5d4e5111093b5ffe62cf0",
+      "bytes": 581
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-24/37/tree-001.nwk",
+      "sha256": "b27adc6a86aa9b541fee9eff2839aaafd9c441e13230040f9a6349ff190f5e1e",
+      "bytes": 581
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-24/37/tree-002.nwk",
+      "sha256": "7103d28836cdc35e236c09e22e29f98289849bffa383e09f1d44b40d9c7375e9",
+      "bytes": 581
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-24/37/tree-003.nwk",
+      "sha256": "f27152bd35fde5445656c23e60f1a917c4ab3f13785200e0aa56800ea07e9376",
+      "bytes": 581
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-24/37/tree-004.nwk",
+      "sha256": "8714d6653c1051bf1d4edba599e630230654655b2e46624218961371c9f15186",
+      "bytes": 581
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-24/37/tree-005.nwk",
+      "sha256": "08ec2cb3eb6750e5a29fae039d6bc110a1f6122860dd228326e3d89d4d083688",
+      "bytes": 581
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-24/37/tree-006.nwk",
+      "sha256": "953f5ff7f9aedb098806c451c10ef308277397bf9d8008dc66d5a6d7f978adcf",
+      "bytes": 581
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-24/37/tree-007.nwk",
+      "sha256": "b503007c8319774a62b4ee336d294b642f189f27e9c793b176bf80aa68e1e7c6",
+      "bytes": 581
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-6/101/console.txt",
+      "sha256": "da2cc56de50fa33512ff1fd6e2dc8e90ad97ac2e246313baf3fd11ca5f94975f",
+      "bytes": 4246
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-6/101/infile",
+      "sha256": "fa27ae00901219e410a715d645bab1c55ecf25b45b77c080e2dc3bac9c38f4f5",
+      "bytes": 6409
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-6/101/labels.json",
+      "sha256": "4da26e24ae50a79c683f5dbf87327a74c823f50df2df0538c1a8ccb88b6b7cc2",
+      "bytes": 246
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-6/101/menu.txt",
+      "sha256": "559f5fb5142a31acd6750c6cc737e1763ce053643340cb1a58c3085f30671c8e",
+      "bytes": 19
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-6/101/outfile",
+      "sha256": "4862b3a515ba4a291b4308dd9618a44728c482e425579b12878393aa46445aa5",
+      "bytes": 637
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-6/101/outtree",
+      "sha256": "087d08763c55b3496f1824afd0399ed213b4c1f47a801489fb322f4f0ebf9b36",
+      "bytes": 142
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-6/101/tree-000.nwk",
+      "sha256": "c37552805f1520c868f768df207859a974223a21562ac3d2fd27d35c24982e68",
+      "bytes": 144
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-6/13/console.txt",
+      "sha256": "293d4005eaac00aa42a65fcb5f8dd4db7d682daffeae6daba466bff59c8d848e",
+      "bytes": 4246
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-6/13/infile",
+      "sha256": "fa27ae00901219e410a715d645bab1c55ecf25b45b77c080e2dc3bac9c38f4f5",
+      "bytes": 6409
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-6/13/labels.json",
+      "sha256": "4da26e24ae50a79c683f5dbf87327a74c823f50df2df0538c1a8ccb88b6b7cc2",
+      "bytes": 246
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-6/13/menu.txt",
+      "sha256": "c72f1cc3e9bde6c95c530578fd9ea79fd78a1614e207c059cbbceda758a33eec",
+      "bytes": 18
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-6/13/outfile",
+      "sha256": "4862b3a515ba4a291b4308dd9618a44728c482e425579b12878393aa46445aa5",
+      "bytes": 637
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-6/13/outtree",
+      "sha256": "087d08763c55b3496f1824afd0399ed213b4c1f47a801489fb322f4f0ebf9b36",
+      "bytes": 142
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-6/13/tree-000.nwk",
+      "sha256": "c37552805f1520c868f768df207859a974223a21562ac3d2fd27d35c24982e68",
+      "bytes": 144
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-6/37/console.txt",
+      "sha256": "2f0b5f22c856e5ad4c9050fdd451be2b33f6fe8914da433bd4203c8ff62266c4",
+      "bytes": 4246
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-6/37/infile",
+      "sha256": "fa27ae00901219e410a715d645bab1c55ecf25b45b77c080e2dc3bac9c38f4f5",
+      "bytes": 6409
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-6/37/labels.json",
+      "sha256": "4da26e24ae50a79c683f5dbf87327a74c823f50df2df0538c1a8ccb88b6b7cc2",
+      "bytes": 246
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-6/37/menu.txt",
+      "sha256": "4ec710ade24e41e74f69002e47082add1e541f7087949f5ef60e7d28ef1cdaa5",
+      "bytes": 18
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-6/37/outfile",
+      "sha256": "4862b3a515ba4a291b4308dd9618a44728c482e425579b12878393aa46445aa5",
+      "bytes": 637
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-6/37/outtree",
+      "sha256": "087d08763c55b3496f1824afd0399ed213b4c1f47a801489fb322f4f0ebf9b36",
+      "bytes": 142
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-nrdna-6/37/tree-000.nwk",
+      "sha256": "c37552805f1520c868f768df207859a974223a21562ac3d2fd27d35c24982e68",
+      "bytes": 144
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-12/101/console.txt",
+      "sha256": "a7edeb7da3622cb2b93785ef1b3b91005fb4a99dce523898cd46239f978525ae",
+      "bytes": 4267
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-12/101/infile",
+      "sha256": "29b691abc74fbe0ddaee34a51744d2c9a61bb6798a025faf1e533cb35a7a7874",
+      "bytes": 36680
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-12/101/labels.json",
+      "sha256": "c2850fa3be72bcec050233876162ce226b96b8725970c6b4c21c60e5cd418330",
+      "bytes": 487
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-12/101/menu.txt",
+      "sha256": "559f5fb5142a31acd6750c6cc737e1763ce053643340cb1a58c3085f30671c8e",
+      "bytes": 19
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-12/101/outfile",
+      "sha256": "6676bbb8f08c2119facd01220af7be1fc0ca100dd83db40169d2a8440fd48358",
+      "bytes": 4584
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-12/101/outtree",
+      "sha256": "68ea303ebf6010c7d132d08186ff9f7928ab07f129b62aa513e6fd5d5d1ea005",
+      "bytes": 1180
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-12/101/tree-000.nwk",
+      "sha256": "9a8b1dabdcb5356157b88668789fe68270d5be754554dc0a15df2d2dd77b2c3c",
+      "bytes": 289
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-12/101/tree-001.nwk",
+      "sha256": "641c348c552bd967545b9d3adb84083fe356ec65a2a92a688491667c2fde4152",
+      "bytes": 289
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-12/101/tree-002.nwk",
+      "sha256": "e55c0544d8aba9465d9bfce2ca4bea12004e0778f05c3f434470c4c619bc17c6",
+      "bytes": 289
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-12/101/tree-003.nwk",
+      "sha256": "c9525e4c3f46eda78cd7042ebfc8d5dcc06b43cbb40ef6c249004a8049969e37",
+      "bytes": 289
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-12/13/console.txt",
+      "sha256": "bda5736bb15f0d3a8503b1c0619c0f36ace4641c4f97c3d88ffbab09df048206",
+      "bytes": 4264
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-12/13/infile",
+      "sha256": "29b691abc74fbe0ddaee34a51744d2c9a61bb6798a025faf1e533cb35a7a7874",
+      "bytes": 36680
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-12/13/labels.json",
+      "sha256": "c2850fa3be72bcec050233876162ce226b96b8725970c6b4c21c60e5cd418330",
+      "bytes": 487
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-12/13/menu.txt",
+      "sha256": "c72f1cc3e9bde6c95c530578fd9ea79fd78a1614e207c059cbbceda758a33eec",
+      "bytes": 18
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-12/13/outfile",
+      "sha256": "6676bbb8f08c2119facd01220af7be1fc0ca100dd83db40169d2a8440fd48358",
+      "bytes": 4584
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-12/13/outtree",
+      "sha256": "68ea303ebf6010c7d132d08186ff9f7928ab07f129b62aa513e6fd5d5d1ea005",
+      "bytes": 1180
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-12/13/tree-000.nwk",
+      "sha256": "9a8b1dabdcb5356157b88668789fe68270d5be754554dc0a15df2d2dd77b2c3c",
+      "bytes": 289
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-12/13/tree-001.nwk",
+      "sha256": "641c348c552bd967545b9d3adb84083fe356ec65a2a92a688491667c2fde4152",
+      "bytes": 289
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-12/13/tree-002.nwk",
+      "sha256": "e55c0544d8aba9465d9bfce2ca4bea12004e0778f05c3f434470c4c619bc17c6",
+      "bytes": 289
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-12/13/tree-003.nwk",
+      "sha256": "c9525e4c3f46eda78cd7042ebfc8d5dcc06b43cbb40ef6c249004a8049969e37",
+      "bytes": 289
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-12/37/console.txt",
+      "sha256": "b88a83e3e6fefa579b71e98e81c352981f2e743310a14677c85507875311e694",
+      "bytes": 4261
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-12/37/infile",
+      "sha256": "29b691abc74fbe0ddaee34a51744d2c9a61bb6798a025faf1e533cb35a7a7874",
+      "bytes": 36680
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-12/37/labels.json",
+      "sha256": "c2850fa3be72bcec050233876162ce226b96b8725970c6b4c21c60e5cd418330",
+      "bytes": 487
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-12/37/menu.txt",
+      "sha256": "4ec710ade24e41e74f69002e47082add1e541f7087949f5ef60e7d28ef1cdaa5",
+      "bytes": 18
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-12/37/outfile",
+      "sha256": "6676bbb8f08c2119facd01220af7be1fc0ca100dd83db40169d2a8440fd48358",
+      "bytes": 4584
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-12/37/outtree",
+      "sha256": "68ea303ebf6010c7d132d08186ff9f7928ab07f129b62aa513e6fd5d5d1ea005",
+      "bytes": 1180
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-12/37/tree-000.nwk",
+      "sha256": "9a8b1dabdcb5356157b88668789fe68270d5be754554dc0a15df2d2dd77b2c3c",
+      "bytes": 289
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-12/37/tree-001.nwk",
+      "sha256": "641c348c552bd967545b9d3adb84083fe356ec65a2a92a688491667c2fde4152",
+      "bytes": 289
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-12/37/tree-002.nwk",
+      "sha256": "e55c0544d8aba9465d9bfce2ca4bea12004e0778f05c3f434470c4c619bc17c6",
+      "bytes": 289
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-12/37/tree-003.nwk",
+      "sha256": "c9525e4c3f46eda78cd7042ebfc8d5dcc06b43cbb40ef6c249004a8049969e37",
+      "bytes": 289
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-24/101/console.txt",
+      "sha256": "0631b84f3504454dcb4d8918a0fdcfc9d13150b22014674ec0f8a2bcc382d57a",
+      "bytes": 4447
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-24/101/infile",
+      "sha256": "72ba377204dfcdf031d82765907caae3798f48bbb21ca483b21735fa646b97ad",
+      "bytes": 72944
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-24/101/labels.json",
+      "sha256": "be2879586d5ddcd1d35b876719c6e72ab322927942bd6467e05b272ac075555c",
+      "bytes": 971
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-24/101/menu.txt",
+      "sha256": "559f5fb5142a31acd6750c6cc737e1763ce053643340cb1a58c3085f30671c8e",
+      "bytes": 19
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-24/101/outfile",
+      "sha256": "f9de2841d0769be506f41bbe047dcd181f90a0786d3d9c8e10dea723af601b6f",
+      "bytes": 13451
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-24/101/outtree",
+      "sha256": "7a73d692451d34312d0eb921e9ae38c5045a16ad576ed0c9ce52250273b0fe5d",
+      "bytes": 3421
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-24/101/tree-000.nwk",
+      "sha256": "61cf0f5c61687c7e46c19a6193fd05a1e875a345017a7acb02b51ee5efd472c1",
+      "bytes": 581
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-24/101/tree-001.nwk",
+      "sha256": "9aff235b8a8336710cf81d71e5ecd3ef22c41f09fb3e2393f860ad997e0a0b56",
+      "bytes": 581
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-24/101/tree-002.nwk",
+      "sha256": "3961a336ebe59c1f041c8d99211d60362c4e47344c70f793daa85472c0b87d2d",
+      "bytes": 581
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-24/101/tree-003.nwk",
+      "sha256": "d09099b2cc8d10a1adc747196621542066607f37218175ad82add20983e8ddab",
+      "bytes": 581
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-24/101/tree-004.nwk",
+      "sha256": "e792df118c7cd556623374dd7c7165e44fd1984236810a6dcc01639c479dcb13",
+      "bytes": 581
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-24/101/tree-005.nwk",
+      "sha256": "3961a336ebe59c1f041c8d99211d60362c4e47344c70f793daa85472c0b87d2d",
+      "bytes": 581
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-24/13/console.txt",
+      "sha256": "8d29c98e4a07edf575520873df78df7b202ae97a57e8e6bbb94e9058a5df9819",
+      "bytes": 4366
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-24/13/infile",
+      "sha256": "72ba377204dfcdf031d82765907caae3798f48bbb21ca483b21735fa646b97ad",
+      "bytes": 72944
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-24/13/labels.json",
+      "sha256": "be2879586d5ddcd1d35b876719c6e72ab322927942bd6467e05b272ac075555c",
+      "bytes": 971
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-24/13/menu.txt",
+      "sha256": "c72f1cc3e9bde6c95c530578fd9ea79fd78a1614e207c059cbbceda758a33eec",
+      "bytes": 18
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-24/13/outfile",
+      "sha256": "e39e4178c6f7be6c8ab6935729d6191b5f6c8630a79593a36398fdd62c08a6b8",
+      "bytes": 8821
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-24/13/outtree",
+      "sha256": "1f16dfcc687146415e0204d775ab6612c9980af9314bd2b85400e25860c692ea",
+      "bytes": 2260
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-24/13/tree-000.nwk",
+      "sha256": "61cf0f5c61687c7e46c19a6193fd05a1e875a345017a7acb02b51ee5efd472c1",
+      "bytes": 581
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-24/13/tree-001.nwk",
+      "sha256": "9aff235b8a8336710cf81d71e5ecd3ef22c41f09fb3e2393f860ad997e0a0b56",
+      "bytes": 581
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-24/13/tree-002.nwk",
+      "sha256": "3961a336ebe59c1f041c8d99211d60362c4e47344c70f793daa85472c0b87d2d",
+      "bytes": 581
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-24/13/tree-003.nwk",
+      "sha256": "d09099b2cc8d10a1adc747196621542066607f37218175ad82add20983e8ddab",
+      "bytes": 581
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-24/37/console.txt",
+      "sha256": "fc9eea76c2f568bae433d15a311e764fc0b3243765f88f31dff7e3a058666b3f",
+      "bytes": 4360
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-24/37/infile",
+      "sha256": "72ba377204dfcdf031d82765907caae3798f48bbb21ca483b21735fa646b97ad",
+      "bytes": 72944
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-24/37/labels.json",
+      "sha256": "be2879586d5ddcd1d35b876719c6e72ab322927942bd6467e05b272ac075555c",
+      "bytes": 971
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-24/37/menu.txt",
+      "sha256": "4ec710ade24e41e74f69002e47082add1e541f7087949f5ef60e7d28ef1cdaa5",
+      "bytes": 18
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-24/37/outfile",
+      "sha256": "e39e4178c6f7be6c8ab6935729d6191b5f6c8630a79593a36398fdd62c08a6b8",
+      "bytes": 8821
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-24/37/outtree",
+      "sha256": "1f16dfcc687146415e0204d775ab6612c9980af9314bd2b85400e25860c692ea",
+      "bytes": 2260
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-24/37/tree-000.nwk",
+      "sha256": "61cf0f5c61687c7e46c19a6193fd05a1e875a345017a7acb02b51ee5efd472c1",
+      "bytes": 581
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-24/37/tree-001.nwk",
+      "sha256": "9aff235b8a8336710cf81d71e5ecd3ef22c41f09fb3e2393f860ad997e0a0b56",
+      "bytes": 581
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-24/37/tree-002.nwk",
+      "sha256": "3961a336ebe59c1f041c8d99211d60362c4e47344c70f793daa85472c0b87d2d",
+      "bytes": 581
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-24/37/tree-003.nwk",
+      "sha256": "d09099b2cc8d10a1adc747196621542066607f37218175ad82add20983e8ddab",
+      "bytes": 581
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-6/101/console.txt",
+      "sha256": "da2cc56de50fa33512ff1fd6e2dc8e90ad97ac2e246313baf3fd11ca5f94975f",
+      "bytes": 4246
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-6/101/infile",
+      "sha256": "36a9dca260fa7794ce26b103f8547abb3e94da038bf812022b300fa610fe0147",
+      "bytes": 18625
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-6/101/labels.json",
+      "sha256": "4da26e24ae50a79c683f5dbf87327a74c823f50df2df0538c1a8ccb88b6b7cc2",
+      "bytes": 246
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-6/101/menu.txt",
+      "sha256": "559f5fb5142a31acd6750c6cc737e1763ce053643340cb1a58c3085f30671c8e",
+      "bytes": 19
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-6/101/outfile",
+      "sha256": "bbe1d0e66a1e6995c78233e6d21aacbd5c7972bd91dc9855e008c73a8a1ecb88",
+      "bytes": 642
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-6/101/outtree",
+      "sha256": "2c3bd629f105f67937de5492f1dc3ad94973f011022ee16a71b6bd00c720bdd1",
+      "bytes": 142
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-6/101/tree-000.nwk",
+      "sha256": "1a5c89effaa48518001114061a4dafdbe22072e875259d5faf7a1546bd54d098",
+      "bytes": 144
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-6/13/console.txt",
+      "sha256": "293d4005eaac00aa42a65fcb5f8dd4db7d682daffeae6daba466bff59c8d848e",
+      "bytes": 4246
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-6/13/infile",
+      "sha256": "36a9dca260fa7794ce26b103f8547abb3e94da038bf812022b300fa610fe0147",
+      "bytes": 18625
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-6/13/labels.json",
+      "sha256": "4da26e24ae50a79c683f5dbf87327a74c823f50df2df0538c1a8ccb88b6b7cc2",
+      "bytes": 246
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-6/13/menu.txt",
+      "sha256": "c72f1cc3e9bde6c95c530578fd9ea79fd78a1614e207c059cbbceda758a33eec",
+      "bytes": 18
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-6/13/outfile",
+      "sha256": "bbe1d0e66a1e6995c78233e6d21aacbd5c7972bd91dc9855e008c73a8a1ecb88",
+      "bytes": 642
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-6/13/outtree",
+      "sha256": "2c3bd629f105f67937de5492f1dc3ad94973f011022ee16a71b6bd00c720bdd1",
+      "bytes": 142
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-6/13/tree-000.nwk",
+      "sha256": "1a5c89effaa48518001114061a4dafdbe22072e875259d5faf7a1546bd54d098",
+      "bytes": 144
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-6/37/console.txt",
+      "sha256": "2f0b5f22c856e5ad4c9050fdd451be2b33f6fe8914da433bd4203c8ff62266c4",
+      "bytes": 4246
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-6/37/infile",
+      "sha256": "36a9dca260fa7794ce26b103f8547abb3e94da038bf812022b300fa610fe0147",
+      "bytes": 18625
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-6/37/labels.json",
+      "sha256": "4da26e24ae50a79c683f5dbf87327a74c823f50df2df0538c1a8ccb88b6b7cc2",
+      "bytes": 246
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-6/37/menu.txt",
+      "sha256": "4ec710ade24e41e74f69002e47082add1e541f7087949f5ef60e7d28ef1cdaa5",
+      "bytes": 18
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-6/37/outfile",
+      "sha256": "bbe1d0e66a1e6995c78233e6d21aacbd5c7972bd91dc9855e008c73a8a1ecb88",
+      "bytes": 642
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-6/37/outtree",
+      "sha256": "2c3bd629f105f67937de5492f1dc3ad94973f011022ee16a71b6bd00c720bdd1",
+      "bytes": 142
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/ferula-plastid-6/37/tree-000.nwk",
+      "sha256": "1a5c89effaa48518001114061a4dafdbe22072e875259d5faf7a1546bd54d098",
+      "bytes": 144
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/phylip-dnapars/101/console.txt",
+      "sha256": "da2cc56de50fa33512ff1fd6e2dc8e90ad97ac2e246313baf3fd11ca5f94975f",
+      "bytes": 4246
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/phylip-dnapars/101/infile",
+      "sha256": "d1f4a0f16f6cef889591e71c774841380366d22c01c2d0c864fd9bf1cb38f5ee",
+      "bytes": 125
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/phylip-dnapars/101/labels.json",
+      "sha256": "1995e593dd3a3c5c17de062356109cb1dd130bd28c9a18da2513007a6778f721",
+      "bytes": 124
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/phylip-dnapars/101/menu.txt",
+      "sha256": "559f5fb5142a31acd6750c6cc737e1763ce053643340cb1a58c3085f30671c8e",
+      "bytes": 19
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/phylip-dnapars/101/outfile",
+      "sha256": "3f7390425c3c0c7a8c58ed682fcd4927f4595b142f5af6aba2ab3d82bf0acc20",
+      "bytes": 702
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/phylip-dnapars/101/outtree",
+      "sha256": "22e2b222f505cc6136507a6e887d42c8678b69b350ff9674d192c7eff6522530",
+      "bytes": 114
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/phylip-dnapars/101/tree-000.nwk",
+      "sha256": "ecdcf38f213553cbf972396060140287ce4397205cafdcba887ca1668b2880ba",
+      "bytes": 38
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/phylip-dnapars/13/console.txt",
+      "sha256": "293d4005eaac00aa42a65fcb5f8dd4db7d682daffeae6daba466bff59c8d848e",
+      "bytes": 4246
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/phylip-dnapars/13/infile",
+      "sha256": "d1f4a0f16f6cef889591e71c774841380366d22c01c2d0c864fd9bf1cb38f5ee",
+      "bytes": 125
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/phylip-dnapars/13/labels.json",
+      "sha256": "1995e593dd3a3c5c17de062356109cb1dd130bd28c9a18da2513007a6778f721",
+      "bytes": 124
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/phylip-dnapars/13/menu.txt",
+      "sha256": "c72f1cc3e9bde6c95c530578fd9ea79fd78a1614e207c059cbbceda758a33eec",
+      "bytes": 18
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/phylip-dnapars/13/outfile",
+      "sha256": "3f7390425c3c0c7a8c58ed682fcd4927f4595b142f5af6aba2ab3d82bf0acc20",
+      "bytes": 702
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/phylip-dnapars/13/outtree",
+      "sha256": "22e2b222f505cc6136507a6e887d42c8678b69b350ff9674d192c7eff6522530",
+      "bytes": 114
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/phylip-dnapars/13/tree-000.nwk",
+      "sha256": "ecdcf38f213553cbf972396060140287ce4397205cafdcba887ca1668b2880ba",
+      "bytes": 38
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/phylip-dnapars/37/console.txt",
+      "sha256": "2f0b5f22c856e5ad4c9050fdd451be2b33f6fe8914da433bd4203c8ff62266c4",
+      "bytes": 4246
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/phylip-dnapars/37/infile",
+      "sha256": "d1f4a0f16f6cef889591e71c774841380366d22c01c2d0c864fd9bf1cb38f5ee",
+      "bytes": 125
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/phylip-dnapars/37/labels.json",
+      "sha256": "1995e593dd3a3c5c17de062356109cb1dd130bd28c9a18da2513007a6778f721",
+      "bytes": 124
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/phylip-dnapars/37/menu.txt",
+      "sha256": "4ec710ade24e41e74f69002e47082add1e541f7087949f5ef60e7d28ef1cdaa5",
+      "bytes": 18
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/phylip-dnapars/37/outfile",
+      "sha256": "3f7390425c3c0c7a8c58ed682fcd4927f4595b142f5af6aba2ab3d82bf0acc20",
+      "bytes": 702
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/phylip-dnapars/37/outtree",
+      "sha256": "22e2b222f505cc6136507a6e887d42c8678b69b350ff9674d192c7eff6522530",
+      "bytes": 114
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/phylip-dnapars/37/tree-000.nwk",
+      "sha256": "ecdcf38f213553cbf972396060140287ce4397205cafdcba887ca1668b2880ba",
+      "bytes": 38
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/phylip-dnapenny/101/console.txt",
+      "sha256": "8e0482ca63f1044784841f5b6a7246c48da874d882c0b7e96374d01aac2ba9ec",
+      "bytes": 4252
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/phylip-dnapenny/101/infile",
+      "sha256": "14768881a4561339131c3b30ca63765637a3989fc5b201b220a520762e674ce2",
+      "bytes": 140
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/phylip-dnapenny/101/labels.json",
+      "sha256": "5d4b75e9dc38b34440466be53884534a0ddd95075b0cb5b3518041bf900ce3a9",
+      "bytes": 201
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/phylip-dnapenny/101/menu.txt",
+      "sha256": "559f5fb5142a31acd6750c6cc737e1763ce053643340cb1a58c3085f30671c8e",
+      "bytes": 19
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/phylip-dnapenny/101/outfile",
+      "sha256": "7daf30ae00b50c756fa6409afb8f69bc0c8057fc3468c88c288ee689adc90b62",
+      "bytes": 815
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/phylip-dnapenny/101/outtree",
+      "sha256": "67972ccbc96db59b1b52e536a208cb7485f2a91ad4dc016d443daa52d83fdfe0",
+      "bytes": 179
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/phylip-dnapenny/101/tree-000.nwk",
+      "sha256": "4404417639d794fd5f3e83514d64e2154e7aace438cf7b7b0fe64243c61fa514",
+      "bytes": 67
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/phylip-dnapenny/13/console.txt",
+      "sha256": "c1fd1558aedae93cd1cf94a18fdffe4eddeb2efece94f17712553a8aade052b5",
+      "bytes": 4249
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/phylip-dnapenny/13/infile",
+      "sha256": "14768881a4561339131c3b30ca63765637a3989fc5b201b220a520762e674ce2",
+      "bytes": 140
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/phylip-dnapenny/13/labels.json",
+      "sha256": "5d4b75e9dc38b34440466be53884534a0ddd95075b0cb5b3518041bf900ce3a9",
+      "bytes": 201
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/phylip-dnapenny/13/menu.txt",
+      "sha256": "c72f1cc3e9bde6c95c530578fd9ea79fd78a1614e207c059cbbceda758a33eec",
+      "bytes": 18
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/phylip-dnapenny/13/outfile",
+      "sha256": "7daf30ae00b50c756fa6409afb8f69bc0c8057fc3468c88c288ee689adc90b62",
+      "bytes": 815
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/phylip-dnapenny/13/outtree",
+      "sha256": "67972ccbc96db59b1b52e536a208cb7485f2a91ad4dc016d443daa52d83fdfe0",
+      "bytes": 179
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/phylip-dnapenny/13/tree-000.nwk",
+      "sha256": "4404417639d794fd5f3e83514d64e2154e7aace438cf7b7b0fe64243c61fa514",
+      "bytes": 67
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/phylip-dnapenny/37/console.txt",
+      "sha256": "2f0b5f22c856e5ad4c9050fdd451be2b33f6fe8914da433bd4203c8ff62266c4",
+      "bytes": 4246
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/phylip-dnapenny/37/infile",
+      "sha256": "14768881a4561339131c3b30ca63765637a3989fc5b201b220a520762e674ce2",
+      "bytes": 140
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/phylip-dnapenny/37/labels.json",
+      "sha256": "5d4b75e9dc38b34440466be53884534a0ddd95075b0cb5b3518041bf900ce3a9",
+      "bytes": 201
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/phylip-dnapenny/37/menu.txt",
+      "sha256": "4ec710ade24e41e74f69002e47082add1e541f7087949f5ef60e7d28ef1cdaa5",
+      "bytes": 18
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/phylip-dnapenny/37/outfile",
+      "sha256": "7daf30ae00b50c756fa6409afb8f69bc0c8057fc3468c88c288ee689adc90b62",
+      "bytes": 815
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/phylip-dnapenny/37/outtree",
+      "sha256": "67972ccbc96db59b1b52e536a208cb7485f2a91ad4dc016d443daa52d83fdfe0",
+      "bytes": 179
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/phylip-dnapenny/37/tree-000.nwk",
+      "sha256": "4404417639d794fd5f3e83514d64e2154e7aace438cf7b7b0fe64243c61fa514",
+      "bytes": 67
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/101/console.txt",
+      "sha256": "e852c2bb9afda8f846f2880a3f6c00bfb8767cddde69f43d20ed1976336c6220",
+      "bytes": 4282
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/101/infile",
+      "sha256": "e6c3d9c14eb1291d592c47f2841bbe995e17c621b6543d64d48a75e1b3c23008",
+      "bytes": 3955
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/101/labels.json",
+      "sha256": "4c6c8b21a30e2c055b95127ebbb86c634b3d5b75d68c3b6bde4e6e5cca003416",
+      "bytes": 435
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/101/menu.txt",
+      "sha256": "559f5fb5142a31acd6750c6cc737e1763ce053643340cb1a58c3085f30671c8e",
+      "bytes": 19
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/101/outfile",
+      "sha256": "ac4510b68f364a265a8184980dda9e0cf628e6c566d9bf71698906394dad4c12",
+      "bytes": 13612
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/101/outtree",
+      "sha256": "dea5b19b838cfe97ca70daa4425ac4bfb44cfa524a86c124053e9848c034fa91",
+      "bytes": 3517
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/101/tree-000.nwk",
+      "sha256": "0d25b73d8d23676bf601be8a29f027ff4a418e9484aae47d4845cfc50a1dff54",
+      "bytes": 237
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/101/tree-001.nwk",
+      "sha256": "478fbc24a73852ac82d2b930bec8d41dc48eabd44967b8d8add5a0fdfba1a661",
+      "bytes": 237
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/101/tree-002.nwk",
+      "sha256": "b2b5ca34d5eec065f815be8e4e53e76368482e3ec290cad275fc163ebceeef57",
+      "bytes": 237
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/101/tree-003.nwk",
+      "sha256": "278a0628c2e80374936f760ebeb4071a022f6f52c355bcb6633a3eca6e86a379",
+      "bytes": 237
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/101/tree-004.nwk",
+      "sha256": "e2a98acde3169d2f9fbc6aae194df241b1faed37ac92937c3a0a08b64f0cc620",
+      "bytes": 237
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/101/tree-005.nwk",
+      "sha256": "604d9c79a5d166e842382354b6f7bf015c69f744a868fc6c72c5b871ea5326aa",
+      "bytes": 237
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/101/tree-006.nwk",
+      "sha256": "1a467faedfe4cbfb148afde5579630629fca2ac05fef6759ce8f9270c3caf82c",
+      "bytes": 237
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/101/tree-007.nwk",
+      "sha256": "a7e357dcdc6a1cfc23fb2630a7b3e4d67307c2a4ddfc892ebb87ed85de4e4d12",
+      "bytes": 237
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/101/tree-008.nwk",
+      "sha256": "1d2b71c36e8ea8549f57b14b144d998e6a14115f4f8112c254ed7adcd11bc620",
+      "bytes": 237
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/101/tree-009.nwk",
+      "sha256": "478fbc24a73852ac82d2b930bec8d41dc48eabd44967b8d8add5a0fdfba1a661",
+      "bytes": 237
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/101/tree-010.nwk",
+      "sha256": "737f191c37ef7e3e52210a7a73d94d6adf8b6f7513550e12b2b6f6ad97604369",
+      "bytes": 237
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/13/console.txt",
+      "sha256": "169d695cd7800fb116b1763e4ba24c0d63fed4c119b4cbfa8891940633e4c2eb",
+      "bytes": 4270
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/13/infile",
+      "sha256": "e6c3d9c14eb1291d592c47f2841bbe995e17c621b6543d64d48a75e1b3c23008",
+      "bytes": 3955
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/13/labels.json",
+      "sha256": "4c6c8b21a30e2c055b95127ebbb86c634b3d5b75d68c3b6bde4e6e5cca003416",
+      "bytes": 435
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/13/menu.txt",
+      "sha256": "c72f1cc3e9bde6c95c530578fd9ea79fd78a1614e207c059cbbceda758a33eec",
+      "bytes": 18
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/13/outfile",
+      "sha256": "b13913d33013fd6009606ce9497a7f0af6f429ed2e996e3df47026e6b917ce41",
+      "bytes": 11169
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/13/outtree",
+      "sha256": "1ba58f3b79cd8651ccb6d27cb6663eda1036d60a66477f9b90beeaa4291206b9",
+      "bytes": 2876
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/13/tree-000.nwk",
+      "sha256": "478fbc24a73852ac82d2b930bec8d41dc48eabd44967b8d8add5a0fdfba1a661",
+      "bytes": 237
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/13/tree-001.nwk",
+      "sha256": "b2b5ca34d5eec065f815be8e4e53e76368482e3ec290cad275fc163ebceeef57",
+      "bytes": 237
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/13/tree-002.nwk",
+      "sha256": "278a0628c2e80374936f760ebeb4071a022f6f52c355bcb6633a3eca6e86a379",
+      "bytes": 237
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/13/tree-003.nwk",
+      "sha256": "604d9c79a5d166e842382354b6f7bf015c69f744a868fc6c72c5b871ea5326aa",
+      "bytes": 237
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/13/tree-004.nwk",
+      "sha256": "1a467faedfe4cbfb148afde5579630629fca2ac05fef6759ce8f9270c3caf82c",
+      "bytes": 237
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/13/tree-005.nwk",
+      "sha256": "a7e357dcdc6a1cfc23fb2630a7b3e4d67307c2a4ddfc892ebb87ed85de4e4d12",
+      "bytes": 237
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/13/tree-006.nwk",
+      "sha256": "1d2b71c36e8ea8549f57b14b144d998e6a14115f4f8112c254ed7adcd11bc620",
+      "bytes": 237
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/13/tree-007.nwk",
+      "sha256": "478fbc24a73852ac82d2b930bec8d41dc48eabd44967b8d8add5a0fdfba1a661",
+      "bytes": 237
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/13/tree-008.nwk",
+      "sha256": "737f191c37ef7e3e52210a7a73d94d6adf8b6f7513550e12b2b6f6ad97604369",
+      "bytes": 237
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/37/console.txt",
+      "sha256": "62d9b0e55db085f11de8d15095a09d701c471ed3a896f54fc8d95fb997fd6b0b",
+      "bytes": 4279
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/37/infile",
+      "sha256": "e6c3d9c14eb1291d592c47f2841bbe995e17c621b6543d64d48a75e1b3c23008",
+      "bytes": 3955
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/37/labels.json",
+      "sha256": "4c6c8b21a30e2c055b95127ebbb86c634b3d5b75d68c3b6bde4e6e5cca003416",
+      "bytes": 435
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/37/menu.txt",
+      "sha256": "4ec710ade24e41e74f69002e47082add1e541f7087949f5ef60e7d28ef1cdaa5",
+      "bytes": 18
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/37/outfile",
+      "sha256": "ac4510b68f364a265a8184980dda9e0cf628e6c566d9bf71698906394dad4c12",
+      "bytes": 13612
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/37/outtree",
+      "sha256": "dea5b19b838cfe97ca70daa4425ac4bfb44cfa524a86c124053e9848c034fa91",
+      "bytes": 3517
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/37/tree-000.nwk",
+      "sha256": "0d25b73d8d23676bf601be8a29f027ff4a418e9484aae47d4845cfc50a1dff54",
+      "bytes": 237
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/37/tree-001.nwk",
+      "sha256": "478fbc24a73852ac82d2b930bec8d41dc48eabd44967b8d8add5a0fdfba1a661",
+      "bytes": 237
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/37/tree-002.nwk",
+      "sha256": "b2b5ca34d5eec065f815be8e4e53e76368482e3ec290cad275fc163ebceeef57",
+      "bytes": 237
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/37/tree-003.nwk",
+      "sha256": "278a0628c2e80374936f760ebeb4071a022f6f52c355bcb6633a3eca6e86a379",
+      "bytes": 237
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/37/tree-004.nwk",
+      "sha256": "e2a98acde3169d2f9fbc6aae194df241b1faed37ac92937c3a0a08b64f0cc620",
+      "bytes": 237
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/37/tree-005.nwk",
+      "sha256": "604d9c79a5d166e842382354b6f7bf015c69f744a868fc6c72c5b871ea5326aa",
+      "bytes": 237
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/37/tree-006.nwk",
+      "sha256": "1a467faedfe4cbfb148afde5579630629fca2ac05fef6759ce8f9270c3caf82c",
+      "bytes": 237
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/37/tree-007.nwk",
+      "sha256": "a7e357dcdc6a1cfc23fb2630a7b3e4d67307c2a4ddfc892ebb87ed85de4e4d12",
+      "bytes": 237
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/37/tree-008.nwk",
+      "sha256": "1d2b71c36e8ea8549f57b14b144d998e6a14115f4f8112c254ed7adcd11bc620",
+      "bytes": 237
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/37/tree-009.nwk",
+      "sha256": "478fbc24a73852ac82d2b930bec8d41dc48eabd44967b8d8add5a0fdfba1a661",
+      "bytes": 237
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-12s-12/37/tree-010.nwk",
+      "sha256": "737f191c37ef7e3e52210a7a73d94d6adf8b6f7513550e12b2b6f6ad97604369",
+      "bytes": 237
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/101/console.txt",
+      "sha256": "97bad545a840086eb4afa9ff96aa9d0d3fc16b1946e364ca3513a988805a276e",
+      "bytes": 4318
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/101/infile",
+      "sha256": "a340dcfa673878a7507e23a99143b91db5f7d8de7c504830ac7aaa609c74d379",
+      "bytes": 5335
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/101/labels.json",
+      "sha256": "343213ac828733fb54c34bfe4ce21e9b647cae77716238b3401f3123f6395030",
+      "bytes": 429
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/101/menu.txt",
+      "sha256": "559f5fb5142a31acd6750c6cc737e1763ce053643340cb1a58c3085f30671c8e",
+      "bytes": 19
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/101/outfile",
+      "sha256": "3d01875aba41313997c95224927660f407b19038402323ae6fba8693324f359c",
+      "bytes": 27479
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/101/outtree",
+      "sha256": "d5725e74fffb5181981935632eb24c04c080ec35d89e1469ee0914519e5cd75b",
+      "bytes": 7290
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/101/tree-000.nwk",
+      "sha256": "9fbb788a52825a06f4f5ad4a4633ec29696a398060ff852d46a2067e367252ef",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/101/tree-001.nwk",
+      "sha256": "3410ee6ec41aae12d75c136288c73627138777d6e7a06cda9f11fa737fd940d5",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/101/tree-002.nwk",
+      "sha256": "03896601e35fa2a5cdb1b3fed4eb40353aed0e644a71231bf995e49f345e66e5",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/101/tree-003.nwk",
+      "sha256": "2fcd63e7df812b60abfb83cc1d698d55b61ae6d94e63b2ca2e176df1be91a376",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/101/tree-004.nwk",
+      "sha256": "0b7c72f89e28341a755e73a4f0e84e656c946c4060a5889b051ca278be4fc3bb",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/101/tree-005.nwk",
+      "sha256": "03896601e35fa2a5cdb1b3fed4eb40353aed0e644a71231bf995e49f345e66e5",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/101/tree-006.nwk",
+      "sha256": "1b9e3dbf038ff578c2d6f62d68ef1275743d767a022866d25c9fae3bf25c485a",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/101/tree-007.nwk",
+      "sha256": "3410ee6ec41aae12d75c136288c73627138777d6e7a06cda9f11fa737fd940d5",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/101/tree-008.nwk",
+      "sha256": "bf7e46f5f44bcd93448e06aa64e43474ed64743402dd56edf4985edcdf9900bd",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/101/tree-009.nwk",
+      "sha256": "39edb278819fb7b2786df627cae2ad021debdd452eff65fc5958032cf198b9dd",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/101/tree-010.nwk",
+      "sha256": "b9910d7ab473bd339bf7d2225cb05a19360dbb2f1ab5a01bdec90d87ec29b527",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/101/tree-011.nwk",
+      "sha256": "05b3db912cf9781f3057499c06a9a80f902af7c6cb195ebcc9b3ac10c60ed153",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/101/tree-012.nwk",
+      "sha256": "db568c90d6459d90add028103f1b95f402f566ca021c987b59d09e7e9a0163ee",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/101/tree-013.nwk",
+      "sha256": "b5c1f860bfb433bdb5494723befce4b9dc8b2b97f7733cbdddd05d9bfd235fb6",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/101/tree-014.nwk",
+      "sha256": "b9910d7ab473bd339bf7d2225cb05a19360dbb2f1ab5a01bdec90d87ec29b527",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/101/tree-015.nwk",
+      "sha256": "05b3db912cf9781f3057499c06a9a80f902af7c6cb195ebcc9b3ac10c60ed153",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/101/tree-016.nwk",
+      "sha256": "24a2d70dd3772b9d880f0391d61fbc8e6f8e2e5829a649111b88793f7dbb7d24",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/101/tree-017.nwk",
+      "sha256": "3f950b8cf81bf07907990fc6874c12e9be1a3e3f6d4ee5a79430675357c829b3",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/101/tree-018.nwk",
+      "sha256": "bc30ea5a4a239885851d8a181dfafd8a9f06bbe25f1862cc487eb9433cb7fdd1",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/101/tree-019.nwk",
+      "sha256": "01a93a18db00b8d3b569eeb7286fc69ad160d905856a380d26ad379fbd824f5e",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/101/tree-020.nwk",
+      "sha256": "4448b99fbd5d7838c9d84ee200943c1a09830c2e20a6207896aa5593eece6125",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/101/tree-021.nwk",
+      "sha256": "f777c1ad863efb783db7ca911d2e46098fda029ceb1cc73863b537a4a8e80ddc",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/101/tree-022.nwk",
+      "sha256": "a9abc11c4768324dc5c8c7b94e6c3930ca22bcda03e5d3c4e96049d7e8b674c3",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/13/console.txt",
+      "sha256": "1d7ca3db462a858c5e486d9d47aabf0435dedd7448cbd23d95ce22ef047d52c9",
+      "bytes": 4336
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/13/infile",
+      "sha256": "a340dcfa673878a7507e23a99143b91db5f7d8de7c504830ac7aaa609c74d379",
+      "bytes": 5335
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/13/labels.json",
+      "sha256": "343213ac828733fb54c34bfe4ce21e9b647cae77716238b3401f3123f6395030",
+      "bytes": 429
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/13/menu.txt",
+      "sha256": "c72f1cc3e9bde6c95c530578fd9ea79fd78a1614e207c059cbbceda758a33eec",
+      "bytes": 18
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/13/outfile",
+      "sha256": "700a2a84492883e5ba219b3167dd17ceb0bff07e26b1c3f825fd6906717a6504",
+      "bytes": 35099
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/13/outtree",
+      "sha256": "42481912bd57c214ff5b0269b7b52e2ffa4420e6839649156ca5c7d0152d2936",
+      "bytes": 9203
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/13/tree-000.nwk",
+      "sha256": "9fbb788a52825a06f4f5ad4a4633ec29696a398060ff852d46a2067e367252ef",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/13/tree-001.nwk",
+      "sha256": "3410ee6ec41aae12d75c136288c73627138777d6e7a06cda9f11fa737fd940d5",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/13/tree-002.nwk",
+      "sha256": "03896601e35fa2a5cdb1b3fed4eb40353aed0e644a71231bf995e49f345e66e5",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/13/tree-003.nwk",
+      "sha256": "2fcd63e7df812b60abfb83cc1d698d55b61ae6d94e63b2ca2e176df1be91a376",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/13/tree-004.nwk",
+      "sha256": "0b7c72f89e28341a755e73a4f0e84e656c946c4060a5889b051ca278be4fc3bb",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/13/tree-005.nwk",
+      "sha256": "03896601e35fa2a5cdb1b3fed4eb40353aed0e644a71231bf995e49f345e66e5",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/13/tree-006.nwk",
+      "sha256": "b4669d4ba6c3496f616dfeddf108130e5f63b30f235dc549cdfbc5a16b52d440",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/13/tree-007.nwk",
+      "sha256": "9fbb788a52825a06f4f5ad4a4633ec29696a398060ff852d46a2067e367252ef",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/13/tree-008.nwk",
+      "sha256": "e4974211fb017a242759c4362fa6013a90ca6342e2a777aa87f2e0b144c8ad9b",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/13/tree-009.nwk",
+      "sha256": "bf7e46f5f44bcd93448e06aa64e43474ed64743402dd56edf4985edcdf9900bd",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/13/tree-010.nwk",
+      "sha256": "39edb278819fb7b2786df627cae2ad021debdd452eff65fc5958032cf198b9dd",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/13/tree-011.nwk",
+      "sha256": "b9910d7ab473bd339bf7d2225cb05a19360dbb2f1ab5a01bdec90d87ec29b527",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/13/tree-012.nwk",
+      "sha256": "05b3db912cf9781f3057499c06a9a80f902af7c6cb195ebcc9b3ac10c60ed153",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/13/tree-013.nwk",
+      "sha256": "db568c90d6459d90add028103f1b95f402f566ca021c987b59d09e7e9a0163ee",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/13/tree-014.nwk",
+      "sha256": "b5c1f860bfb433bdb5494723befce4b9dc8b2b97f7733cbdddd05d9bfd235fb6",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/13/tree-015.nwk",
+      "sha256": "b9910d7ab473bd339bf7d2225cb05a19360dbb2f1ab5a01bdec90d87ec29b527",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/13/tree-016.nwk",
+      "sha256": "05b3db912cf9781f3057499c06a9a80f902af7c6cb195ebcc9b3ac10c60ed153",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/13/tree-017.nwk",
+      "sha256": "24a2d70dd3772b9d880f0391d61fbc8e6f8e2e5829a649111b88793f7dbb7d24",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/13/tree-018.nwk",
+      "sha256": "3f950b8cf81bf07907990fc6874c12e9be1a3e3f6d4ee5a79430675357c829b3",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/13/tree-019.nwk",
+      "sha256": "bc30ea5a4a239885851d8a181dfafd8a9f06bbe25f1862cc487eb9433cb7fdd1",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/13/tree-020.nwk",
+      "sha256": "01a93a18db00b8d3b569eeb7286fc69ad160d905856a380d26ad379fbd824f5e",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/13/tree-021.nwk",
+      "sha256": "abb4c2a993678886d8611e5efe5c93d8bbce47d06239eac97841734f6da1d760",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/13/tree-022.nwk",
+      "sha256": "39edb278819fb7b2786df627cae2ad021debdd452eff65fc5958032cf198b9dd",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/13/tree-023.nwk",
+      "sha256": "c2ed532748288a05d135fa776cd265342a75ba4780c7f77b49c8d03c32be2926",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/13/tree-024.nwk",
+      "sha256": "1c169a5932683ea959ef7b12533767de24e21e4e85fe6443e213d0b9f5e447c2",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/13/tree-025.nwk",
+      "sha256": "4448b99fbd5d7838c9d84ee200943c1a09830c2e20a6207896aa5593eece6125",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/13/tree-026.nwk",
+      "sha256": "f777c1ad863efb783db7ca911d2e46098fda029ceb1cc73863b537a4a8e80ddc",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/13/tree-027.nwk",
+      "sha256": "c92df56d156fc999191e7de718e39edeebd47631b0acb95116487dd5aa385f5a",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/13/tree-028.nwk",
+      "sha256": "a9abc11c4768324dc5c8c7b94e6c3930ca22bcda03e5d3c4e96049d7e8b674c3",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/37/console.txt",
+      "sha256": "4783eddb5ef3fedfbc7a18ccb51d3400735c7ba8914dbc0e8e01ad8070a3c60c",
+      "bytes": 4327
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/37/infile",
+      "sha256": "a340dcfa673878a7507e23a99143b91db5f7d8de7c504830ac7aaa609c74d379",
+      "bytes": 5335
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/37/labels.json",
+      "sha256": "343213ac828733fb54c34bfe4ce21e9b647cae77716238b3401f3123f6395030",
+      "bytes": 429
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/37/menu.txt",
+      "sha256": "4ec710ade24e41e74f69002e47082add1e541f7087949f5ef60e7d28ef1cdaa5",
+      "bytes": 18
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/37/outfile",
+      "sha256": "8ef6a894570a563a4d0d65dd1611bd108f434803df7a515530dc085dc9f46a2e",
+      "bytes": 32549
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/37/outtree",
+      "sha256": "a98737c9ffa4410e1166eb9fc00cf5db798f7a61a3f8cf7e83c837b402858da2",
+      "bytes": 8562
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/37/tree-000.nwk",
+      "sha256": "9fbb788a52825a06f4f5ad4a4633ec29696a398060ff852d46a2067e367252ef",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/37/tree-001.nwk",
+      "sha256": "3410ee6ec41aae12d75c136288c73627138777d6e7a06cda9f11fa737fd940d5",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/37/tree-002.nwk",
+      "sha256": "03896601e35fa2a5cdb1b3fed4eb40353aed0e644a71231bf995e49f345e66e5",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/37/tree-003.nwk",
+      "sha256": "0b7c72f89e28341a755e73a4f0e84e656c946c4060a5889b051ca278be4fc3bb",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/37/tree-004.nwk",
+      "sha256": "03896601e35fa2a5cdb1b3fed4eb40353aed0e644a71231bf995e49f345e66e5",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/37/tree-005.nwk",
+      "sha256": "9fbb788a52825a06f4f5ad4a4633ec29696a398060ff852d46a2067e367252ef",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/37/tree-006.nwk",
+      "sha256": "3410ee6ec41aae12d75c136288c73627138777d6e7a06cda9f11fa737fd940d5",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/37/tree-007.nwk",
+      "sha256": "4e62fff9fbea8ecd17a78072925ccb98f416af713508b6a064691751a61e870e",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/37/tree-008.nwk",
+      "sha256": "fc0149ad39ec7404c69913440f0b9d1004f66bfeecf7d3fb8a5beab1baf5a399",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/37/tree-009.nwk",
+      "sha256": "bf7e46f5f44bcd93448e06aa64e43474ed64743402dd56edf4985edcdf9900bd",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/37/tree-010.nwk",
+      "sha256": "39edb278819fb7b2786df627cae2ad021debdd452eff65fc5958032cf198b9dd",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/37/tree-011.nwk",
+      "sha256": "b9910d7ab473bd339bf7d2225cb05a19360dbb2f1ab5a01bdec90d87ec29b527",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/37/tree-012.nwk",
+      "sha256": "05b3db912cf9781f3057499c06a9a80f902af7c6cb195ebcc9b3ac10c60ed153",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/37/tree-013.nwk",
+      "sha256": "db568c90d6459d90add028103f1b95f402f566ca021c987b59d09e7e9a0163ee",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/37/tree-014.nwk",
+      "sha256": "b5c1f860bfb433bdb5494723befce4b9dc8b2b97f7733cbdddd05d9bfd235fb6",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/37/tree-015.nwk",
+      "sha256": "b9910d7ab473bd339bf7d2225cb05a19360dbb2f1ab5a01bdec90d87ec29b527",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/37/tree-016.nwk",
+      "sha256": "05b3db912cf9781f3057499c06a9a80f902af7c6cb195ebcc9b3ac10c60ed153",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/37/tree-017.nwk",
+      "sha256": "3f950b8cf81bf07907990fc6874c12e9be1a3e3f6d4ee5a79430675357c829b3",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/37/tree-018.nwk",
+      "sha256": "bc30ea5a4a239885851d8a181dfafd8a9f06bbe25f1862cc487eb9433cb7fdd1",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/37/tree-019.nwk",
+      "sha256": "01a93a18db00b8d3b569eeb7286fc69ad160d905856a380d26ad379fbd824f5e",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/37/tree-020.nwk",
+      "sha256": "abb4c2a993678886d8611e5efe5c93d8bbce47d06239eac97841734f6da1d760",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/37/tree-021.nwk",
+      "sha256": "ff80daf613606a3f00d59c86b3f3d65dd00e38453198b5bef2d0a1fa8f542d27",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/37/tree-022.nwk",
+      "sha256": "39edb278819fb7b2786df627cae2ad021debdd452eff65fc5958032cf198b9dd",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/37/tree-023.nwk",
+      "sha256": "c2ed532748288a05d135fa776cd265342a75ba4780c7f77b49c8d03c32be2926",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/37/tree-024.nwk",
+      "sha256": "4448b99fbd5d7838c9d84ee200943c1a09830c2e20a6207896aa5593eece6125",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/37/tree-025.nwk",
+      "sha256": "f777c1ad863efb783db7ca911d2e46098fda029ceb1cc73863b537a4a8e80ddc",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-16s-12/37/tree-026.nwk",
+      "sha256": "a9abc11c4768324dc5c8c7b94e6c3930ca22bcda03e5d3c4e96049d7e8b674c3",
+      "bytes": 231
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-12/101/console.txt",
+      "sha256": "da2cc56de50fa33512ff1fd6e2dc8e90ad97ac2e246313baf3fd11ca5f94975f",
+      "bytes": 4246
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-12/101/infile",
+      "sha256": "a6c77b3efaae23e0fa36328d8a9b4db91424621368f5e914fc51f12d995d8065",
+      "bytes": 7903
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-12/101/labels.json",
+      "sha256": "6c5a56e06f109d9b1233722056c32e11ef87864291af497079d631d17e02c612",
+      "bytes": 426
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-12/101/menu.txt",
+      "sha256": "559f5fb5142a31acd6750c6cc737e1763ce053643340cb1a58c3085f30671c8e",
+      "bytes": 19
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-12/101/outfile",
+      "sha256": "f1df42e10a476964f8bf7b7f846ad2be550c564c1e8bf960ad5a3cc2233425e5",
+      "bytes": 1359
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-12/101/outtree",
+      "sha256": "7764e39714e9de8fc25b4444dc6f786c60c6683e3d60f9989ea120ae49c2269c",
+      "bytes": 313
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-12/101/tree-000.nwk",
+      "sha256": "b930bdf27b41615bae495b1c5e083f7f78b0454d488746c4e9f7b6183c2c793f",
+      "bytes": 228
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-12/13/console.txt",
+      "sha256": "c1fd1558aedae93cd1cf94a18fdffe4eddeb2efece94f17712553a8aade052b5",
+      "bytes": 4249
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-12/13/infile",
+      "sha256": "a6c77b3efaae23e0fa36328d8a9b4db91424621368f5e914fc51f12d995d8065",
+      "bytes": 7903
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-12/13/labels.json",
+      "sha256": "6c5a56e06f109d9b1233722056c32e11ef87864291af497079d631d17e02c612",
+      "bytes": 426
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-12/13/menu.txt",
+      "sha256": "c72f1cc3e9bde6c95c530578fd9ea79fd78a1614e207c059cbbceda758a33eec",
+      "bytes": 18
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-12/13/outfile",
+      "sha256": "f1df42e10a476964f8bf7b7f846ad2be550c564c1e8bf960ad5a3cc2233425e5",
+      "bytes": 1359
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-12/13/outtree",
+      "sha256": "7764e39714e9de8fc25b4444dc6f786c60c6683e3d60f9989ea120ae49c2269c",
+      "bytes": 313
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-12/13/tree-000.nwk",
+      "sha256": "b930bdf27b41615bae495b1c5e083f7f78b0454d488746c4e9f7b6183c2c793f",
+      "bytes": 228
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-12/37/console.txt",
+      "sha256": "b88a83e3e6fefa579b71e98e81c352981f2e743310a14677c85507875311e694",
+      "bytes": 4261
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-12/37/infile",
+      "sha256": "a6c77b3efaae23e0fa36328d8a9b4db91424621368f5e914fc51f12d995d8065",
+      "bytes": 7903
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-12/37/labels.json",
+      "sha256": "6c5a56e06f109d9b1233722056c32e11ef87864291af497079d631d17e02c612",
+      "bytes": 426
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-12/37/menu.txt",
+      "sha256": "4ec710ade24e41e74f69002e47082add1e541f7087949f5ef60e7d28ef1cdaa5",
+      "bytes": 18
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-12/37/outfile",
+      "sha256": "f1df42e10a476964f8bf7b7f846ad2be550c564c1e8bf960ad5a3cc2233425e5",
+      "bytes": 1359
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-12/37/outtree",
+      "sha256": "7764e39714e9de8fc25b4444dc6f786c60c6683e3d60f9989ea120ae49c2269c",
+      "bytes": 313
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-12/37/tree-000.nwk",
+      "sha256": "b930bdf27b41615bae495b1c5e083f7f78b0454d488746c4e9f7b6183c2c793f",
+      "bytes": 228
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-24/101/console.txt",
+      "sha256": "db3c165883fd364d7b4f48f8ecd2be085035353a4b0e159ca043541376119fc8",
+      "bytes": 4258
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-24/101/infile",
+      "sha256": "c4da88bc283d69c19f855ce45d8cac34fef5ff619ed6450349ad5ad32adf2fec",
+      "bytes": 15415
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-24/101/labels.json",
+      "sha256": "c27adf56fa35c6dff9f17955c178c05f0deaede77914af88dba171443bd27d55",
+      "bytes": 840
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-24/101/menu.txt",
+      "sha256": "559f5fb5142a31acd6750c6cc737e1763ce053643340cb1a58c3085f30671c8e",
+      "bytes": 19
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-24/101/outfile",
+      "sha256": "d6e03740e786bae6099521138413792b5e2dcbbc0ac236f318dcd6012fb61456",
+      "bytes": 12289
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-24/101/outtree",
+      "sha256": "395c52a99b9c62e271c0dec550281efdeadd2c6503ffc7b53512401f3046fa2b",
+      "bytes": 2643
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-24/101/tree-000.nwk",
+      "sha256": "8de16842e248fca9a5204fc160a281a75434be32c867c2c39718c3123eeab4dc",
+      "bytes": 450
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-24/101/tree-001.nwk",
+      "sha256": "0a58cdaf3cf409a1a190e64a8e8054a9fe361aa971be43aee889c9b5c8d28a6b",
+      "bytes": 450
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-24/101/tree-002.nwk",
+      "sha256": "1dd64ab5eed35abc3a6addc1d6960abb2141780325649b1f4424b92c60c11d43",
+      "bytes": 450
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-24/101/tree-003.nwk",
+      "sha256": "7f5f497ce0d9ead9da75ae769b9df866a64a4e81707d0535ab2ff1c1792c62a4",
+      "bytes": 450
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-24/13/console.txt",
+      "sha256": "85bc02f4bef4726f39725026e810d4b4aad9fe1909c16109a30d4acf98c0a005",
+      "bytes": 4267
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-24/13/infile",
+      "sha256": "c4da88bc283d69c19f855ce45d8cac34fef5ff619ed6450349ad5ad32adf2fec",
+      "bytes": 15415
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-24/13/labels.json",
+      "sha256": "c27adf56fa35c6dff9f17955c178c05f0deaede77914af88dba171443bd27d55",
+      "bytes": 840
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-24/13/menu.txt",
+      "sha256": "c72f1cc3e9bde6c95c530578fd9ea79fd78a1614e207c059cbbceda758a33eec",
+      "bytes": 18
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-24/13/outfile",
+      "sha256": "b43731c6e7ad52fef007f4fa66dd60c9891a7e1c537a3b94bc7f87a2f376d3d0",
+      "bytes": 12463
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-24/13/outtree",
+      "sha256": "3e1dbfc594dee009a3f1df49e1cb245146650249931dae359f9e83cf61a3715e",
+      "bytes": 2640
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-24/13/tree-000.nwk",
+      "sha256": "ad41c8b808829a7fa59af41d90a2a8273ea2085c09eb79dc12c4b7767ae2c3fd",
+      "bytes": 450
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-24/13/tree-001.nwk",
+      "sha256": "75b210cd4a90e08f016848e08554b1fcc103f15ee0703a03186a959323bd813a",
+      "bytes": 450
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-24/13/tree-002.nwk",
+      "sha256": "552ca74b0c424b2be6113d317a254ffb96ccc6db1421572f35750bd0d1627b66",
+      "bytes": 450
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-24/13/tree-003.nwk",
+      "sha256": "4785938064b183e85f198ac9872c0ee071dcb4b24015a51bfa9106e172c12a6f",
+      "bytes": 450
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-24/37/console.txt",
+      "sha256": "da970995fcdc26a40a515224424f9beaf4c269bb287ee98c98d2093facd0f9a9",
+      "bytes": 4264
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-24/37/infile",
+      "sha256": "c4da88bc283d69c19f855ce45d8cac34fef5ff619ed6450349ad5ad32adf2fec",
+      "bytes": 15415
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-24/37/labels.json",
+      "sha256": "c27adf56fa35c6dff9f17955c178c05f0deaede77914af88dba171443bd27d55",
+      "bytes": 840
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-24/37/menu.txt",
+      "sha256": "4ec710ade24e41e74f69002e47082add1e541f7087949f5ef60e7d28ef1cdaa5",
+      "bytes": 18
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-24/37/outfile",
+      "sha256": "b43731c6e7ad52fef007f4fa66dd60c9891a7e1c537a3b94bc7f87a2f376d3d0",
+      "bytes": 12463
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-24/37/outtree",
+      "sha256": "3e1dbfc594dee009a3f1df49e1cb245146650249931dae359f9e83cf61a3715e",
+      "bytes": 2640
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-24/37/tree-000.nwk",
+      "sha256": "ad41c8b808829a7fa59af41d90a2a8273ea2085c09eb79dc12c4b7767ae2c3fd",
+      "bytes": 450
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-24/37/tree-001.nwk",
+      "sha256": "75b210cd4a90e08f016848e08554b1fcc103f15ee0703a03186a959323bd813a",
+      "bytes": 450
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-24/37/tree-002.nwk",
+      "sha256": "552ca74b0c424b2be6113d317a254ffb96ccc6db1421572f35750bd0d1627b66",
+      "bytes": 450
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-24/37/tree-003.nwk",
+      "sha256": "4785938064b183e85f198ac9872c0ee071dcb4b24015a51bfa9106e172c12a6f",
+      "bytes": 450
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-29/101/console.txt",
+      "sha256": "0911a2a3f58199d93b203e9db6514ae9bbc086229d90dc7fa99b9dcab4c8f233",
+      "bytes": 4273
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-29/101/infile",
+      "sha256": "c78c197a262e0131a6e31b07ed9f7a1065a1b2854fb9e25a8869b1e5bf9e5f0a",
+      "bytes": 29152
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-29/101/labels.json",
+      "sha256": "388c513bf45cfad9576294b744af94c483b84b1394e3569c7af4557f083d83a0",
+      "bytes": 1032
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-29/101/menu.txt",
+      "sha256": "559f5fb5142a31acd6750c6cc737e1763ce053643340cb1a58c3085f30671c8e",
+      "bytes": 19
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-29/101/outfile",
+      "sha256": "af289b0802586136eeb56e4d4443b18c65c0d26364f5b44b40e0968cb0eda4eb",
+      "bytes": 3766
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-29/101/outtree",
+      "sha256": "eed391994cece2f8a38fb7553777cb84c7c430306cc52e4f01edc411daff0171",
+      "bytes": 794
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-29/101/tree-000.nwk",
+      "sha256": "b1a5c06f491c1387b2cf8e7d8ab4cf985d011454261b61aa737ba60d6e77b47e",
+      "bytes": 562
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-29/13/console.txt",
+      "sha256": "14fac45d8058050d6157dbf5f5b08d5b9fd6ab26386ff5cdc6c4c1fd3dd23f0f",
+      "bytes": 4276
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-29/13/infile",
+      "sha256": "c78c197a262e0131a6e31b07ed9f7a1065a1b2854fb9e25a8869b1e5bf9e5f0a",
+      "bytes": 29152
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-29/13/labels.json",
+      "sha256": "388c513bf45cfad9576294b744af94c483b84b1394e3569c7af4557f083d83a0",
+      "bytes": 1032
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-29/13/menu.txt",
+      "sha256": "c72f1cc3e9bde6c95c530578fd9ea79fd78a1614e207c059cbbceda758a33eec",
+      "bytes": 18
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-29/13/outfile",
+      "sha256": "88f35432a78aeb2a0c75927335d6ead83e1d61cbba221c01773b23ca2ada9314",
+      "bytes": 22484
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-29/13/outtree",
+      "sha256": "9bb791dbc9b262a7b14b7da0473fdc9b5edcc61cf4daa35cd7fa9e44d9d2ae8f",
+      "bytes": 4812
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-29/13/tree-000.nwk",
+      "sha256": "e722d0d49709eeb5ea9aa9d97f8f78942740747411dac3002761ba5d1bb76c0c",
+      "bytes": 562
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-29/13/tree-001.nwk",
+      "sha256": "18c930d6c532df7a6a088dd37622a61a575f8fc1f1d46e0084553c8c5608227c",
+      "bytes": 562
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-29/13/tree-002.nwk",
+      "sha256": "a568eb03cfae6acae47804cca13cc8e98fd53ec3bab4114129ba96b4d9ed995e",
+      "bytes": 562
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-29/13/tree-003.nwk",
+      "sha256": "688e06452c9748215600c96684a6308e87b595176020e5a6fa61df8fa9ff5705",
+      "bytes": 562
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-29/13/tree-004.nwk",
+      "sha256": "07a52646af5652e9197630af0821e272db1ff923eb9a0c5442d7e1ef425dbd16",
+      "bytes": 562
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-29/13/tree-005.nwk",
+      "sha256": "b394b34e06c8cdae3e6513ec09b296a57700bb75f3ada620953fd2259d086c7f",
+      "bytes": 562
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-29/37/console.txt",
+      "sha256": "da970995fcdc26a40a515224424f9beaf4c269bb287ee98c98d2093facd0f9a9",
+      "bytes": 4264
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-29/37/infile",
+      "sha256": "c78c197a262e0131a6e31b07ed9f7a1065a1b2854fb9e25a8869b1e5bf9e5f0a",
+      "bytes": 29152
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-29/37/labels.json",
+      "sha256": "388c513bf45cfad9576294b744af94c483b84b1394e3569c7af4557f083d83a0",
+      "bytes": 1032
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-29/37/menu.txt",
+      "sha256": "4ec710ade24e41e74f69002e47082add1e541f7087949f5ef60e7d28ef1cdaa5",
+      "bytes": 18
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-29/37/outfile",
+      "sha256": "af289b0802586136eeb56e4d4443b18c65c0d26364f5b44b40e0968cb0eda4eb",
+      "bytes": 3766
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-29/37/outtree",
+      "sha256": "eed391994cece2f8a38fb7553777cb84c7c430306cc52e4f01edc411daff0171",
+      "bytes": 794
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-29/37/tree-000.nwk",
+      "sha256": "b1a5c06f491c1387b2cf8e7d8ab4cf985d011454261b61aa737ba60d6e77b47e",
+      "bytes": 562
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-6/101/console.txt",
+      "sha256": "da2cc56de50fa33512ff1fd6e2dc8e90ad97ac2e246313baf3fd11ca5f94975f",
+      "bytes": 4246
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-6/101/infile",
+      "sha256": "0d95011956cdb67cba4e1944cd09012c9f2539732cb38134bf223277932cba80",
+      "bytes": 6307
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-6/101/labels.json",
+      "sha256": "2f541bb0bc6133023e5adb8afe3c18fdf9d909563c4d8b2cf20ec3c5992f825b",
+      "bytes": 212
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-6/101/menu.txt",
+      "sha256": "559f5fb5142a31acd6750c6cc737e1763ce053643340cb1a58c3085f30671c8e",
+      "bytes": 19
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-6/101/outfile",
+      "sha256": "c3489ee5e49faabae681edfc9094820ee402b14dc41cd04c34ea0e6e040ccbc0",
+      "bytes": 645
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-6/101/outtree",
+      "sha256": "a8662e8d626f22e4f8e32a01f99b6376c92d1017724611eab3d2b5c2229d85d0",
+      "bytes": 142
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-6/101/tree-000.nwk",
+      "sha256": "21703607eaa0ca86c1c889cc392fb7be4b4748421efdbd26040b734cf182f084",
+      "bytes": 110
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-6/13/console.txt",
+      "sha256": "293d4005eaac00aa42a65fcb5f8dd4db7d682daffeae6daba466bff59c8d848e",
+      "bytes": 4246
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-6/13/infile",
+      "sha256": "0d95011956cdb67cba4e1944cd09012c9f2539732cb38134bf223277932cba80",
+      "bytes": 6307
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-6/13/labels.json",
+      "sha256": "2f541bb0bc6133023e5adb8afe3c18fdf9d909563c4d8b2cf20ec3c5992f825b",
+      "bytes": 212
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-6/13/menu.txt",
+      "sha256": "c72f1cc3e9bde6c95c530578fd9ea79fd78a1614e207c059cbbceda758a33eec",
+      "bytes": 18
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-6/13/outfile",
+      "sha256": "c3489ee5e49faabae681edfc9094820ee402b14dc41cd04c34ea0e6e040ccbc0",
+      "bytes": 645
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-6/13/outtree",
+      "sha256": "a8662e8d626f22e4f8e32a01f99b6376c92d1017724611eab3d2b5c2229d85d0",
+      "bytes": 142
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-6/13/tree-000.nwk",
+      "sha256": "21703607eaa0ca86c1c889cc392fb7be4b4748421efdbd26040b734cf182f084",
+      "bytes": 110
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-6/37/console.txt",
+      "sha256": "2f0b5f22c856e5ad4c9050fdd451be2b33f6fe8914da433bd4203c8ff62266c4",
+      "bytes": 4246
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-6/37/infile",
+      "sha256": "0d95011956cdb67cba4e1944cd09012c9f2539732cb38134bf223277932cba80",
+      "bytes": 6307
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-6/37/labels.json",
+      "sha256": "2f541bb0bc6133023e5adb8afe3c18fdf9d909563c4d8b2cf20ec3c5992f825b",
+      "bytes": 212
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-6/37/menu.txt",
+      "sha256": "4ec710ade24e41e74f69002e47082add1e541f7087949f5ef60e7d28ef1cdaa5",
+      "bytes": 18
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-6/37/outfile",
+      "sha256": "c3489ee5e49faabae681edfc9094820ee402b14dc41cd04c34ea0e6e040ccbc0",
+      "bytes": 645
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-6/37/outtree",
+      "sha256": "a8662e8d626f22e4f8e32a01f99b6376c92d1017724611eab3d2b5c2229d85d0",
+      "bytes": 142
+    },
+    {
+      "path": "research/scientific-audit-20261021/runs/pythonidae-cytb-6/37/tree-000.nwk",
+      "sha256": "21703607eaa0ca86c1c889cc392fb7be4b4748421efdbd26040b734cf182f084",
+      "bytes": 110
+    },
+    {
+      "path": "research/scientific-audit-20261021/schema.log",
+      "sha256": "c06d3363814293e1bc91af51bdec46e9c5ab1a4ce92252712c3f1558665f6ee0",
+      "bytes": 376
+    },
+    {
+      "path": "research/scientific-audit-20261021/software.json",
+      "sha256": "b1440ec07a99a553b93025e4f7db651b9e1bf38d1cad351aebb94586ae7c7334",
+      "bytes": 950
+    },
+    {
+      "path": "research/scientific-audit-20261021/test_adapter.py",
+      "sha256": "76f90c05a86f72e573d95080e7670d2a3df4a3f6f203a32d15fbf6fb319c5421",
+      "bytes": 1161
+    },
+    {
+      "path": "research/scientific-audit-20261021/verification.log",
+      "sha256": "a7b817fa8da6618c47a174c840c17a228a58d127ea09812eec7051b2cab7b219",
+      "bytes": 138
+    },
+    {
+      "path": "research/scientific-audit-20261021/verify_results.py",
+      "sha256": "801102750a31962bbf8459baad4f97db6600cbdf1a2346e19b3846c66a26fb59",
+      "bytes": 3151
+    }
+  ],
+  "scope": "Local evidence package; software/hash checks do not establish independent scientific review."
+}

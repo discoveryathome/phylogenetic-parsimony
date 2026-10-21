@@ -1,0 +1,4 @@
+clang -O3 -Wno-incompatible-function-pointer-types   -c -o dnapars.o dnapars.c
+clang -O3 -Wno-incompatible-function-pointer-types   -c -o seq.o seq.c
+clang -O3 -Wno-incompatible-function-pointer-types   -c -o phylip.o phylip.c
+clang -O3 -Wno-incompatible-function-pointer-types dnapars.o seq.o phylip.o -lm -o dnapars

@@ -1,7 +1,7 @@
 # Contributor workflow — 21 October 2026
 
 Start with `python3 scripts/pick.py`. The working table is
-`discover/working-frontier-rows.json`; it includes the known score-93 trial tree.
+`discover/working-frontier-rows.json`; it includes the score-93 trial tree and four PHYLIP improvements.
 The historical accepted table remains unchanged. A new score result on
 pythonidae-16s-12 must beat 93, not 95, pending independent scientific acceptance.
 
@@ -22,15 +22,13 @@ save its output. Full `python3 scripts/check.py` belongs in CI/review and is req
 for scorer, parser, bound or algorithm changes. This keeps an ordinary witness
 submission from spending most of its budget on whole-project verification.
 
-The next scientific priority is the existing mature-baselines card. Choose a
-licensed, available established parsimony implementation; record exact version,
-settings, seed, input hash and time budget. Preserve taxon labels and fixed columns.
-Explicitly reconcile gap/ambiguity semantics and bifurcating-tree requirements.
-For example, [PHYLIP Dnapars documentation](https://phylipweb.github.io/phylip/doc/dnapars.html)
-describes deletion handling and multifurcating outputs that require attention;
-a program's printed score alone is not a comparable certificate. Export a Newick
-and verify under this project's fixed scoring profile. An unsupported topology
-or semantics mismatch is a blocker to document, not something to silently normalize.
+The first mature baseline is complete: [PHYLIP comparison](research/scientific-audit-20261021/REPORT.md).
+The mature-baselines card now asks for another established implementation against
+the inherited targets. Record version, settings, seeds, input hashes and budgets.
+Preserve all taxa and columns; explicitly reconcile gap/ambiguity semantics and
+multifurcations. PHYLIP's 251 raw and converted scores were independently checked;
+all explicit resolutions preserved their scores. Do not infer biological truth
+or global optimality from a mature program's reported optimum.
 
 Do not grow the collection solely because one donor session was quick. Establish
 stronger baselines and cold-start outcomes across existing studies first. Lower

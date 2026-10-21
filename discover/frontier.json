@@ -1,7 +1,7 @@
 {
   "schema": "discover-frontier/v0",
   "statement": "Exact scores of witnessed binary unrooted trees for 17 fixed nucleotide alignments; eight optima certified by exhaustion or matching lower bounds.",
-  "status": "Open; working targets include known score 93. Historical accepted snapshot is retained separately; independent scientific review pending.",
+  "status": "Open; working targets include the known score 93 and four PHYLIP baseline improvements. Historical accepted snapshot is retained separately; independent scientific review pending.",
   "evidence_level": [
     "author-checked"
   ],
@@ -42,7 +42,8 @@
     "https://phylipweb.github.io/phylip/doc/dnapenny.html",
     "results/expansion-benchmark.json",
     "results/progress.json",
-    "https://doi.org/10.18150/UZC2YR"
+    "https://doi.org/10.18150/UZC2YR",
+    "research/scientific-audit-20261021/REPORT.md"
   ],
   "assumptions": [
     {

@@ -1,0 +1,22 @@
+{
+  "source_url": "https://phylipweb.github.io/phylip/download/phylip-3.697.tar.gz",
+  "download_sha256": "9a26d8b08b8afea7f708509ef41df484003101eaf4beceb5cf7851eb940510c1",
+  "version": "3.697 (actual archive and program version; landing page advertises 3.698)",
+  "binary_sha256": "297ac0f0c26192b8cce9daee16599e3996b176fc42b1f367c9c12a873538fdd1",
+  "build_command": "make -f Makefile.unx dnapars CC=clang CFLAGS='-O3 -Wno-incompatible-function-pointer-types'",
+  "settings": {
+    "seeds": [
+      13,
+      37,
+      101
+    ],
+    "jumbles_per_seed": 10,
+    "saved_tree_cap": 100,
+    "search": "More thorough search (default)",
+    "site_weights": 1,
+    "threshold": false,
+    "transversion_only": false,
+    "per_run_timeout_seconds": 60
+  },
+  "comparison_scope": "Quality baseline, not a speed contest; wall times include Python conversion/scoring and shared-machine load. 17 fixed alignments, 9 open rows; no taxon/column exclusion."
+}

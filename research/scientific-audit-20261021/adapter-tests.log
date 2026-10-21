@@ -1,0 +1,9 @@
+test_binary_keeps_score (test_adapter.AdapterTests.test_binary_keeps_score) ... ok
+test_multifurcation_is_explicit (test_adapter.AdapterTests.test_multifurcation_is_explicit) ... ok
+test_no_silent_unknown_syntax (test_adapter.AdapterTests.test_no_silent_unknown_syntax) ... ok
+test_root_degree_two_no_false_resolution (test_adapter.AdapterTests.test_root_degree_two_no_false_resolution) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+OK

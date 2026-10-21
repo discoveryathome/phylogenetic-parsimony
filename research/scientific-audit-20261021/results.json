@@ -1,0 +1,1683 @@
+{
+  "software": "PHYLIP dnapars 3.697",
+  "source_url": "https://phylipweb.github.io/phylip/download/phylip-3.697.tar.gz",
+  "binary_sha256": "297ac0f0c26192b8cce9daee16599e3996b176fc42b1f367c9c12a873538fdd1",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "runs": [
+    {
+      "dataset": "phylip-dnapars",
+      "alignment_sha256": "f82346adfba3de6e695dc02b2bdd95a72a6ee2b90235727ed92da3fc3e272d9f",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 13,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 19,
+      "lower_bound": 19,
+      "status": "verified",
+      "score": 19,
+      "reported_scores": [
+        19.0
+      ],
+      "all_scores": [
+        19
+      ],
+      "resolution_counts": [
+        0
+      ],
+      "tree": "research/scientific-audit-20261021/runs/phylip-dnapars/13/tree-000.nwk",
+      "tree_sha256": "ecdcf38f213553cbf972396060140287ce4397205cafdcba887ca1668b2880ba",
+      "wall_seconds": 0.007798
+    },
+    {
+      "dataset": "phylip-dnapars",
+      "alignment_sha256": "f82346adfba3de6e695dc02b2bdd95a72a6ee2b90235727ed92da3fc3e272d9f",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 37,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 19,
+      "lower_bound": 19,
+      "status": "verified",
+      "score": 19,
+      "reported_scores": [
+        19.0
+      ],
+      "all_scores": [
+        19
+      ],
+      "resolution_counts": [
+        0
+      ],
+      "tree": "research/scientific-audit-20261021/runs/phylip-dnapars/37/tree-000.nwk",
+      "tree_sha256": "ecdcf38f213553cbf972396060140287ce4397205cafdcba887ca1668b2880ba",
+      "wall_seconds": 0.005639
+    },
+    {
+      "dataset": "phylip-dnapars",
+      "alignment_sha256": "f82346adfba3de6e695dc02b2bdd95a72a6ee2b90235727ed92da3fc3e272d9f",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 101,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 19,
+      "lower_bound": 19,
+      "status": "verified",
+      "score": 19,
+      "reported_scores": [
+        19.0
+      ],
+      "all_scores": [
+        19
+      ],
+      "resolution_counts": [
+        0
+      ],
+      "tree": "research/scientific-audit-20261021/runs/phylip-dnapars/101/tree-000.nwk",
+      "tree_sha256": "ecdcf38f213553cbf972396060140287ce4397205cafdcba887ca1668b2880ba",
+      "wall_seconds": 0.006231
+    },
+    {
+      "dataset": "phylip-dnapenny",
+      "alignment_sha256": "adc27b586fcb80d40decf882e49ebaf62ef896855cfeea1a49bfa8a702a23d34",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 13,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 8,
+      "lower_bound": 8,
+      "status": "verified",
+      "score": 8,
+      "reported_scores": [
+        8.0
+      ],
+      "all_scores": [
+        8
+      ],
+      "resolution_counts": [
+        2
+      ],
+      "tree": "research/scientific-audit-20261021/runs/phylip-dnapenny/13/tree-000.nwk",
+      "tree_sha256": "4404417639d794fd5f3e83514d64e2154e7aace438cf7b7b0fe64243c61fa514",
+      "wall_seconds": 0.007216
+    },
+    {
+      "dataset": "phylip-dnapenny",
+      "alignment_sha256": "adc27b586fcb80d40decf882e49ebaf62ef896855cfeea1a49bfa8a702a23d34",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 37,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 8,
+      "lower_bound": 8,
+      "status": "verified",
+      "score": 8,
+      "reported_scores": [
+        8.0
+      ],
+      "all_scores": [
+        8
+      ],
+      "resolution_counts": [
+        2
+      ],
+      "tree": "research/scientific-audit-20261021/runs/phylip-dnapenny/37/tree-000.nwk",
+      "tree_sha256": "4404417639d794fd5f3e83514d64e2154e7aace438cf7b7b0fe64243c61fa514",
+      "wall_seconds": 0.005462
+    },
+    {
+      "dataset": "phylip-dnapenny",
+      "alignment_sha256": "adc27b586fcb80d40decf882e49ebaf62ef896855cfeea1a49bfa8a702a23d34",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 101,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 8,
+      "lower_bound": 8,
+      "status": "verified",
+      "score": 8,
+      "reported_scores": [
+        8.0
+      ],
+      "all_scores": [
+        8
+      ],
+      "resolution_counts": [
+        2
+      ],
+      "tree": "research/scientific-audit-20261021/runs/phylip-dnapenny/101/tree-000.nwk",
+      "tree_sha256": "4404417639d794fd5f3e83514d64e2154e7aace438cf7b7b0fe64243c61fa514",
+      "wall_seconds": 0.005457
+    },
+    {
+      "dataset": "pythonidae-cytb-6",
+      "alignment_sha256": "d82b62246ccb270ed277da6dfb5358d1aa1e5c0b91af90bd2c5b827b485645fe",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 13,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 343,
+      "lower_bound": 343,
+      "status": "verified",
+      "score": 343,
+      "reported_scores": [
+        343.0
+      ],
+      "all_scores": [
+        343
+      ],
+      "resolution_counts": [
+        0
+      ],
+      "tree": "research/scientific-audit-20261021/runs/pythonidae-cytb-6/13/tree-000.nwk",
+      "tree_sha256": "21703607eaa0ca86c1c889cc392fb7be4b4748421efdbd26040b734cf182f084",
+      "wall_seconds": 0.044705
+    },
+    {
+      "dataset": "pythonidae-cytb-6",
+      "alignment_sha256": "d82b62246ccb270ed277da6dfb5358d1aa1e5c0b91af90bd2c5b827b485645fe",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 37,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 343,
+      "lower_bound": 343,
+      "status": "verified",
+      "score": 343,
+      "reported_scores": [
+        343.0
+      ],
+      "all_scores": [
+        343
+      ],
+      "resolution_counts": [
+        0
+      ],
+      "tree": "research/scientific-audit-20261021/runs/pythonidae-cytb-6/37/tree-000.nwk",
+      "tree_sha256": "21703607eaa0ca86c1c889cc392fb7be4b4748421efdbd26040b734cf182f084",
+      "wall_seconds": 0.047112
+    },
+    {
+      "dataset": "pythonidae-cytb-6",
+      "alignment_sha256": "d82b62246ccb270ed277da6dfb5358d1aa1e5c0b91af90bd2c5b827b485645fe",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 101,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 343,
+      "lower_bound": 343,
+      "status": "verified",
+      "score": 343,
+      "reported_scores": [
+        343.0
+      ],
+      "all_scores": [
+        343
+      ],
+      "resolution_counts": [
+        0
+      ],
+      "tree": "research/scientific-audit-20261021/runs/pythonidae-cytb-6/101/tree-000.nwk",
+      "tree_sha256": "21703607eaa0ca86c1c889cc392fb7be4b4748421efdbd26040b734cf182f084",
+      "wall_seconds": 0.046721
+    },
+    {
+      "dataset": "pythonidae-cytb-12",
+      "alignment_sha256": "b5b57b5a2eec060601144a090d0f68c6ebaee9164089dfe6c518c0a6f43c891e",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 13,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 575,
+      "lower_bound": 392,
+      "status": "verified",
+      "score": 575,
+      "reported_scores": [
+        575.0
+      ],
+      "all_scores": [
+        575
+      ],
+      "resolution_counts": [
+        0
+      ],
+      "tree": "research/scientific-audit-20261021/runs/pythonidae-cytb-12/13/tree-000.nwk",
+      "tree_sha256": "b930bdf27b41615bae495b1c5e083f7f78b0454d488746c4e9f7b6183c2c793f",
+      "wall_seconds": 0.172465
+    },
+    {
+      "dataset": "pythonidae-cytb-12",
+      "alignment_sha256": "b5b57b5a2eec060601144a090d0f68c6ebaee9164089dfe6c518c0a6f43c891e",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 37,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 575,
+      "lower_bound": 392,
+      "status": "verified",
+      "score": 575,
+      "reported_scores": [
+        575.0
+      ],
+      "all_scores": [
+        575
+      ],
+      "resolution_counts": [
+        0
+      ],
+      "tree": "research/scientific-audit-20261021/runs/pythonidae-cytb-12/37/tree-000.nwk",
+      "tree_sha256": "b930bdf27b41615bae495b1c5e083f7f78b0454d488746c4e9f7b6183c2c793f",
+      "wall_seconds": 0.180502
+    },
+    {
+      "dataset": "pythonidae-cytb-12",
+      "alignment_sha256": "b5b57b5a2eec060601144a090d0f68c6ebaee9164089dfe6c518c0a6f43c891e",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 101,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 575,
+      "lower_bound": 392,
+      "status": "verified",
+      "score": 575,
+      "reported_scores": [
+        575.0
+      ],
+      "all_scores": [
+        575
+      ],
+      "resolution_counts": [
+        0
+      ],
+      "tree": "research/scientific-audit-20261021/runs/pythonidae-cytb-12/101/tree-000.nwk",
+      "tree_sha256": "b930bdf27b41615bae495b1c5e083f7f78b0454d488746c4e9f7b6183c2c793f",
+      "wall_seconds": 0.1666
+    },
+    {
+      "dataset": "pythonidae-cytb-24",
+      "alignment_sha256": "df4044ec22a8f0b4ae44fc0a5ae51903ff2fff0eb53f8056ca988784ebc47a42",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 13,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 982,
+      "lower_bound": 466,
+      "status": "verified",
+      "score": 980,
+      "reported_scores": [
+        980.0
+      ],
+      "all_scores": [
+        980,
+        980,
+        980,
+        980
+      ],
+      "resolution_counts": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "tree": "research/scientific-audit-20261021/runs/pythonidae-cytb-24/13/tree-000.nwk",
+      "tree_sha256": "ad41c8b808829a7fa59af41d90a2a8273ea2085c09eb79dc12c4b7767ae2c3fd",
+      "wall_seconds": 1.347846
+    },
+    {
+      "dataset": "pythonidae-cytb-24",
+      "alignment_sha256": "df4044ec22a8f0b4ae44fc0a5ae51903ff2fff0eb53f8056ca988784ebc47a42",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 37,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 982,
+      "lower_bound": 466,
+      "status": "verified",
+      "score": 980,
+      "reported_scores": [
+        980.0
+      ],
+      "all_scores": [
+        980,
+        980,
+        980,
+        980
+      ],
+      "resolution_counts": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "tree": "research/scientific-audit-20261021/runs/pythonidae-cytb-24/37/tree-000.nwk",
+      "tree_sha256": "ad41c8b808829a7fa59af41d90a2a8273ea2085c09eb79dc12c4b7767ae2c3fd",
+      "wall_seconds": 1.328622
+    },
+    {
+      "dataset": "pythonidae-cytb-24",
+      "alignment_sha256": "df4044ec22a8f0b4ae44fc0a5ae51903ff2fff0eb53f8056ca988784ebc47a42",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 101,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 982,
+      "lower_bound": 466,
+      "status": "verified",
+      "score": 982,
+      "reported_scores": [
+        982.0
+      ],
+      "all_scores": [
+        982,
+        982,
+        982,
+        982
+      ],
+      "resolution_counts": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "tree": "research/scientific-audit-20261021/runs/pythonidae-cytb-24/101/tree-000.nwk",
+      "tree_sha256": "8de16842e248fca9a5204fc160a281a75434be32c867c2c39718c3123eeab4dc",
+      "wall_seconds": 1.23251
+    },
+    {
+      "dataset": "cetaceans-mt-6",
+      "alignment_sha256": "39bff0eadc0010ee4c408d4eb60d9e6f5345ec35d34728aa23c0b529484eeb85",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 13,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 291,
+      "lower_bound": 291,
+      "status": "verified",
+      "score": 291,
+      "reported_scores": [
+        291.0
+      ],
+      "all_scores": [
+        291
+      ],
+      "resolution_counts": [
+        0
+      ],
+      "tree": "research/scientific-audit-20261021/runs/cetaceans-mt-6/13/tree-000.nwk",
+      "tree_sha256": "54e045509ce15642c43bdb58a804e9a5c15f7d426198a8305a1dd56ccb3a33ac",
+      "wall_seconds": 0.059269
+    },
+    {
+      "dataset": "cetaceans-mt-6",
+      "alignment_sha256": "39bff0eadc0010ee4c408d4eb60d9e6f5345ec35d34728aa23c0b529484eeb85",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 37,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 291,
+      "lower_bound": 291,
+      "status": "verified",
+      "score": 291,
+      "reported_scores": [
+        291.0
+      ],
+      "all_scores": [
+        291
+      ],
+      "resolution_counts": [
+        0
+      ],
+      "tree": "research/scientific-audit-20261021/runs/cetaceans-mt-6/37/tree-000.nwk",
+      "tree_sha256": "54e045509ce15642c43bdb58a804e9a5c15f7d426198a8305a1dd56ccb3a33ac",
+      "wall_seconds": 0.055232
+    },
+    {
+      "dataset": "cetaceans-mt-6",
+      "alignment_sha256": "39bff0eadc0010ee4c408d4eb60d9e6f5345ec35d34728aa23c0b529484eeb85",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 101,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 291,
+      "lower_bound": 291,
+      "status": "verified",
+      "score": 291,
+      "reported_scores": [
+        291.0
+      ],
+      "all_scores": [
+        291
+      ],
+      "resolution_counts": [
+        0
+      ],
+      "tree": "research/scientific-audit-20261021/runs/cetaceans-mt-6/101/tree-000.nwk",
+      "tree_sha256": "54e045509ce15642c43bdb58a804e9a5c15f7d426198a8305a1dd56ccb3a33ac",
+      "wall_seconds": 0.055887
+    },
+    {
+      "dataset": "cetaceans-mt-12",
+      "alignment_sha256": "05ce81fa8c117bf6de9ca69b07d292327c1f61cac6f5eef6d0bfca54021a5618",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 13,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 493,
+      "lower_bound": 398,
+      "status": "verified",
+      "score": 493,
+      "reported_scores": [
+        493.0
+      ],
+      "all_scores": [
+        493
+      ],
+      "resolution_counts": [
+        0
+      ],
+      "tree": "research/scientific-audit-20261021/runs/cetaceans-mt-12/13/tree-000.nwk",
+      "tree_sha256": "0ab1121f1f9a571883c0d3e10e7738215fec9e820caff7d77f9e3fa7e5007f2f",
+      "wall_seconds": 0.213268
+    },
+    {
+      "dataset": "cetaceans-mt-12",
+      "alignment_sha256": "05ce81fa8c117bf6de9ca69b07d292327c1f61cac6f5eef6d0bfca54021a5618",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 37,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 493,
+      "lower_bound": 398,
+      "status": "verified",
+      "score": 493,
+      "reported_scores": [
+        493.0
+      ],
+      "all_scores": [
+        493
+      ],
+      "resolution_counts": [
+        0
+      ],
+      "tree": "research/scientific-audit-20261021/runs/cetaceans-mt-12/37/tree-000.nwk",
+      "tree_sha256": "0ab1121f1f9a571883c0d3e10e7738215fec9e820caff7d77f9e3fa7e5007f2f",
+      "wall_seconds": 0.205169
+    },
+    {
+      "dataset": "cetaceans-mt-12",
+      "alignment_sha256": "05ce81fa8c117bf6de9ca69b07d292327c1f61cac6f5eef6d0bfca54021a5618",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 101,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 493,
+      "lower_bound": 398,
+      "status": "verified",
+      "score": 493,
+      "reported_scores": [
+        493.0
+      ],
+      "all_scores": [
+        493
+      ],
+      "resolution_counts": [
+        0
+      ],
+      "tree": "research/scientific-audit-20261021/runs/cetaceans-mt-12/101/tree-000.nwk",
+      "tree_sha256": "0ab1121f1f9a571883c0d3e10e7738215fec9e820caff7d77f9e3fa7e5007f2f",
+      "wall_seconds": 0.21451
+    },
+    {
+      "dataset": "cetaceans-mt-22",
+      "alignment_sha256": "38dfed59f4e72b2ca4bba24d76c8d457ed8d7fec7c317ed89424af2b25ec758b",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 13,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 1046,
+      "lower_bound": 595,
+      "status": "verified",
+      "score": 1045,
+      "reported_scores": [
+        1045.0
+      ],
+      "all_scores": [
+        1045,
+        1045,
+        1045,
+        1045,
+        1045,
+        1045,
+        1045,
+        1045,
+        1045,
+        1045,
+        1045,
+        1045,
+        1045,
+        1045,
+        1045
+      ],
+      "resolution_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "tree": "research/scientific-audit-20261021/runs/cetaceans-mt-22/13/tree-000.nwk",
+      "tree_sha256": "63aeb73313b8fd591d6a6e038b4ff8e207936c421e221c2bfa48a6b484cbd455",
+      "wall_seconds": 4.354622
+    },
+    {
+      "dataset": "cetaceans-mt-22",
+      "alignment_sha256": "38dfed59f4e72b2ca4bba24d76c8d457ed8d7fec7c317ed89424af2b25ec758b",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 37,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 1046,
+      "lower_bound": 595,
+      "status": "verified",
+      "score": 1045,
+      "reported_scores": [
+        1045.0
+      ],
+      "all_scores": [
+        1045,
+        1045,
+        1045,
+        1045,
+        1045,
+        1045,
+        1045,
+        1045,
+        1045,
+        1045,
+        1045,
+        1045,
+        1045,
+        1045,
+        1045
+      ],
+      "resolution_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "tree": "research/scientific-audit-20261021/runs/cetaceans-mt-22/37/tree-000.nwk",
+      "tree_sha256": "63aeb73313b8fd591d6a6e038b4ff8e207936c421e221c2bfa48a6b484cbd455",
+      "wall_seconds": 6.097637
+    },
+    {
+      "dataset": "cetaceans-mt-22",
+      "alignment_sha256": "38dfed59f4e72b2ca4bba24d76c8d457ed8d7fec7c317ed89424af2b25ec758b",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 101,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 1046,
+      "lower_bound": 595,
+      "status": "verified",
+      "score": 1045,
+      "reported_scores": [
+        1045.0
+      ],
+      "all_scores": [
+        1045,
+        1045,
+        1045,
+        1045,
+        1045,
+        1045,
+        1045,
+        1045,
+        1045,
+        1045,
+        1045,
+        1045,
+        1045,
+        1045
+      ],
+      "resolution_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "tree": "research/scientific-audit-20261021/runs/cetaceans-mt-22/101/tree-000.nwk",
+      "tree_sha256": "63aeb73313b8fd591d6a6e038b4ff8e207936c421e221c2bfa48a6b484cbd455",
+      "wall_seconds": 6.864081
+    },
+    {
+      "dataset": "ferula-nrdna-6",
+      "alignment_sha256": "51219f8e4c9b0fcd35ccabef63f679034870f51a3bac765c61166f16f0aeb6b9",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 13,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 61,
+      "lower_bound": 61,
+      "status": "verified",
+      "score": 61,
+      "reported_scores": [
+        61.0
+      ],
+      "all_scores": [
+        61
+      ],
+      "resolution_counts": [
+        0
+      ],
+      "tree": "research/scientific-audit-20261021/runs/ferula-nrdna-6/13/tree-000.nwk",
+      "tree_sha256": "c37552805f1520c868f768df207859a974223a21562ac3d2fd27d35c24982e68",
+      "wall_seconds": 0.065339
+    },
+    {
+      "dataset": "ferula-nrdna-6",
+      "alignment_sha256": "51219f8e4c9b0fcd35ccabef63f679034870f51a3bac765c61166f16f0aeb6b9",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 37,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 61,
+      "lower_bound": 61,
+      "status": "verified",
+      "score": 61,
+      "reported_scores": [
+        61.0
+      ],
+      "all_scores": [
+        61
+      ],
+      "resolution_counts": [
+        0
+      ],
+      "tree": "research/scientific-audit-20261021/runs/ferula-nrdna-6/37/tree-000.nwk",
+      "tree_sha256": "c37552805f1520c868f768df207859a974223a21562ac3d2fd27d35c24982e68",
+      "wall_seconds": 0.074788
+    },
+    {
+      "dataset": "ferula-nrdna-6",
+      "alignment_sha256": "51219f8e4c9b0fcd35ccabef63f679034870f51a3bac765c61166f16f0aeb6b9",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 101,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 61,
+      "lower_bound": 61,
+      "status": "verified",
+      "score": 61,
+      "reported_scores": [
+        61.0
+      ],
+      "all_scores": [
+        61
+      ],
+      "resolution_counts": [
+        0
+      ],
+      "tree": "research/scientific-audit-20261021/runs/ferula-nrdna-6/101/tree-000.nwk",
+      "tree_sha256": "c37552805f1520c868f768df207859a974223a21562ac3d2fd27d35c24982e68",
+      "wall_seconds": 0.078536
+    },
+    {
+      "dataset": "ferula-nrdna-12",
+      "alignment_sha256": "7164789276ee0eb7c24c8a4a650f4ed29485220ab521e2d6e4e1b8631316f215",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 13,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 82,
+      "lower_bound": 82,
+      "status": "verified",
+      "score": 82,
+      "reported_scores": [
+        82.0
+      ],
+      "all_scores": [
+        82
+      ],
+      "resolution_counts": [
+        3
+      ],
+      "tree": "research/scientific-audit-20261021/runs/ferula-nrdna-12/13/tree-000.nwk",
+      "tree_sha256": "e3e087e8bb5e7b5dfa22da5cc7aa3fafd1dd7d8240332990952ac5332992f9d1",
+      "wall_seconds": 0.218903
+    },
+    {
+      "dataset": "ferula-nrdna-12",
+      "alignment_sha256": "7164789276ee0eb7c24c8a4a650f4ed29485220ab521e2d6e4e1b8631316f215",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 37,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 82,
+      "lower_bound": 82,
+      "status": "verified",
+      "score": 82,
+      "reported_scores": [
+        82.0
+      ],
+      "all_scores": [
+        82
+      ],
+      "resolution_counts": [
+        3
+      ],
+      "tree": "research/scientific-audit-20261021/runs/ferula-nrdna-12/37/tree-000.nwk",
+      "tree_sha256": "e3e087e8bb5e7b5dfa22da5cc7aa3fafd1dd7d8240332990952ac5332992f9d1",
+      "wall_seconds": 0.196002
+    },
+    {
+      "dataset": "ferula-nrdna-12",
+      "alignment_sha256": "7164789276ee0eb7c24c8a4a650f4ed29485220ab521e2d6e4e1b8631316f215",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 101,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 82,
+      "lower_bound": 82,
+      "status": "verified",
+      "score": 82,
+      "reported_scores": [
+        82.0
+      ],
+      "all_scores": [
+        82
+      ],
+      "resolution_counts": [
+        3
+      ],
+      "tree": "research/scientific-audit-20261021/runs/ferula-nrdna-12/101/tree-000.nwk",
+      "tree_sha256": "e3e087e8bb5e7b5dfa22da5cc7aa3fafd1dd7d8240332990952ac5332992f9d1",
+      "wall_seconds": 0.175633
+    },
+    {
+      "dataset": "ferula-nrdna-24",
+      "alignment_sha256": "4220e5c763f2f5d9c1805744eed4f5c8cdab448905747e27fbea19db9b5509f3",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 13,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 141,
+      "lower_bound": 138,
+      "status": "verified",
+      "score": 141,
+      "reported_scores": [
+        141.0
+      ],
+      "all_scores": [
+        141,
+        141,
+        141,
+        141,
+        141,
+        141,
+        141,
+        141
+      ],
+      "resolution_counts": [
+        10,
+        10,
+        10,
+        10,
+        9,
+        9,
+        9,
+        9
+      ],
+      "tree": "research/scientific-audit-20261021/runs/ferula-nrdna-24/13/tree-000.nwk",
+      "tree_sha256": "c032c4bcaca88e8a0b05d8b174e1c5ff50847f646ca5d4e5111093b5ffe62cf0",
+      "wall_seconds": 3.598019
+    },
+    {
+      "dataset": "ferula-nrdna-24",
+      "alignment_sha256": "4220e5c763f2f5d9c1805744eed4f5c8cdab448905747e27fbea19db9b5509f3",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 37,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 141,
+      "lower_bound": 138,
+      "status": "verified",
+      "score": 141,
+      "reported_scores": [
+        141.0
+      ],
+      "all_scores": [
+        141,
+        141,
+        141,
+        141,
+        141,
+        141,
+        141,
+        141
+      ],
+      "resolution_counts": [
+        10,
+        10,
+        10,
+        10,
+        9,
+        9,
+        9,
+        9
+      ],
+      "tree": "research/scientific-audit-20261021/runs/ferula-nrdna-24/37/tree-000.nwk",
+      "tree_sha256": "c032c4bcaca88e8a0b05d8b174e1c5ff50847f646ca5d4e5111093b5ffe62cf0",
+      "wall_seconds": 3.496432
+    },
+    {
+      "dataset": "ferula-nrdna-24",
+      "alignment_sha256": "4220e5c763f2f5d9c1805744eed4f5c8cdab448905747e27fbea19db9b5509f3",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 101,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 141,
+      "lower_bound": 138,
+      "status": "verified",
+      "score": 141,
+      "reported_scores": [
+        141.0
+      ],
+      "all_scores": [
+        141,
+        141,
+        141,
+        141,
+        141,
+        141,
+        141,
+        141
+      ],
+      "resolution_counts": [
+        10,
+        10,
+        10,
+        10,
+        9,
+        9,
+        9,
+        9
+      ],
+      "tree": "research/scientific-audit-20261021/runs/ferula-nrdna-24/101/tree-000.nwk",
+      "tree_sha256": "c032c4bcaca88e8a0b05d8b174e1c5ff50847f646ca5d4e5111093b5ffe62cf0",
+      "wall_seconds": 2.909512
+    },
+    {
+      "dataset": "ferula-plastid-6",
+      "alignment_sha256": "baab4eed0303d9840b6f96172f1d8ea53e4333bbeb2a3c53e11f7a02c78ac59f",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 13,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 27,
+      "lower_bound": 27,
+      "status": "verified",
+      "score": 27,
+      "reported_scores": [
+        27.0
+      ],
+      "all_scores": [
+        27
+      ],
+      "resolution_counts": [
+        0
+      ],
+      "tree": "research/scientific-audit-20261021/runs/ferula-plastid-6/13/tree-000.nwk",
+      "tree_sha256": "1a5c89effaa48518001114061a4dafdbe22072e875259d5faf7a1546bd54d098",
+      "wall_seconds": 0.140618
+    },
+    {
+      "dataset": "ferula-plastid-6",
+      "alignment_sha256": "baab4eed0303d9840b6f96172f1d8ea53e4333bbeb2a3c53e11f7a02c78ac59f",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 37,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 27,
+      "lower_bound": 27,
+      "status": "verified",
+      "score": 27,
+      "reported_scores": [
+        27.0
+      ],
+      "all_scores": [
+        27
+      ],
+      "resolution_counts": [
+        0
+      ],
+      "tree": "research/scientific-audit-20261021/runs/ferula-plastid-6/37/tree-000.nwk",
+      "tree_sha256": "1a5c89effaa48518001114061a4dafdbe22072e875259d5faf7a1546bd54d098",
+      "wall_seconds": 0.152547
+    },
+    {
+      "dataset": "ferula-plastid-6",
+      "alignment_sha256": "baab4eed0303d9840b6f96172f1d8ea53e4333bbeb2a3c53e11f7a02c78ac59f",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 101,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 27,
+      "lower_bound": 27,
+      "status": "verified",
+      "score": 27,
+      "reported_scores": [
+        27.0
+      ],
+      "all_scores": [
+        27
+      ],
+      "resolution_counts": [
+        0
+      ],
+      "tree": "research/scientific-audit-20261021/runs/ferula-plastid-6/101/tree-000.nwk",
+      "tree_sha256": "1a5c89effaa48518001114061a4dafdbe22072e875259d5faf7a1546bd54d098",
+      "wall_seconds": 0.163637
+    },
+    {
+      "dataset": "ferula-plastid-12",
+      "alignment_sha256": "2e993f5f0d11de98611cab432f7d990b88fcc00c82b05fb24a7031b5e44980bc",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 13,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 39,
+      "lower_bound": 39,
+      "status": "verified",
+      "score": 39,
+      "reported_scores": [
+        39.0
+      ],
+      "all_scores": [
+        39,
+        39,
+        39,
+        39
+      ],
+      "resolution_counts": [
+        3,
+        2,
+        3,
+        2
+      ],
+      "tree": "research/scientific-audit-20261021/runs/ferula-plastid-12/13/tree-000.nwk",
+      "tree_sha256": "9a8b1dabdcb5356157b88668789fe68270d5be754554dc0a15df2d2dd77b2c3c",
+      "wall_seconds": 1.43886
+    },
+    {
+      "dataset": "ferula-plastid-12",
+      "alignment_sha256": "2e993f5f0d11de98611cab432f7d990b88fcc00c82b05fb24a7031b5e44980bc",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 37,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 39,
+      "lower_bound": 39,
+      "status": "verified",
+      "score": 39,
+      "reported_scores": [
+        39.0
+      ],
+      "all_scores": [
+        39,
+        39,
+        39,
+        39
+      ],
+      "resolution_counts": [
+        3,
+        2,
+        3,
+        2
+      ],
+      "tree": "research/scientific-audit-20261021/runs/ferula-plastid-12/37/tree-000.nwk",
+      "tree_sha256": "9a8b1dabdcb5356157b88668789fe68270d5be754554dc0a15df2d2dd77b2c3c",
+      "wall_seconds": 1.49127
+    },
+    {
+      "dataset": "ferula-plastid-12",
+      "alignment_sha256": "2e993f5f0d11de98611cab432f7d990b88fcc00c82b05fb24a7031b5e44980bc",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 101,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 39,
+      "lower_bound": 39,
+      "status": "verified",
+      "score": 39,
+      "reported_scores": [
+        39.0
+      ],
+      "all_scores": [
+        39,
+        39,
+        39,
+        39
+      ],
+      "resolution_counts": [
+        3,
+        2,
+        3,
+        2
+      ],
+      "tree": "research/scientific-audit-20261021/runs/ferula-plastid-12/101/tree-000.nwk",
+      "tree_sha256": "9a8b1dabdcb5356157b88668789fe68270d5be754554dc0a15df2d2dd77b2c3c",
+      "wall_seconds": 1.286998
+    },
+    {
+      "dataset": "ferula-plastid-24",
+      "alignment_sha256": "27a0e765fb5062575a18e44e333817b0aa31ac79d95508b6a352585bf48d2de6",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 13,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 104,
+      "lower_bound": 102,
+      "status": "verified",
+      "score": 104,
+      "reported_scores": [
+        104.0
+      ],
+      "all_scores": [
+        104,
+        104,
+        104,
+        104
+      ],
+      "resolution_counts": [
+        10,
+        10,
+        9,
+        9
+      ],
+      "tree": "research/scientific-audit-20261021/runs/ferula-plastid-24/13/tree-000.nwk",
+      "tree_sha256": "61cf0f5c61687c7e46c19a6193fd05a1e875a345017a7acb02b51ee5efd472c1",
+      "wall_seconds": 2.825461
+    },
+    {
+      "dataset": "ferula-plastid-24",
+      "alignment_sha256": "27a0e765fb5062575a18e44e333817b0aa31ac79d95508b6a352585bf48d2de6",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 37,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 104,
+      "lower_bound": 102,
+      "status": "verified",
+      "score": 104,
+      "reported_scores": [
+        104.0
+      ],
+      "all_scores": [
+        104,
+        104,
+        104,
+        104
+      ],
+      "resolution_counts": [
+        10,
+        10,
+        9,
+        9
+      ],
+      "tree": "research/scientific-audit-20261021/runs/ferula-plastid-24/37/tree-000.nwk",
+      "tree_sha256": "61cf0f5c61687c7e46c19a6193fd05a1e875a345017a7acb02b51ee5efd472c1",
+      "wall_seconds": 2.42489
+    },
+    {
+      "dataset": "ferula-plastid-24",
+      "alignment_sha256": "27a0e765fb5062575a18e44e333817b0aa31ac79d95508b6a352585bf48d2de6",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 101,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 104,
+      "lower_bound": 102,
+      "status": "verified",
+      "score": 104,
+      "reported_scores": [
+        104.0
+      ],
+      "all_scores": [
+        104,
+        104,
+        104,
+        104,
+        104,
+        104
+      ],
+      "resolution_counts": [
+        10,
+        10,
+        9,
+        9,
+        8,
+        8
+      ],
+      "tree": "research/scientific-audit-20261021/runs/ferula-plastid-24/101/tree-000.nwk",
+      "tree_sha256": "61cf0f5c61687c7e46c19a6193fd05a1e875a345017a7acb02b51ee5efd472c1",
+      "wall_seconds": 3.786987
+    },
+    {
+      "dataset": "pythonidae-12s-12",
+      "alignment_sha256": "ff9aa2fde7b277795da3e8cf5da196ea36ca7bbdb05529abeec89440280c2364",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 13,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 112,
+      "lower_bound": 82,
+      "status": "verified",
+      "score": 105,
+      "reported_scores": [
+        105.0
+      ],
+      "all_scores": [
+        105,
+        105,
+        105,
+        105,
+        105,
+        105,
+        105,
+        105,
+        105
+      ],
+      "resolution_counts": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "tree": "research/scientific-audit-20261021/runs/pythonidae-12s-12/13/tree-000.nwk",
+      "tree_sha256": "478fbc24a73852ac82d2b930bec8d41dc48eabd44967b8d8add5a0fdfba1a661",
+      "wall_seconds": 0.375619
+    },
+    {
+      "dataset": "pythonidae-12s-12",
+      "alignment_sha256": "ff9aa2fde7b277795da3e8cf5da196ea36ca7bbdb05529abeec89440280c2364",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 37,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 112,
+      "lower_bound": 82,
+      "status": "verified",
+      "score": 105,
+      "reported_scores": [
+        105.0
+      ],
+      "all_scores": [
+        105,
+        105,
+        105,
+        105,
+        105,
+        105,
+        105,
+        105,
+        105,
+        105,
+        105
+      ],
+      "resolution_counts": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "tree": "research/scientific-audit-20261021/runs/pythonidae-12s-12/37/tree-000.nwk",
+      "tree_sha256": "0d25b73d8d23676bf601be8a29f027ff4a418e9484aae47d4845cfc50a1dff54",
+      "wall_seconds": 0.469502
+    },
+    {
+      "dataset": "pythonidae-12s-12",
+      "alignment_sha256": "ff9aa2fde7b277795da3e8cf5da196ea36ca7bbdb05529abeec89440280c2364",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 101,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 112,
+      "lower_bound": 82,
+      "status": "verified",
+      "score": 105,
+      "reported_scores": [
+        105.0
+      ],
+      "all_scores": [
+        105,
+        105,
+        105,
+        105,
+        105,
+        105,
+        105,
+        105,
+        105,
+        105,
+        105
+      ],
+      "resolution_counts": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "tree": "research/scientific-audit-20261021/runs/pythonidae-12s-12/101/tree-000.nwk",
+      "tree_sha256": "0d25b73d8d23676bf601be8a29f027ff4a418e9484aae47d4845cfc50a1dff54",
+      "wall_seconds": 0.600088
+    },
+    {
+      "dataset": "pythonidae-16s-12",
+      "alignment_sha256": "e8a029504a8a4fc2f843c84f743dc708ec17e502ca1c0488d79a6ce1e1c7fdc9",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 13,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 93,
+      "lower_bound": 70,
+      "status": "verified",
+      "score": 93,
+      "reported_scores": [
+        93.0
+      ],
+      "all_scores": [
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93
+      ],
+      "resolution_counts": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "tree": "research/scientific-audit-20261021/runs/pythonidae-16s-12/13/tree-000.nwk",
+      "tree_sha256": "9fbb788a52825a06f4f5ad4a4633ec29696a398060ff852d46a2067e367252ef",
+      "wall_seconds": 1.837513
+    },
+    {
+      "dataset": "pythonidae-16s-12",
+      "alignment_sha256": "e8a029504a8a4fc2f843c84f743dc708ec17e502ca1c0488d79a6ce1e1c7fdc9",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 37,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 93,
+      "lower_bound": 70,
+      "status": "verified",
+      "score": 93,
+      "reported_scores": [
+        93.0
+      ],
+      "all_scores": [
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93
+      ],
+      "resolution_counts": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "tree": "research/scientific-audit-20261021/runs/pythonidae-16s-12/37/tree-000.nwk",
+      "tree_sha256": "9fbb788a52825a06f4f5ad4a4633ec29696a398060ff852d46a2067e367252ef",
+      "wall_seconds": 1.756676
+    },
+    {
+      "dataset": "pythonidae-16s-12",
+      "alignment_sha256": "e8a029504a8a4fc2f843c84f743dc708ec17e502ca1c0488d79a6ce1e1c7fdc9",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 101,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 93,
+      "lower_bound": 70,
+      "status": "verified",
+      "score": 93,
+      "reported_scores": [
+        93.0
+      ],
+      "all_scores": [
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93,
+        93
+      ],
+      "resolution_counts": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "tree": "research/scientific-audit-20261021/runs/pythonidae-16s-12/101/tree-000.nwk",
+      "tree_sha256": "9fbb788a52825a06f4f5ad4a4633ec29696a398060ff852d46a2067e367252ef",
+      "wall_seconds": 1.489196
+    },
+    {
+      "dataset": "pythonidae-cytb-29",
+      "alignment_sha256": "a2b9ce35d41a6173020f3f0a03647a771ad7d5423e7a69182ac8cf1d15a21eca",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 13,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 2005,
+      "lower_bound": 799,
+      "status": "verified",
+      "score": 1996,
+      "reported_scores": [
+        1996.0
+      ],
+      "all_scores": [
+        1996,
+        1996,
+        1996,
+        1996,
+        1996,
+        1996
+      ],
+      "resolution_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "tree": "research/scientific-audit-20261021/runs/pythonidae-cytb-29/13/tree-000.nwk",
+      "tree_sha256": "e722d0d49709eeb5ea9aa9d97f8f78942740747411dac3002761ba5d1bb76c0c",
+      "wall_seconds": 5.265468
+    },
+    {
+      "dataset": "pythonidae-cytb-29",
+      "alignment_sha256": "a2b9ce35d41a6173020f3f0a03647a771ad7d5423e7a69182ac8cf1d15a21eca",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 37,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 2005,
+      "lower_bound": 799,
+      "status": "verified",
+      "score": 1993,
+      "reported_scores": [
+        1993.0
+      ],
+      "all_scores": [
+        1993
+      ],
+      "resolution_counts": [
+        0
+      ],
+      "tree": "research/scientific-audit-20261021/runs/pythonidae-cytb-29/37/tree-000.nwk",
+      "tree_sha256": "b1a5c06f491c1387b2cf8e7d8ab4cf985d011454261b61aa737ba60d6e77b47e",
+      "wall_seconds": 3.24204
+    },
+    {
+      "dataset": "pythonidae-cytb-29",
+      "alignment_sha256": "a2b9ce35d41a6173020f3f0a03647a771ad7d5423e7a69182ac8cf1d15a21eca",
+      "profile": "unordered-unit-strict-v1",
+      "seed": 101,
+      "jumbles": 10,
+      "saved_tree_cap": 100,
+      "timeout_seconds": 60,
+      "previous_score": 2005,
+      "lower_bound": 799,
+      "status": "verified",
+      "score": 1993,
+      "reported_scores": [
+        1993.0
+      ],
+      "all_scores": [
+        1993
+      ],
+      "resolution_counts": [
+        0
+      ],
+      "tree": "research/scientific-audit-20261021/runs/pythonidae-cytb-29/101/tree-000.nwk",
+      "tree_sha256": "b1a5c06f491c1387b2cf8e7d8ab4cf985d011454261b61aa737ba60d6e77b47e",
+      "wall_seconds": 3.561675
+    }
+  ]
+}
