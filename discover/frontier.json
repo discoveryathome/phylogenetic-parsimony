@@ -1,7 +1,7 @@
 {
   "schema": "discover-frontier/v0",
   "statement": "Exact scores of witnessed binary unrooted trees for 17 fixed nucleotide alignments; eight optima certified by exhaustion or matching lower bounds.",
-  "status": "Public pilot; review paused pending hub assessment and research review. Nine open empirical rows.",
+  "status": "Open; working targets include the known score 93 and four PHYLIP baseline improvements. Historical accepted snapshot is retained separately; independent scientific review pending.",
   "evidence_level": [
     "author-checked"
   ],
@@ -10,7 +10,7 @@
   ],
   "scope": "unordered-unit-strict-v1; alignment SHA-256 and taxon/column selection are immutable per row; lower scores do not establish true history",
   "table": {
-    "path": "discover/frontier-rows.json",
+    "path": "discover/working-frontier-rows.json",
     "format": "json",
     "key": [
       "dataset",
@@ -33,7 +33,7 @@
     "check_row_minutes": 1
   },
   "review": "discover/review.md",
-  "updated_on": "2026-10-20",
+  "updated_on": "2026-10-21",
   "sources": [
     "LITERATURE.md",
     "data/manifest.json",
@@ -42,12 +42,13 @@
     "https://phylipweb.github.io/phylip/doc/dnapenny.html",
     "results/expansion-benchmark.json",
     "results/progress.json",
-    "https://doi.org/10.18150/UZC2YR"
+    "https://doi.org/10.18150/UZC2YR",
+    "research/scientific-audit-20261021/REPORT.md"
   ],
   "assumptions": [
     {
       "id": "maintainer",
-      "statement": "Independent scientific review and donor admission remain outstanding; publication is not frontier acceptance.",
+      "statement": "Independent scientific review remains outstanding; working targets do not confer scientific acceptance.",
       "status": "open",
       "link": "discover/review.md"
     }

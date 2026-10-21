@@ -1,0 +1,15 @@
+PASS improve-pythonidae-cytb-12
+PASS improve-pythonidae-cytb-24
+PASS improve-cetaceans-mt-12
+PASS improve-cetaceans-mt-22
+PASS improve-ferula-nrdna-24
+PASS improve-ferula-plastid-24
+PASS improve-pythonidae-12s-12
+PASS improve-pythonidae-16s-12
+PASS improve-pythonidae-cytb-29
+PASS paired-heuristics
+PASS mature-baselines
+PASS bound-pairs
+PASS audit-verifier
+PASS interpret-ferula
+PASS: every catalog first_step and expected positive control

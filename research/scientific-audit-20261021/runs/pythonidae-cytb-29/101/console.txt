@@ -1,0 +1,97 @@
+[2J[H[2J[H
+DNA parsimony algorithm, version 3.697
+
+Setting for this run:
+  U                 Search for best tree?  Yes
+  S                        Search option?  More thorough search
+  V              Number of trees to save?  10000
+  J   Randomize input order of sequences?  No. Use input order
+  O                        Outgroup root?  No, use as outgroup species  1
+  T              Use Threshold parsimony?  No, use ordinary parsimony
+  N           Use Transversion parsimony?  No, count all steps
+  W                       Sites weighted?  No
+  M           Analyze multiple data sets?  No
+  I          Input sequences interleaved?  Yes
+  0   Terminal type (IBM PC, ANSI, none)?  ANSI
+  1    Print out the data at start of run  No
+  2  Print indications of progress of run  Yes
+  3                        Print out tree  Yes
+  4          Print out steps in each site  No
+  5  Print sequences at all nodes of tree  No
+  6       Write out trees onto tree file?  Yes
+
+  Y to accept these or type the letter for one to change
+type the number of trees to save
+[2J[H
+DNA parsimony algorithm, version 3.697
+
+Setting for this run:
+  U                 Search for best tree?  Yes
+  S                        Search option?  More thorough search
+  V              Number of trees to save?  100
+  J   Randomize input order of sequences?  No. Use input order
+  O                        Outgroup root?  No, use as outgroup species  1
+  T              Use Threshold parsimony?  No, use ordinary parsimony
+  N           Use Transversion parsimony?  No, count all steps
+  W                       Sites weighted?  No
+  M           Analyze multiple data sets?  No
+  I          Input sequences interleaved?  Yes
+  0   Terminal type (IBM PC, ANSI, none)?  ANSI
+  1    Print out the data at start of run  No
+  2  Print indications of progress of run  Yes
+  3                        Print out tree  Yes
+  4          Print out steps in each site  No
+  5  Print sequences at all nodes of tree  No
+  6       Write out trees onto tree file?  Yes
+
+  Y to accept these or type the letter for one to change
+
+Random number seed (must be odd)?
+Number of times to jumble?
+[2J[H
+DNA parsimony algorithm, version 3.697
+
+Setting for this run:
+  U                 Search for best tree?  Yes
+  S                        Search option?  More thorough search
+  V              Number of trees to save?  100
+  J   Randomize input order of sequences?  Yes (seed =     101, 10 times)
+  O                        Outgroup root?  No, use as outgroup species  1
+  T              Use Threshold parsimony?  No, use ordinary parsimony
+  N           Use Transversion parsimony?  No, count all steps
+  W                       Sites weighted?  No
+  M           Analyze multiple data sets?  No
+  I          Input sequences interleaved?  Yes
+  0   Terminal type (IBM PC, ANSI, none)?  ANSI
+  1    Print out the data at start of run  No
+  2  Print indications of progress of run  Yes
+  3                        Print out tree  Yes
+  4          Print out steps in each site  No
+  5  Print sequences at all nodes of tree  No
+  6       Write out trees onto tree file?  Yes
+
+  Y to accept these or type the letter for one to change
+[2J[H
+DNA parsimony algorithm, version 3.697
+
+Setting for this run:
+  U                 Search for best tree?  Yes
+  S                        Search option?  More thorough search
+  V              Number of trees to save?  100
+  J   Randomize input order of sequences?  Yes (seed =     101, 10 times)
+  O                        Outgroup root?  No, use as outgroup species  1
+  T              Use Threshold parsimony?  No, use ordinary parsimony
+  N           Use Transversion parsimony?  No, count all steps
+  W                       Sites weighted?  No
+  M           Analyze multiple data sets?  No
+  I          Input sequences interleaved?  Yes
+  0   Terminal type (IBM PC, ANSI, none)?  ANSI
+  1    Print out the data at start of run  No
+  2  Print indications of progress of run  No
+  3                        Print out tree  Yes
+  4          Print out steps in each site  No
+  5  Print sequences at all nodes of tree  No
+  6       Write out trees onto tree file?  Yes
+
+  Y to accept these or type the letter for one to change
+                                                            

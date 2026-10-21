@@ -1,0 +1,214 @@
+[
+  {
+    "task": "improve-pythonidae-cytb-12",
+    "command": [
+      "python3",
+      "phylo.py",
+      "verify",
+      "pythonidae-cytb-12",
+      "candidates/pythonidae-cytb-12-best.nwk",
+      "--claim",
+      "575"
+    ],
+    "interpreter_substitution": false,
+    "returncode": 0,
+    "seconds": 0.247039332985878,
+    "output": "    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    1,\n    2,\n    1,\n    0,\n    0,\n    2,\n    0,\n    0,\n    1,\n    0,\n    0,\n    4,\n    5,\n    0,\n    2,\n    0,\n    0,\n    3,\n    0,\n    0,\n    1,\n    2,\n    0,\n    1,\n    0,\n    0,\n    1,\n    3,\n    0,\n    3,\n    0,\n    0,\n    4,\n    3,\n    0,\n    3,\n    0,\n    0,\n    5,\n    0,\n    0,\n    2,\n    0,\n    0,\n    1,\n    0,\n    0,\n    2,\n    0,\n    0,\n    4,\n    0,\n    0,\n    6,\n    1,\n    0,\n    0,\n    0,\n    0,\n    1,\n    0,\n    0,\n    0,\n    3,\n    0,\n    0,\n    0,\n    0,\n    2,\n    0,\n    0,\n    2,\n    0,\n    0,\n    0,\n    1,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    3,\n    0,\n    0,\n    3,\n    0,\n    0,\n    0,\n    0,\n    0,\n    2,\n    0,\n    0,\n    1,\n    0,\n    0,\n    1,\n    0,\n    0,\n    1,\n    0,\n    0,\n    6,\n    0,\n    0,\n    1,\n    0,\n    0,\n    0,\n    4,\n    0,\n    3,\n    3,\n    0,\n    1,\n    0,\n    0,\n    0,\n    0,\n    0,\n    3,\n    2,\n    0,\n    6,\n    1,\n    0,\n    3,\n    4,\n    0,\n    1,\n    3,\n    0,\n    2,\n    1,\n    0,\n    2,\n    1,\n    0,\n    3,\n    0,\n    0,\n    1,\n    2,\n    0,\n    3,\n    4,\n    0,\n    4,\n    3,\n    3,\n    3,\n    3,\n    0,\n    0,\n    4,\n    0,\n    2,\n    1,\n    0,\n    3,\n    1,\n    1,\n    2,\n    3,\n    1,\n    3,\n    0,\n    0,\n    3,\n    0,\n    0,\n    2,\n    1,\n    1,\n    2,\n    0,\n    0,\n    4,\n    1,\n    0,\n    4,\n    0,\n    0,\n    1\n  ],\n  \"tree_sha256\": \"80148b17fd92624a25fd923cb2fb90a481e746000a3a1d391ab615c028377b8c\",\n  \"dataset\": \"pythonidae-cytb-12\",\n  \"alignment_sha256\": \"b5b57b5a2eec060601144a090d0f68c6ebaee9164089dfe6c518c0a6f43c891e\",\n  \"profile\": \"unordered-unit-strict-v1\"\n}\n"
+  },
+  {
+    "task": "improve-pythonidae-cytb-24",
+    "command": [
+      "python3",
+      "phylo.py",
+      "verify",
+      "pythonidae-cytb-24",
+      "candidates/pythonidae-cytb-24-best.nwk",
+      "--claim",
+      "982"
+    ],
+    "interpreter_substitution": false,
+    "returncode": 0,
+    "seconds": 0.2753529578913003,
+    "output": "   0,\n    0,\n    2,\n    0,\n    0,\n    0,\n    1,\n    4,\n    3,\n    0,\n    0,\n    4,\n    0,\n    0,\n    3,\n    0,\n    0,\n    7,\n    7,\n    0,\n    4,\n    0,\n    0,\n    3,\n    0,\n    0,\n    1,\n    3,\n    0,\n    1,\n    0,\n    0,\n    1,\n    4,\n    0,\n    4,\n    0,\n    0,\n    6,\n    5,\n    0,\n    6,\n    0,\n    0,\n    9,\n    0,\n    0,\n    5,\n    0,\n    0,\n    1,\n    0,\n    0,\n    3,\n    0,\n    0,\n    8,\n    0,\n    0,\n    7,\n    1,\n    0,\n    1,\n    0,\n    0,\n    2,\n    0,\n    0,\n    2,\n    5,\n    0,\n    1,\n    0,\n    0,\n    2,\n    0,\n    0,\n    5,\n    0,\n    0,\n    1,\n    1,\n    0,\n    2,\n    0,\n    0,\n    0,\n    0,\n    0,\n    4,\n    0,\n    0,\n    3,\n    0,\n    0,\n    0,\n    0,\n    0,\n    3,\n    0,\n    0,\n    2,\n    0,\n    0,\n    2,\n    0,\n    0,\n    2,\n    0,\n    0,\n    11,\n    0,\n    0,\n    6,\n    0,\n    0,\n    1,\n    5,\n    0,\n    6,\n    6,\n    0,\n    2,\n    0,\n    0,\n    0,\n    0,\n    0,\n    6,\n    4,\n    0,\n    9,\n    1,\n    0,\n    6,\n    5,\n    0,\n    2,\n    4,\n    0,\n    5,\n    1,\n    1,\n    3,\n    3,\n    0,\n    3,\n    1,\n    0,\n    1,\n    3,\n    1,\n    7,\n    7,\n    0,\n    6,\n    4,\n    6,\n    7,\n    6,\n    0,\n    2,\n    7,\n    0,\n    6,\n    1,\n    1,\n    6,\n    1,\n    3,\n    3,\n    4,\n    2,\n    6,\n    0,\n    0,\n    4,\n    0,\n    0,\n    2,\n    2,\n    1,\n    3,\n    0,\n    0,\n    4,\n    1,\n    0,\n    9,\n    0,\n    0,\n    8\n  ],\n  \"tree_sha256\": \"c0c319bd8d6c633385c756a094ef07e18d3d5d501562e2aa97902a96dab4cc5d\",\n  \"dataset\": \"pythonidae-cytb-24\",\n  \"alignment_sha256\": \"df4044ec22a8f0b4ae44fc0a5ae51903ff2fff0eb53f8056ca988784ebc47a42\",\n  \"profile\": \"unordered-unit-strict-v1\"\n}\n"
+  },
+  {
+    "task": "improve-cetaceans-mt-12",
+    "command": [
+      "python3",
+      "phylo.py",
+      "verify",
+      "cetaceans-mt-12",
+      "candidates/cetaceans-mt-12-best.nwk",
+      "--claim",
+      "493"
+    ],
+    "interpreter_substitution": false,
+    "returncode": 0,
+    "seconds": 0.2869292920222506,
+    "output": "1,\n    0,\n    0,\n    3,\n    0,\n    0,\n    0,\n    0,\n    0,\n    1,\n    0,\n    0,\n    3,\n    0,\n    0,\n    2,\n    0,\n    0,\n    4,\n    0,\n    0,\n    1,\n    0,\n    0,\n    0,\n    2,\n    0,\n    0,\n    0,\n    1,\n    0,\n    0,\n    1,\n    0,\n    0,\n    4,\n    2,\n    0,\n    1,\n    0,\n    0,\n    5,\n    0,\n    0,\n    0,\n    0,\n    0,\n    2,\n    0,\n    0,\n    1,\n    0,\n    0,\n    3,\n    0,\n    0,\n    3,\n    0,\n    0,\n    0,\n    0,\n    0,\n    1,\n    0,\n    0,\n    1,\n    1,\n    0,\n    1,\n    0,\n    0,\n    2,\n    0,\n    0,\n    2,\n    0,\n    0,\n    2,\n    1,\n    1,\n    2,\n    0,\n    0,\n    1,\n    2,\n    0,\n    3,\n    0,\n    0,\n    0,\n    0,\n    3,\n    0,\n    0,\n    0,\n    2,\n    0,\n    1,\n    0,\n    0,\n    2,\n    0,\n    0,\n    2,\n    0,\n    0,\n    2,\n    0,\n    0,\n    2,\n    1,\n    0,\n    2,\n    1,\n    1,\n    3,\n    0,\n    1,\n    2,\n    0,\n    1,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    3,\n    0,\n    0,\n    5,\n    0,\n    0,\n    0,\n    0,\n    3,\n    2,\n    0,\n    3,\n    2,\n    0,\n    1,\n    0,\n    0,\n    1,\n    3,\n    0,\n    2,\n    1,\n    1,\n    0,\n    0,\n    0,\n    3,\n    0,\n    0,\n    2,\n    0,\n    0,\n    1,\n    0,\n    0,\n    4,\n    0,\n    0,\n    0,\n    0,\n    0,\n    2,\n    0,\n    0,\n    1,\n    0,\n    0,\n    0,\n    0,\n    0,\n    4,\n    0,\n    0,\n    2,\n    2,\n    0,\n    2,\n    0,\n    0,\n    2\n  ],\n  \"tree_sha256\": \"af88d617eaf0bc616e388d4656b951c42c051ca354f2ec14cbd453bc07ea8daa\",\n  \"dataset\": \"cetaceans-mt-12\",\n  \"alignment_sha256\": \"05ce81fa8c117bf6de9ca69b07d292327c1f61cac6f5eef6d0bfca54021a5618\",\n  \"profile\": \"unordered-unit-strict-v1\"\n}\n"
+  },
+  {
+    "task": "improve-cetaceans-mt-22",
+    "command": [
+      "python3",
+      "phylo.py",
+      "verify",
+      "cetaceans-mt-22",
+      "candidates/cetaceans-mt-22-best.nwk",
+      "--claim",
+      "1046"
+    ],
+    "interpreter_substitution": false,
+    "returncode": 0,
+    "seconds": 0.5179730000672862,
+    "output": "0,\n    0,\n    3,\n    0,\n    0,\n    6,\n    0,\n    0,\n    0,\n    0,\n    0,\n    3,\n    0,\n    0,\n    7,\n    0,\n    0,\n    6,\n    0,\n    0,\n    7,\n    0,\n    0,\n    1,\n    0,\n    0,\n    2,\n    3,\n    1,\n    0,\n    0,\n    4,\n    0,\n    0,\n    2,\n    0,\n    0,\n    5,\n    6,\n    0,\n    2,\n    0,\n    0,\n    7,\n    0,\n    0,\n    0,\n    0,\n    0,\n    4,\n    0,\n    0,\n    2,\n    0,\n    0,\n    7,\n    0,\n    0,\n    5,\n    0,\n    0,\n    3,\n    0,\n    0,\n    3,\n    0,\n    0,\n    3,\n    1,\n    0,\n    4,\n    0,\n    0,\n    3,\n    1,\n    0,\n    7,\n    0,\n    0,\n    3,\n    4,\n    3,\n    5,\n    0,\n    0,\n    3,\n    3,\n    0,\n    7,\n    0,\n    0,\n    0,\n    0,\n    5,\n    1,\n    0,\n    3,\n    0,\n    3,\n    0,\n    0,\n    5,\n    0,\n    0,\n    4,\n    0,\n    0,\n    6,\n    0,\n    0,\n    3,\n    3,\n    0,\n    3,\n    2,\n    4,\n    5,\n    0,\n    3,\n    5,\n    0,\n    2,\n    0,\n    0,\n    0,\n    1,\n    0,\n    0,\n    1,\n    0,\n    0,\n    0,\n    0,\n    0,\n    6,\n    1,\n    0,\n    9,\n    0,\n    0,\n    1,\n    6,\n    2,\n    0,\n    7,\n    6,\n    0,\n    4,\n    0,\n    0,\n    2,\n    6,\n    0,\n    4,\n    2,\n    3,\n    1,\n    0,\n    0,\n    5,\n    0,\n    0,\n    3,\n    0,\n    0,\n    1,\n    0,\n    0,\n    6,\n    0,\n    0,\n    0,\n    0,\n    0,\n    5,\n    2,\n    0,\n    2,\n    0,\n    0,\n    3,\n    0,\n    0,\n    6,\n    0,\n    0,\n    4,\n    2,\n    0,\n    5,\n    0,\n    0,\n    4\n  ],\n  \"tree_sha256\": \"1f7588f013945e63fe1c383840b9c5b82b8c4596c926b0435cc6374dffe00570\",\n  \"dataset\": \"cetaceans-mt-22\",\n  \"alignment_sha256\": \"38dfed59f4e72b2ca4bba24d76c8d457ed8d7fec7c317ed89424af2b25ec758b\",\n  \"profile\": \"unordered-unit-strict-v1\"\n}\n"
+  },
+  {
+    "task": "improve-ferula-nrdna-24",
+    "command": [
+      "python3",
+      "phylo.py",
+      "verify",
+      "ferula-nrdna-24",
+      "candidates/ferula-nrdna-24-best.nwk",
+      "--claim",
+      "141"
+    ],
+    "interpreter_substitution": false,
+    "returncode": 0,
+    "seconds": 0.47835799993481487,
+    "output": "0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    1,\n    0,\n    1,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    1,\n    1,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    1,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    1,\n    0,\n    0,\n    0,\n    0,\n    1,\n    0,\n    0,\n    0,\n    1,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    1,\n    1,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    1,\n    0,\n    1,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    1,\n    0,\n    0,\n    0,\n    2,\n    0,\n    0,\n    0,\n    0,\n    0,\n    1,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    1,\n    2,\n    0,\n    0,\n    0,\n    0,\n    0,\n    1,\n    0,\n    0,\n    1,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0\n  ],\n  \"tree_sha256\": \"e434732d22b4a99c8a884d6e6039a5400088e1de98f8c529c92218d91138c97b\",\n  \"dataset\": \"ferula-nrdna-24\",\n  \"alignment_sha256\": \"4220e5c763f2f5d9c1805744eed4f5c8cdab448905747e27fbea19db9b5509f3\",\n  \"profile\": \"unordered-unit-strict-v1\"\n}\n"
+  },
+  {
+    "task": "improve-ferula-plastid-24",
+    "command": [
+      "python3",
+      "phylo.py",
+      "verify",
+      "ferula-plastid-24",
+      "candidates/ferula-plastid-24-best.nwk",
+      "--claim",
+      "104"
+    ],
+    "interpreter_substitution": false,
+    "returncode": 0,
+    "seconds": 1.1414044169941917,
+    "output": "\n    0,\n    1,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    1,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    2,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    1,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    1,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    1,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0\n  ],\n  \"tree_sha256\": \"083d0667ded4cbe4e68d126c99fde9aa60cab8e3246a7133572438b606afe8a6\",\n  \"dataset\": \"ferula-plastid-24\",\n  \"alignment_sha256\": \"27a0e765fb5062575a18e44e333817b0aa31ac79d95508b6a352585bf48d2de6\",\n  \"profile\": \"unordered-unit-strict-v1\"\n}\n"
+  },
+  {
+    "task": "improve-pythonidae-12s-12",
+    "command": [
+      "python3",
+      "phylo.py",
+      "verify",
+      "pythonidae-12s-12",
+      "candidates/pythonidae-12s-12-best.nwk",
+      "--claim",
+      "112"
+    ],
+    "interpreter_substitution": false,
+    "returncode": 0,
+    "seconds": 0.15918620803859085,
+    "output": "\n    0,\n    0,\n    0,\n    1,\n    1,\n    1,\n    0,\n    2,\n    0,\n    0,\n    0,\n    2,\n    3,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    1,\n    1,\n    1,\n    0,\n    0,\n    0,\n    1,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    1,\n    0,\n    0,\n    0,\n    0,\n    1,\n    0,\n    0,\n    1,\n    1,\n    0,\n    3,\n    0,\n    0,\n    0,\n    3,\n    4,\n    2,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    2,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    3,\n    0,\n    0,\n    0,\n    0,\n    1,\n    0,\n    0,\n    0,\n    0,\n    1,\n    2,\n    2,\n    0,\n    2,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    1,\n    1,\n    0,\n    0,\n    0,\n    0,\n    0,\n    2,\n    0,\n    3,\n    0,\n    0,\n    0,\n    0,\n    0,\n    2,\n    0,\n    0,\n    1,\n    0,\n    0,\n    1,\n    0,\n    0,\n    0,\n    0,\n    0,\n    3,\n    5,\n    4,\n    1,\n    0,\n    1,\n    2,\n    1,\n    2,\n    2,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0\n  ],\n  \"tree_sha256\": \"cf08954eb7393188f4600bea5ce9890a92bddbf3628a8a1b69f4e1ab1daffe91\",\n  \"dataset\": \"pythonidae-12s-12\",\n  \"alignment_sha256\": \"ff9aa2fde7b277795da3e8cf5da196ea36ca7bbdb05529abeec89440280c2364\",\n  \"profile\": \"unordered-unit-strict-v1\"\n}\n"
+  },
+  {
+    "task": "improve-pythonidae-16s-12",
+    "command": [
+      "python3",
+      "phylo.py",
+      "verify",
+      "pythonidae-16s-12",
+      "results/donor-trial-001/spr-plateau.nwk",
+      "--claim",
+      "93"
+    ],
+    "interpreter_substitution": false,
+    "returncode": 0,
+    "seconds": 0.1846511249896139,
+    "output": "\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    1,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    2,\n    2,\n    4,\n    1,\n    0,\n    4,\n    0,\n    0,\n    0,\n    0,\n    0,\n    1,\n    1,\n    5,\n    2,\n    3,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    1,\n    2,\n    0,\n    2,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    1,\n    0,\n    0,\n    0,\n    0,\n    0,\n    3,\n    0,\n    1,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    3,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    1,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    1,\n    0,\n    0,\n    0\n  ],\n  \"tree_sha256\": \"d76a35c78dc80d65f2e30b43f28941bc2281982c773a8af722c20a1f495c4a82\",\n  \"dataset\": \"pythonidae-16s-12\",\n  \"alignment_sha256\": \"e8a029504a8a4fc2f843c84f743dc708ec17e502ca1c0488d79a6ce1e1c7fdc9\",\n  \"profile\": \"unordered-unit-strict-v1\"\n}\n"
+  },
+  {
+    "task": "improve-pythonidae-cytb-29",
+    "command": [
+      "python3",
+      "phylo.py",
+      "verify",
+      "pythonidae-cytb-29",
+      "candidates/pythonidae-cytb-29-best.nwk",
+      "--claim",
+      "2005"
+    ],
+    "interpreter_substitution": false,
+    "returncode": 0,
+    "seconds": 0.4785541669698432,
+    "output": "\n    0,\n    0,\n    4,\n    0,\n    0,\n    1,\n    2,\n    0,\n    3,\n    8,\n    5,\n    7,\n    4,\n    0,\n    10,\n    0,\n    0,\n    7,\n    2,\n    0,\n    11,\n    1,\n    0,\n    0,\n    0,\n    0,\n    6,\n    0,\n    0,\n    3,\n    0,\n    0,\n    7,\n    0,\n    0,\n    8,\n    4,\n    0,\n    10,\n    2,\n    2,\n    0,\n    0,\n    0,\n    4,\n    0,\n    5,\n    0,\n    2,\n    2,\n    0,\n    0,\n    8,\n    0,\n    0,\n    0,\n    2,\n    1,\n    1,\n    7,\n    0,\n    2,\n    9,\n    0,\n    12,\n    3,\n    0,\n    2,\n    0,\n    0,\n    1,\n    0,\n    0,\n    7,\n    2,\n    4,\n    3,\n    0,\n    1,\n    7,\n    0,\n    0,\n    7,\n    0,\n    0,\n    1,\n    0,\n    0,\n    6,\n    1,\n    1,\n    5,\n    0,\n    0,\n    1,\n    0,\n    1,\n    0,\n    0,\n    0,\n    2,\n    0,\n    0,\n    5,\n    0,\n    0,\n    0,\n    0,\n    0,\n    2,\n    0,\n    0,\n    7,\n    0,\n    0,\n    1,\n    0,\n    5,\n    8,\n    0,\n    1,\n    6,\n    7,\n    8,\n    8,\n    0,\n    0,\n    8,\n    0,\n    0,\n    3,\n    0,\n    0,\n    1,\n    4,\n    9,\n    2,\n    1,\n    0,\n    10,\n    5,\n    0,\n    0,\n    5,\n    3,\n    5,\n    4,\n    1,\n    4,\n    0,\n    0,\n    4,\n    0,\n    0,\n    2,\n    1,\n    2,\n    5,\n    0,\n    1,\n    3,\n    0,\n    0,\n    5,\n    5,\n    1,\n    5,\n    3,\n    1,\n    8,\n    1,\n    7,\n    4,\n    0,\n    0,\n    7,\n    5,\n    0,\n    8,\n    4,\n    2,\n    6,\n    0,\n    0,\n    10,\n    0,\n    0,\n    5,\n    7,\n    4,\n    7\n  ],\n  \"tree_sha256\": \"fc91b38eabacc0e436adb08e4c2ce952416aa9f48ca2575b568011d05cfc0bd2\",\n  \"dataset\": \"pythonidae-cytb-29\",\n  \"alignment_sha256\": \"a2b9ce35d41a6173020f3f0a03647a771ad7d5423e7a69182ac8cf1d15a21eca\",\n  \"profile\": \"unordered-unit-strict-v1\"\n}\n"
+  },
+  {
+    "task": "paired-heuristics",
+    "command": [
+      "python3",
+      "scripts/progress.py"
+    ],
+    "interpreter_substitution": false,
+    "returncode": 0,
+    "seconds": 3.6057863750029355,
+    "output": "set\": \"phylip-dnapenny\",\n      \"seeds\": 20,\n      \"cap\": 600,\n      \"nni_mean\": 11.55,\n      \"two_nni_mean\": 8.65,\n      \"two_nni_wins\": 17,\n      \"ties\": 3,\n      \"two_nni_losses\": 0,\n      \"target\": 8,\n      \"target_proven\": true,\n      \"nni_hits\": 0,\n      \"two_nni_hits\": 11\n    },\n    {\n      \"dataset\": \"pythonidae-cytb-12\",\n      \"seeds\": 20,\n      \"cap\": 600,\n      \"nni_mean\": 591.35,\n      \"two_nni_mean\": 587.05,\n      \"two_nni_wins\": 11,\n      \"ties\": 9,\n      \"two_nni_losses\": 0,\n      \"target\": 575,\n      \"target_proven\": false,\n      \"nni_hits\": 0,\n      \"two_nni_hits\": 0\n    }\n  ],\n  \"ferula_comparison\": [\n    {\n      \"ntax\": 6,\n      \"raw_rf_distance\": 4,\n      \"nuclear_alignment\": {\n        \"nuclear_tree\": 61,\n        \"plastid_tree\": 70\n      },\n      \"plastid_alignment\": {\n        \"nuclear_tree\": 29,\n        \"plastid_tree\": 27\n      }\n    },\n    {\n      \"ntax\": 12,\n      \"raw_rf_distance\": 16,\n      \"nuclear_alignment\": {\n        \"nuclear_tree\": 82,\n        \"plastid_tree\": 113\n      },\n      \"plastid_alignment\": {\n        \"nuclear_tree\": 47,\n        \"plastid_tree\": 39\n      }\n    },\n    {\n      \"ntax\": 24,\n      \"raw_rf_distance\": 38,\n      \"nuclear_alignment\": {\n        \"nuclear_tree\": 141,\n        \"plastid_tree\": 208\n      },\n      \"plastid_alignment\": {\n        \"nuclear_tree\": 128,\n        \"plastid_tree\": 104\n      }\n    }\n  ],\n  \"caution\": \"Scores are comparable only within one alignment. RF is descriptive, not support. Lower parsimony score does not prove true evolutionary history. These are automated probes, not observed donor-session success rates.\"\n}\n"
+  },
+  {
+    "task": "mature-baselines",
+    "command": [
+      "python3",
+      "phylo.py",
+      "verify",
+      "pythonidae-16s-12",
+      "results/donor-trial-001/spr-plateau.nwk",
+      "--claim",
+      "93"
+    ],
+    "interpreter_substitution": false,
+    "returncode": 0,
+    "seconds": 0.1846511249896139,
+    "output": "\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    1,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    2,\n    2,\n    4,\n    1,\n    0,\n    4,\n    0,\n    0,\n    0,\n    0,\n    0,\n    1,\n    1,\n    5,\n    2,\n    3,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    1,\n    2,\n    0,\n    2,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    1,\n    0,\n    0,\n    0,\n    0,\n    0,\n    3,\n    0,\n    1,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    3,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    1,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    1,\n    0,\n    0,\n    0\n  ],\n  \"tree_sha256\": \"d76a35c78dc80d65f2e30b43f28941bc2281982c773a8af722c20a1f495c4a82\",\n  \"dataset\": \"pythonidae-16s-12\",\n  \"alignment_sha256\": \"e8a029504a8a4fc2f843c84f743dc708ec17e502ca1c0488d79a6ce1e1c7fdc9\",\n  \"profile\": \"unordered-unit-strict-v1\"\n}\n"
+  },
+  {
+    "task": "bound-pairs",
+    "command": [
+      "python3",
+      "phylo.py",
+      "verify-bound",
+      "pythonidae-cytb-12",
+      "results/pythonidae-cytb-12-bound.json"
+    ],
+    "interpreter_substitution": false,
+    "returncode": 0,
+    "seconds": 0.10867058299481869,
+    "output": "{\"valid\": true, \"bound\": 392}\n"
+  },
+  {
+    "task": "audit-verifier",
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "interpreter_substitution": false,
+    "returncode": 0,
+    "seconds": 6.386100542033091,
+    "output": "taxa (test_phylo.TestInputsAndSearch.test_cli_rejects_wrong_score_and_taxa) ... ok\ntest_reproducible_search (test_phylo.TestInputsAndSearch.test_reproducible_search) ... ok\ntest_strict_fasta (test_phylo.TestInputsAndSearch.test_strict_fasta) ... ok\ntest_all_quartet_patterns_against_brute_ancestral_assignments (test_phylo.TestScoring.test_all_quartet_patterns_against_brute_ancestral_assignments) ... ok\ntest_exhaustive_count_formula (test_phylo.TestScoring.test_exhaustive_count_formula) ... ok\ntest_identical_constant_and_informative_sites (test_phylo.TestScoring.test_identical_constant_and_informative_sites) ... ok\ntest_published_scores_and_exhaustive_optima (test_phylo.TestScoring.test_published_scores_and_exhaustive_optima) ... ok\ntest_random_multistate_patterns (test_phylo.TestScoring.test_random_multistate_patterns) ... ok\ntest_graph_rejection (test_phylo.TestStructure.test_graph_rejection) ... ok\ntest_nni_degree_uniqueness_and_connectivity (test_phylo.TestStructure.test_nni_degree_uniqueness_and_connectivity) ... ok\ntest_prune (test_phylo.TestStructure.test_prune) ... ok\ntest_reject_newick (test_phylo.TestStructure.test_reject_newick) ... ok\ntest_root_and_order_invariance (test_phylo.TestStructure.test_root_and_order_invariance) ... ok\ntest_budget_replay_and_global_small_control (test_spr.SPRChecks.test_budget_replay_and_global_small_control) ... ok\ntest_small_neighborhoods_reverse_nni_and_scoring (test_spr.SPRChecks.test_small_neighborhoods_reverse_nni_and_scoring) ... ok\n\n----------------------------------------------------------------------\nRan 18 tests in 6.250s\n\nOK\n"
+  },
+  {
+    "task": "interpret-ferula",
+    "command": [
+      "python3",
+      "scripts/progress.py"
+    ],
+    "interpreter_substitution": false,
+    "returncode": 0,
+    "seconds": 3.6057863750029355,
+    "output": "set\": \"phylip-dnapenny\",\n      \"seeds\": 20,\n      \"cap\": 600,\n      \"nni_mean\": 11.55,\n      \"two_nni_mean\": 8.65,\n      \"two_nni_wins\": 17,\n      \"ties\": 3,\n      \"two_nni_losses\": 0,\n      \"target\": 8,\n      \"target_proven\": true,\n      \"nni_hits\": 0,\n      \"two_nni_hits\": 11\n    },\n    {\n      \"dataset\": \"pythonidae-cytb-12\",\n      \"seeds\": 20,\n      \"cap\": 600,\n      \"nni_mean\": 591.35,\n      \"two_nni_mean\": 587.05,\n      \"two_nni_wins\": 11,\n      \"ties\": 9,\n      \"two_nni_losses\": 0,\n      \"target\": 575,\n      \"target_proven\": false,\n      \"nni_hits\": 0,\n      \"two_nni_hits\": 0\n    }\n  ],\n  \"ferula_comparison\": [\n    {\n      \"ntax\": 6,\n      \"raw_rf_distance\": 4,\n      \"nuclear_alignment\": {\n        \"nuclear_tree\": 61,\n        \"plastid_tree\": 70\n      },\n      \"plastid_alignment\": {\n        \"nuclear_tree\": 29,\n        \"plastid_tree\": 27\n      }\n    },\n    {\n      \"ntax\": 12,\n      \"raw_rf_distance\": 16,\n      \"nuclear_alignment\": {\n        \"nuclear_tree\": 82,\n        \"plastid_tree\": 113\n      },\n      \"plastid_alignment\": {\n        \"nuclear_tree\": 47,\n        \"plastid_tree\": 39\n      }\n    },\n    {\n      \"ntax\": 24,\n      \"raw_rf_distance\": 38,\n      \"nuclear_alignment\": {\n        \"nuclear_tree\": 141,\n        \"plastid_tree\": 208\n      },\n      \"plastid_alignment\": {\n        \"nuclear_tree\": 128,\n        \"plastid_tree\": 104\n      }\n    }\n  ],\n  \"caution\": \"Scores are comparable only within one alignment. RF is descriptive, not support. Lower parsimony score does not prove true evolutionary history. These are automated probes, not observed donor-session success rates.\"\n}\n"
+  }
+]

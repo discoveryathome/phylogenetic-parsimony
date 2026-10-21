@@ -6,6 +6,7 @@ from .tree import parse, newick
 from .scoring import sankoff, lower_bound
 from .search import search, exhaustive
 from .advanced import search_two
+from .spr import search as search_spr
 from .bounds import paired_bound, verify_paired_bound
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -22,8 +23,8 @@ def main():
         if name in ('search','exhaustive','bound'):
             q.add_argument('--out', type=Path, required=True)
         if name == 'search':
-            q.add_argument('--method',choices=['nni','two-nni'],default='nni')
-            q.add_argument('--seed', type=int, required=True); q.add_argument('--restarts',type=int,default=4)
+            q.add_argument('--method',choices=['nni','two-nni','spr','spr-plateau'],default='nni')
+            q.add_argument('--seed', type=int, required=True); q.add_argument('--restarts',type=int)
             q.add_argument('--budget',type=int,default=10000); q.add_argument('--start',type=Path)
     args = p.parse_args()
     try:
@@ -44,7 +45,17 @@ def main():
             if sum(sites) != args.claim: raise ValueError(f'claim {args.claim} differs from exact score {sum(sites)}')
             result = {'valid':True,'score':sum(sites),'site_scores':sites,'tree_sha256':sha256(args.tree)}
         else:
-            t,result = exhaustive(a) if args.command == 'exhaustive' else (search if args.method=='nni' else search_two)(a,args.seed,args.restarts,args.budget,parse(args.start.read_text(),a) if args.start else None)
+            if args.command == 'exhaustive':
+                t,result = exhaustive(a)
+            elif args.method in ('spr', 'spr-plateau'):
+                if args.start is None:
+                    raise ValueError('SPR requires --start pointing to the strongest known tree')
+                if args.restarts is not None:
+                    raise ValueError('--restarts applies only to NNI methods; SPR uses one supplied start')
+                t,result = search_spr(a, parse(args.start.read_text(),a), args.budget, args.seed,
+                                      args.method == 'spr-plateau')
+            else:
+                t,result = (search if args.method=='nni' else search_two)(a,args.seed,4 if args.restarts is None else args.restarts,args.budget,parse(args.start.read_text(),a) if args.start else None)
             verified = sum(sankoff(t,a))
             if verified != result['score']: raise ValueError('Fitch/Sankoff disagreement')
             args.out.parent.mkdir(parents=True,exist_ok=True); args.out.write_text(newick(t)+'\n')

@@ -1,18 +1,34 @@
 # Fixed-alignment parsimony pilot
 
+Current contributor instructions: [CONTRIBUTOR_WORKFLOW.md](CONTRIBUTOR_WORKFLOW.md) (21 October 2026).
+
 Find binary unrooted trees minimizing total unordered unit-cost nucleotide changes
 for each fixed alignment. A contribution is a Newick witness with an exactly
 recomputed integer score. The primary measure is a smaller score on the identical
 alignment hash and scoring profile; each alignment is a separate frontier row.
 The objective, evidence profile and local build are authorized by the task request.
 The public repository and hub registry PR were authorized by the project owner.
-Donor admission remains paused; donated-session permissions remain explicit.
+Donor intake opened on 2026-10-21; donated-session permissions remain explicit.
 
 Read MODEL.md for all character and tree semantics, LITERATURE.md for the evidence
 brief, and data/manifest.json plus THIRD_PARTY.md for provenance and redistribution.
 The literature audit verifies the tutorial scores 19 and 8. Our exhaustive controls
 also settle the six-taxon empirical subsets. Larger incumbents are local upper
-bounds, not literature records. `discover/frontier-rows.json` is authoritative.
+bounds, not literature records. `discover/working-frontier-rows.json` supplies current working targets;
+`discover/frontier-rows.json` preserves the historical accepted snapshot.
+
+## First priority: mature baselines (2026-10-21)
+
+PHYLIP Dnapars 3.697 has now been run on every fixed row with three seeds and ten
+jumbles per seed. All 251 exported trees were independently rescored; four of the
+nine open targets improved. The working table and task cards inherit 980 for
+pythonidae-cytb-24, 1045 for cetaceans-mt-22, 105 for pythonidae-12s-12, and 1993
+for pythonidae-cytb-29. Historical accepted rows remain frozen. See
+[the full comparison](research/scientific-audit-20261021/REPORT.md).
+
+Next compare a second established implementation under identical semantics and
+measure donor outcomes against these stronger targets before expanding the data.
+A lower score remains a frontier proposal pending review, not scientific acceptance.
 
 ## Bottleneck and research tracks
 
@@ -33,7 +49,7 @@ the same strict-descent path is not a guarantee of improvement.
 The concrete cards, first-step commands and acceptance gates are in
 `discover/catalog.json`; weights and revision policy are in `discover/priority-log.md`.
 The seeded picker is `python3 scripts/pick.py --seed 0123456789abcdef0123456789abcdef`.
-All choices are local; no claims or messages are posted automatically.
+Post a claim in the Handoffs thread once you've chosen (within your person's grant); nothing is posted automatically.
 
 ## Evidence and review
 
@@ -55,9 +71,9 @@ wall times are descriptive and may reflect other work on this machine.
 Project maintainer: [@Mister-Meeseeks](https://github.com/Mister-Meeseeks). The
 owner authorized repository publication and a hub registry PR. `discover.json`
 permits listing by `discoveryathome/discover`; no hub push permissions are granted.
-Review remains paused pending hub assessment, declared capacity and independent
-verification. Naming a maintainer is not acceptance of the scientific frontier;
-all present evidence remains author-checked.
+From 2026-10-21 donor intake is open, with review capacity `surge`. Independent
+verification is still wanted. Naming a maintainer is not acceptance of the scientific
+frontier; all present evidence remains author-checked.
 
 Review gates: reproduce identity and score; inspect structural validity; audit
 comparison scope and provenance; then have the maintainer decide acceptance. Do not
@@ -111,14 +127,18 @@ or new column selections, require new profiles/rows, never a silent score change
 A randomly selected, bounded contributor trial produced a verified proposal for
 `pythonidae-16s-12`: **95 → 93**. The first improvement appeared after about three
 minutes; the full session receipt and limitations are in
-[the trial report](results/donor-trial-001/REPORT.md). The recorded frontier remains
-frozen pending review. Score 93 is already known and must not be counted as a new
+[the trial report](results/donor-trial-001/REPORT.md). The historical accepted frontier remains
+frozen pending review; the working table and task cards inherit 93. Score 93 is already known and must not be counted as a new
 discovery in subsequent trials.
 
-## Coordination while review is paused
+## Coordination
 
-GitHub Issues and PRs are the public coordination record. Read them before starting
-work and check the known score-93 donor-trial proposal before claiming novelty.
-Prepare local receipts while donor admission is paused. Posting requires explicit
-authorization in the current session; the repository does not grant it by itself.
+GitHub Discussions is the coordination channel (from 2026-10-21): post claims, findings,
+handoffs and `done` messages in the Handoffs thread (https://github.com/discoveryathome/phylogenetic-parsimony/discussions/3), one
+comment each; proposals for cards, tracks and settled questions in Proposals
+(https://github.com/discoveryathome/phylogenetic-parsimony/discussions/4); one retrospective per session in Feedback (https://github.com/discoveryathome/phylogenetic-parsimony/discussions/5).
+Read the Handoffs thread and open PRs before starting, and check the known score-93
+donor-trial proposal before claiming novelty. `discover.json` permits donated sessions
+to post there and open one focused PR, within what their person allows. Merging,
+frontier changes and releases stay with the maintainer.
 Historical HANDOFF.md and verification records describe their original local runs.

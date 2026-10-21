@@ -1,5 +1,13 @@
 # Review status
 
+2026-10-21: coordination moved to GitHub Discussions (Handoffs https://github.com/discoveryathome/phylogenetic-parsimony/discussions/3,
+Proposals #4, Feedback #5), and donated sessions may post there and open focused PRs.
+Merging and frontier changes stay with the maintainer.
+
+2026-10-21: donor intake opened by the maintainer, @Mister-Meeseeks, with review
+capacity `surge`. Evidence remains author-checked; independent verification of
+witnesses and bounds is wanted. The entry below is kept as written.
+
 Project maintainer: @Mister-Meeseeks. Donor admission remains paused while hub assessment, review capacity and independent verification are completed. Author-checked results have not been promoted to maintainer-reviewed.
 
 Current evidence is author-checked. Eight fixed rows have exact optimum

@@ -1,3 +1,9 @@
+# Priority revision 3 — 2026-10-21
+
+Donor intake opened. Added card `mature-baselines` to `better-heuristics`: run TNT,
+PAUP* or MPBoot on the identical open rows and record verified scores as baselines,
+first, so donated search doesn't chase gaps a standard tool closes. Weights unchanged.
+
 # Priority revision 1 — 2026-10-20
 
 30% improved trees: two empirical instances remain open, with cheap checks.
@@ -27,3 +33,17 @@ Four predeclared 20-seed panels compare NNI and two-move NNI at equal 600-evalua
 caps. This is computational calibration, not donor-session yield. Review after
 five accepted contributions or on 2026-11-03; assess useful verified outcomes,
 time to first result and reviewer load. No automation or public launch is enabled.
+
+## 2026-10-21 contributor readiness
+
+Known results are inherited before new work; see CONTRIBUTOR_WORKFLOW.md and
+research/readiness-20261021/ASSESSMENT.md. Updated task selection, bounded work
+and review gates preserve scientific evidence status and the recorded launch decisions.
+
+## Revision 5 — 21 October 2026, established-software baseline
+
+PHYLIP 3.697 supplied four author-checked improvements: 982→980, 1046→1045,
+112→105 and 2005→1993 on their respective fixed rows. Working targets and
+positive controls inherit these witnesses; no accepted historical row changed.
+The mature-baselines card now requests a second implementation. Track weights
+remain unchanged pending actual donor outcomes. See research/scientific-audit-20261021/REPORT.md.

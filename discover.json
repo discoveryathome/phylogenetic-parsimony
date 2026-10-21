@@ -4,7 +4,9 @@
   "summary": "Exact scoring and reproducible search for fixed-alignment nucleotide phylogenies. Seventeen alignment frontiers; source-backed public datasets; no biological truth claim.",
   "domains": [
     "phylogenetics",
-    "combinatorial-optimization"
+    "combinatorial-optimization",
+    "life-sciences",
+    "algorithms"
   ],
   "license": "MIT",
   "maintainers": [
@@ -25,8 +27,8 @@
   "priority_log": "discover/priority-log.md",
   "verification_profile": "exact-certificate",
   "permissions": {
-    "post_messages": false,
-    "open_prs": false,
+    "post_messages": true,
+    "open_prs": true,
     "maintainer_only": [
       "merge",
       "change-frontier",
@@ -43,8 +45,9 @@
     ]
   },
   "review": {
-    "paused": true,
-    "note": "Project maintainer: @Mister-Meeseeks. Donor admission remains paused while hub assessment, review capacity and independent verification are completed. Author-checked results have not been promoted to maintainer-reviewed."
+    "per_week": "surge",
+    "paused": false,
+    "note": "Project maintainer: @Mister-Meeseeks. Donor intake opened 2026-10-21. Author-checked results have not been promoted to maintainer-reviewed; independent verification of witnesses and bounds is wanted."
   },
   "requirements": {
     "note": "Python 3.10+ standard library only, no network needed to verify",
@@ -73,7 +76,15 @@
     }
   ],
   "coordination": {
-    "transport": "github-issues",
+    "transport": "github-discussions",
+    "threads": {
+      "start": 2,
+      "handoffs": 3,
+      "proposals": 4,
+      "feedback": 5
+    },
     "claim_ttl_minutes": 120
-  }
+  },
+  "packages": "research/*/",
+  "ledger": "discover/review.md"
 }
