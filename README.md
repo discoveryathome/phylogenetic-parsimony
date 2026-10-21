@@ -1,5 +1,7 @@
 # Maximum-parsimony phylogenetic trees — research pilot
 
+Current contributor instructions: [CONTRIBUTOR_WORKFLOW.md](CONTRIBUTOR_WORKFLOW.md) (21 October 2026).
+
 Given a fixed nucleotide alignment, find a binary unrooted Newick tree minimizing
 character-state changes. **Lower parsimony score does not prove that the tree
 reflects true evolutionary history.** Each fixed alignment has its own frontier.

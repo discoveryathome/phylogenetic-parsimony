@@ -1,0 +1,326 @@
+[
+  {
+    "dataset": "phylip-dnapars",
+    "alignment_sha256": "f82346adfba3de6e695dc02b2bdd95a72a6ee2b90235727ed92da3fc3e272d9f",
+    "profile": "unordered-unit-strict-v1",
+    "score": 19,
+    "lower_bound": 19,
+    "tree": "candidates/phylip-dnapars-best.nwk",
+    "tree_sha256": "43fdf39837818895b5cdc48d6c1ed4acd378b670a2bc49be11f531c2f9412b9c",
+    "baseline_score": 19,
+    "published_score": 19,
+    "bound_method": "exhaustive",
+    "bound_evidence": "results/phylip-dnapars-exhaustive.json",
+    "status": "settled",
+    "evidence_level": [
+      "author-checked"
+    ],
+    "scope": "Only this fixed alignment and scoring profile; not a claim of biological truth",
+    "reproduce": "python3 phylo.py verify phylip-dnapars candidates/phylip-dnapars-best.nwk --claim 19"
+  },
+  {
+    "dataset": "phylip-dnapenny",
+    "alignment_sha256": "adc27b586fcb80d40decf882e49ebaf62ef896855cfeea1a49bfa8a702a23d34",
+    "profile": "unordered-unit-strict-v1",
+    "score": 8,
+    "lower_bound": 8,
+    "tree": "candidates/phylip-dnapenny-best.nwk",
+    "tree_sha256": "881ed8e5414329ff81bd685040259345f8253dd664cd9adb8bb6e814d5f88e7f",
+    "baseline_score": 8,
+    "published_score": 8,
+    "bound_method": "exhaustive",
+    "bound_evidence": "results/phylip-dnapenny-exhaustive.json",
+    "status": "settled",
+    "evidence_level": [
+      "author-checked"
+    ],
+    "scope": "Only this fixed alignment and scoring profile; not a claim of biological truth",
+    "reproduce": "python3 phylo.py verify phylip-dnapenny candidates/phylip-dnapenny-best.nwk --claim 8"
+  },
+  {
+    "dataset": "pythonidae-cytb-6",
+    "alignment_sha256": "d82b62246ccb270ed277da6dfb5358d1aa1e5c0b91af90bd2c5b827b485645fe",
+    "profile": "unordered-unit-strict-v1",
+    "score": 343,
+    "lower_bound": 343,
+    "tree": "candidates/pythonidae-cytb-6-best.nwk",
+    "tree_sha256": "77033a32510547f989272a9b8ddb8fbddd695f08db0fd2a52cc1def3b8896560",
+    "baseline_score": 343,
+    "published_score": null,
+    "bound_method": "exhaustive",
+    "bound_evidence": "results/pythonidae-cytb-6-exhaustive.json",
+    "status": "settled",
+    "evidence_level": [
+      "author-checked"
+    ],
+    "scope": "Only this fixed alignment and scoring profile; not a claim of biological truth",
+    "reproduce": "python3 phylo.py verify pythonidae-cytb-6 candidates/pythonidae-cytb-6-best.nwk --claim 343"
+  },
+  {
+    "dataset": "pythonidae-cytb-12",
+    "alignment_sha256": "b5b57b5a2eec060601144a090d0f68c6ebaee9164089dfe6c518c0a6f43c891e",
+    "profile": "unordered-unit-strict-v1",
+    "score": 575,
+    "lower_bound": 392,
+    "tree": "candidates/pythonidae-cytb-12-best.nwk",
+    "tree_sha256": "80148b17fd92624a25fd923cb2fb90a481e746000a3a1d391ab615c028377b8c",
+    "baseline_score": 591,
+    "published_score": null,
+    "bound_method": "incompatible-pairs",
+    "bound_evidence": "results/pythonidae-cytb-12-bound.json",
+    "status": "open",
+    "evidence_level": [
+      "author-checked"
+    ],
+    "scope": "Only this fixed alignment and scoring profile; not a claim of biological truth",
+    "reproduce": "python3 phylo.py verify pythonidae-cytb-12 candidates/pythonidae-cytb-12-best.nwk --claim 575"
+  },
+  {
+    "dataset": "pythonidae-cytb-24",
+    "alignment_sha256": "df4044ec22a8f0b4ae44fc0a5ae51903ff2fff0eb53f8056ca988784ebc47a42",
+    "profile": "unordered-unit-strict-v1",
+    "score": 982,
+    "lower_bound": 466,
+    "tree": "candidates/pythonidae-cytb-24-best.nwk",
+    "tree_sha256": "c0c319bd8d6c633385c756a094ef07e18d3d5d501562e2aa97902a96dab4cc5d",
+    "baseline_score": 1013,
+    "published_score": null,
+    "bound_method": "incompatible-pairs",
+    "bound_evidence": "results/pythonidae-cytb-24-bound.json",
+    "status": "open",
+    "evidence_level": [
+      "author-checked"
+    ],
+    "scope": "Only this fixed alignment and scoring profile; not a claim of biological truth",
+    "reproduce": "python3 phylo.py verify pythonidae-cytb-24 candidates/pythonidae-cytb-24-best.nwk --claim 982"
+  },
+  {
+    "dataset": "cetaceans-mt-6",
+    "alignment_sha256": "39bff0eadc0010ee4c408d4eb60d9e6f5345ec35d34728aa23c0b529484eeb85",
+    "profile": "unordered-unit-strict-v1",
+    "score": 291,
+    "lower_bound": 291,
+    "tree": "candidates/cetaceans-mt-6-best.nwk",
+    "tree_sha256": "e131c37e8d7c205f5d064983105076ef3accb014684be08757e7bc401fdcde30",
+    "baseline_score": 291,
+    "published_score": null,
+    "bound_method": "exhaustive",
+    "bound_evidence": "results/cetaceans-mt-6-exhaustive.json",
+    "status": "settled",
+    "evidence_level": [
+      "author-checked"
+    ],
+    "scope": "Only this fixed alignment and scoring profile; not a claim of biological truth",
+    "reproduce": "python3 phylo.py verify cetaceans-mt-6 candidates/cetaceans-mt-6-best.nwk --claim 291"
+  },
+  {
+    "dataset": "cetaceans-mt-12",
+    "alignment_sha256": "05ce81fa8c117bf6de9ca69b07d292327c1f61cac6f5eef6d0bfca54021a5618",
+    "profile": "unordered-unit-strict-v1",
+    "score": 493,
+    "lower_bound": 398,
+    "tree": "candidates/cetaceans-mt-12-best.nwk",
+    "tree_sha256": "af88d617eaf0bc616e388d4656b951c42c051ca354f2ec14cbd453bc07ea8daa",
+    "baseline_score": 493,
+    "published_score": null,
+    "bound_method": "incompatible-pairs",
+    "bound_evidence": "results/cetaceans-mt-12-bound.json",
+    "status": "open",
+    "evidence_level": [
+      "author-checked"
+    ],
+    "scope": "Only this fixed alignment and scoring profile; not a claim of biological truth",
+    "reproduce": "python3 phylo.py verify cetaceans-mt-12 candidates/cetaceans-mt-12-best.nwk --claim 493"
+  },
+  {
+    "dataset": "cetaceans-mt-22",
+    "alignment_sha256": "38dfed59f4e72b2ca4bba24d76c8d457ed8d7fec7c317ed89424af2b25ec758b",
+    "profile": "unordered-unit-strict-v1",
+    "score": 1046,
+    "lower_bound": 595,
+    "tree": "candidates/cetaceans-mt-22-best.nwk",
+    "tree_sha256": "1f7588f013945e63fe1c383840b9c5b82b8c4596c926b0435cc6374dffe00570",
+    "baseline_score": 1050,
+    "published_score": null,
+    "bound_method": "incompatible-pairs",
+    "bound_evidence": "results/cetaceans-mt-22-bound.json",
+    "status": "open",
+    "evidence_level": [
+      "author-checked"
+    ],
+    "scope": "Only this fixed alignment and scoring profile; not a claim of biological truth",
+    "reproduce": "python3 phylo.py verify cetaceans-mt-22 candidates/cetaceans-mt-22-best.nwk --claim 1046"
+  },
+  {
+    "dataset": "ferula-nrdna-6",
+    "alignment_sha256": "51219f8e4c9b0fcd35ccabef63f679034870f51a3bac765c61166f16f0aeb6b9",
+    "profile": "unordered-unit-strict-v1",
+    "score": 61,
+    "lower_bound": 61,
+    "tree": "candidates/ferula-nrdna-6-best.nwk",
+    "tree_sha256": "f110ec7795bec77394d2fb0d779c8469a33af4b1b5902d79091108e4c29564b8",
+    "baseline_score": 61,
+    "published_score": null,
+    "bound_method": "exhaustive",
+    "bound_evidence": "results/ferula-nrdna-6-exhaustive.json",
+    "status": "settled",
+    "evidence_level": [
+      "author-checked"
+    ],
+    "scope": "Only this fixed alignment and scoring profile; not a claim of biological truth",
+    "reproduce": "python3 phylo.py verify ferula-nrdna-6 candidates/ferula-nrdna-6-best.nwk --claim 61"
+  },
+  {
+    "dataset": "ferula-nrdna-12",
+    "alignment_sha256": "7164789276ee0eb7c24c8a4a650f4ed29485220ab521e2d6e4e1b8631316f215",
+    "profile": "unordered-unit-strict-v1",
+    "score": 82,
+    "lower_bound": 82,
+    "tree": "candidates/ferula-nrdna-12-best.nwk",
+    "tree_sha256": "c66c4a6c36b6d6f63780ac61bd348be5ecd468a4d749f9622020ddf96f34991e",
+    "baseline_score": 82,
+    "published_score": null,
+    "bound_method": "incompatible-pairs",
+    "bound_evidence": "results/ferula-nrdna-12-bound.json",
+    "status": "settled",
+    "evidence_level": [
+      "author-checked"
+    ],
+    "scope": "Only this fixed alignment and scoring profile; not a claim of biological truth",
+    "reproduce": "python3 phylo.py verify ferula-nrdna-12 candidates/ferula-nrdna-12-best.nwk --claim 82"
+  },
+  {
+    "dataset": "ferula-nrdna-24",
+    "alignment_sha256": "4220e5c763f2f5d9c1805744eed4f5c8cdab448905747e27fbea19db9b5509f3",
+    "profile": "unordered-unit-strict-v1",
+    "score": 141,
+    "lower_bound": 138,
+    "tree": "candidates/ferula-nrdna-24-best.nwk",
+    "tree_sha256": "e434732d22b4a99c8a884d6e6039a5400088e1de98f8c529c92218d91138c97b",
+    "baseline_score": 141,
+    "published_score": null,
+    "bound_method": "incompatible-pairs",
+    "bound_evidence": "results/ferula-nrdna-24-bound.json",
+    "status": "open",
+    "evidence_level": [
+      "author-checked"
+    ],
+    "scope": "Only this fixed alignment and scoring profile; not a claim of biological truth",
+    "reproduce": "python3 phylo.py verify ferula-nrdna-24 candidates/ferula-nrdna-24-best.nwk --claim 141"
+  },
+  {
+    "dataset": "ferula-plastid-6",
+    "alignment_sha256": "baab4eed0303d9840b6f96172f1d8ea53e4333bbeb2a3c53e11f7a02c78ac59f",
+    "profile": "unordered-unit-strict-v1",
+    "score": 27,
+    "lower_bound": 27,
+    "tree": "candidates/ferula-plastid-6-best.nwk",
+    "tree_sha256": "d5e1be9f22fd8450652f21e463908678ed47e8d15f69e494309eacedd61228c3",
+    "baseline_score": 27,
+    "published_score": null,
+    "bound_method": "exhaustive",
+    "bound_evidence": "results/ferula-plastid-6-exhaustive.json",
+    "status": "settled",
+    "evidence_level": [
+      "author-checked"
+    ],
+    "scope": "Only this fixed alignment and scoring profile; not a claim of biological truth",
+    "reproduce": "python3 phylo.py verify ferula-plastid-6 candidates/ferula-plastid-6-best.nwk --claim 27"
+  },
+  {
+    "dataset": "ferula-plastid-12",
+    "alignment_sha256": "2e993f5f0d11de98611cab432f7d990b88fcc00c82b05fb24a7031b5e44980bc",
+    "profile": "unordered-unit-strict-v1",
+    "score": 39,
+    "lower_bound": 39,
+    "tree": "candidates/ferula-plastid-12-best.nwk",
+    "tree_sha256": "639bd655fba6ac64e4cbf10fcdf2b5252dfec6d8170a3fcafcad22e6e3f29999",
+    "baseline_score": 39,
+    "published_score": null,
+    "bound_method": "incompatible-pairs",
+    "bound_evidence": "results/ferula-plastid-12-bound.json",
+    "status": "settled",
+    "evidence_level": [
+      "author-checked"
+    ],
+    "scope": "Only this fixed alignment and scoring profile; not a claim of biological truth",
+    "reproduce": "python3 phylo.py verify ferula-plastid-12 candidates/ferula-plastid-12-best.nwk --claim 39"
+  },
+  {
+    "dataset": "ferula-plastid-24",
+    "alignment_sha256": "27a0e765fb5062575a18e44e333817b0aa31ac79d95508b6a352585bf48d2de6",
+    "profile": "unordered-unit-strict-v1",
+    "score": 104,
+    "lower_bound": 102,
+    "tree": "candidates/ferula-plastid-24-best.nwk",
+    "tree_sha256": "083d0667ded4cbe4e68d126c99fde9aa60cab8e3246a7133572438b606afe8a6",
+    "baseline_score": 105,
+    "published_score": null,
+    "bound_method": "incompatible-pairs",
+    "bound_evidence": "results/ferula-plastid-24-bound.json",
+    "status": "open",
+    "evidence_level": [
+      "author-checked"
+    ],
+    "scope": "Only this fixed alignment and scoring profile; not a claim of biological truth",
+    "reproduce": "python3 phylo.py verify ferula-plastid-24 candidates/ferula-plastid-24-best.nwk --claim 104"
+  },
+  {
+    "dataset": "pythonidae-12s-12",
+    "alignment_sha256": "ff9aa2fde7b277795da3e8cf5da196ea36ca7bbdb05529abeec89440280c2364",
+    "profile": "unordered-unit-strict-v1",
+    "score": 112,
+    "lower_bound": 82,
+    "tree": "candidates/pythonidae-12s-12-best.nwk",
+    "tree_sha256": "cf08954eb7393188f4600bea5ce9890a92bddbf3628a8a1b69f4e1ab1daffe91",
+    "baseline_score": 116,
+    "published_score": null,
+    "bound_method": "incompatible-pairs",
+    "bound_evidence": "results/pythonidae-12s-12-bound.json",
+    "status": "open",
+    "evidence_level": [
+      "author-checked"
+    ],
+    "scope": "Only this fixed alignment and scoring profile; not a claim of biological truth",
+    "reproduce": "python3 phylo.py verify pythonidae-12s-12 candidates/pythonidae-12s-12-best.nwk --claim 112"
+  },
+  {
+    "dataset": "pythonidae-16s-12",
+    "alignment_sha256": "e8a029504a8a4fc2f843c84f743dc708ec17e502ca1c0488d79a6ce1e1c7fdc9",
+    "profile": "unordered-unit-strict-v1",
+    "score": 93,
+    "lower_bound": 70,
+    "tree": "results/donor-trial-001/spr-plateau.nwk",
+    "tree_sha256": "d76a35c78dc80d65f2e30b43f28941bc2281982c773a8af722c20a1f495c4a82",
+    "baseline_score": 97,
+    "published_score": null,
+    "bound_method": "incompatible-pairs",
+    "bound_evidence": "results/pythonidae-16s-12-bound.json",
+    "status": "open",
+    "evidence_level": [
+      "author-checked"
+    ],
+    "scope": "Only this fixed alignment and scoring profile; not a claim of biological truth",
+    "reproduce": "python3 phylo.py verify pythonidae-16s-12 results/donor-trial-001/spr-plateau.nwk --claim 93",
+    "review_status": "known trial proposal; independent scientific acceptance pending"
+  },
+  {
+    "dataset": "pythonidae-cytb-29",
+    "alignment_sha256": "a2b9ce35d41a6173020f3f0a03647a771ad7d5423e7a69182ac8cf1d15a21eca",
+    "profile": "unordered-unit-strict-v1",
+    "score": 2005,
+    "lower_bound": 799,
+    "tree": "candidates/pythonidae-cytb-29-best.nwk",
+    "tree_sha256": "fc91b38eabacc0e436adb08e4c2ce952416aa9f48ca2575b568011d05cfc0bd2",
+    "baseline_score": 2048,
+    "published_score": null,
+    "bound_method": "incompatible-pairs",
+    "bound_evidence": "results/pythonidae-cytb-29-bound.json",
+    "status": "open",
+    "evidence_level": [
+      "author-checked"
+    ],
+    "scope": "Only this fixed alignment and scoring profile; not a claim of biological truth",
+    "reproduce": "python3 phylo.py verify pythonidae-cytb-29 candidates/pythonidae-cytb-29-best.nwk --claim 2005"
+  }
+]

@@ -33,3 +33,9 @@ Four predeclared 20-seed panels compare NNI and two-move NNI at equal 600-evalua
 caps. This is computational calibration, not donor-session yield. Review after
 five accepted contributions or on 2026-11-03; assess useful verified outcomes,
 time to first result and reviewer load. No automation or public launch is enabled.
+
+## 2026-10-21 contributor readiness
+
+Known results are inherited before new work; see CONTRIBUTOR_WORKFLOW.md and
+research/readiness-20261021/ASSESSMENT.md. Updated task selection, bounded work
+and review gates preserve scientific evidence status and the recorded launch decisions.

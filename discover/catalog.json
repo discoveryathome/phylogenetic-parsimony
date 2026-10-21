@@ -1,6 +1,6 @@
 {
   "schema": "discover-catalog/v0",
-  "priority_revision": 3,
+  "priority_revision": 4,
   "assessed_on": "2026-10-21",
   "priority_log": "discover/priority-log.md",
   "status": "Public pilot; donor intake open from 2026-10-21 (review capacity: surge). Evidence remains author-checked pending independent verification.",
@@ -19,7 +19,7 @@
             "results/expansion-benchmark.json"
           ],
           "methods": [
-            "Start from the incumbent; try plateau traversal or SPR with a declared budget."
+            "Use phylo.py search --method spr-plateau with --start set to the strongest known tree, a recorded seed and a fixed evaluation budget."
           ],
           "acceptance_gate": "Identical hash/profile; independent reference score below 575; keep seed, budget and witness.",
           "first_step": {
@@ -35,7 +35,7 @@
             "expected": "valid=true; score=575"
           },
           "bottleneck_link": "DISCOVERY.md#bottleneck-and-research-tracks",
-          "first_experiment": "Start from the incumbent; try plateau traversal or SPR with a declared budget.",
+          "first_experiment": "Use phylo.py search --method spr-plateau with --start set to the strongest known tree, a recorded seed and a fixed evaluation budget.",
           "claim_kind": [
             "exact"
           ],
@@ -52,7 +52,7 @@
             "results/expansion-benchmark.json"
           ],
           "methods": [
-            "Start from the incumbent; try plateau traversal or SPR with a declared budget."
+            "Use phylo.py search --method spr-plateau with --start set to the strongest known tree, a recorded seed and a fixed evaluation budget."
           ],
           "acceptance_gate": "Identical hash/profile; independent reference score below 982; keep seed, budget and witness.",
           "first_step": {
@@ -68,7 +68,7 @@
             "expected": "valid=true; score=982"
           },
           "bottleneck_link": "DISCOVERY.md#bottleneck-and-research-tracks",
-          "first_experiment": "Start from the incumbent; try plateau traversal or SPR with a declared budget.",
+          "first_experiment": "Use phylo.py search --method spr-plateau with --start set to the strongest known tree, a recorded seed and a fixed evaluation budget.",
           "claim_kind": [
             "exact"
           ],
@@ -85,7 +85,7 @@
             "results/expansion-benchmark.json"
           ],
           "methods": [
-            "Start from the incumbent; try plateau traversal or SPR with a declared budget."
+            "Use phylo.py search --method spr-plateau with --start set to the strongest known tree, a recorded seed and a fixed evaluation budget."
           ],
           "acceptance_gate": "Identical hash/profile; independent reference score below 493; keep seed, budget and witness.",
           "first_step": {
@@ -101,7 +101,7 @@
             "expected": "valid=true; score=493"
           },
           "bottleneck_link": "DISCOVERY.md#bottleneck-and-research-tracks",
-          "first_experiment": "Start from the incumbent; try plateau traversal or SPR with a declared budget.",
+          "first_experiment": "Use phylo.py search --method spr-plateau with --start set to the strongest known tree, a recorded seed and a fixed evaluation budget.",
           "claim_kind": [
             "exact"
           ],
@@ -118,7 +118,7 @@
             "results/expansion-benchmark.json"
           ],
           "methods": [
-            "Start from the incumbent; try plateau traversal or SPR with a declared budget."
+            "Use phylo.py search --method spr-plateau with --start set to the strongest known tree, a recorded seed and a fixed evaluation budget."
           ],
           "acceptance_gate": "Identical hash/profile; independent reference score below 1046; keep seed, budget and witness.",
           "first_step": {
@@ -134,7 +134,7 @@
             "expected": "valid=true; score=1046"
           },
           "bottleneck_link": "DISCOVERY.md#bottleneck-and-research-tracks",
-          "first_experiment": "Start from the incumbent; try plateau traversal or SPR with a declared budget.",
+          "first_experiment": "Use phylo.py search --method spr-plateau with --start set to the strongest known tree, a recorded seed and a fixed evaluation budget.",
           "claim_kind": [
             "exact"
           ],
@@ -151,7 +151,7 @@
             "results/expansion-benchmark.json"
           ],
           "methods": [
-            "Start from the incumbent; try plateau traversal or SPR with a declared budget."
+            "Use phylo.py search --method spr-plateau with --start set to the strongest known tree, a recorded seed and a fixed evaluation budget."
           ],
           "acceptance_gate": "Identical hash/profile; independent reference score below 141; keep seed, budget and witness.",
           "first_step": {
@@ -167,7 +167,7 @@
             "expected": "valid=true; score=141"
           },
           "bottleneck_link": "DISCOVERY.md#bottleneck-and-research-tracks",
-          "first_experiment": "Start from the incumbent; try plateau traversal or SPR with a declared budget.",
+          "first_experiment": "Use phylo.py search --method spr-plateau with --start set to the strongest known tree, a recorded seed and a fixed evaluation budget.",
           "claim_kind": [
             "exact"
           ],
@@ -184,7 +184,7 @@
             "results/expansion-benchmark.json"
           ],
           "methods": [
-            "Start from the incumbent; try plateau traversal or SPR with a declared budget."
+            "Use phylo.py search --method spr-plateau with --start set to the strongest known tree, a recorded seed and a fixed evaluation budget."
           ],
           "acceptance_gate": "Identical hash/profile; independent reference score below 104; keep seed, budget and witness.",
           "first_step": {
@@ -200,7 +200,7 @@
             "expected": "valid=true; score=104"
           },
           "bottleneck_link": "DISCOVERY.md#bottleneck-and-research-tracks",
-          "first_experiment": "Start from the incumbent; try plateau traversal or SPR with a declared budget.",
+          "first_experiment": "Use phylo.py search --method spr-plateau with --start set to the strongest known tree, a recorded seed and a fixed evaluation budget.",
           "claim_kind": [
             "exact"
           ],
@@ -217,7 +217,7 @@
             "results/expansion-benchmark.json"
           ],
           "methods": [
-            "Start from the incumbent; try plateau traversal or SPR with a declared budget."
+            "Use phylo.py search --method spr-plateau with --start set to the strongest known tree, a recorded seed and a fixed evaluation budget."
           ],
           "acceptance_gate": "Identical hash/profile; independent reference score below 112; keep seed, budget and witness.",
           "first_step": {
@@ -233,7 +233,7 @@
             "expected": "valid=true; score=112"
           },
           "bottleneck_link": "DISCOVERY.md#bottleneck-and-research-tracks",
-          "first_experiment": "Start from the incumbent; try plateau traversal or SPR with a declared budget.",
+          "first_experiment": "Use phylo.py search --method spr-plateau with --start set to the strongest known tree, a recorded seed and a fixed evaluation budget.",
           "claim_kind": [
             "exact"
           ],
@@ -243,30 +243,31 @@
         },
         {
           "id": "improve-pythonidae-16s-12",
-          "question": "Can a tree beat 95 on pythonidae-16s-12?",
+          "question": "Can a tree beat the known score 93 on pythonidae-16s-12?",
           "starting_points": [
             "discover/frontier-rows.json",
             "MODEL.md",
-            "results/expansion-benchmark.json"
+            "results/expansion-benchmark.json",
+            "results/donor-trial-001/submission.json"
           ],
           "methods": [
-            "Start from the incumbent; try plateau traversal or SPR with a declared budget."
+            "Use phylo.py search --method spr-plateau with --start set to the strongest known tree, a recorded seed and a fixed evaluation budget."
           ],
-          "acceptance_gate": "Identical hash/profile; independent reference score below 95; keep seed, budget and witness.",
+          "acceptance_gate": "Identical hash/profile; independently recomputed score below 93. Score 93 is already known, pending maintainer review.",
           "first_step": {
             "command": [
               "python3",
               "phylo.py",
               "verify",
               "pythonidae-16s-12",
-              "candidates/pythonidae-16s-12-best.nwk",
+              "results/donor-trial-001/spr-plateau.nwk",
               "--claim",
-              "95"
+              "93"
             ],
-            "expected": "valid=true; score=95"
+            "expected": "\"score\": 93"
           },
           "bottleneck_link": "DISCOVERY.md#bottleneck-and-research-tracks",
-          "first_experiment": "Start from the incumbent; try plateau traversal or SPR with a declared budget.",
+          "first_experiment": "Use phylo.py search --method spr-plateau with --start set to the strongest known tree, a recorded seed and a fixed evaluation budget.",
           "claim_kind": [
             "exact"
           ],
@@ -283,7 +284,7 @@
             "results/expansion-benchmark.json"
           ],
           "methods": [
-            "Start from the incumbent; try plateau traversal or SPR with a declared budget."
+            "Use phylo.py search --method spr-plateau with --start set to the strongest known tree, a recorded seed and a fixed evaluation budget."
           ],
           "acceptance_gate": "Identical hash/profile; independent reference score below 2005; keep seed, budget and witness.",
           "first_step": {
@@ -299,7 +300,7 @@
             "expected": "valid=true; score=2005"
           },
           "bottleneck_link": "DISCOVERY.md#bottleneck-and-research-tracks",
-          "first_experiment": "Start from the incumbent; try plateau traversal or SPR with a declared budget.",
+          "first_experiment": "Use phylo.py search --method spr-plateau with --start set to the strongest known tree, a recorded seed and a fixed evaluation budget.",
           "claim_kind": [
             "exact"
           ],
@@ -361,11 +362,11 @@
               "phylo.py",
               "verify",
               "pythonidae-16s-12",
-              "candidates/pythonidae-16s-12-best.nwk",
+              "results/donor-trial-001/spr-plateau.nwk",
               "--claim",
-              "95"
+              "93"
             ],
-            "expected": "valid=true; score=95"
+            "expected": "\"score\": 93"
           },
           "bottleneck_link": "DISCOVERY.md#bottleneck-and-research-tracks",
           "first_experiment": "Run a mature program on every open row with stated settings, export its best tree, verify it, and record the scores as row baselines.",

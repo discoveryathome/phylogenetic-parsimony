@@ -1,0 +1,42 @@
+Curation replay: all derived bytes match
+phylip-dnapars 19 settled
+phylip-dnapenny 8 settled
+pythonidae-cytb-6 343 settled
+pythonidae-cytb-12 575 open
+pythonidae-cytb-24 982 open
+cetaceans-mt-6 291 settled
+cetaceans-mt-12 493 open
+cetaceans-mt-22 1046 open
+ferula-nrdna-6 61 settled
+ferula-nrdna-12 82 settled
+ferula-nrdna-24 141 open
+ferula-plastid-6 27 settled
+ferula-plastid-12 39 settled
+ferula-plastid-24 104 open
+pythonidae-12s-12 112 open
+pythonidae-16s-12 95 open
+pythonidae-cytb-29 2005 open
+test_neighbor_joining_known_quartet_and_order (test_expansion.ExpansionTests.test_neighbor_joining_known_quartet_and_order) ... ok
+test_pair_bound_exhaustive_binary_columns (test_expansion.ExpansionTests.test_pair_bound_exhaustive_binary_columns) ... ok
+test_two_move_budget_determinism_and_local_certificate (test_expansion.ExpansionTests.test_two_move_budget_determinism_and_local_certificate) ... ok
+test_cli_rejects_wrong_score_and_taxa (test_phylo.TestInputsAndSearch.test_cli_rejects_wrong_score_and_taxa) ... ok
+test_reproducible_search (test_phylo.TestInputsAndSearch.test_reproducible_search) ... ok
+test_strict_fasta (test_phylo.TestInputsAndSearch.test_strict_fasta) ... ok
+test_all_quartet_patterns_against_brute_ancestral_assignments (test_phylo.TestScoring.test_all_quartet_patterns_against_brute_ancestral_assignments) ... ok
+test_exhaustive_count_formula (test_phylo.TestScoring.test_exhaustive_count_formula) ... ok
+test_identical_constant_and_informative_sites (test_phylo.TestScoring.test_identical_constant_and_informative_sites) ... ok
+test_published_scores_and_exhaustive_optima (test_phylo.TestScoring.test_published_scores_and_exhaustive_optima) ... ok
+test_random_multistate_patterns (test_phylo.TestScoring.test_random_multistate_patterns) ... ok
+test_graph_rejection (test_phylo.TestStructure.test_graph_rejection) ... ok
+test_nni_degree_uniqueness_and_connectivity (test_phylo.TestStructure.test_nni_degree_uniqueness_and_connectivity) ... ok
+test_prune (test_phylo.TestStructure.test_prune) ... ok
+test_reject_newick (test_phylo.TestStructure.test_reject_newick) ... ok
+test_root_and_order_invariance (test_phylo.TestStructure.test_root_and_order_invariance) ... ok
+test_budget_replay_and_global_small_control (test_spr.SPRChecks.test_budget_replay_and_global_small_control) ... ok
+test_small_neighborhoods_reverse_nni_and_scoring (test_spr.SPRChecks.test_small_neighborhoods_reverse_nni_and_scoring) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 4.816s
+
+OK
+PASS: fixed data, baseline and candidate scores, exhaustive bounds, structural/negative tests

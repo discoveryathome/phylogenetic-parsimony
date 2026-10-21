@@ -1,5 +1,7 @@
 # Fixed-alignment parsimony pilot
 
+Current contributor instructions: [CONTRIBUTOR_WORKFLOW.md](CONTRIBUTOR_WORKFLOW.md) (21 October 2026).
+
 Find binary unrooted trees minimizing total unordered unit-cost nucleotide changes
 for each fixed alignment. A contribution is a Newick witness with an exactly
 recomputed integer score. The primary measure is a smaller score on the identical
@@ -12,7 +14,8 @@ Read MODEL.md for all character and tree semantics, LITERATURE.md for the eviden
 brief, and data/manifest.json plus THIRD_PARTY.md for provenance and redistribution.
 The literature audit verifies the tutorial scores 19 and 8. Our exhaustive controls
 also settle the six-taxon empirical subsets. Larger incumbents are local upper
-bounds, not literature records. `discover/frontier-rows.json` is authoritative.
+bounds, not literature records. `discover/working-frontier-rows.json` supplies current working targets;
+`discover/frontier-rows.json` preserves the historical accepted snapshot.
 
 ## First priority: mature baselines (2026-10-21)
 
@@ -120,8 +123,8 @@ or new column selections, require new profiles/rows, never a silent score change
 A randomly selected, bounded contributor trial produced a verified proposal for
 `pythonidae-16s-12`: **95 → 93**. The first improvement appeared after about three
 minutes; the full session receipt and limitations are in
-[the trial report](results/donor-trial-001/REPORT.md). The recorded frontier remains
-frozen pending review. Score 93 is already known and must not be counted as a new
+[the trial report](results/donor-trial-001/REPORT.md). The historical accepted frontier remains
+frozen pending review; the working table and task cards inherit 93. Score 93 is already known and must not be counted as a new
 discovery in subsequent trials.
 
 ## Coordination

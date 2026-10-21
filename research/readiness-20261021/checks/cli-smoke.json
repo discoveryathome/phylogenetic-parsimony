@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "spr": {
+    "algorithm": "experimental-SPR-plateau-v1",
+    "seed": 1729,
+    "budget": 100,
+    "evaluations": 100,
+    "initial_score": 93,
+    "score": 93,
+    "history": [
+      93
+    ],
+    "expanded_topologies": 1,
+    "completed_search_region": false,
+    "completion_scope": "reachable equal-score SPR component and outgoing SPR moves",
+    "tree": "research/readiness-20261021/checks/spr-control.nwk",
+    "verified_score": 93,
+    "tree_sha256": "d76a35c78dc80d65f2e30b43f28941bc2281982c773a8af722c20a1f495c4a82",
+    "dataset": "pythonidae-16s-12",
+    "alignment_sha256": "e8a029504a8a4fc2f843c84f743dc708ec17e502ca1c0488d79a6ce1e1c7fdc9",
+    "profile": "unordered-unit-strict-v1"
+  },
+  "repeat_identical": true,
+  "false_score_rejected": true,
+  "missing_start_rejected": true,
+  "scope": "known-control replay, no discovery claim"
+}

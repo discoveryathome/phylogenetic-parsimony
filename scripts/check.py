@@ -59,6 +59,16 @@ def main():
             require(score==b['score']==b['verified_score'],'benchmark score mismatch')
             require(b['evaluations']<=b['max_evaluations'],'budget exceeded')
         print(r['dataset'],r['score'],r['status'],flush=True)
+    working=json.loads((ROOT/'discover/working-frontier-rows.json').read_text())
+    require({r['dataset'] for r in working}=={r['dataset'] for r in rows}, 'working row coverage mismatch')
+    require(len(working)==len(rows), 'duplicate working rows')
+    historical={r['dataset']:r for r in rows}
+    for r in working:
+        case,a=load_dataset(ROOT,r['dataset'])
+        require(r['alignment_sha256']==case['sha256'] and r['profile']==PROFILE, 'working identity mismatch')
+        require(sha256(ROOT/r['tree'])==r['tree_sha256'], 'working tree hash mismatch')
+        require(sum(sankoff(parse((ROOT/r['tree']).read_text(),a),a))==r['score'], 'working score mismatch')
+        require(r['lower_bound']==historical[r['dataset']]['lower_bound']<=r['score']<=historical[r['dataset']]['score'], 'invalid working bounds')
     manifest=json.loads((ROOT/'discover.json').read_text())
     require(type(manifest.get('review',{}).get('paused')) is bool,'review pause status must be explicit')
     catalog=json.loads((ROOT/'discover/catalog.json').read_text())

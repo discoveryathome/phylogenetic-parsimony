@@ -84,5 +84,7 @@
       "feedback": 5
     },
     "claim_ttl_minutes": 120
-  }
+  },
+  "packages": "research/*/",
+  "ledger": "discover/review.md"
 }
