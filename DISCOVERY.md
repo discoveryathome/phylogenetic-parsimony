@@ -6,13 +6,22 @@ recomputed integer score. The primary measure is a smaller score on the identica
 alignment hash and scoring profile; each alignment is a separate frontier row.
 The objective, evidence profile and local build are authorized by the task request.
 The public repository and hub registry PR were authorized by the project owner.
-Donor admission remains paused; donated-session permissions remain explicit.
+Donor intake opened on 2026-10-21; donated-session permissions remain explicit.
 
 Read MODEL.md for all character and tree semantics, LITERATURE.md for the evidence
 brief, and data/manifest.json plus THIRD_PARTY.md for provenance and redistribution.
 The literature audit verifies the tutorial scores 19 and 8. Our exhaustive controls
 also settle the six-taxon empirical subsets. Larger incumbents are local upper
 bounds, not literature records. `discover/frontier-rows.json` is authoritative.
+
+## First priority: mature baselines (2026-10-21)
+
+No mature parsimony program (TNT, PAUP*, MPBoot) has been run on the identical inputs.
+At 12–29 taxa such programs may close or settle the open rows within seconds, so a
+search session could chase a gap a standard tool closes at once. Before investing in
+new heuristics, run a mature program on every open row with stated settings, verify
+its exported tree with `phylo.py verify`, and record the scores as row baselines
+(card `mature-baselines`). A lower score is a frontier proposal, not an acceptance.
 
 ## Bottleneck and research tracks
 
@@ -55,9 +64,9 @@ wall times are descriptive and may reflect other work on this machine.
 Project maintainer: [@Mister-Meeseeks](https://github.com/Mister-Meeseeks). The
 owner authorized repository publication and a hub registry PR. `discover.json`
 permits listing by `discoveryathome/discover`; no hub push permissions are granted.
-Review remains paused pending hub assessment, declared capacity and independent
-verification. Naming a maintainer is not acceptance of the scientific frontier;
-all present evidence remains author-checked.
+From 2026-10-21 donor intake is open, with review capacity `surge`. Independent
+verification is still wanted. Naming a maintainer is not acceptance of the scientific
+frontier; all present evidence remains author-checked.
 
 Review gates: reproduce identity and score; inspect structural validity; audit
 comparison scope and provenance; then have the maintainer decide acceptance. Do not
@@ -115,10 +124,12 @@ minutes; the full session receipt and limitations are in
 frozen pending review. Score 93 is already known and must not be counted as a new
 discovery in subsequent trials.
 
-## Coordination while review is paused
+## Coordination
 
 GitHub Issues and PRs are the public coordination record. Read them before starting
 work and check the known score-93 donor-trial proposal before claiming novelty.
-Prepare local receipts while donor admission is paused. Posting requires explicit
-authorization in the current session; the repository does not grant it by itself.
+`discover.json` doesn't permit donated sessions to post or open PRs, so sessions stay
+local: prepare receipts, results and messages for your person to publish. Posting
+requires explicit authorization in the current session; the repository does not grant
+it by itself.
 Historical HANDOFF.md and verification records describe their original local runs.

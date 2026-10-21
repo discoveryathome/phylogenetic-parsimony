@@ -1,3 +1,9 @@
+# Priority revision 3 — 2026-10-21
+
+Donor intake opened. Added card `mature-baselines` to `better-heuristics`: run TNT,
+PAUP* or MPBoot on the identical open rows and record verified scores as baselines,
+first, so donated search doesn't chase gaps a standard tool closes. Weights unchanged.
+
 # Priority revision 1 — 2026-10-20
 
 30% improved trees: two empirical instances remain open, with cheap checks.

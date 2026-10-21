@@ -21,4 +21,4 @@ if track['id']=='improved-trees':
     group=sorted(grouped)[int(seed[8:16],16)%len(grouped)]
     tasks=grouped[group]
 card=tasks[int(seed[16:24],16)%len(tasks)]
-print(json.dumps(dict(seed=seed,priority_revision=c['priority_revision'],track=track['id'],study_group=group,task=card['id'],first_step=card['first_step'],status='task suggestion only; review paused'),indent=2))
+print(json.dumps(dict(seed=seed,priority_revision=c['priority_revision'],track=track['id'],study_group=group,task=card['id'],first_step=card['first_step'],status='task suggestion only'),indent=2))

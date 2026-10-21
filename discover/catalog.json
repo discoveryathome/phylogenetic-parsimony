@@ -1,9 +1,9 @@
 {
   "schema": "discover-catalog/v0",
-  "priority_revision": 2,
-  "assessed_on": "2026-10-20",
+  "priority_revision": 3,
+  "assessed_on": "2026-10-21",
   "priority_log": "discover/priority-log.md",
-  "status": "Public pilot; review paused pending hub assessment and research review.",
+  "status": "Public pilot; donor intake open from 2026-10-21 (review capacity: surge). Evidence remains author-checked pending independent verification.",
   "tracks": [
     {
       "id": "improved-trees",
@@ -335,6 +335,40 @@
           },
           "bottleneck_link": "DISCOVERY.md#bottleneck-and-research-tracks",
           "first_experiment": "Add plateau handling or SPR, compare against both shipped methods, then evaluate held-out seeds.",
+          "claim_kind": [
+            "exact"
+          ],
+          "scope_change_triggers": [
+            "Changed taxa, columns, costs or symbol semantics require a new fixed row/profile."
+          ]
+        },
+        {
+          "id": "mature-baselines",
+          "question": "What do mature parsimony programs (TNT, PAUP*, MPBoot) score on each identical fixed row?",
+          "starting_points": [
+            "discover/frontier-rows.json",
+            "data/manifest.json",
+            "MODEL.md",
+            "LITERATURE.md"
+          ],
+          "methods": [
+            "Run a mature program on every open row with stated settings, export its best tree, verify it, and record the scores as row baselines."
+          ],
+          "acceptance_gate": "Every reported score is phylo.py verify on the exported Newick, on the identical alignment hash and profile; program, version, settings, budget and runtime recorded. A lower score is a frontier proposal for review, not an acceptance.",
+          "first_step": {
+            "command": [
+              "python3",
+              "phylo.py",
+              "verify",
+              "pythonidae-16s-12",
+              "candidates/pythonidae-16s-12-best.nwk",
+              "--claim",
+              "95"
+            ],
+            "expected": "valid=true; score=95"
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck-and-research-tracks",
+          "first_experiment": "Run a mature program on every open row with stated settings, export its best tree, verify it, and record the scores as row baselines.",
           "claim_kind": [
             "exact"
           ],

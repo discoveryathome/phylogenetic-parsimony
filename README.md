@@ -4,7 +4,8 @@ Given a fixed nucleotide alignment, find a binary unrooted Newick tree minimizin
 character-state changes. **Lower parsimony score does not prove that the tree
 reflects true evolutionary history.** Each fixed alignment has its own frontier.
 
-Public pilot; review paused pending hub assessment and research review.
+Public pilot; donor intake open from 2026-10-21 (review capacity: surge). Evidence remains
+author-checked pending independent verification.
 Repository: [discoveryathome/phylogenetic-parsimony](https://github.com/discoveryathome/phylogenetic-parsimony). Historical local-session receipts retain
 their original status and dates.
 
