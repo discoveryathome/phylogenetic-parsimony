@@ -1,0 +1,110 @@
+{
+  "evidence_level": "author-checked",
+  "started_at": "2026-10-23T08:32:04.842270+00:00",
+  "base_commit": "9f8e6e7649aafb1eed0cd952ce59a7a2d4379810",
+  "task_seed": "fa303cb791991297aabd7dc42c2d43e1",
+  "python": "3.13.5 (main, Aug 10 2026, 12:06:59) [GCC 14.2.0]",
+  "platform": "Linux-6.12.113+deb13-amd64-x86_64-with-glibc2.41",
+  "timing_scope": "Descriptive shared-machine durations, no speed comparison.",
+  "commands": [
+    {
+      "argv": [
+        "python3",
+        "phylo.py",
+        "verify-bound",
+        "pythonidae-cytb-12",
+        "results/pythonidae-cytb-12-bound.json"
+      ],
+      "cwd": "repository root",
+      "exit_code": 0,
+      "elapsed_seconds": 0.117252,
+      "stdout": "{\"valid\": true, \"bound\": 392}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "research/multistate_pairs_20261023/verify.py",
+        "research/multistate_pairs_20261023/pythonidae-cytb-12.json"
+      ],
+      "cwd": "repository root",
+      "exit_code": 0,
+      "elapsed_seconds": 0.105388,
+      "stdout": "{\"alignment_sha256\": \"b5b57b5a2eec060601144a090d0f68c6ebaee9164089dfe6c518c0a6f43c891e\", \"base_bound\": 343, \"binary_pair_ceiling\": {\"active_columns\": 98, \"biallelic_columns\": 170, \"bound_upper_limit\": 392, \"edges\": 2568, \"max_pairs_upper_bound\": 49}, \"bonus\": 103, \"bound\": 446, \"dataset\": \"pythonidae-cytb-12\", \"pair_bonus_counts\": {\"1\": 60, \"2\": 17, \"3\": 3}, \"pairs\": 80, \"profile\": \"unordered-unit-strict-v1\", \"valid\": true}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "research/multistate_pairs_20261023/generate.py",
+        "pythonidae-cytb-12",
+        "--seeds",
+        "100",
+        "--out",
+        ".scratch/multistate-pairs-replay.json"
+      ],
+      "cwd": "repository root",
+      "exit_code": 0,
+      "elapsed_seconds": 0.892977,
+      "stdout": "{\"alignment_sha256\": \"b5b57b5a2eec060601144a090d0f68c6ebaee9164089dfe6c518c0a6f43c891e\", \"base_bound\": 343, \"binary_pair_ceiling\": {\"active_columns\": 98, \"biallelic_columns\": 170, \"bound_upper_limit\": 392, \"edges\": 2568, \"max_pairs_upper_bound\": 49}, \"bonus\": 103, \"bound\": 446, \"dataset\": \"pythonidae-cytb-12\", \"pair_bonus_counts\": {\"1\": 60, \"2\": 17, \"3\": 3}, \"pairs\": 80, \"profile\": \"unordered-unit-strict-v1\", \"valid\": true}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "phylo.py",
+        "verify",
+        "pythonidae-cytb-12",
+        "candidates/pythonidae-cytb-12-best.nwk",
+        "--claim",
+        "575"
+      ],
+      "cwd": "repository root",
+      "exit_code": 0,
+      "elapsed_seconds": 0.15309,
+      "stdout": "{\n  \"valid\": true,\n  \"score\": 575,\n  \"site_scores\": [\n    0,\n    1,\n    0,\n    0,\n    0,\n    1,\n    0,\n    0,\n    1,\n    0,\n    0,\n    0,\n    2,\n    0,\n    0,\n    3,\n    0,\n    0,\n    1,\n    0,\n    1,\n    0,\n    0,\n    3,\n    4,\n    1,\n    0,\n    1,\n    1,\n    2,\n    1,\n    0,\n    1,\n    0,\n    0,\n    0,\n    2,\n    1,\n    3,\n    4,\n    1,\n    2,\n    0,\n    0,\n    2,\n    0,\n    0,\n    4,\n    0,\n    0,\n    2,\n    0,\n    2,\n    2,\n    4,\n    0,\n    1,\n    1,\n    0,\n    5,\n    1,\n    0,\n    3,\n    0,\n    0,\n    2,\n    0,\n    0,\n    1,\n    0,\n    0,\n    1,\n    0,\n    0,\n    1,\n    0,\n    0,\n    2,\n    0,\n    0,\n    3,\n    0,\n    0,\n    0,\n    0,\n    0,\n    3,\n    0,\n    0,\n    0,\n    0,\n    0,\n    2,\n    0,\n    1,\n    1,\n    0,\n    0,\n    2,\n    0,\n    0,\n    2,\n    4,\n    0,\n    5,\n    0,\n    0,\n    2,\n    0,\n    0,\n    3,\n    1,\n    1,\n    2,\n    0,\n    0,\n    2,\n    0,\n    0,\n    2,\n    0,\n    0,\n    1,\n    0,\n    0,\n    0,\n    2,\n    0,\n    2,\n    0,\n    0,\n    1,\n    0,\n    0,\n    1,\n    1,\n    1,\n    1,\n    0,\n    0,\n    0,\n    0,\n    1,\n    0,\n    0,\n    0,\n    0,\n    1,\n    0,\n    0,\n    2,\n    0,\n    0,\n    4,\n    0,\n    0,\n    0,\n    0,\n    0,\n    2,\n    0,\n    0,\n    0,\n    0,\n    0,\n    4,\n    1,\n    0,\n    0,\n    0,\n    0,\n    1,\n    0,\n    0,\n    2,\n    0,\n    0,\n    3,\n    0,\n    0,\n    4,\n    0,\n    0,\n    4,\n    0,\n    0,\n    1,\n    0,\n    0,\n    4,\n    1,\n    0,\n    2,\n    0,\n    0,\n    3,\n    0,\n    0,\n    1,\n    0,\n    0,\n    3,\n    0,\n    0,\n    3,\n    2,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    2,\n    0,\n    0,\n    2,\n    0,\n    0,\n    3,\n    0,\n    0,\n    3,\n    2,\n    0,\n    5,\n    0,\n    0,\n    1,\n    0,\n    0,\n    0,\n    0,\n    0,\n    2,\n    0,\n    0,\n    2,\n    0,\n    0,\n    0,\n    1,\n    0,\n    0,\n    0,\n    0,\n    2,\n    0,\n    0,\n    5,\n    0,\n    1,\n    4,\n    0,\n    0,\n    3,\n    0,\n    0,\n    5,\n    0,\n    0,\n    2,\n    0,\n    0,\n    1,\n    0,\n    2,\n    1,\n    2,\n    0,\n    2,\n    0,\n    0,\n    2,\n    0,\n    0,\n    1,\n    0,\n    0,\n    2,\n    0,\n    0,\n    3,\n    0,\n    0,\n    0,\n    0,\n    0,\n    2,\n    0,\n    0,\n    5,\n    0,\n    0,\n    4,\n    0,\n    0,\n    5,\n    0,\n    0,\n    5,\n    1,\n    0,\n    0,\n    0,\n    0,\n    1,\n    0,\n    0,\n    2,\n    0,\n    0,\n    0,\n    0,\n    0,\n    1,\n    0,\n    0,\n    0,\n    0,\n    0,\n    1,\n    0,\n    0,\n    0,\n    3,\n    0,\n    0,\n    0,\n    0,\n    0,\n    3,\n    0,\n    0,\n    1,\n    0,\n    0,\n    5,\n    0,\n    0,\n    3,\n    0,\n    0,\n    2,\n    0,\n    0,\n    1,\n    1,\n    0,\n    3,\n    0,\n    0,\n    1,\n    0,\n    0,\n    2,\n    2,\n    0,\n    3,\n    0,\n    0,\n    5,\n    0,\n    0,\n    0,\n    1,\n    0,\n    4,\n    0,\n    0,\n    3,\n    0,\n    0,\n    1,\n    3,\n    0,\n    6,\n    2,\n    0,\n    4,\n    0,\n    0,\n    1,\n    0,\n    0,\n    1,\n    0,\n    0,\n    2,\n    3,\n    0,\n    2,\n    0,\n    0,\n    2,\n    0,\n    0,\n    6,\n    0,\n    0,\n    4,\n    0,\n    0,\n    1,\n    0,\n    0,\n    0,\n    0,\n    0,\n    1,\n    0,\n    0,\n    3,\n    0,\n    0,\n    2,\n    0,\n    0,\n    4,\n    0,\n    0,\n    1,\n    1,\n    0,\n    4,\n    0,\n    0,\n    2,\n    0,\n    0,\n    2,\n    0,\n    0,\n    2,\n    0,\n    0,\n    3,\n    0,\n    0,\n    2,\n    3,\n    0,\n    1,\n    0,\n    0,\n    2,\n    0,\n    0,\n    2,\n    0,\n    0,\n    3,\n    2,\n    0,\n    1,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    1,\n    2,\n    1,\n    0,\n    0,\n    2,\n    0,\n    0,\n    1,\n    0,\n    0,\n    4,\n    5,\n    0,\n    2,\n    0,\n    0,\n    3,\n    0,\n    0,\n    1,\n    2,\n    0,\n    1,\n    0,\n    0,\n    1,\n    3,\n    0,\n    3,\n    0,\n    0,\n    4,\n    3,\n    0,\n    3,\n    0,\n    0,\n    5,\n    0,\n    0,\n    2,\n    0,\n    0,\n    1,\n    0,\n    0,\n    2,\n    0,\n    0,\n    4,\n    0,\n    0,\n    6,\n    1,\n    0,\n    0,\n    0,\n    0,\n    1,\n    0,\n    0,\n    0,\n    3,\n    0,\n    0,\n    0,\n    0,\n    2,\n    0,\n    0,\n    2,\n    0,\n    0,\n    0,\n    1,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    0,\n    3,\n    0,\n    0,\n    3,\n    0,\n    0,\n    0,\n    0,\n    0,\n    2,\n    0,\n    0,\n    1,\n    0,\n    0,\n    1,\n    0,\n    0,\n    1,\n    0,\n    0,\n    6,\n    0,\n    0,\n    1,\n    0,\n    0,\n    0,\n    4,\n    0,\n    3,\n    3,\n    0,\n    1,\n    0,\n    0,\n    0,\n    0,\n    0,\n    3,\n    2,\n    0,\n    6,\n    1,\n    0,\n    3,\n    4,\n    0,\n    1,\n    3,\n    0,\n    2,\n    1,\n    0,\n    2,\n    1,\n    0,\n    3,\n    0,\n    0,\n    1,\n    2,\n    0,\n    3,\n    4,\n    0,\n    4,\n    3,\n    3,\n    3,\n    3,\n    0,\n    0,\n    4,\n    0,\n    2,\n    1,\n    0,\n    3,\n    1,\n    1,\n    2,\n    3,\n    1,\n    3,\n    0,\n    0,\n    3,\n    0,\n    0,\n    2,\n    1,\n    1,\n    2,\n    0,\n    0,\n    4,\n    1,\n    0,\n    4,\n    0,\n    0,\n    1\n  ],\n  \"tree_sha256\": \"80148b17fd92624a25fd923cb2fb90a481e746000a3a1d391ab615c028377b8c\",\n  \"dataset\": \"pythonidae-cytb-12\",\n  \"alignment_sha256\": \"b5b57b5a2eec060601144a090d0f68c6ebaee9164089dfe6c518c0a6f43c891e\",\n  \"profile\": \"unordered-unit-strict-v1\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "scripts/check.py"
+      ],
+      "cwd": "repository root",
+      "exit_code": 0,
+      "elapsed_seconds": 109.157277,
+      "stdout": "Curation replay: all derived bytes match\nphylip-dnapars 19 settled\nphylip-dnapenny 8 settled\npythonidae-cytb-6 343 settled\npythonidae-cytb-12 575 open\npythonidae-cytb-24 982 open\ncetaceans-mt-6 291 settled\ncetaceans-mt-12 493 open\ncetaceans-mt-22 1046 open\nferula-nrdna-6 61 settled\nferula-nrdna-12 82 settled\nferula-nrdna-24 141 open\nferula-plastid-6 27 settled\nferula-plastid-12 39 settled\nferula-plastid-24 104 open\npythonidae-12s-12 112 open\npythonidae-16s-12 95 open\npythonidae-cytb-29 2005 open\nPASS: fixed data, baseline and candidate scores, exhaustive bounds, structural/negative tests\n",
+      "stderr": "test_neighbor_joining_known_quartet_and_order (test_expansion.ExpansionTests.test_neighbor_joining_known_quartet_and_order) ... ok\ntest_pair_bound_exhaustive_binary_columns (test_expansion.ExpansionTests.test_pair_bound_exhaustive_binary_columns) ... ok\ntest_two_move_budget_determinism_and_local_certificate (test_expansion.ExpansionTests.test_two_move_budget_determinism_and_local_certificate) ... ok\ntest_all_character_pairs_on_three_to_six_taxa (test_multistate_pairs.MultistatePairTests.test_all_character_pairs_on_three_to_six_taxa) ... ok\ntest_disconnected_cycles_and_repeated_taxa (test_multistate_pairs.MultistatePairTests.test_disconnected_cycles_and_repeated_taxa) ... ok\ntest_existing_binary_certificate_meets_its_ceiling (test_multistate_pairs.MultistatePairTests.test_existing_binary_certificate_meets_its_ceiling) ... ok\ntest_saved_certificate_and_failure_controls (test_multistate_pairs.MultistatePairTests.test_saved_certificate_and_failure_controls) ... ok\ntest_cli_rejects_wrong_score_and_taxa (test_phylo.TestInputsAndSearch.test_cli_rejects_wrong_score_and_taxa) ... ok\ntest_reproducible_search (test_phylo.TestInputsAndSearch.test_reproducible_search) ... ok\ntest_strict_fasta (test_phylo.TestInputsAndSearch.test_strict_fasta) ... ok\ntest_all_quartet_patterns_against_brute_ancestral_assignments (test_phylo.TestScoring.test_all_quartet_patterns_against_brute_ancestral_assignments) ... ok\ntest_exhaustive_count_formula (test_phylo.TestScoring.test_exhaustive_count_formula) ... ok\ntest_identical_constant_and_informative_sites (test_phylo.TestScoring.test_identical_constant_and_informative_sites) ... ok\ntest_published_scores_and_exhaustive_optima (test_phylo.TestScoring.test_published_scores_and_exhaustive_optima) ... ok\ntest_random_multistate_patterns (test_phylo.TestScoring.test_random_multistate_patterns) ... ok\ntest_graph_rejection (test_phylo.TestStructure.test_graph_rejection) ... ok\ntest_nni_degree_uniqueness_and_connectivity (test_phylo.TestStructure.test_nni_degree_uniqueness_and_connectivity) ... ok\ntest_prune (test_phylo.TestStructure.test_prune) ... ok\ntest_reject_newick (test_phylo.TestStructure.test_reject_newick) ... ok\ntest_root_and_order_invariance (test_phylo.TestStructure.test_root_and_order_invariance) ... ok\ntest_budget_replay_and_global_small_control (test_spr.SPRChecks.test_budget_replay_and_global_small_control) ... ok\ntest_small_neighborhoods_reverse_nni_and_scoring (test_spr.SPRChecks.test_small_neighborhoods_reverse_nni_and_scoring) ... ok\n\n----------------------------------------------------------------------\nRan 22 tests in 10.762s\n\nOK\n"
+    }
+  ],
+  "replay_identical": true,
+  "sha256": {
+    "research/multistate_pairs_20261023/generate.py": "669a9ae3ed99ea91be87f7a263460b2eb6bda86f2fd509b4575b9425f0fc4d28",
+    "research/multistate_pairs_20261023/verify.py": "ce5efe39f61317f8b3c97ca01b50f574dff91d80addd22029b130c30554e4670",
+    "research/multistate_pairs_20261023/pythonidae-cytb-12.json": "098909a54d4390615d2be0da8b006669dd6369d9e762b10a55907618b95a9a17",
+    "tests/test_multistate_pairs.py": "54b3a49878f432ed28e9c61124bd7493afac32da8f9ac04c8c4cbeb5654af6ec",
+    "src/phylo/alignment.py": "a9d4236cb26a5f504e3180ed6edeabfbae81471656910b759e13f51c7691cba4",
+    "src/phylo/scoring.py": "7e8d48ac2ddff2de88520e847c34486075fad5afcba0e2b9d7f678b1671a8396",
+    "src/phylo/tree.py": "545bba23af25be98ea0bcda08bdae1859cc41fca15c1d85c077258e30def2941",
+    "results/pythonidae-cytb-12-bound.json": "ac272119bd998928ae70005926a97f8e8f949c46b8a09248faae68c21d89dc22",
+    "data/manifest.json": "9d75d484260c5083f4cb41cfe51cde4d79ddbcfc726cb7f8aef3aa34323b2db8",
+    "discover/frontier-rows.json": "bf262b5897c6edc6d9722d69a10cc1b9963aa4599ca97f149849d4a995017632",
+    "discover/working-frontier-rows.json": "f73cfd93512b1c3596a151b2c4a2f94443b7badfa83143e6c98adfdbf0d1ec7f"
+  },
+  "sources": [
+    {
+      "authors": "Trevor C. Bruen and David Bryant",
+      "title": "A Subdivision Approach to Maximum Parsimony",
+      "publication": "Annals of Combinatorics 12 (2008), 45\u201351",
+      "doi": "10.1007/s00026-008-0335-4",
+      "theorems": [
+        "4.2",
+        "5.2"
+      ],
+      "url": "https://www.maths.otago.ac.nz/~dbryant/Papers/08SubdivisionParsimony.pdf",
+      "accessed": "2026-10-23",
+      "note": "Read through the web tool; PDF byte hash was not captured. No paper text or PDF redistributed."
+    }
+  ],
+  "finished_at": "2026-10-23T08:33:55.283697+00:00"
+}
